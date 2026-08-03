@@ -1,0 +1,63 @@
+---
+// GDPR/UK GDPR 向けのCookie同意バナー。
+// 同意があるまで非必須Cookie（GA）を読み込まない＝EU準拠。既定は「非必須は読み込まない」。
+import { GA_MEASUREMENT_ID } from '../consts';
+---
+<div
+  id="cookie-consent"
+  style="display:none"
+  class="fixed inset-x-0 bottom-0 z-50 border-t border-black/10 bg-white/95 backdrop-blur"
+  role="dialog"
+  aria-label="Cookie consent"
+>
+  <div class="mx-auto flex max-w-5xl flex-col gap-3 px-4 py-3 text-sm text-ink/70 sm:flex-row sm:items-center">
+    <p class="flex-1">
+      We use cookies for analytics and affiliate links. You can accept or decline non-essential cookies.
+      See our <a href="/privacy/" class="font-bold text-accent-600 underline">Privacy Policy</a>.
+    </p>
+    <div class="flex shrink-0 gap-2">
+      <button data-decline type="button" class="rounded-full border border-black/15 px-4 py-1.5 text-xs font-bold text-ink/60 transition hover:bg-black/5">Decline</button>
+      <button data-accept type="button" class="rounded-full bg-brand-600 px-4 py-1.5 text-xs font-bold text-white transition hover:bg-brand-700">Accept</button>
+    </div>
+  </div>
+</div>
+
+<script is:inline define:vars={{ gaId: GA_MEASUREMENT_ID }}>
+  (function () {
+    var KEY = 'tjd-consent';
+    function loadGA() {
+      if (!gaId || window.__gaLoaded) return;
+      window.__gaLoaded = true;
+      var s = document.createElement('script');
+      s.async = true;
+      s.src = 'https://www.googletagmanager.com/gtag/js?id=' + gaId;
+      document.head.appendChild(s);
+      window.dataLayer = window.dataLayer || [];
+      function gtag() { dataLayer.push(arguments); }
+      window.gtag = gtag;
+      gtag('js', new Date());
+      gtag('config', gaId);
+    }
+    var el = document.getElementById('cookie-consent');
+    var choice = null;
+    try { choice = localStorage.getItem(KEY); } catch (e) {}
+    if (choice === 'accepted') {
+      loadGA();
+    } else if (!choice && el) {
+      el.style.display = 'block';
+    }
+    if (el) {
+      var accept = el.querySelector('[data-accept]');
+      var decline = el.querySelector('[data-decline]');
+      if (accept) accept.addEventListener('click', function () {
+        try { localStorage.setItem(KEY, 'accepted'); } catch (e) {}
+        el.style.display = 'none';
+        loadGA();
+      });
+      if (decline) decline.addEventListener('click', function () {
+        try { localStorage.setItem(KEY, 'declined'); } catch (e) {}
+        el.style.display = 'none';
+      });
+    }
+  })();
+</script>

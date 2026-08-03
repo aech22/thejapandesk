@@ -1,10 +1,11 @@
 ---
 import '../styles/global.css';
 import Jsonld from '../components/Jsonld.astro';
+import CookieConsent from '../components/CookieConsent.astro';
 import { PILLARS } from '../data/pillars';
 import {
   SITE_TITLE, SITE_DESCRIPTION, SITE_LIVE,
-  GA_MEASUREMENT_ID, PINTEREST_VERIFY, TWITTER_SITE,
+  PINTEREST_VERIFY, TWITTER_SITE,
 } from '../consts';
 
 interface Props {
@@ -84,12 +85,7 @@ const breadcrumbLd = breadcrumbs && breadcrumbs.length
     <Jsonld data={orgLd} />
     <Jsonld data={siteLd} />
     {breadcrumbLd && <Jsonld data={breadcrumbLd} />}
-    {GA_MEASUREMENT_ID && (
-      <>
-        <script async src={`https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`} is:inline />
-        <script is:inline set:html={`window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','${GA_MEASUREMENT_ID}');`} />
-      </>
-    )}
+    {/* GA は Cookie 同意後にのみ読み込む（CookieConsent コンポーネント側で制御） */}
   </head>
   <body class="min-h-screen font-sans text-ink antialiased">
     <header class="sticky top-0 z-30 border-b border-black/5 bg-paper/85 backdrop-blur">
@@ -129,5 +125,7 @@ const breadcrumbLd = breadcrumbs && breadcrumbs.length
         <p class="mt-3 text-xs text-ink/35">© {year} The Japan Desk · Operated by TODGE</p>
       </div>
     </footer>
+
+    <CookieConsent />
   </body>
 </html>
