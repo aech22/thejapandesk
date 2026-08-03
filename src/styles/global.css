@@ -1,0 +1,30 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+
+/* ---- テーマトークン（Tailwind v4）。bg-brand-600 / text-ink / bg-paper 等が生成される ---- */
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  --font-serif: "Lora", ui-serif, Georgia, "Times New Roman", serif;
+
+  /* 藍(indigo) を基調に、朱(vermilion)をアクセントにした和のパレット */
+  --color-brand-50: #eef2f7;
+  --color-brand-100: #d6e0ec;
+  --color-brand-500: #2d4a6b;
+  --color-brand-600: #1f3a57;
+  --color-brand-700: #162a40;
+
+  --color-accent-500: #c8402f;  /* 朱 */
+  --color-accent-600: #a8321f;
+
+  --color-ink: #1e2830;
+  --color-paper: #faf8f4;       /* 生成りの紙 */
+}
+
+html { scroll-behavior: smooth; }
+body { background-color: var(--color-paper); }
+
+/* prose（記事本文）の微調整：見出し色・リンク・表 */
+.prose :where(h1, h2, h3) { font-family: var(--font-serif); color: var(--color-brand-700); }
+.prose :where(a) { color: var(--color-accent-600); text-decoration: underline; text-underline-offset: 2px; }
+.prose :where(table) { display: block; overflow-x: auto; }
+.prose :where(th) { background: var(--color-brand-50); }

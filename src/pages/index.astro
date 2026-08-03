@@ -1,0 +1,54 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { PILLARS } from '../data/pillars';
+import { SITE_TITLE, SITE_TAGLINE } from '../consts';
+
+const all = (await getCollection('articles')).filter((a) => !a.data.draft);
+const byPillar = (slug: string) =>
+  all.filter((a) => a.data.pillar === slug).sort((a, b) => +b.data.date - +a.data.date);
+---
+<BaseLayout title={`${SITE_TITLE} — ${SITE_TAGLINE}`}>
+  <section class="border-b border-black/5 bg-white">
+    <div class="mx-auto max-w-5xl px-4 py-14 sm:py-20">
+      <p class="text-xs font-bold uppercase tracking-widest text-accent-600">From Japan</p>
+      <h1 class="mt-2 max-w-2xl font-serif text-4xl font-bold leading-tight text-brand-700 sm:text-5xl">
+        Authentic Japan, explained from the inside.
+      </h1>
+      <p class="mt-4 max-w-2xl text-lg text-ink/60">
+        Honest guides to Japanese craft goods, learning the language, and travelling Japan — written from Japan, using first-hand and Japanese-language sources.
+      </p>
+      <div class="mt-6 flex flex-wrap gap-2">
+        {PILLARS.map((p) => (
+          <a href={`/${p.slug}/`} class="rounded-full bg-brand-600 px-4 py-2 text-sm font-bold text-white transition hover:bg-brand-700">
+            {p.label}
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <main class="mx-auto max-w-5xl px-4 py-12">
+    {PILLARS.map((p) => (
+      <section class="mb-14">
+        <div class="flex items-end justify-between gap-3">
+          <div>
+            <h2 class="font-serif text-2xl font-bold text-brand-700">{p.label}</h2>
+            <p class="mt-1 text-sm text-ink/55">{p.description}</p>
+          </div>
+          <a href={`/${p.slug}/`} class="shrink-0 text-sm font-bold text-accent-600 hover:underline">All &rarr;</a>
+        </div>
+        <ul class="mt-5 grid gap-4 sm:grid-cols-2">
+          {byPillar(p.slug).map((a) => (
+            <li>
+              <a href={`/${a.data.pillar}/${a.data.slug}/`} class="group block rounded-xl border border-black/5 bg-white p-4 transition hover:border-brand-200 hover:shadow-sm">
+                <h3 class="font-serif text-base font-bold text-brand-700 group-hover:text-accent-600">{a.data.title}</h3>
+                <p class="mt-1 text-sm text-ink/55 line-clamp-2">{a.data.description}</p>
+              </a>
+            </li>
+          ))}
+        </ul>
+      </section>
+    ))}
+  </main>
+</BaseLayout>

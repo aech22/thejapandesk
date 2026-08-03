@@ -1,0 +1,27 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { SITE_TITLE } from '../consts';
+---
+<BaseLayout title={`Privacy Policy | ${SITE_TITLE}`} description="How The Japan Desk handles data." breadcrumbs={[{ name: 'Home', url: '/' }, { name: 'Privacy', url: '/privacy/' }]}>
+  <main class="mx-auto max-w-3xl px-4 py-10">
+    <article class="prose prose-slate max-w-none prose-headings:font-serif prose-a:text-accent-600">
+      <h1>Privacy Policy</h1>
+      <p>This Privacy Policy explains how The Japan Desk ("we", "us") handles information when you visit thejapandesk.com.</p>
+      <h2>Information we collect</h2>
+      <ul>
+        <li><strong>Analytics:</strong> We use Google Analytics 4 to understand aggregate, anonymized traffic. We do not use this to identify you personally.</li>
+        <li><strong>Cookies:</strong> We and third parties (analytics, affiliate networks) may set cookies. Affiliate cookies record that you arrived via our link so a commission can be attributed. You can control cookies via the consent banner and your browser settings.</li>
+        <li><strong>Contact:</strong> If you email us, we receive the information you send.</li>
+      </ul>
+      <h2>UK/EU visitors</h2>
+      <p>For visitors in the UK/EU, we rely on your consent for non-essential cookies. You may decline non-essential cookies without losing access to content, and you have rights to access, correct, or delete your personal data — contact us to exercise them.</p>
+      <h2>Third parties</h2>
+      <p>Analytics and affiliate networks process data under their own policies (e.g., Google, Amazon, ShareASale, Awin, CJ, Impact, Travelpayouts). We do not sell your personal information.</p>
+      <h2>Children</h2>
+      <p>This site is not directed to children under 16.</p>
+      <h2>Contact</h2>
+      <p><a href="/contact/">Contact us</a> with any privacy questions.</p>
+      <!-- [VERIFY] 実際に導入するCookie同意ツール・ASP・GA4設定に合わせて最終調整。連絡先メールを反映。 -->
+    </article>
+  </main>
+</BaseLayout>

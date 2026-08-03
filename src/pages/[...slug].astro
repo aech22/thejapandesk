@@ -1,0 +1,66 @@
+---
+import { getCollection, render } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import ArticleLayout from '../layouts/ArticleLayout.astro';
+import { PILLARS, pillarBySlug } from '../data/pillars';
+import { SITE_TITLE } from '../consts';
+
+// 単一のキャッチオール route で「ピラーハブ(/craft/)」と「記事(/craft/slug/)」の両方を生成する。
+export async function getStaticPaths() {
+  const all = (await getCollection('articles')).filter((a) => !a.data.draft);
+
+  const pillarPages = PILLARS.map((p) => ({
+    params: { slug: p.slug },
+    props: {
+      type: 'pillar' as const,
+      pillarSlug: p.slug,
+      entries: all
+        .filter((a) => a.data.pillar === p.slug)
+        .sort((a, b) => +b.data.date - +a.data.date)
+        .map((a) => a.data),
+    },
+  }));
+
+  const articlePages = all.map((a) => ({
+    params: { slug: `${a.data.pillar}/${a.data.slug}` },
+    props: { type: 'article' as const, entry: a },
+  }));
+
+  return [...pillarPages, ...articlePages];
+}
+
+const props = Astro.props as any;
+let Content: any = null;
+if (props.type === 'article') {
+  const rendered = await render(props.entry);
+  Content = rendered.Content;
+}
+const pillar = props.type === 'pillar' ? pillarBySlug(props.pillarSlug)! : null;
+---
+{props.type === 'article' ? (
+  <ArticleLayout data={props.entry.data}>
+    <Content />
+  </ArticleLayout>
+) : (
+  <BaseLayout
+    title={`${pillar!.label} | ${SITE_TITLE}`}
+    description={pillar!.description}
+    breadcrumbs={[{ name: 'Home', url: '/' }, { name: pillar!.label, url: `/${pillar!.slug}/` }]}
+  >
+    <main class="mx-auto max-w-3xl px-4 py-10">
+      <p class="text-xs font-bold uppercase tracking-wide text-accent-600">Guides</p>
+      <h1 class="mt-1 font-serif text-3xl font-bold text-brand-700">{pillar!.label}</h1>
+      <p class="mt-2 text-ink/60">{pillar!.description}</p>
+      <ul class="mt-8 divide-y divide-black/5">
+        {props.entries.map((a: any) => (
+          <li class="py-4">
+            <a href={`/${a.pillar}/${a.slug}/`} class="group block">
+              <h2 class="font-serif text-lg font-bold text-brand-700 group-hover:text-accent-600">{a.title}</h2>
+              <p class="mt-1 text-sm text-ink/55">{a.description}</p>
+            </a>
+          </li>
+        ))}
+      </ul>
+    </main>
+  </BaseLayout>
+)}

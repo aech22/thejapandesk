@@ -1,0 +1,63 @@
+---
+import BaseLayout from './BaseLayout.astro';
+import Jsonld from '../components/Jsonld.astro';
+import { pillarBySlug } from '../data/pillars';
+import { SITE_TITLE, SITE_URL } from '../consts';
+
+interface Props {
+  data: {
+    title: string;
+    description: string;
+    date: Date;
+    updated?: Date | null;
+    pillar: 'craft' | 'learn-japanese' | 'japan-travel';
+    slug: string;
+    noindex?: boolean | null;
+  };
+}
+const { data } = Astro.props;
+const pillar = pillarBySlug(data.pillar)!;
+const url = `${SITE_URL}/${data.pillar}/${data.slug}/`;
+const published = data.date.toISOString();
+const modified = (data.updated ?? data.date).toISOString();
+const dateLabel = (data.updated ?? data.date).toLocaleDateString('en-US', {
+  year: 'numeric', month: 'long', day: 'numeric',
+});
+
+const breadcrumbs = [
+  { name: 'Home', url: '/' },
+  { name: pillar.label, url: `/${pillar.slug}/` },
+  { name: data.title, url: `/${data.pillar}/${data.slug}/` },
+];
+
+const articleLd = {
+  '@context': 'https://schema.org', '@type': 'Article',
+  headline: data.title, description: data.description,
+  datePublished: published, dateModified: modified,
+  inLanguage: 'en', mainEntityOfPage: url,
+  author: { '@type': 'Organization', name: SITE_TITLE },
+  publisher: { '@type': 'Organization', name: SITE_TITLE },
+};
+---
+<BaseLayout
+  title={`${data.title} | ${SITE_TITLE}`}
+  description={data.description}
+  noindex={data.noindex ?? false}
+  ogType="article"
+  publishedTime={published}
+  modifiedTime={modified}
+  breadcrumbs={breadcrumbs}
+>
+  <Jsonld data={articleLd} />
+  <main class="mx-auto max-w-3xl px-4 py-8 sm:py-12">
+    <nav class="mb-4 flex flex-wrap items-center gap-1.5 text-xs font-bold text-ink/45">
+      <a href="/" class="hover:text-brand-600">Home</a><span>/</span>
+      <a href={`/${pillar.slug}/`} class="hover:text-brand-600">{pillar.short}</a>
+    </nav>
+    <p class="text-xs font-bold uppercase tracking-wide text-accent-600">{pillar.label}</p>
+    <p class="mt-6 text-sm text-ink/45">Updated {dateLabel}</p>
+    <article class="prose prose-slate mt-2 max-w-none prose-headings:font-serif prose-h1:text-3xl prose-a:text-accent-600">
+      <slot />
+    </article>
+  </main>
+</BaseLayout>

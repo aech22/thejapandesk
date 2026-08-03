@@ -1,0 +1,22 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { SITE_TITLE } from '../consts';
+---
+<BaseLayout title={`About | ${SITE_TITLE}`} description="Who runs The Japan Desk and how the guides are kept honest." breadcrumbs={[{ name: 'Home', url: '/' }, { name: 'About', url: '/about/' }]}>
+  <main class="mx-auto max-w-3xl px-4 py-10">
+    <article class="prose prose-slate max-w-none prose-headings:font-serif prose-a:text-accent-600">
+      <h1>About The Japan Desk</h1>
+      <p>Hi — I'm <!-- [VERIFY: operator name / pen name] -->[your name], and I run The Japan Desk from Japan.</p>
+      <p>Most English-language sites about Japanese knives, ceramics, fountain pens, the language, or travel are written from the outside looking in. I'm on the inside. I read the kilns', makers', and brands' own Japanese-language pages, I've used a lot of this in daily life, and I translate that into plain, honest buying advice for readers in the US, UK, Australia, and Canada.</p>
+      <h2>What you'll find here</h2>
+      <ul>
+        <li><strong>Japanese Craft &amp; Goods</strong> — knives, ceramics, bonsai tools, fountain pens and more, explained by tradition and use.</li>
+        <li><strong>Learning Japanese</strong> — honest comparisons of apps and courses, checked against how the language actually works.</li>
+        <li><strong>Japan Travel</strong> — practical, up-to-date planning using current, first-hand local information.</li>
+      </ul>
+      <h2>How I keep this honest</h2>
+      <p>I only recommend things I'd be comfortable using myself. My reviews are grounded in specifications, verified customer reviews, and Japanese-language primary sources. Where I haven't personally handled a specific product, I say so. Some links are affiliate links (see the <a href="/affiliate-disclosure/">Affiliate Disclosure</a>), but no maker or shop pays for a recommendation.</p>
+      <p>Questions or corrections? <a href="/contact/">Get in touch</a>.</p>
+    </article>
+  </main>
+</BaseLayout>
