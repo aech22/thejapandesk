@@ -11,6 +11,6 @@ export const SITE_URL = 'https://thejapandesk.net';
 export const SITE_LIVE = false;
 
 // 計測・検証（取得後にここへ。空文字なら出力されない）
-export const GA_MEASUREMENT_ID = '';   // 例: 'G-XXXXXXX'
+export const GA_MEASUREMENT_ID = 'G-G84FY7N72R';   // GA4測定ID（Cookie同意後に発火）
 export const PINTEREST_VERIFY = '';    // Pinterest ドメイン認証タグ
 export const TWITTER_SITE = '';        // 例: '@thejapandesk'
