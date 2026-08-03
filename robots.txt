@@ -1,0 +1,10 @@
+# ★ローンチ前：まだ [VERIFY] 下書き段階なので全クロールを禁止しています。
+# 記事の [VERIFY] を潰し、consts.ts の SITE_LIVE=true にしたら、
+# 下の Disallow を削除して Sitemap 行を有効化してください。
+User-agent: *
+Disallow: /
+
+# ローンチ後はこちら↓に差し替え
+# User-agent: *
+# Allow: /
+# Sitemap: https://thejapandesk.net/sitemap-index.xml
