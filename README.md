@@ -17,7 +17,7 @@ npm run preview  # ビルド結果をローカル確認
 - `src/pages/[...slug].astro` — キャッチオール。`/craft/` などのピラーハブと `/craft/<slug>/` の記事を両方生成。
 - `src/data/pillars.ts` — 3ピラー定義。
 - `src/consts.ts` — サイト名・**SITE_LIVE（公開ゲート）**・GA/Pinterest/Twitter。
-- `public/CNAME` — thejapandesk.com。
+- `public/CNAME` — thejapandesk.net。
 
 ## ★ローンチ前チェック（公開ゲート）
 
@@ -34,4 +34,4 @@ npm run preview  # ビルド結果をローカル確認
 GitHubリポジトリに push → Cloudflare Pages で接続：
 - Build command: `npm run build`
 - Output directory: `dist`
-- Custom domain: `thejapandesk.com`（ネームサーバーがCloudflareに向いていれば数クリック）
+- Custom domain: `thejapandesk.net`（ネームサーバーがCloudflareに向いていれば数クリック）

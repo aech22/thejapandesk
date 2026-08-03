@@ -7,4 +7,4 @@ Disallow: /
 # ローンチ後はこちら↓に差し替え
 # User-agent: *
 # Allow: /
-# Sitemap: https://thejapandesk.com/sitemap-index.xml
+# Sitemap: https://thejapandesk.net/sitemap-index.xml

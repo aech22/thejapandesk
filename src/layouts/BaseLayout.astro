@@ -26,7 +26,7 @@ const {
   breadcrumbs,
 } = Astro.props;
 
-const site = Astro.site ?? new URL('https://thejapandesk.com');
+const site = Astro.site ?? new URL('https://thejapandesk.net');
 const canonical = new URL(Astro.url.pathname, site);
 const ogImg = new URL('/ogp.png', site).toString();
 const year = new Date().getFullYear();
