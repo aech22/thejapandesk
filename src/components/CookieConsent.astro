@@ -1,10 +1,15 @@
 ---
-// GDPR/UK GDPR 向けのCookie同意バナー。
-// 同意があるまで非必須スクリプト（GA・Travelpayouts）を読み込まない＝EU準拠。既定は「非必須は読み込まない」。
+// Cookie 同意バナー。非必須スクリプト（GA・Travelpayouts）の読み込みを制御する。
 //
-// 例外はクローラーだけ。ボットは Accept を押せないので、同意ゲートの中に入れると
+// 事前同意（opt-in）を必須にするのは UK/EEA/スイスの訪問者だけ。GDPR・UK GDPR・ePrivacy が
+// 要求しているのはこの地域であり、ターゲットである US/AU/CA は opt-out 方式で足りる。
+// 全訪問者を一律 opt-in にすると、Accept を押さない多数派でアフィリリンクの収益化が働かない。
+// 地域判定はタイムゾーン（静的サイトなのでサーバ側で国を見られない）。判定できなければ
+// 厳しい側＝同意必須に倒す。
+//
+// クローラーは常に同意済み扱い。ボットは Accept を押せないので、ゲートの中に入れると
 // Travelpayouts のサイト認証（スクリプトが実際に動いているかの確認）が永久に通らない。
-// ボットは自然人ではなく個人データも発生しないため、同意済みとして扱ってスクリプトを読ませる。
+// ボットは自然人ではなく個人データも発生しないため、読ませてよい。
 import { GA_MEASUREMENT_ID, TRAVELPAYOUTS_SCRIPT } from '../consts';
 ---
 <div
@@ -56,6 +61,20 @@ import { GA_MEASUREMENT_ID, TRAVELPAYOUTS_SCRIPT } from '../consts';
       document.head.appendChild(script);
     }
 
+    // 事前同意が要る地域か。UK/EEA/スイスのタイムゾーンなら true。
+    // Europe/* は EEA 外（Europe/Moscow 等）も拾うが、厳しい側に倒すぶんには無害なので広く取る。
+    function needsPriorConsent() {
+      try {
+        var tz = Intl.DateTimeFormat().resolvedOptions().timeZone || '';
+        if (/^Europe\//i.test(tz)) return true;
+        // EEA だが Europe/* に入らないもの（アイスランド・フェロー・スバールバル、
+        // ポルトガル/スペインの島嶼部、フランス海外県）
+        return /^(Atlantic\/(Reykjavik|Azores|Madeira|Canary|Faroe)|Arctic\/Longyearbyen|Indian\/(Reunion|Mayotte)|America\/(Cayenne|Guadeloupe|Martinique|Miquelon))$/i.test(tz);
+      } catch (e) {
+        return true; // 判定できなければ同意必須の側に倒す
+      }
+    }
+
     // クローラー判定。ヒットしたら「Accept を押した」のと同じ扱いにする（バナーは出さない）。
     function isCrawler() {
       try {
@@ -80,11 +99,16 @@ import { GA_MEASUREMENT_ID, TRAVELPAYOUTS_SCRIPT } from '../consts';
 
     var choice = null;
     try { choice = localStorage.getItem(KEY); } catch (e) {}
+
     if (choice === 'accepted') {
       acceptAll();
-    } else if (!choice && el) {
-      el.style.display = 'block';
+    } else if (choice !== 'declined') {
+      // 未選択。UK/EEA/スイスは押されるまで読み込まない。それ以外は読み込んだうえで
+      // バナーを出し、Decline を選べるようにする（opt-out）。
+      if (!needsPriorConsent()) acceptAll();
+      if (el) el.style.display = 'block';
     }
+
     if (el) {
       var accept = el.querySelector('[data-accept]');
       var decline = el.querySelector('[data-decline]');
@@ -96,6 +120,9 @@ import { GA_MEASUREMENT_ID, TRAVELPAYOUTS_SCRIPT } from '../consts';
       if (decline) decline.addEventListener('click', function () {
         try { localStorage.setItem(KEY, 'declined'); } catch (e) {}
         el.style.display = 'none';
+        // opt-out 地域では既に読み込んでいる場合がある。GA は公式のオプトアウトフラグで
+        // 即座に送信を止める。Travelpayouts には同等のスイッチが無いため、次のページ読み込みから停止する。
+        if (gaId) window['ga-disable-' + gaId] = true;
       });
     }
   })();
