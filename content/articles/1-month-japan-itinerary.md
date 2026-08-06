@@ -11,7 +11,7 @@ draft: false
 
 # 1-Month Japan Itinerary: The Whole Country, Unhurried (Built by Someone Who Lives Here)
 
-*Affiliate disclosure: This article contains affiliate links to tour platforms (GetYourGuide via Travelpayouts, ~8% commission) and rail-pass resellers. If you book through one, I may earn a commission at no extra cost to you. This is a **planning guide**, not a travelogue. A month is long enough to see the whole arc of the country — but also long enough for pacing and accommodation costs to make or break the trip, so I'll be specific about the **21-day pass math, monthly-stay lodging, and the rest-day rhythm** that keeps a 30-day trip enjoyable. Prices are marked `[VERIFY]`; confirm live before you pay.*
+*Affiliate disclosure: This article contains affiliate links to tour platforms (GetYourGuide) and rail-pass resellers. If you book through one, I may earn a commission at no extra cost to you. This is a **planning guide**, not a travelogue. A month is long enough to see the whole arc of the country — but also long enough for pacing and accommodation costs to make or break the trip, so I'll be specific about the **21-day pass math, monthly-stay lodging, and the rest-day rhythm** that keeps a 30-day trip enjoyable. Prices are marked `[VERIFY]`; confirm live before you pay.*
 
 ---
 
@@ -140,7 +140,7 @@ Get lodging and rail right and the country unfolds at a pace short trips never a
 <!--
 PRE-PUBLISH CHECKLIST
 [ ] Replace every [VERIFY] price with live figures (21-day pass ~¥100,000; multi-day tours ~US$500).
-[ ] Insert real GetYourGuide affiliate links via Travelpayouts (8%). GetYourGuide runs no in-house programme, so a network is the only route; Travelpayouts pays 8% vs Awin 7% vs TradeDoubler 5%, so use Travelpayouts and do not split tracking across networks. Fill ALL [VERIFY affiliate link] slots, per region.
+[ ] Insert real GetYourGuide affiliate links generated in the GetYourGuide partner dashboard — DIRECT partnership, not via Travelpayouts. BLOCKER, do this first: switch Travelpayouts LinkSwitcher off (or exclude GetYourGuide), otherwise it rewrites the links and the direct attribution is lost; confirm in the live DOM that the href is unchanged. Do not install the GetYourGuide analyzer script. Partner ID and the reasoning behind both calls are in CLAUDE.md. Fill ALL [VERIFY affiliate link] slots, per region.
 [ ] Confirm region facts before publish: Shimanami ~70 km & e-bike availability; Kyushu (Beppu/Yufuin) & Hokkaido transit; flight-vs-rail on the big jump. Correct any that are off.
 [ ] Keep the 21-day-pass / regional-mix claim consistent with the JR Pass guide's live math.
 [ ] Internal links to JR Pass / 7-day / 2-week / eSIM / JapanesePod101 / long-stay present, pointing to final /<pillar>/<slug>/ URLs — CONFIRMED.

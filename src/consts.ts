@@ -16,5 +16,11 @@ export const PINTEREST_VERIFY = '';    // Pinterest ドメイン認証タグ
 export const TWITTER_SITE = '';        // 例: '@thejapandesk'
 
 // Travelpayouts スクリプト（サイト認証＋リンク収益化）。marker 559180。
-// 全ページの <head> で読ませる必要があるため BaseLayout から出力する。空文字なら出力されない。
+// Cookie を書くため CookieConsent.astro のローダー経由で同意後に読み込む。空文字なら出力されない。
 export const TRAVELPAYOUTS_SCRIPT = 'https://emrldco.com/NTU5MTgw.js?t=559180';
+
+// GetYourGuide は直接提携（パートナーID J2LM0TP・2026-08-06登録）。リンクはダッシュボードで発行する。
+// integration analyzer（widget.getyourguide.com/dist/pa.umd.production.min.js）は 2026-08-07 に
+// 「入れない」と判断済み。理由: ページ内の競合リンク（Klook・Viator・Tiqets 等）を URL と
+// リンクテキストごと collector.getyourguide.com へ送る機能を含み、計測部分と分離できないため。
+// リンク発行と成果計上には不要。**再導入しないこと。**

@@ -48,7 +48,11 @@
 | CJ | Bonsai Boy（盆栽） | 20% |
 | — | JapanesePod101（語学） | 25% |
 | — | Klook（旅行） | 6.5% |
-| Travelpayouts | GetYourGuide | 8% |
+| — | GetYourGuide（旅行） | [VERIFY] |
+
+**GetYourGuide は直接提携**（`partner.getyourguide.com`・パートナーID `J2LM0TP`・2026-08-06登録）。以前「自社プログラムを持たないためネットワーク経由が唯一の手段」と記録していたが**誤り**で、Travelpayouts 経由の8%は使わない。実料率はダッシュボードで確認して埋める。
+**リンク設置前の必須条件**: Travelpayouts の LinkSwitcher が `getyourguide.com` リンクを Travelpayouts リンクへ自動変換するため、**停止（または GetYourGuide を除外）してから**貼らないと直接提携の成果が付け替えられる。
+**integration analyzer（`widget.getyourguide.com/dist/pa.umd.production.min.js`）は意図的に未導入**。ページ内の競合リンク（Klook・Viator・Tiqets 等）を URL とリンクテキストごと GetYourGuide へ送信する機能を含むため。リンク発行と成果計上には不要。
 
 剣道 Tozando・Migaku・日本デニムは料率が ASP ログイン必須で**未確定＝人間ステップ**。
 

@@ -14,7 +14,7 @@ fareWidget:
 
 # The Perfect 7-Day Japan Itinerary With Tours (First-Timer's Plan, Built by Someone Who Lives Here)
 
-*Affiliate disclosure: This article contains affiliate links to tour platforms including GetYourGuide (booked via Travelpayouts, typically an 8% commission) and others. If you book a tour through one of them, I may earn a commission at no extra cost to you. This isn't a "look at my amazing trip" travelogue — it's a **planning guide**: a realistic day-by-day route for a first-timer's week in Japan, with the tours worth booking, the transport decisions that save real money, and the mistakes that quietly wreck week-one trips. Prices are marked `[VERIFY]` because fares and tour prices move; confirm the live figure before you pay.*
+*Affiliate disclosure: This article contains affiliate links to tour platforms including GetYourGuide and others. If you book a tour through one of them, I may earn a commission at no extra cost to you. This isn't a "look at my amazing trip" travelogue — it's a **planning guide**: a realistic day-by-day route for a first-timer's week in Japan, with the tours worth booking, the transport decisions that save real money, and the mistakes that quietly wreck week-one trips. Prices are marked `[VERIFY]` because fares and tour prices move; confirm the live figure before you pay.*
 
 ---
 
@@ -168,7 +168,7 @@ In my experience, the travelers who look back happiest on their first week are t
 <!--
 PRE-PUBLISH CHECKLIST
 [ ] Replace every [VERIFY] price with live figures (esp. the ~US$500 multi-day tour example & the 8%≈$40 illustration).
-[ ] Insert real GetYourGuide affiliate links via Travelpayouts (8%). GetYourGuide runs no in-house programme, so a network is the only route; Travelpayouts pays 8% vs Awin 7% vs TradeDoubler 5%, so use Travelpayouts and do not split tracking across networks. Fill ALL [VERIFY affiliate link] slots and confirm deep links & tracking IDs.
+[ ] Insert real GetYourGuide affiliate links generated in the GetYourGuide partner dashboard — DIRECT partnership, not via Travelpayouts. BLOCKER, do this first: switch Travelpayouts LinkSwitcher off (or exclude GetYourGuide), otherwise it rewrites the links and the direct attribution is lost; confirm in the live DOM that the href is unchanged. Do not install the GetYourGuide analyzer script. Partner ID and the reasoning behind both calls are in CLAUDE.md. Fill ALL [VERIFY affiliate link] slots and confirm deep links & tracking IDs.
 [ ] Confirm this is tagged as top-of-funnel pillar content; internal links to article-12 (JR Pass) and article-13 (Klook Tokyo) present — CONFIRMED (multiple).
 [ ] Verify Shinkansen Tokyo–Kyoto ~2.5h and Kyoto–Osaka ~30–60 min timings against current schedules.
 [ ] Confirm teamLab timed-entry / sell-out and Fuji peak-season booking guidance.
