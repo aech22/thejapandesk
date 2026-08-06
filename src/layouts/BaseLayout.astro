@@ -34,9 +34,16 @@ const year = new Date().getFullYear();
 // SITE_LIVE=false の間は全ページ noindex（[VERIFY]下書きを検索に載せない）
 const robots = (!SITE_LIVE || noindex) ? 'noindex, nofollow' : 'index, follow, max-image-preview:large';
 
+const FONT_CSS =
+  'https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&family=Lora:wght@500;600;700&display=swap';
+
+// 検索エンジンにとっての「誰が書いているか」。このサイトの E-E-A-T の主張は
+// 「日本から、日本語の一次ソースを使って書いている」ことなので、それを構造化データにも出す。
 const orgLd = {
   '@context': 'https://schema.org', '@type': 'Organization',
   name: SITE_TITLE, url: site.toString(), description: SITE_DESCRIPTION,
+  logo: new URL('/ogp.png', site).toString(),
+  foundingLocation: { '@type': 'Place', name: 'Japan' },
 };
 const siteLd = {
   '@context': 'https://schema.org', '@type': 'WebSite',
@@ -62,19 +69,26 @@ const breadcrumbLd = breadcrumbs && breadcrumbs.length
     <meta name="robots" content={robots} />
     {PINTEREST_VERIFY && <meta name="p:domain_verify" content={PINTEREST_VERIFY} />}
     <link rel="canonical" href={canonical} />
+    <link rel="alternate" type="application/rss+xml" title={SITE_TITLE} href={new URL('/rss.xml', site)} />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&family=Lora:wght@500;600;700&display=swap"
-      rel="stylesheet"
-    />
+    {/* フォントは非同期で読む。同期の stylesheet は first paint を止めるため LCP に直接効く。
+        display=swap があるのでフォント差し替え時の挙動は従来と変わらない。 */}
+    <link rel="preload" as="style" href={FONT_CSS} />
+    <link rel="stylesheet" href={FONT_CSS} media="print" onload="this.media='all'" />
+    <noscript><link rel="stylesheet" href={FONT_CSS} /></noscript>
     <meta property="og:type" content={ogType} />
     <meta property="og:site_name" content={SITE_TITLE} />
     <meta property="og:locale" content="en_US" />
+    {/* 読者は US/UK/AU/CA。en_GB を alternate に出して英連邦圏でも自国向けとして扱われるようにする */}
+    <meta property="og:locale:alternate" content="en_GB" />
     <meta property="og:title" content={title} />
     <meta property="og:description" content={description} />
     <meta property="og:url" content={canonical} />
     <meta property="og:image" content={ogImg} />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content={SITE_TITLE} />
     {ogType === 'article' && publishedTime && <meta property="article:published_time" content={publishedTime} />}
     {ogType === 'article' && modifiedTime && <meta property="article:modified_time" content={modifiedTime} />}
     <meta name="twitter:card" content="summary_large_image" />

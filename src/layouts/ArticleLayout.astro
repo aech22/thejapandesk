@@ -36,13 +36,24 @@ const breadcrumbs = [
   { name: data.title, url: `/${data.pillar}/${data.slug}/` },
 ];
 
+// author/publisher に url と logo を持たせて About ページのエンティティに接続する。
+// contentLocation は「日本から書いている」という差別化を機械可読にするためのもので、
+// 実体験を主張するものではない（一次体験のない記述を体験談にしないルールは維持）。
 const articleLd = {
   '@context': 'https://schema.org', '@type': 'Article',
   headline: data.title, description: data.description,
   datePublished: published, dateModified: modified,
   inLanguage: 'en', mainEntityOfPage: url,
-  author: { '@type': 'Organization', name: SITE_TITLE },
-  publisher: { '@type': 'Organization', name: SITE_TITLE },
+  isAccessibleForFree: true,
+  contentLocation: { '@type': 'Place', name: 'Japan' },
+  author: {
+    '@type': 'Organization', name: SITE_TITLE,
+    url: `${SITE_URL}/about/`,
+  },
+  publisher: {
+    '@type': 'Organization', name: SITE_TITLE, url: `${SITE_URL}/`,
+    logo: { '@type': 'ImageObject', url: `${SITE_URL}/ogp.png` },
+  },
 };
 ---
 <BaseLayout
