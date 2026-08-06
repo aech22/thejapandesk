@@ -8,14 +8,20 @@
 //      そのため取得日時 fetchedAt を必ず埋め、表示側（FareTable.astro）が鮮度で出し分ける。
 //   4. 一部の路線が失敗しても全滅させない。既存 JSON を残して次へ進む。
 //
+// 取得は3段構え（2026-08-06 の Phase 0 実測で /v1/prices/monthly 単独では月数が 5〜11 と足りなかったため）:
+//   ① /v1/prices/monthly        … 1リクエストで月別の最安値をまとめて取る（主力）
+//   ② /v2/prices/month-matrix   … ①で欠けた月だけ、日別の価格から最安を拾う
+//   ③ /v1/prices/calendar       … ②でも埋まらない月の最後の手段
+//
 // 使い方:
-//   TRAVELPAYOUTS_TOKEN=xxxx node scripts/fetch_fares.mjs --spike   # Phase 0: 取得可否の実測のみ（書き込まない）
-//   TRAVELPAYOUTS_TOKEN=xxxx node scripts/fetch_fares.mjs           # 通常: src/data/fares/*.json を更新
+//   TRAVELPAYOUTS_TOKEN=xxxx node scripts/fetch_fares.mjs --spike   # 取得可否の実測のみ（書き込まない）
+//   TRAVELPAYOUTS_TOKEN=xxxx node scripts/fetch_fares.mjs           # src/data/fares/*.json を更新
+//   ... --no-fallback                                               # ①のみで動かす（比較用）
 
 import { writeFile, readFile, mkdir, readdir } from 'node:fs/promises';
 import { existsSync } from 'node:fs';
 import path from 'node:path';
-import { fileURLToPath } from 'node:url';
+import { fileURLToPath, pathToFileURL } from 'node:url';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const OUT_DIR = path.join(ROOT, 'src', 'data', 'fares');
@@ -33,86 +39,174 @@ const CURRENCY = ROUTES_CONFIG.currency;
 const ORIGINS = ROUTES_CONFIG.origins;
 const DESTINATIONS = ROUTES_CONFIG.destinations;
 
-// Phase 0 の Go/No-Go 判定基準（実装計画 §4）。
+// 当月から数えて何ヶ月ぶんを埋めにいくか。
+const HORIZON_MONTHS = 12;
+
+// Go/No-Go 判定基準（実装計画 §4）。**フォールバック追加後も基準は変えない**
+// ＝「取得方法を変えれば元の基準を通せるか」を測るため。
 const SPIKE = {
-  minRoutesWithData: 6,   // NRT 行き9路線のうち、データが返る路線数の下限
-  minMonthsPerRoute: 8,   // 1路線あたり価格が返る月数の下限
-  sanePriceRange: [300, 4000], // USD。これを外れる値は要調査として報告する
+  minRoutesWithData: 6,
+  minMonthsPerRoute: 8,
+  sanePriceRange: [300, 4000], // USD
 };
 
 const REQUEST_GAP_MS = 250; // 連続リクエストの間隔（礼儀としてのスロットリング）
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
-/** Travelpayouts /v1/prices/monthly を1路線ぶん叩く。 */
-async function fetchMonthly(origin, destination) {
-  const url = new URL('/v1/prices/monthly', API_BASE);
-  url.searchParams.set('origin', origin);
-  url.searchParams.set('destination', destination);
-  url.searchParams.set('currency', CURRENCY);
+/** 当月から HORIZON_MONTHS ぶんの "YYYY-MM" 配列。 */
+function horizonMonths() {
+  const out = [];
+  const d = new Date();
+  d.setUTCDate(1);
+  for (let i = 0; i < HORIZON_MONTHS; i++) {
+    out.push(`${d.getUTCFullYear()}-${String(d.getUTCMonth() + 1).padStart(2, '0')}`);
+    d.setUTCMonth(d.getUTCMonth() + 1);
+  }
+  return out;
+}
+
+async function apiGet(pathname, params) {
+  const url = new URL(pathname, API_BASE);
+  for (const [k, v] of Object.entries(params)) url.searchParams.set(k, v);
 
   const res = await fetch(url, {
     headers: { 'X-Access-Token': TOKEN, Accept: 'application/json' },
   });
-
-  if (!res.ok) {
-    throw new Error(`HTTP ${res.status} ${res.statusText} for ${origin}-${destination}`);
-  }
+  if (!res.ok) throw new Error(`HTTP ${res.status} ${res.statusText} (${pathname})`);
 
   const body = await res.json();
   if (body && body.success === false) {
-    throw new Error(`API error for ${origin}-${destination}: ${JSON.stringify(body.error ?? body)}`);
+    throw new Error(`API error (${pathname}): ${JSON.stringify(body.error ?? body)}`);
   }
   return body;
 }
 
 /**
- * API レスポンスを当サイト用のスキーマへ正規化する。
- * 表示側はこの正規化スキーマだけに依存させる（API のフィールド名変更を1箇所に閉じ込めるため）。
+ * レスポンスから (月, 価格, 付随情報) を取り出す。
+ * data が配列（v2 month-matrix）でもキー付きオブジェクト（v1 monthly / calendar）でも同じように扱う。
+ * ＝ エンドポイントごとの形の違いをこの1箇所に閉じ込める。
  */
-function normalize(origin, destination, body) {
-  const raw = body?.data ?? {};
-  const months = Object.entries(raw)
-    .map(([key, v]) => {
-      if (!v || typeof v !== 'object') return null;
-      const price = Number(v.value ?? v.price);
-      if (!Number.isFinite(price) || price <= 0) return null;
-      // キーは "2026-09-01" 形式で返ることがあるため YYYY-MM に丸める。
-      const month = String(key).slice(0, 7);
-      if (!/^\d{4}-\d{2}$/.test(month)) return null;
-      return {
-        month,
-        price: Math.round(price),
-        airline: v.gate ?? null,
-        departDate: v.depart_date ?? null,
-        returnDate: v.return_date ?? null,
-        transfers: Number.isFinite(Number(v.number_of_changes)) ? Number(v.number_of_changes) : null,
-      };
-    })
-    .filter(Boolean)
-    .sort((a, b) => a.month.localeCompare(b.month));
+function extractByMonth(body) {
+  const d = body?.data;
+  const items = Array.isArray(d)
+    ? d
+    : d && typeof d === 'object'
+      ? Object.entries(d)
+          .map(([k, v]) => (v && typeof v === 'object' ? { _key: k, ...v } : null))
+          .filter(Boolean)
+      : [];
 
+  const best = new Map(); // month -> item
+  for (const it of items) {
+    const price = Number(it.value ?? it.price);
+    if (!Number.isFinite(price) || price <= 0) continue;
+
+    const monthSrc = it.depart_date ?? it._key ?? '';
+    const month = String(monthSrc).slice(0, 7);
+    if (!/^\d{4}-\d{2}$/.test(month)) continue;
+
+    const prev = best.get(month);
+    if (!prev || price < Number(prev.value ?? prev.price)) best.set(month, it);
+  }
+
+  return best;
+}
+
+function toMonthRecord(month, item, source) {
+  return {
+    month,
+    price: Math.round(Number(item.value ?? item.price)),
+    airline: item.gate ?? null,
+    departDate: item.depart_date ?? null,
+    returnDate: item.return_date ?? null,
+    transfers: Number.isFinite(Number(item.number_of_changes))
+      ? Number(item.number_of_changes)
+      : null,
+    source,
+  };
+}
+
+/**
+ * 1路線ぶんの月別最安値を、①→②→③ の順に埋めながら集める。
+ * 各段の寄与を stats に残す（スパイクの報告で「フォールバックが効いたか」を示すため）。
+ */
+async function collectRoute(origin, destination, useFallback) {
+  const months = new Map(); // "YYYY-MM" -> record
+  const stats = { monthly: 0, matrix: 0, calendar: 0, errors: [] };
+  const horizon = horizonMonths();
+
+  // ① /v1/prices/monthly
+  try {
+    const body = await apiGet('/v1/prices/monthly', {
+      origin, destination, currency: CURRENCY,
+    });
+    for (const [month, item] of extractByMonth(body)) {
+      months.set(month, toMonthRecord(month, item, 'monthly'));
+      stats.monthly++;
+    }
+  } catch (err) {
+    stats.errors.push(`monthly: ${err.message}`);
+  }
+  await sleep(REQUEST_GAP_MS);
+
+  if (!useFallback) return { months, stats };
+
+  // ② /v2/prices/month-matrix（欠けている月だけ）
+  for (const m of horizon) {
+    if (months.has(m)) continue;
+    try {
+      const body = await apiGet('/v2/prices/month-matrix', {
+        origin, destination, currency: CURRENCY, month: `${m}-01`,
+      });
+      const found = extractByMonth(body).get(m);
+      if (found) {
+        months.set(m, toMonthRecord(m, found, 'month-matrix'));
+        stats.matrix++;
+      }
+    } catch (err) {
+      stats.errors.push(`matrix ${m}: ${err.message}`);
+    }
+    await sleep(REQUEST_GAP_MS);
+  }
+
+  // ③ /v1/prices/calendar（それでも欠けている月だけ）
+  for (const m of horizon) {
+    if (months.has(m)) continue;
+    try {
+      const body = await apiGet('/v1/prices/calendar', {
+        origin, destination, currency: CURRENCY,
+        depart_date: m, calendar_type: 'departure_date',
+      });
+      const found = extractByMonth(body).get(m);
+      if (found) {
+        months.set(m, toMonthRecord(m, found, 'calendar'));
+        stats.calendar++;
+      }
+    } catch (err) {
+      stats.errors.push(`calendar ${m}: ${err.message}`);
+    }
+    await sleep(REQUEST_GAP_MS);
+  }
+
+  return { months, stats };
+}
+
+function buildFile(origin, destination, monthsMap) {
   return {
     origin,
     destination,
     currency: CURRENCY.toUpperCase(),
-    source: 'travelpayouts:/v1/prices/monthly',
+    source: 'travelpayouts:monthly+month-matrix+calendar',
     note: 'Cached lowest fares from real searches on Aviasales. Indicative only — not a live quote or guaranteed availability.',
     fetchedAt: new Date().toISOString(),
-    months,
+    months: [...monthsMap.values()].sort((a, b) => a.month.localeCompare(b.month)),
   };
-}
-
-function routeList() {
-  const routes = [];
-  for (const d of DESTINATIONS) {
-    for (const o of ORIGINS) routes.push({ origin: o.iata, destination: d.iata });
-  }
-  return routes;
 }
 
 async function main() {
   const spikeMode = process.argv.includes('--spike');
+  const useFallback = !process.argv.includes('--no-fallback');
 
   if (!TOKEN) {
     console.error('TRAVELPAYOUTS_TOKEN が未設定です。');
@@ -124,65 +218,74 @@ async function main() {
   // スパイクは NRT 行きだけで判定する（Go/No-Go に KIX は不要）。
   const routes = spikeMode
     ? ORIGINS.map((o) => ({ origin: o.iata, destination: 'NRT' }))
-    : routeList();
+    : DESTINATIONS.flatMap((d) => ORIGINS.map((o) => ({ origin: o.iata, destination: d.iata })));
+
+  console.log(
+    `取得開始: ${routes.length} 路線 / フォールバック ${useFallback ? 'ON' : 'OFF'} / 対象 ${HORIZON_MONTHS}ヶ月\n`
+  );
 
   const results = [];
   for (const r of routes) {
-    try {
-      const body = await fetchMonthly(r.origin, r.destination);
-      const data = normalize(r.origin, r.destination, body);
-      results.push({ ...r, ok: true, data });
-      console.log(`  ${r.origin}-${r.destination}: ${data.months.length} months`);
-    } catch (err) {
-      results.push({ ...r, ok: false, error: String(err.message ?? err) });
-      console.warn(`  ${r.origin}-${r.destination}: FAILED — ${err.message ?? err}`);
-    }
-    await sleep(REQUEST_GAP_MS);
+    const { months, stats } = await collectRoute(r.origin, r.destination, useFallback);
+    results.push({ ...r, months, stats });
+    const detail = useFallback
+      ? `(monthly ${stats.monthly} + matrix ${stats.matrix} + calendar ${stats.calendar})`
+      : '';
+    console.log(`  ${r.origin}-${r.destination}: ${months.size} months ${detail}`);
   }
 
   if (spikeMode) return reportSpike(results);
   return writeAll(results);
 }
 
-/** Phase 0: 取得できたデータの量と妥当性を報告し、Go/No-Go を機械的に判定する。 */
 function reportSpike(results) {
-  console.log('\n=== Phase 0 スパイク結果（書き込みなし） ===\n');
-  console.log('route      months  min USD  max USD  cheapest month');
-  console.log('---------- ------  -------  -------  --------------');
+  console.log('\n=== Phase 0 再スパイク結果（書き込みなし） ===\n');
+  console.log('route      total  monthly  matrix  calendar  min USD  max USD  cheapest');
+  console.log('---------- -----  -------  ------  --------  -------  -------  --------');
 
-  let routesWithData = 0;
+  let routesPassing = 0;
   const outliers = [];
+  const allErrors = [];
 
   for (const r of results) {
-    if (!r.ok) {
-      console.log(`${r.origin}-${r.destination}     ERROR   ${r.error}`);
+    const list = [...r.months.values()];
+    if (r.stats.errors.length) allErrors.push(`${r.origin}-${r.destination}: ${r.stats.errors[0]}`);
+
+    if (list.length === 0) {
+      console.log(`${r.origin}-${r.destination}         0        0       0         0        -        -  (no data)`);
       continue;
     }
-    const m = r.data.months;
-    if (m.length === 0) {
-      console.log(`${r.origin}-${r.destination}          0        -        -  (no data)`);
-      continue;
-    }
-    const prices = m.map((x) => x.price);
+    const prices = list.map((x) => x.price);
     const min = Math.min(...prices);
     const max = Math.max(...prices);
-    const cheapest = m.find((x) => x.price === min);
-    if (m.length >= SPIKE.minMonthsPerRoute) routesWithData++;
+    const cheapest = list.find((x) => x.price === min);
+    if (list.length >= SPIKE.minMonthsPerRoute) routesPassing++;
     if (min < SPIKE.sanePriceRange[0] || max > SPIKE.sanePriceRange[1]) {
       outliers.push(`${r.origin}-${r.destination} (${min}–${max})`);
     }
     console.log(
-      `${r.origin}-${r.destination}     ${String(m.length).padStart(6)}  ${String(min).padStart(7)}  ${String(max).padStart(7)}  ${cheapest.month}`
+      [
+        `${r.origin}-${r.destination}`,
+        String(list.length).padStart(5),
+        String(r.stats.monthly).padStart(7),
+        String(r.stats.matrix).padStart(6),
+        String(r.stats.calendar).padStart(8),
+        String(min).padStart(7),
+        String(max).padStart(7),
+        cheapest.month,
+      ].join('  ')
     );
   }
 
-  const pass = routesWithData >= SPIKE.minRoutesWithData;
-  console.log(`\n判定基準: ${SPIKE.minMonthsPerRoute}ヶ月以上のデータが返る路線が ${SPIKE.minRoutesWithData} 以上`);
-  console.log(`実測: ${routesWithData} / ${results.length} 路線`);
-  if (outliers.length) {
-    console.log(`価格レンジ要調査: ${outliers.join(', ')}`);
+  const pass = routesPassing >= SPIKE.minRoutesWithData;
+  console.log(`\n判定基準（変更なし）: ${SPIKE.minMonthsPerRoute}ヶ月以上のデータが返る路線が ${SPIKE.minRoutesWithData} 以上`);
+  console.log(`実測: ${routesPassing} / ${results.length} 路線`);
+  if (outliers.length) console.log(`価格レンジ要調査: ${outliers.join(', ')}`);
+  if (allErrors.length) {
+    console.log(`\nエラー（各路線の先頭のみ）:`);
+    for (const e of allErrors) console.log(`  ${e}`);
   }
-  console.log(`\n>>> ${pass ? 'GO — Phase 1 以降へ進んでよい' : 'NO-GO — ツアー価格軸の代替案へ切り替える'}\n`);
+  console.log(`\n>>> ${pass ? 'GO — Phase 3・5 へ進んでよい' : 'NO-GO — 縮小案か代替案の判断が必要'}\n`);
 
   process.exitCode = pass ? 0 : 2;
 }
@@ -197,8 +300,8 @@ async function writeAll(results) {
   for (const r of results) {
     const file = path.join(OUT_DIR, `${r.origin}-${r.destination}.json`);
 
-    if (!r.ok || r.data.months.length === 0) {
-      // 失敗・空応答では上書きしない。既存の（古くはあるが正しい）データを守る。
+    if (r.months.size === 0) {
+      // 空応答では上書きしない。既存の（古くはあるが正しい）データを守る。
       // 鮮度が切れれば FareTable 側が自動的に価格を隠すので、古いまま出続けることはない。
       if (existsSync(file)) {
         kept++;
@@ -207,7 +310,8 @@ async function writeAll(results) {
       continue;
     }
 
-    await writeFile(file, JSON.stringify(r.data, null, 2) + '\n', 'utf8');
+    const data = buildFile(r.origin, r.destination, r.months);
+    await writeFile(file, JSON.stringify(data, null, 2) + '\n', 'utf8');
     written++;
   }
 
@@ -220,7 +324,6 @@ async function writeAll(results) {
     return;
   }
 
-  // 鮮度サマリ（ワークフローのログで一目で分かるように）。
   const oldest = await oldestFetchedAt(files);
   if (oldest) console.log(`最も古い fetchedAt: ${oldest}`);
 }
@@ -238,7 +341,13 @@ async function oldestFetchedAt(files) {
   return oldest;
 }
 
-main().catch((err) => {
-  console.error(err);
-  process.exit(1);
-});
+// 直接実行されたときだけ走らせる（テストから純粋関数だけを import できるようにするため）。
+const entrypoint = process.argv[1] ? pathToFileURL(process.argv[1]).href : null;
+if (import.meta.url === entrypoint) {
+  main().catch((err) => {
+    console.error(err);
+    process.exit(1);
+  });
+}
+
+export { extractByMonth, horizonMonths, toMonthRecord };
