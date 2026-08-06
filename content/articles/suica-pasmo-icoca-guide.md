@@ -11,7 +11,7 @@ draft: false
 
 # Suica, PASMO & ICOCA: The IC Card Guide for Japan (2026) — From Someone Who Lives Here
 
-*Affiliate disclosure: This article contains some affiliate links (to rail passes and travel data). IC cards themselves aren't an affiliate product and I earn nothing on them — I'm writing this because it's the single most confusing bit of setup for first-timers, and getting it right saves you real time on day one. Prices are marked `[VERIFY]`; confirm live before you rely on them.*
+*Affiliate disclosure: This article contains some affiliate links (to rail passes and travel data). IC cards themselves aren't an affiliate product and I earn nothing on them — I'm writing this because it's the single most confusing bit of setup for first-timers, and getting it right saves you real time on day one. Prices move, so confirm the live figure before you rely on it.*
 
 ---
 
@@ -19,7 +19,7 @@ draft: false
 
 Suica, PASMO, ICOCA — you'll see all three names and a dozen "just get one" comments, and almost nobody answers the actual beginner questions: *Do I really need one? Where do I buy it? How much do I load? Does my phone work? And why can't I just tap my credit card like at home?*
 
-Here's the honest short version, then the detail. **Yes, you need one** — most Japanese trains and buses do **not** let you tap a normal foreign credit card at the gate `[VERIFY]`, so without an IC card you're buying paper tickets from a machine for every single ride: cash, queues, tiny fares, every time. An IC card turns all of that into one tap. It's the difference between fighting the transit system and gliding through it.
+Here's the honest short version, then the detail. **Yes, you need one** — the big Japanese rail and bus networks still run on IC cards and paper tickets, not on tapping a normal foreign contactless credit card at the gate. Without an IC card you're buying paper tickets from a machine for every single ride: cash, queues, tiny fares, every time. An IC card turns all of that into one tap. It's the difference between fighting the transit system and gliding through it.
 
 Real first-timers burn time on exactly the wrong things here — one traveler described hunting for an "official counter" at Tokyo Station "like I was buying a passport," when they could have used a machine and been done in seconds. This guide is the version I wish every first-timer read before landing.
 
@@ -27,22 +27,24 @@ Real first-timers burn time on exactly the wrong things here — one traveler de
 
 ## 2. Suica vs PASMO vs ICOCA: which one? (short answer: it barely matters)
 
-This is the question people agonize over, and the reassuring truth is: **they're almost interchangeable.** They're regional IC cards — Suica and PASMO from the Tokyo area, ICOCA from the Kansai (Kyoto/Osaka) area — but thanks to nationwide interoperability, **any of them works on trains, buses, and in shops across almost the whole country** `[VERIFY]`. Buy an ICOCA in Osaka and tap it in Tokyo; buy a Suica in Tokyo and use it in Kyoto. It works.
+This is the question people agonize over, and the reassuring truth is: **they're almost interchangeable.** They're regional IC cards — Suica and PASMO from the Tokyo area, ICOCA from the Kansai (Kyoto/Osaka) area — but they belong to a nationwide mutual-use scheme covering ten major IC cards (Kitaca, PASMO, Suica, manaca, TOICA, PiTaPa, ICOCA, Hayakaken, nimoca and SUGOCA), so **any of them works on trains, buses, and in shops across almost the whole country** ([JR West, checked August 2026](https://www.westjr.co.jp/global/en/howto/icoca/area/)). Buy an ICOCA in Osaka and tap it in Tokyo; buy a Suica in Tokyo and use it in Kyoto. It works.
+
+One caveat inside that promise: mutual use covers travel *within* each area, and with few exceptions you can't ride straight from one card area into another on a single tap. For city transit that never comes up; for a long inter-city hop you're buying a ticket anyway.
 
 So don't overthink it: **get whichever one is in front of you when you land.** Arriving at a Tokyo airport, that's a Suica or PASMO; arriving in Kansai, that's an ICOCA.
 
 Two variants worth knowing:
 
-- **"Welcome Suica" / tourist cards** — versions aimed at visitors, often with **no deposit** but a **28-day expiry** `[VERIFY]`. Fine for a normal trip.
-- **Regular Suica/PASMO/ICOCA** — a small refundable deposit (around ¥500 `[VERIFY]`), no expiry — better if you might return, or want to keep it as a souvenir (they're genuinely cute, and yes, people keep them).
+- **"Welcome Suica" / tourist cards** — versions aimed at visitors. The Welcome Suica needs **no deposit** and is **valid for 28 days from the day you buy it** ([JR East, checked August 2026](https://www.jreast.co.jp/en/multi/welcomesuica/purchase.html)). Fine for a normal trip.
+- **Regular Suica/PASMO/ICOCA** — a refundable **¥500 deposit** built into the purchase price, no expiry ([JR East](https://www.jreast.co.jp/en/multi/pass/suica.html), [JR West](https://www.westjr.co.jp/global/en/howto/icoca/), checked August 2026) — better if you might return, or want to keep it as a souvenir (they're genuinely cute, and yes, people keep them).
 
 ---
 
 ## 3. Where to buy it (and where NOT to waste time)
 
-**At the airport, the moment you land — this is the easy win.** Both major Tokyo airports and Kansai airport have IC card machines and counters right by arrivals. One traveler's tip for Haneda: after passport control, look to the **left of the stairs in front of you** for the Welcome Suica purchase point `[VERIFY]`. You can usually pay by card there and top up on the spot.
+**At the airport, the moment you land — this is the easy win.** Both major Tokyo airports and Kansai airport have IC card machines and travel service centres in the arrivals area, so you can be holding a loaded card before you've reached the train platform. JR East sells the Welcome Suica at dedicated Welcome Suica vending machines and at its JR EAST Travel Service Centers ([JR East](https://www.jreast.co.jp/en/multi/welcomesuica/purchase.html)).
 
-**At any station — the thing people miss.** You do **not** need a special counter. The **black ticket machines at essentially every JR/metro station** issue and reload IC cards in seconds `[VERIFY]`. If you didn't grab one at the airport, the machine at your first station does the job — no queue, no counter hunt.
+**At any station — the thing people miss.** You do **not** need a special counter. Ticket machines across the network issue and reload IC cards in seconds, and any machine showing the card's mark will top yours up. If you didn't grab one at the airport, the machine at your first station does the job — no queue, no counter hunt.
 
 **Don't** spend twenty minutes looking for an "official office." That's the classic first-timer time-sink. Machine, card, load, go.
 
@@ -52,10 +54,10 @@ Two variants worth knowing:
 
 You don't prepay your whole trip — you load a balance and tap it down, topping up as needed.
 
-- **Starting load:** around **¥2,000** is a fine first load `[VERIFY]`; some people start with ¥3,000. You'll tap through it in a few days of normal transit.
+- **Starting load:** around **¥2,000** is a fine first load; some people start with ¥3,000. You'll tap through it in a few days of normal transit.
 - **A comfortable working balance:** many travelers keep roughly **¥5,000–10,000** on the card so they're not topping up constantly — but that's preference, not a requirement.
-- **Topping up:** the same black machines everywhere reload with **cash** (and some with card) `[VERIFY]`. Even ¥1,000–2,000 left is enough to keep moving, so top up in small amounts.
-- **Don't over-load near the end.** If you'll keep the card as a souvenir, whatever balance is left just… stays on it (a donation to the trains). Refunds are possible at counters but often come with a fee `[VERIFY]` — easier to just run it low in your final days.
+- **Topping up:** ticket machines reload the card with **yen in cash**, and JR East also points visitors at Seven Bank ATMs in convenience stores ([JR East](https://www.jreast.co.jp/en/multi/welcomesuica/purchase.html)). Even ¥1,000–2,000 left is enough to keep moving, so top up in small amounts.
+- **Don't over-load near the end.** If you'll keep the card as a souvenir, whatever balance is left just… stays on it (a donation to the trains). You *can* hand a regular card back at a ticket office: you get the ¥500 deposit returned, but a **¥220 handling fee** comes out of whatever balance is left ([JR East](https://www.jreast.co.jp/en/multi/pass/suica.html), [JR West](https://www.westjr.co.jp/global/en/howto/icoca/), checked August 2026) — so it's easier to just run the balance low in your final days.
 
 ---
 
@@ -63,10 +65,10 @@ You don't prepay your whole trip — you load a balance and tap it down, topping
 
 You can put an IC card **inside your phone's wallet** — no plastic needed — but device support is uneven, and this trips people up:
 
-- **iPhone (Apple Wallet):** Mobile Suica/PASMO has worked smoothly on iPhone for years `[VERIFY]`. You add the card, top up from a card in Apple Pay, and tap your phone at the gate. Very convenient. (Downside, per one traveler: no cute plastic penguin souvenir.)
-- **Android:** support depends on the phone and region — historically many non-Japanese Android phones could **not** easily add Mobile Suica `[VERIFY]`. Verify for your *exact* model before relying on it; if in doubt, get the plastic card.
+- **iPhone (Apple Wallet):** Apple supports Suica, PASMO and ICOCA in Wallet on iPhone in Japan ([Apple](https://support.apple.com/en-us/120474)). You add the card, top up from a card in Apple Pay, and tap your phone at the gate. Very convenient. (Downside, per one traveler: no cute plastic penguin souvenir.)
+- **Android:** this is the uneven one. JR East's Android Mobile Suica is built on **Osaifu-Keitai**, the Japanese-market contactless standard ([JR East](https://www.jreast.co.jp/en/e/press/20110603/index.html)) — which is exactly what most Android handsets sold outside Japan don't have. Check your *exact* model before relying on it; if in doubt, get the plastic card.
 
-**A key point people ask about — does tapping work without data?** Once the card is set up and has a balance, the **tap at the gate uses a local contactless chip and does not need an internet connection** `[VERIFY]`. That's genuinely useful if you travel with mobile data off. **But setting up and topping up** generally *does* need a connection. So "add Suica to your phone before you fly" is sound advice — just do the setup while you're online.
+**A key point people ask about — does tapping work without data?** The plastic card is a self-contained stored-value chip: no phone, no signal, nothing. On iPhone, the card runs in Express Mode, so you tap "without waking or unlocking your device," and Apple says Express Mode cards keep working for up to five hours in power reserve when the battery is flat ([Apple](https://support.apple.com/en-us/105123)). **Setting up and topping up** is the part that wants a connection. So "add Suica to your phone before you fly" is sound advice — just do the setup while you're online.
 
 *Physical-card speed tip travelers love: you don't even take it out. People keep the card in a slim case on the back of the phone, or in a wallet, and just tap the whole thing.*
 
@@ -74,12 +76,14 @@ You can put an IC card **inside your phone's wallet** — no plastic needed — 
 
 ## 6. What you can actually pay for with it (more than trains)
 
-This is where the IC card stops being a transit card and becomes a wallet. It works at `[VERIFY]`:
+This is where the IC card stops being a transit card and becomes a wallet. JR West's own description of the electronic-money function is that a topped-up card is spendable "at convenience stores, restaurants, vending machines, coin-operated lockers, and other locations both inside and outside the station" ([JR West](https://www.westjr.co.jp/global/en/howto/icoca/money/)). In practice that means:
 
 - **Trains, subways, and buses** nationwide (the main job).
-- **Convenience stores** (konbini), **vending machines**, **many cafés, restaurants, and bars**.
-- **Taxis**, **coin lockers**, and the **ticket kiosks** outside ramen and set-meal shops.
-- Even **arcade and crane games** in many game centers.
+- **Convenience stores** (konbini) and **vending machines** — the two you'll use daily.
+- **Restaurants and cafés**, including the **ticket kiosks** outside ramen and set-meal shops.
+- **Coin lockers** at stations, which is a genuine relief when you're between hotels with luggage.
+
+The rule of thumb is simple: if the shop displays the IC card mark, your card works there.
 
 Because locals genuinely run daily spending through IC cards (debit-card culture is weaker than in the West), tapping for a coffee or a konbini onigiri makes you feel plugged into the city's rhythm — and it saves fumbling for coins.
 
@@ -117,14 +121,3 @@ That's your day-one setup sorted. The next two "before you tap anything" decisio
 3. Then build the trip: [7-day](/japan-travel/7-day-japan-itinerary/) and [2-week](/japan-travel/2-week-japan-itinerary/) itineraries.
 
 *Sources consulted (confirm live details before relying on them): [JR East — Suica for visitors](https://www.jreast.co.jp/multi/en/pass/suica.html), [Guide2Japan — JR Pass 2026](https://www.guide2japan.com/plan-a-trip/jr-pass/).*
-
-<!--
-PRE-PUBLISH CHECKLIST
-[ ] Verify EVERY [VERIFY]: credit-card-won't-tap-gates claim; nationwide interoperability; Welcome Suica no-deposit/28-day expiry; regular card ~¥500 deposit; Haneda "left of stairs" location; ¥2,000 start; machine top-up methods; refund fee; iPhone vs Android Mobile Suica support; tap-works-offline; the full "where it works" list; arcade/crane payment.
-[ ] Confirm Mobile Suica Android support status for common non-JP phones (this changes — check current).
-[ ] No affiliate product for IC cards — keep it honest as top-of-funnel; cross-links to eSIM & JR Pass present — CONFIRMED.
-[ ] Fix internal links to final /japan-travel/<slug>/ URLs — CONFIRMED.
-[ ] Primary keyword "Suica card Japan" in title, first 100 words, one H2 — present.
-[ ] Word count 1,800–2,600 — confirm after edits.
-[ ] No fabricated first-hand claims — framed as guidance + attributed traveler tips — confirmed.
--->

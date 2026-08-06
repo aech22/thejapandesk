@@ -1,0 +1,354 @@
+# 公開前チェックリスト（記事別）
+
+記事本文の HTML コメントに埋まっていたものを 2026-08-07 にここへ集約した。
+**記事側へ戻さないこと**（コメントでもビルド後の HTML に出力され、料率などの内部情報がページソースに残るため）。
+
+## japanese-dinnerware-sets（執筆時のDRAFTメモ・2026-08-07 に本文から移設）
+
+DRAFT — Pillar A / 陶磁器 / 記事3
+Keyword: authentic Japanese dinnerware sets
+Target: 2,500–3,500 words (this draft ≈ 2,850)
+Integrity note (§2.3): Reviews are grounded in ware-type facts, published specs, verified customer reviews and Japanese-language kiln/maker sources — NOT fabricated hands-on testing.
+
+---
+
+## 1-month-japan-itinerary
+
+PRE-PUBLISH CHECKLIST
+[ ] Replace every [VERIFY] price with live figures (21-day pass ~¥100,000; multi-day tours ~US$500).
+[ ] Insert real GetYourGuide affiliate links generated in the GetYourGuide partner dashboard — DIRECT partnership, not via Travelpayouts. BLOCKER, do this first: switch Travelpayouts LinkSwitcher off (or exclude GetYourGuide), otherwise it rewrites the links and the direct attribution is lost; confirm in the live DOM that the href is unchanged. Do not install the GetYourGuide analyzer script. Partner ID and the reasoning behind both calls are in CLAUDE.md. Fill ALL [VERIFY affiliate link] slots, per region.
+[ ] Confirm region facts before publish: Shimanami ~70 km & e-bike availability; Kyushu (Beppu/Yufuin) & Hokkaido transit; flight-vs-rail on the big jump. Correct any that are off.
+[ ] Keep the 21-day-pass / regional-mix claim consistent with the JR Pass guide's live math.
+[ ] Internal links to JR Pass / 7-day / 2-week / eSIM / JapanesePod101 / long-stay present, pointing to final /<pillar>/<slug>/ URLs — CONFIRMED.
+[ ] Accommodation "weekly/monthly rate saves most" framed as guidance; no fabricated specific property prices.
+[ ] Affiliate disclosure at top — confirmed.
+[ ] Primary keyword "1 month Japan itinerary" in title, first 100 words, one H2 — present.
+[ ] No fabricated first-hand experiences — framed as guidance from common community routes — confirmed.
+[ ] Word count 2,500–3,500 — confirm after edits.
+
+---
+
+## 2-months-in-japan-long-stay
+
+PRE-PUBLISH CHECKLIST
+[ ] Replace [VERIFY] items with live figures/ranges: monthly housing (share house / monthly apartment), monthly SIM/data plan, language-school cost. Do NOT fabricate specific prices — use verified ranges or omit.
+[ ] Insert real affiliate links: JapanesePod101 (25% program) via the JapanesePod101 review page's link; any data/SIM program links. Confirm tracking.
+[ ] Language cross-links to /learn-japanese/ articles (japanesepod101-review, migaku-vs-alternatives, wanikani-alternatives, learn-japanese-from-anime) all present and correct — CONFIRMED.
+[ ] Travel cross-links (eSIM, JR Pass, 2-week, 1-month) present and pointing to final /japan-travel/<slug>/ URLs — CONFIRMED.
+[ ] Visa framing accurate: this is a 1–2 month tourist/working-holiday/study stay, NOT relocation or work-visa advice. Add a line pointing readers to official immigration sources if needed.
+[ ] No fabricated first-hand long-stay experiences — framed as guidance — confirmed.
+[ ] Affiliate disclosure at top (incl. language-tool links) — confirmed.
+[ ] Primary keyword "2 months in Japan" in title, first 100 words, one H2 — present.
+[ ] Word count 2,000–3,000 — confirm after edits.
+
+---
+
+## 2-week-japan-itinerary
+
+PRE-PUBLISH CHECKLIST
+[ ] Replace every [VERIFY] price with live figures (14-day pass ~¥80,000; multi-day tour ~US$500).
+[ ] Insert real GetYourGuide affiliate links generated in the GetYourGuide partner dashboard — DIRECT partnership, not via Travelpayouts. BLOCKER, do this first: switch Travelpayouts LinkSwitcher off (or exclude GetYourGuide), otherwise it rewrites the links and the direct attribution is lost; confirm in the live DOM that the href is unchanged. Do not install the GetYourGuide analyzer script. Partner ID and the reasoning behind both calls are in CLAUDE.md. Fill ALL [VERIFY affiliate link] slots and confirm deep links & tracking IDs per region.
+[ ] Confirm week-two region facts before publish: Shimanami Kaido ~70 km & e-bike availability; Takayama/Shirakawa-go/Kanazawa transit; Hokkaido flight-vs-rail. Correct any that are off.
+[ ] Verify the 14-day-pass "breaks even on multi-region" claim against the JR Pass guide's live math — keep the two articles consistent.
+[ ] Internal links to JR Pass / 7-day / Klook / eSIM present and pointing to final /japan-travel/<slug>/ URLs — CONFIRMED.
+[ ] Data-usage figure (~14 GB/2 weeks) presented as community-reported, not first-hand — confirmed.
+[ ] Affiliate disclosure at top — confirmed.
+[ ] Primary keyword "2 week Japan itinerary" in title, first 100 words, one H2 — present.
+[ ] No fabricated first-hand experiences — framed as guidance from common community routes — confirmed.
+[ ] Word count 2,500–3,500 — confirm after edits.
+
+---
+
+## 7-day-japan-itinerary
+
+PRE-PUBLISH CHECKLIST
+[ ] Replace every [VERIFY] price with live figures (esp. the ~US$500 multi-day tour example & the 8%≈$40 illustration).
+[ ] Insert real GetYourGuide affiliate links generated in the GetYourGuide partner dashboard — DIRECT partnership, not via Travelpayouts. BLOCKER, do this first: switch Travelpayouts LinkSwitcher off (or exclude GetYourGuide), otherwise it rewrites the links and the direct attribution is lost; confirm in the live DOM that the href is unchanged. Do not install the GetYourGuide analyzer script. Partner ID and the reasoning behind both calls are in CLAUDE.md. Fill ALL [VERIFY affiliate link] slots and confirm deep links & tracking IDs.
+[ ] Confirm this is tagged as top-of-funnel pillar content; internal links to article-12 (JR Pass) and article-13 (Klook Tokyo) present — CONFIRMED (multiple).
+[ ] Verify Shinkansen Tokyo–Kyoto ~2.5h and Kyoto–Osaka ~30–60 min timings against current schedules.
+[ ] Confirm teamLab timed-entry / sell-out and Fuji peak-season booking guidance.
+[ ] Fix internal links to final published URLs.
+[ ] Affiliate disclosure at top present — confirmed.
+[ ] Word count 2,500–3,500 — confirm after edits.
+[ ] No fabricated first-hand experiences — plan framed as guidance, confirmed.
+[ ] Primary keyword "7-day Japan itinerary with tours" in title, first 100 words, one H2 — present.
+
+---
+
+## arita-vs-mino-vs-hasami
+
+PRE-PUBLISH CHECKLIST
+- [ ] Insert Musubi Kiln affiliate link(s) via Awin (10%) at all [VERIFY] affiliate markers
+- [ ] Replace every [VERIFY] price/band with a confirmed current figure or delete the claim
+- [ ] Confirm specific kiln names (Keizan, Kaizan, Rinkuro) still stocked on musubikiln.com; swap if retired
+- [ ] Verify microwave/dishwasher safety claims against actual product pages before publishing
+- [ ] Set internal link "#" for the main Japanese ceramics pillar article to the live URL
+- [ ] Add product images with alt text; confirm image usage rights
+- [ ] Confirm affiliate disclosure is visible above the fold
+- [ ] SEO: title tag + meta description targeting "arita vs mino vs hasami ware"; H2/H3 order intact
+- [ ] Fact-check the 400-year / 17th-century / Izumiyama / Amakusa stone claims against cited sources
+- [ ] Word count within 2,500–3,500 target
+- [ ] Remove any accidental AI-cliché phrasing on final read-through
+
+---
+
+## best-esim-for-japan
+
+PRE-PUBLISH CHECKLIST
+[ ] Replace every [VERIFY] price/data figure with the live number from the provider page (eSIM GB & price, pocket Wi-Fi ¥/day, roaming $/day).
+[ ] Name only eSIM/pocket-Wi-Fi programs you are actually affiliated with; insert real affiliate links in all [VERIFY affiliate link] slots. NOTE: eSIM commissions are low — this article's job is traffic + cross-sell to JR Pass / Klook / itinerary. Keep eSIM links modest, keep the cross-links.
+[ ] eSIM link destinations must be the WEB version, never the app one. Airalo pays on desktop web and mobile web but pays NOTHING on in-app purchases, and the Travelpayouts default destination for Airalo/GigSky/Yesim is the app. Check every generated link before pasting.
+[ ] Order the eSIM recommendations by what is genuinely best for a Japan traveller, not by commission. The disclosure at the top of this article promises "a decision guide, not a sales pitch"; ranking by payout would contradict it. For reference only — Yesim 18%/90-day cookie, Airalo 12%/30-day (best-known brand), GigSky 20%/30-day, Saily 15%/30-day, Klook eSIM 20% direct.
+[ ] Self-purchase earns nothing (Airalo terms). To confirm a link is tracking, watch for the click in the Travelpayouts stats — do not test-buy.
+[ ] Verify the Mobile Suica claims: (a) does tapping the gate truly work with data off? (b) current iPhone vs Android/region support. Correct if wrong.
+[ ] Confirm the traveller data-usage figures (~14 GB / 2 weeks) are presented as community-reported, not first-hand — no fabricated personal testing. Confirmed as reported, not tested.
+[x] Suica guide internal link resolved to /japan-travel/suica-pasmo-icoca-guide/.
+[ ] Add 3–5 real sources; remove the placeholder sources line. Do NOT publish with placeholder sources.
+[ ] Affiliate disclosure present at top — confirmed.
+[ ] Primary keyword "best eSIM for Japan" in title, meta description, first 100 words — present.
+[ ] Word count 2,000–3,000 — confirm after edits.
+
+---
+
+## best-japanese-bonsai-starter-kits
+
+PRE-PUBLISH CHECKLIST
+- [ ] Insert Bonsai Boy affiliate link(s) via CJ (20%) at every [VERIFY] affiliate marker
+- [ ] Confirm the ~$30 bundle math (young tree + pot + basic tools) against live Bonsai Boy pricing; update band if off
+- [ ] Verify each species is actually stocked as a LIVE-tree starter (ficus, juniper, jade); note if any are seed-only
+- [ ] Confirm tool-set "under ~$50" claim against current listings
+- [ ] Double-check indoor/outdoor guidance per species against retailer care notes
+- [ ] Replace all [VERIFY] prices/bands with confirmed figures or remove the claim
+- [ ] Set internal link to the main bonsai care pillar article (currently unlinked)
+- [ ] Add product images with alt text; confirm usage rights
+- [ ] Confirm affiliate disclosure is visible above the fold
+- [ ] SEO: title/meta targeting "best japanese bonsai starter kits"; H2/H3 order intact
+- [ ] Word count within 2,500–3,500 target
+- [ ] Final read-through for AI-cliché phrasing
+
+---
+
+## best-japanese-chef-knives-beginners
+
+PRE-PUBLISH CHECKLIST — do not publish until every box is cleared:
+[ ] [VERIFY] pass 1: confirm every price band + exact street price against live catalogs (Hocho-Knife, JapanChefKnife, Amazon) — remove/replace any that have shifted bands
+[ ] [VERIFY] pass 2: confirm exact SKUs/model numbers still current (Tojiro DP F-808/F-809 etc., MAC MTH-80, Shun Classic DM0706, Global G-2, Miyabi Kaizen II, Sakai Takayuki 33-layer, Tojiro Shirogami) — model codes change
+[ ] [VERIFY] Shun left-handed availability claim
+[ ] [VERIFY] current HRC figures against manufacturer spec sheets (do not overstate)
+[ ] Insert affiliate links: Hocho-Knife, JapanChefKnife (10%), Amazon fallback — tag each with correct tracking ID; disclose per FTC
+[ ] Add structured data: Article + Product/ItemList schema (name, brand, offers with verified price/currency, aggregateRating only if sourced)
+[ ] Internal links live: gyuto-vs-santoku (article-03) x2 — confirm final published URL/slug
+[ ] Add hero image + per-knife images with proper licensing/alt text
+[ ] Confirm affiliate disclosure sits above the fold (it does) and matches program TOS
+[ ] Final read for AI-cliché scrub and factual accuracy on steel types
+
+---
+
+## best-japanese-fountain-pens
+
+PRE-PUBLISH CHECKLIST — do not publish until every box is cleared:
+[ ] [VERIFY] pass 1: confirm every price band + exact street price against live catalog (Pen Boutique / ShareASale program) — the King of Pen, Izumo, and Nakaya bands especially, as they drive high-value commissions
+[ ] [VERIFY] pass 2: confirm exact current models + nib options — Pilot Custom 74 & 823, Sailor 1911/Pro Gear & King of Pen, Platinum 3776 Century & Izumo, current Nakaya lines (Portable/Piccolo/Neo-Standard) and finishes/lead times
+[ ] [VERIFY] Nakaya nib origin phrasing (Platinum-based) against a current primary/retailer source before publishing
+[ ] [VERIFY] confirm 14K/18K/21K nib metal claims per model against maker spec sheets
+[ ] Insert affiliate links: Pen Boutique via ShareASale (10% / 90-day cookie) — correct deep links + tracking; note $30-payout math favors high-ticket (King of Pen ~$1,200+, Nakaya, Izumo); FTC disclosure present
+[ ] Add structured data: Article + ItemList/Product schema (verified price/currency; no unsourced aggregate ratings)
+[ ] Internal links: add links to any companion pen/stationery articles once published; confirm slugs
+[ ] Add hero + per-pen images (nib close-ups; urushi finish shots) with licensing + alt text
+[ ] Confirm disclosure above the fold and matches ShareASale/merchant TOS
+[ ] Final AI-cliché scrub + nib-character/spec accuracy pass
+
+---
+
+## best-klook-tours-tokyo
+
+PRE-PUBLISH CHECKLIST
+[ ] Replace every [VERIFY] price with the live per-person figure from each Klook listing (esp. teamLab ~¥3,800–4,600).
+[ ] Insert real Klook affiliate links (6.5%) in ALL [VERIFY affiliate link] slots; confirm each deep-links to the correct activity.
+[ ] Confirm teamLab Borderless (Azabudai Hills) vs Planets (Toyosu) locations & that both are timed-entry / sell out.
+[ ] Confirm Shibuya Sky sunset-slot booking behavior.
+[ ] This is a "money" page — verify affiliate disclosure is present at top (confirmed) and links are nofollow/sponsored per program terms.
+[ ] Fix internal links (article-12, article-14) to final published URLs.
+[ ] No fabricated first-hand tour experiences — copy stays on "based on listings & verified reviews," confirmed.
+[ ] Word count 2,500–3,500 — confirm after edits.
+[ ] Primary keyword "best Klook tours in Tokyo" in title, first 100 words, one H2 — present.
+
+---
+
+## cheapest-time-to-fly-to-japan
+
+PRE-PUBLISH CHECKLIST
+[ ] Replace the 2 [VERIFY affiliate link] slots with real deeplinks (marker 559180). Decide the programme first: Kiwi.com is already partnered (3%, 30-day cookie); Aviasales / WayAway are NOT joined yet and pay only ~1.1–1.3% of fare, though they are metasearch and suit "flexible dates" better. Either way treat flights as a funnel entry point, not a revenue line — the money in this article is the onward links to the JR Pass, eSIM and itinerary guides.
+[ ] Fill the 3 [VERIFY source link] slots with the real Cabinet Office / JMA / JNTO URLs.
+[ ] [VERIFY] Golden Week bridge days for the current travel year (how Apr 29 and May 3–5 fall against the weekend).
+[ ] [VERIFY] Chinese New Year date for the current travel year (affects the Jan–Feb value window).
+[ ] Confirm the fare table renders with real data — it is hidden automatically until src/data/fares/ is populated, and hidden again if that data is >14 days old.
+[ ] Reconsider the 9-column table on mobile once real data lands; if most routes return data, consider splitting into North America / UK+Australia groups.
+[ ] No fabricated first-hand experience — this is a timing/booking guide, and all seasonal claims are calendar and climate facts, not personal trip reports. Confirmed.
+[ ] Word count 2,500–3,500 — confirm after edits.
+[ ] Primary keyword "cheapest time to fly to Japan" in title, meta description, first 100 words — present.
+
+---
+
+## edo-kiriko-whiskey-glasses
+
+PRE-PUBLISH CHECKLIST
+- [ ] Insert Musubi Kiln-type affiliate link(s) via Awin (10%) at every [VERIFY] affiliate marker
+- [ ] Confirm which patterns (nanako, yarai, kiku, cased-color) are actually in stock at the linked retailer; swap examples if unavailable
+- [ ] Replace all [VERIFY] prices/bands with confirmed current figures or delete the claim
+- [ ] Verify authenticity guidance (Edo Kiriko cooperative, Koto/Sumida wards, named workshops) against current sources
+- [ ] Confirm care claims (hand-wash, thermal-shock caution) against actual product pages
+- [ ] Verify pattern symbolism (yarai=protection, kiku=longevity, nanako=fish roe) against cited sources
+- [ ] Set internal link to the main Japanese ceramics/tableware pillar article (currently unlinked)
+- [ ] Add product images with alt text; confirm usage rights
+- [ ] Confirm affiliate disclosure is visible above the fold
+- [ ] SEO: title/meta targeting "edo kiriko japanese whiskey glasses"; H2/H3 order intact
+- [ ] Word count within 2,500–3,500 target
+- [ ] Final read-through for AI-cliché phrasing (elevate / look no further / when it comes to / in today's world / nestled)
+
+---
+
+## gyuto-vs-santoku
+
+PRE-PUBLISH CHECKLIST — do not publish until every box is cleared:
+[ ] [VERIFY] pass 1: confirm every price band + exact street price against live catalogs (Hocho-Knife, JapanChefKnife, Amazon) — rebalance bands if shifted
+[ ] [VERIFY] pass 2: confirm exact SKUs/model numbers current — Tojiro DP gyuto (F-808) & santoku (F-884), MAC MTH-80 & MAC santoku model code (SK-65/HB-70 vary by market), Shun Classic Chef (DM0706) & Santoku (DM0702), Global G-2 & G-48
+[ ] [VERIFY] Shun left-handed availability + Westernized edge-angle figure against Shun spec
+[ ] [VERIFY] MAC santoku exact model/length before naming it definitively
+[ ] Insert affiliate links: Hocho-Knife, JapanChefKnife (10%), Amazon fallback — correct tracking IDs; FTC disclosure present
+[ ] Add structured data: Article + ItemList/Product schema (verified price/currency; no unsourced ratings)
+[ ] Internal links live: best-japanese-chef-knives-beginners (article-02) x3 — confirm final published slug/URL
+[ ] Add hero + per-shape comparison images (gyuto vs santoku profile diagram) with alt text + licensing
+[ ] Confirm disclosure above the fold and matches program TOS
+[ ] Final AI-cliché scrub + geometry/spec accuracy pass
+
+---
+
+## is-jr-pass-worth-it-2026
+
+PRE-PUBLISH CHECKLIST
+[ ] Replace every [VERIFY] price with the live figure from the official JR / reseller page (esp. Oct 1 2026 hike: 7-day ¥50,000 → ¥53,000).
+[ ] Insert the real JR Pass affiliate links in all 4 [VERIFY affiliate link] slots. Programme decided 2026-08-06: Klook direct (6.5%) first choice, 12Go via Travelpayouts (4–5.5%, 30-day cookie) as the fallback / regional-pass depth. FlexOffers was referenced here in error — it is not one of this site's ASPs.
+[ ] Confirm Nozomi/Mizuho supplement wording against current pass terms.
+[ ] Confirm JR East consolidated pass details & March 14 2026 launch; confirm Kansai WIDE (~¥12,000) and Hokuriku Arch (~¥35,000) live prices.
+[ ] Fix internal links (article-13, article-14) to final published URLs.
+[ ] Affiliate disclosure present at top — confirmed.
+[ ] Word count 2,500–3,500 — confirm after edits.
+[ ] No fabricated first-hand tour experiences — this is a booking/math guide, confirmed.
+[ ] Add primary keyword "is the JR Pass worth it in 2026" to title, meta description, first 100 words — present.
+
+---
+
+## japan-packing-list
+
+PRE-PUBLISH CHECKLIST
+[ ] Insert real Amazon Associates US links in ALL [VERIFY affiliate link] slots (power bank, adapter, cables, packing cubes, coin purse, packable duffel, luggage scale). NOTE: Amazon US requires 3 qualifying sales within 180 days of approval — this article is a prime driver; make sure links are live before launch.
+[ ] Verify: Japan Type A / 100V; camera 10–50% cheaper claim; Sony language-lock claim; med import legality note. Correct if off.
+[ ] Confirm this is framed as "bring less" — no fabricated product testing/first-hand reviews. Confirmed as guidance.
+[ ] Cross-links to eSIM / Suica / 7-day / 2-week / 1-month / long-stay present, final /japan-travel/<slug>/ URLs — CONFIRMED.
+[ ] Affiliate disclosure at top (incl. Amazon) — confirmed.
+[ ] Primary keyword "Japan packing list" in title, first 100 words, one H2 — present.
+[ ] Word count 1,800–2,600 — confirm after edits.
+
+---
+
+## japan-souvenirs-worth-buying
+
+PRE-PUBLISH CHECKLIST
+[ ] Replace every [VERIFY] price with realistic live ranges once the deep-dive guides set the numbers.
+[ ] Insert affiliate links where products are recommended (currently category-level; product-level links live in the deep-dive guides).
+[ ] Fix internal links to the three tool-pillar articles (knives / ceramics / pens) to final published URLs — these are the core "bridge" links; MUST resolve.
+[ ] Fix internal link to article-14 (7-day itinerary) to final URL.
+[ ] Confirm knife carry-on/checked-luggage rule wording against current airline/airport guidance.
+[ ] Confirm kiln-town attributions (Arita/Mino/Bizen/Mashiko; Sakai/Seki) are accurate before publish.
+[ ] Affiliate disclosure at top present — confirmed.
+[ ] Word count 2,500–3,500 — confirm after edits.
+[ ] No fabricated first-hand purchases described as reviews — copy stays on buyer's-guide framing, confirmed.
+[ ] Primary keyword "Japan souvenirs worth buying" (+ knives, ceramics, pens) in title, first 100 words, one H2 — present.
+
+---
+
+## japanese-dinnerware-sets
+
+PRE-PUBLISH CHECKLIST (do not publish with these open):
+1. [VERIFY] Replace every price band and [VERIFY] marker with confirmed catalogue data (price, SKU, set contents, care/microwave/dishwasher per piece).
+2. [VERIFY] Insert the real affiliate link(s) (Musubi Kiln via Awin) once the ASP account is approved — human step §0.25.
+3. Fix intentional-sounding but confirm-worthy claims: microwave-safety on metallic-trim porcelain; dishwasher advice per Kutani line.
+4. Add Product/Review structured data (JSON-LD) per §5 of site architecture.
+5. Add 2–3 internal links: → 包丁 pillar, → Edo Kiriko glasses (陶磁器サブ), ← from 旅行 "Japan souvenirs" bridge article.
+6. Confirm word count in 2,500–3,500 band after [VERIFY] expansions (currently ≈2,850).
+7. Typo "Hasima" in pick #1 is an intentional conversational aside — keep or cut per voice preference.
+
+---
+
+## japanesepod101-review
+
+PRE-PUBLISH CHECKLIST
+[ ] Replace [VERIFY: JapanesePod101 affiliate link] with real affiliate URL
+[ ] Confirm JapanesePod101 commission is 25% and note cookie duration on money page (not in body — commission belongs on the /money reference, kept out of reader-facing copy)
+[ ] Verify all four tier prices (Free/Basic/Premium/Premium PLUS) on live pricing page; confirm the "long-term prepay = low end of range" caveat still holds
+[ ] Verify Renshuu free tier still free; verify WaniKani $9/mo & $299 lifetime
+[ ] Add internal link to article-09 (WaniKani alternatives) once URL exists
+[ ] Add internal link to article-10 (learn from anime) if relevant
+[ ] Confirm affiliate disclosure is above the fold (it is)
+[ ] Spellcheck Japanese: 何してるの / 何をしていますか / です・ます / がんばってください
+[ ] Word count target 2,500–3,500 — confirm
+[ ] Re-read for AI clichés ("in today's fast-paced world", "unlock", "delve", "game-changer") — remove any that crept in
+
+---
+
+## learn-japanese-from-anime
+
+PRE-PUBLISH CHECKLIST
+[ ] This is a top-of-funnel article — confirm internal links to article-08 (JapanesePod101), article-09 (WaniKani alternatives), article-11 (Migaku vs alternatives) are all present and resolve
+[ ] Affiliate links only where readers are sent to Migaku / JapanesePod101 — mark [VERIFY] until confirmed; anime/Netflix itself gets no affiliate link
+[ ] Verify Anki iOS ~$25 one-time; Migaku ~$9-11/mo
+[ ] Confirm affiliate disclosure above the fold (it is)
+[ ] Spellcheck Japanese: おれ様/てめえ/殺してやる/でござる/わし/じゃ/わたくし/ですわ/わ/かしら/ぞ/ぜ/です・ます/がんばって
+[ ] Sanity-check the native-speaker "role language (役割語)" section for accuracy before publish
+[ ] Word count 2,500–3,500 — confirm
+[ ] Scan for AI clichés ("firehose" used once intentionally; check no "delve/unlock/in today's world")
+
+---
+
+## migaku-vs-alternatives
+
+PRE-PUBLISH CHECKLIST
+[ ] Migaku affiliate commission rate is UNCONFIRMED — do NOT state a rate; keep [VERIFY] on the money/reference page until confirmed with Migaku's program
+[ ] Insert Migaku affiliate link (mark [VERIFY] until live); JapanesePod101 affiliate link where readers are sent there (25% program)
+[ ] Verify prices: Migaku ~$9-11/mo & $399 lifetime; Anki iOS ~$25; LingQ subscription; Language Reactor free+paid; Renshuu free+premium; JapanesePod101 tiers
+[ ] Confirm affiliate status of LingQ / Language Reactor / Renshuu before promoting any — all marked [VERIFY]
+[ ] Add real internal links to article-08, article-09, article-10
+[ ] Confirm affiliate disclosure above the fold (it is)
+[ ] Spellcheck Japanese: 生きる / 学生 / がんばってください
+[ ] Confirm Yomitan is the current maintained successor to Yomichan
+[ ] Word count 2,500–3,500 — confirm
+[ ] Scan for AI clichés and remove
+
+---
+
+## suica-pasmo-icoca-guide
+
+PRE-PUBLISH CHECKLIST
+[ ] Verify EVERY [VERIFY]: credit-card-won't-tap-gates claim; nationwide interoperability; Welcome Suica no-deposit/28-day expiry; regular card ~¥500 deposit; Haneda "left of stairs" location; ¥2,000 start; machine top-up methods; refund fee; iPhone vs Android Mobile Suica support; tap-works-offline; the full "where it works" list; arcade/crane payment.
+[ ] Confirm Mobile Suica Android support status for common non-JP phones (this changes — check current).
+[ ] No affiliate product for IC cards — keep it honest as top-of-funnel; cross-links to eSIM & JR Pass present — CONFIRMED.
+[ ] Fix internal links to final /japan-travel/<slug>/ URLs — CONFIRMED.
+[ ] Primary keyword "Suica card Japan" in title, first 100 words, one H2 — present.
+[ ] Word count 1,800–2,600 — confirm after edits.
+[ ] No fabricated first-hand claims — framed as guidance + attributed traveler tips — confirmed.
+
+---
+
+## wanikani-alternatives
+
+PRE-PUBLISH CHECKLIST
+[ ] WaniKani has NO public affiliate program — do NOT insert a WK affiliate link; keep it as the neutral reference point (money page routes clicks to JapanesePod101 / Migaku instead)
+[ ] Insert affiliate links only for Migaku and JapanesePod101 where the article sends readers onward — mark [VERIFY] until confirmed
+[ ] Verify prices: Anki iOS one-time ~$25; Renshuu free + premium; Bunpro $5/mo & $150 lifetime; Migaku ~$9-11/mo & $399 lifetime; WaniKani $9/mo & $299 lifetime
+[ ] Add real internal links to article-08 (JapanesePod101) and article-11 (Migaku vs alternatives)
+[ ] Confirm affiliate disclosure above the fold (it is)
+[ ] Spellcheck Japanese: 生きる / 生徒 / 芝生 / がんばってください
+[ ] Confirm Anki is free on desktop/Android/web and paid only on iOS
+[ ] Word count 2,500–3,500 — confirm
+[ ] Scan for AI clichés and remove

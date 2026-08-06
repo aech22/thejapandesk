@@ -11,7 +11,7 @@ draft: false
 
 # 1-Month Japan Itinerary: The Whole Country, Unhurried (Built by Someone Who Lives Here)
 
-*Affiliate disclosure: This article contains affiliate links to tour platforms (GetYourGuide) and rail-pass resellers. If you book through one, I may earn a commission at no extra cost to you. This is a **planning guide**, not a travelogue. A month is long enough to see the whole arc of the country — but also long enough for pacing and accommodation costs to make or break the trip, so I'll be specific about the **21-day pass math, monthly-stay lodging, and the rest-day rhythm** that keeps a 30-day trip enjoyable. Prices are marked `[VERIFY]`; confirm live before you pay.*
+*Affiliate disclosure: This article contains affiliate links to tour platforms (GetYourGuide) and rail-pass resellers. If you book through one, I may earn a commission at no extra cost to you. This is a **planning guide**, not a travelogue. A month is long enough to see the whole arc of the country — but also long enough for pacing and accommodation costs to make or break the trip, so I'll be specific about the **21-day pass math, monthly-stay lodging, and the rest-day rhythm** that keeps a 30-day trip enjoyable. Prices move, so confirm the live figure before you pay.*
 
 ---
 
@@ -42,13 +42,11 @@ If you've got ~30 days, want the full arc of the country at a human pace, and wa
 
 **Criterion 2 — Lodging is the budget, so use weekly/monthly rates.** Over 30 nights, switching a couple of your bases to **weekly-rate or serviced-apartment stays** typically saves more than any pass or coupon. Keep one bag light and forward the rest between regions (takkyubin).
 
-**Criterion 3 — Rail: a nationwide-pass window OR a regional-pass mix — run the math.** A four-region month may justify a **21-day nationwide pass** (~¥100,000 `[VERIFY]`) *for the long-haul portion*, but a common cheaper pattern is regional passes in each area plus point-to-point tickets. The full method is in the [JR Pass 2026 guide](/japan-travel/is-jr-pass-worth-it-2026/) — apply it to your real legs.
+**Criterion 3 — Rail: a nationwide-pass window OR a regional-pass mix — run the math.** A four-region month may justify a **21-day nationwide pass** — ¥100,000 for the ordinary adult version as of August 2026, rising to ¥105,000 from 1 October 2026 ([official prices](https://japanrailpass.net/en/purchase/price/)) — *for the long-haul portion*, but a common cheaper pattern is regional passes in each area plus point-to-point tickets. The full method is in the [JR Pass 2026 guide](/japan-travel/is-jr-pass-worth-it-2026/) — apply it to your real legs.
 
 ---
 
 ## 4. The month at a glance
-
-Prices `[VERIFY]` — confirm live before booking.
 
 | Week | Region | Bases | Focus | Rail note |
 |---|---|---|---|---|
@@ -67,19 +65,19 @@ Four regions, multi-night bases, a rest day each week, and one big rail decision
 
 Settle into Tokyo for the first week rather than rushing out. Do the icons unhurried (Shibuya/Shinjuku, Asakusa, **teamLab** — book ahead, it sells out), a **Fuji or Hakone** day trip, and — with a month in hand — the *second-tier* Tokyo you'd skip on a short trip (Yanaka's old lanes, a second-hand district like Nakano, a slow museum day). This is week one of the [7-day plan](/japan-travel/7-day-japan-itinerary/), stretched to breathe.
 
-👉 *Lock Tokyo must-book tours (teamLab, Fuji/Hakone): `[VERIFY affiliate link — GetYourGuide Tokyo]`*
+👉 *Only two Tokyo items really need locking in advance: a teamLab time slot, and a peak-season Fuji or Hakone day trip. With a month in hand, leave everything else in week one loose.*
 
 ### Week 2 — Kansai + a Central-Japan detour
 
 Shinkansen to **Kyoto** and base there: Arashiyama, Fushimi Inari, Gion, a **Nara** day trip, plus the time a month buys you for the quieter temples and an Osaka food night. Mid-week, detour into the **Japan Alps** — Kanazawa's Kenroku-en, Takayama's old town and Hida beef, Shirakawa-go's thatched village — then return to a Kansai base. A **regional pass** usually covers this better than a nationwide one.
 
-👉 *Kyoto, Nara & Central-Japan tours: `[VERIFY affiliate link — GetYourGuide Kansai/Central]`*
+👉 *Kyoto and Nara work well unguided. The one booking worth making in this block is the Shirakawa-go bus, which has limited seats and fills up in winter.*
 
 ### Week 3 — West Japan + Shikoku
 
 Head west to **Hiroshima** (Peace Memorial Park — moving and worth the visit) and **Miyajima** (the floating torii). The highlight active travelers rave about is the **Shimanami Kaido**, a ~70 km island-hopping cycling route across the Inland Sea into Shikoku (e-bikes limited — plan ahead). Base in Onomichi or Matsuyama and slow down; week three is where a month starts feeling like a privilege.
 
-👉 *Hiroshima, Miyajima & Shimanami cycling: `[VERIFY affiliate link — GetYourGuide West Japan]`*
+👉 *Hiroshima and Miyajima need nothing booked beyond the ferry, but reserve your Shimanami Kaido bike ahead — particularly for an e-bike or a one-way drop-off at the Shikoku end.*
 
 ### Week 4 — South (Kyushu) or North (Hokkaido), then a slow finish
 
@@ -90,7 +88,7 @@ Choose your grand finale:
 
 This is the leg where a **21-day nationwide pass window** or a **domestic flight** may win over point-to-point tickets — check both. End with a **buffer day** near your departure airport; a month deserves a calm last day, not a scramble, and it's when to buy the extra suitcase you now need.
 
-👉 *Kyushu / Hokkaido tours: `[VERIFY affiliate link — GetYourGuide Kyushu or Hokkaido]`*
+👉 *Both finales are seasonal: Kyushu's onsen towns are pleasant year-round, while Hokkaido's national-park and snow activities run to fixed seasons and sell out. Book the seasonal days early and leave the city days open.*
 
 ---
 
@@ -98,7 +96,7 @@ This is the leg where a **21-day nationwide pass window** or a **domestic flight
 
 **Lodging (the bigger lever at 30 nights).** Nightly hotel rates compound brutally over a month. Shift at least two of your four bases to **weekly-rate stays or serviced apartments** — many properties discount heavily at 7+ nights, and a small kitchen cuts food costs too. This single move usually saves more than every travel hack combined. Keep a light daypack and **forward luggage** between regions.
 
-**Rail (run it once, properly).** A month across four regions can justify a **21-day nationwide pass (~¥100,000 `[VERIFY]`)** *for the long-haul spine* — but the frequent winner is a **mix**: regional passes inside Kansai and the west, individual tickets for short hops, and a pass or flight only for the big north/south jump. Don't buy the 21-day pass reflexively; do the math on your actual legs with the [JR Pass 2026 guide](/japan-travel/is-jr-pass-worth-it-2026/).
+**Rail (run it once, properly).** A month across four regions can justify a **21-day nationwide pass (¥100,000 as of August 2026)** *for the long-haul spine* — but the frequent winner is a **mix**: regional passes inside Kansai and the west, individual tickets for short hops, and a pass or flight only for the big north/south jump. Don't buy the 21-day pass reflexively; do the math on your actual legs with the [JR Pass 2026 guide](/japan-travel/is-jr-pass-worth-it-2026/).
 
 Two long-trip logistics scale up at a month:
 
@@ -114,7 +112,7 @@ Two long-trip logistics scale up at a month:
 - **Budget-focused:** weekly-rate lodging in every base, **regional passes over the nationwide 21-day**, and free-highlight days. Your savings are in beds, not trains.
 - **Slower pace:** cut a region (do three, not four), add nights, and treat rest days as sacred.
 - **Winter:** make **week 4 Hokkaido** for snow; summer, make it Kyushu or keep Hokkaido for the cool.
-- **"Handle the hard parts":** self-guide the cities, book **multi-day guided segments** (~US$500 each `[VERIFY]`) for the Alps and the north/south finale.
+- **"Handle the hard parts":** self-guide the cities, and book **multi-day guided segments** — transport, hotels and guiding in one booking — for the Alps and the north/south finale, where the logistics are hardest.
 
 ---
 
@@ -129,24 +127,9 @@ Get lodging and rail right and the country unfolds at a pace short trips never a
 1. Run the rail math for a long trip: [Is the JR Pass Worth It in 2026?](/japan-travel/is-jr-pass-worth-it-2026/) — a month is where the 21-day pass *or* a regional mix wins.
 2. Sort the city weeks: [7-day](/japan-travel/7-day-japan-itinerary/) and [2-week](/japan-travel/2-week-japan-itinerary/) plans feed weeks 1–2.
 3. Size a 30-day connection: [best eSIM for Japan](/japan-travel/best-esim-for-japan/).
-4. Lock the tours that sell out:
-   - 👉 **Tokyo (teamLab, Fuji/Hakone):** `[VERIFY affiliate link — GetYourGuide Tokyo]`
-   - 👉 **Regions (Alps / West / Kyushu / Hokkaido):** `[VERIFY affiliate link — GetYourGuide region]`
-5. Book the bases. Over a month the accommodation bill dwarfs everything else here, and weekly rates in the regions are where a long trip is won or lost.
-   - 👉 **Hotels, ryokan & weekly stays:** `[VERIFY affiliate link — accommodation programme not yet approved. Candidates: Trip.com (1–5.5%, 7–30-day cookie) or Agoda (6%, 1-day cookie); Rakuten Travel (0.8–5%, 30 days) for ryokan and domestic-only inventory.]`
+4. Lock the few things that sell out:
+   - 👉 **Tokyo:** a teamLab time slot, and a peak-season Fuji or Hakone day trip.
+   - 👉 **The regions:** the Shirakawa-go bus in the Alps, a Shimanami Kaido bike in the west, and any seasonal activity day in Kyushu or Hokkaido.
+5. Book the bases. Over a month the accommodation bill dwarfs everything else here, and weekly rates in the regions are where a long trip is won or lost — ask about the seven-night rate directly, since it is often not shown on the nightly listing.
 
 *Sources consulted (confirm live prices before booking): [Klook — Japan things to do & day trips](https://www.klook.com/destination/c28-tokyo/1-things-to-do/), [Guide2Japan — JR Pass 2026](https://www.guide2japan.com/plan-a-trip/jr-pass/), [JR East 2026 pass information](https://www.jreast.co.jp/e/press/pdf/0128_pass_en.pdf).*
-
-<!--
-PRE-PUBLISH CHECKLIST
-[ ] Replace every [VERIFY] price with live figures (21-day pass ~¥100,000; multi-day tours ~US$500).
-[ ] Insert real GetYourGuide affiliate links generated in the GetYourGuide partner dashboard — DIRECT partnership, not via Travelpayouts. BLOCKER, do this first: switch Travelpayouts LinkSwitcher off (or exclude GetYourGuide), otherwise it rewrites the links and the direct attribution is lost; confirm in the live DOM that the href is unchanged. Do not install the GetYourGuide analyzer script. Partner ID and the reasoning behind both calls are in CLAUDE.md. Fill ALL [VERIFY affiliate link] slots, per region.
-[ ] Confirm region facts before publish: Shimanami ~70 km & e-bike availability; Kyushu (Beppu/Yufuin) & Hokkaido transit; flight-vs-rail on the big jump. Correct any that are off.
-[ ] Keep the 21-day-pass / regional-mix claim consistent with the JR Pass guide's live math.
-[ ] Internal links to JR Pass / 7-day / 2-week / eSIM / JapanesePod101 / long-stay present, pointing to final /<pillar>/<slug>/ URLs — CONFIRMED.
-[ ] Accommodation "weekly/monthly rate saves most" framed as guidance; no fabricated specific property prices.
-[ ] Affiliate disclosure at top — confirmed.
-[ ] Primary keyword "1 month Japan itinerary" in title, first 100 words, one H2 — present.
-[ ] No fabricated first-hand experiences — framed as guidance from common community routes — confirmed.
-[ ] Word count 2,500–3,500 — confirm after edits.
--->

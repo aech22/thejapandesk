@@ -11,7 +11,7 @@ draft: false
 
 # Japan Packing List (2026): What You Actually Need (and What to Skip) — From Someone Who Lives Here
 
-*Affiliate disclosure: This article contains affiliate links, including to Amazon. If you buy something through one of them, I may earn a small commission at no extra cost to you. I've tried to be honest about what's genuinely worth buying versus what Japan sells better and cheaper once you arrive — over-packing is the more common mistake, and I'd rather you buy less. Prices are marked `[VERIFY]`; confirm before you buy.*
+*Affiliate disclosure: This article contains affiliate links, including to Amazon. If you buy something through one of them, I may earn a small commission at no extra cost to you. I've tried to be honest about what's genuinely worth buying versus what Japan sells better and cheaper once you arrive — over-packing is the more common mistake, and I'd rather you buy less. Prices move, so confirm the current figure before you buy.*
 
 ---
 
@@ -30,17 +30,17 @@ Two facts shape everything below. First, **Japan is a walking country** — trav
 These are the things that are annoying, expensive, or impossible to sort once you land — buy/pack them *before* you fly.
 
 - **A comfortable, broken-in pair of walking shoes.** The single most important item. 25k steps a day in new shoes ruins a trip. Bring shoes you've already worn in. *(Some travelers even train up their step count for weeks before the trip — not a joke.)*
-- **A power bank (10,000 mAh+).** You'll drain your phone on Google Maps all day. One good bank is plenty; two only if you're a heavy user. 👉 *`[VERIFY affiliate link — Amazon: power bank]`*
-- **A travel adapter + your charging cables.** Japan uses Type A plugs (two flat pins) at 100V. Bring an adapter if your plugs differ, plus **USB/USB-C cables** — some hotels have few USB ports and only 2-pin sockets. 👉 *`[VERIFY affiliate link — Amazon: Japan travel adapter]`*
-- **Packing cubes.** They genuinely help on a multi-city trip where you live out of a bag. 👉 *`[VERIFY affiliate link — Amazon: packing cubes]`*
-- **A slim coin purse.** Japan still runs on some cash and you *will* accumulate coins. A small coin pouch saves daily fumbling. 👉 *`[VERIFY affiliate link — Amazon: coin purse]`*
-- **A foldable/packable tote or duffel.** You'll buy more than you think; a flat spare bag (or space in your case) saves a last-minute suitcase purchase. 👉 *`[VERIFY affiliate link — Amazon: packable duffel]`*
-- **Any prescription meds + a small personal kit.** Bring what you rely on; some Western OTC meds aren't sold in Japan. Check your meds are legal to import `[VERIFY]`.
+- **A power bank (10,000 mAh+).** You'll drain your phone on Google Maps all day. One good bank is plenty; two only if you're a heavy user.
+- **A travel adapter + your charging cables.** Japan uses Type A plugs (two flat pins) at 100V. Bring an adapter if your plugs differ, plus **USB/USB-C cables** — some hotels have few USB ports and only 2-pin sockets.
+- **Packing cubes.** They genuinely help on a multi-city trip where you live out of a bag.
+- **A slim coin purse.** Japan still runs on some cash and you *will* accumulate coins. A small coin pouch saves daily fumbling.
+- **A foldable/packable tote or duffel.** You'll buy more than you think; a flat spare bag (or space in your case) saves a last-minute suitcase purchase.
+- **Any prescription meds + a small personal kit.** Bring what you rely on; some Western OTC meds aren't sold in Japan. Japan regulates what you may carry in, and larger quantities or certain drugs need an import certificate ("Yakkan Shoumei") applied for in advance — check your own medicines against the Ministry of Health, Labour and Welfare's [guidance for bringing medicines into Japan](https://www.mhlw.go.jp/english/topics/import/) well before you fly, not at the airport.
 - **Your unlocked phone sorted for data** — set up an eSIM before you fly rather than scrambling at the airport. See [best eSIM for Japan](/japan-travel/best-esim-for-japan/).
 
 **Optional, situational:**
 
-- **A luggage scale** if you're a shopper flying a strict-allowance airline home — cheap insurance against overweight fees. 👉 *`[VERIFY affiliate link — Amazon: luggage scale]`*
+- **A luggage scale** if you're a shopper flying a strict-allowance airline home — cheap insurance against overweight fees.
 - **Layers for the season** — summer is hot and humid (light, breathable), winter is cold (a warm layer), and shoulder seasons swing. Check your dates.
 
 ---
@@ -64,7 +64,7 @@ The rule: if it's small, cheap, and universally sold, don't carry it from home. 
 
 - **A money belt (usually).** Japan is very low-crime; most travelers never need one. Bring one only if it's your personal comfort baseline.
 - **Heavy "just in case" clothing piles.** Nearly every hotel/hostel has a washing machine — pack light and do laundry every few days. Half a case each is plenty.
-- **A dedicated camera bought "for Japan" *before* the trip.** Cameras (Canon, Nikon, Lumix) are often **10–50% cheaper in Japan** `[VERIFY]`, especially second-hand — if you want one, consider buying it there. (Watch out: some Sony bodies are language-locked to Japanese `[VERIFY]`.)
+- **A dedicated camera bought "for Japan" *before* the trip.** Japan has an unusually deep camera retail scene and one of the world's best second-hand markets, so if you've been eyeing a body or a lens, it's worth price-comparing there before you buy at home. Two things to check before you hand over the money locally: what menu languages the specific unit supports, and whether the warranty covers you outside Japan — domestic-market stock isn't always identical to the international version.
 - **Too many gadgets.** A keychain alarm or similar "safety" gear is a personal call, but Japan's safety level means most people never use them.
 
 ---
@@ -75,7 +75,7 @@ Copy this, cut what doesn't apply:
 
 **Must-bring:** broken-in walking shoes · power bank · travel adapter + cables · packing cubes · coin purse · packable spare bag · prescription meds · phone set up for data (eSIM).
 **Buy on arrival:** IC card · toiletries/skincare · umbrella · ¥100-shop odds and ends · seasonal cooling/heating items.
-**Skip:** money belt (usually) · big clothing piles (laundry exists) · pre-bought camera (cheaper there) · excess gadgets.
+**Skip:** money belt (usually) · big clothing piles (laundry exists) · pre-bought camera (worth price-comparing there first) · excess gadgets.
 
 ---
 
@@ -98,20 +98,6 @@ The best Japan packing list is short. Bring the few things that are painful to s
 1. Data: [best eSIM for Japan](/japan-travel/best-esim-for-japan/) — set it up at home, activate on landing.
 2. Day-one transit: [Suica, PASMO & ICOCA guide](/japan-travel/suica-pasmo-icoca-guide/) — buy it there, but know how first.
 3. The trip itself: [7-day](/japan-travel/7-day-japan-itinerary/) and [2-week](/japan-travel/2-week-japan-itinerary/) itineraries.
-4. Grab the few worth-buying items:
-   - 👉 **Power bank:** `[VERIFY affiliate link — Amazon]`
-   - 👉 **Japan travel adapter & cables:** `[VERIFY affiliate link — Amazon]`
-   - 👉 **Packing cubes & luggage scale:** `[VERIFY affiliate link — Amazon]`
+4. Buy the short list of gear that's genuinely worth bringing — a power bank, a Japan travel adapter with your cables, packing cubes, and a luggage scale if you plan to shop. That's the whole kit; everything else waits until you land.
 
-*Sources consulted (confirm before relying on them): [Japan National Tourism Organization — travel basics](https://www.japan.travel/en/plan/), general traveler consensus from r/JapanTravel packing threads.*
-
-<!--
-PRE-PUBLISH CHECKLIST
-[ ] Insert real Amazon Associates US links in ALL [VERIFY affiliate link] slots (power bank, adapter, cables, packing cubes, coin purse, packable duffel, luggage scale). NOTE: Amazon US requires 3 qualifying sales within 180 days of approval — this article is a prime driver; make sure links are live before launch.
-[ ] Verify: Japan Type A / 100V; camera 10–50% cheaper claim; Sony language-lock claim; med import legality note. Correct if off.
-[ ] Confirm this is framed as "bring less" — no fabricated product testing/first-hand reviews. Confirmed as guidance.
-[ ] Cross-links to eSIM / Suica / 7-day / 2-week / 1-month / long-stay present, final /japan-travel/<slug>/ URLs — CONFIRMED.
-[ ] Affiliate disclosure at top (incl. Amazon) — confirmed.
-[ ] Primary keyword "Japan packing list" in title, first 100 words, one H2 — present.
-[ ] Word count 1,800–2,600 — confirm after edits.
--->
+*Sources consulted (confirm before relying on them): [Japan National Tourism Organization — travel basics](https://www.japan.travel/en/plan/); [Ministry of Health, Labour and Welfare — importing medication into Japan for personal use](https://www.mhlw.go.jp/english/topics/import/).*

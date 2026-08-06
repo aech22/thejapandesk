@@ -6,7 +6,7 @@ updated: '2026-08-03'
 pillar: craft
 slug: gyuto-vs-santoku
 keyword: "gyuto vs santoku"
-draft: false
+draft: true
 ---
 
 # Gyuto vs Santoku: Which Japanese Knife Should Be Your First?
@@ -72,19 +72,19 @@ The honest takeaway is that both shapes are far more forgiving of your choice th
 
 ## 4. Comparison table
 
-Both shapes appear here across a few representative, beginner-friendly models so you can see how the choice plays out in real knives. Prices are relative bands, not exact figures — **street prices move constantly, so confirm every price and model number against the live catalog (see `[VERIFY]`).**
+Both shapes appear here across a few representative, beginner-friendly models so you can see how the choice plays out in real knives. Prices are relative bands, not exact figures — street prices move constantly, so confirm the current price and model number with the retailer before you buy.
 
 | Model (shape) | Steel | Blade length (approx.) | Best cutting motion | Ideal user | Price band |
 |---|---|---|---|---|---|
-| Tojiro DP Gyuto (gyuto) | VG10 | 210mm | Rock + push | Value-focused all-rounder | `$` `[VERIFY]` |
-| Tojiro DP Santoku (santoku) | VG10 | 170mm | Push-cut | Small kitchen, smart budget | `$` `[VERIFY]` |
-| MAC Professional MTH-80 (gyuto) | Proprietary MAC stainless | ~8" | Rock + push | Heavy home cook | `$$` `[VERIFY]` |
-| MAC Santoku SK-65 (santoku) | Proprietary MAC stainless | ~6.5" | Push-cut | Nimble everyday prep | `$$` `[VERIFY]` |
-| Shun Classic Chef (gyuto) | VG-MAX (clad) | 8" | Rock (Westernized ~16°) | Wants beauty + forgiveness | `$$` `[VERIFY]` |
-| Shun Classic Santoku (santoku) | VG-MAX (clad) | 7" | Push-cut | Compact + gorgeous | `$$` `[VERIFY]` |
-| Global G-2 (gyuto) / G-48 (santoku) | Cromova 18 | 8" / 7" | Either (soft, forgiving) | Nervous first-timer | `$$` `[VERIFY]` |
+| Tojiro DP Gyuto (gyuto) | VG10 | 210mm | Rock + push | Value-focused all-rounder | `$` |
+| Tojiro DP Santoku (santoku) | VG10 | 170mm | Push-cut | Small kitchen, smart budget | `$` |
+| MAC Professional MTH-80 (gyuto) | Proprietary MAC stainless | ~8" | Rock + push | Heavy home cook | `$$` |
+| MAC Santoku SK-65 (santoku) | Proprietary MAC stainless | ~6.5" | Push-cut | Nimble everyday prep | `$$` |
+| Shun Classic Chef (gyuto) | VG-MAX (clad) | 8" | Rock (Westernized ~16°) | Wants beauty + forgiveness | `$$` |
+| Shun Classic Santoku (santoku) | VG-MAX (clad) | 7" | Push-cut | Compact + gorgeous | `$$` |
+| Global G-2 (gyuto) / G-48 (santoku) | Cromova 18 | 8" / 7" | Either (soft, forgiving) | Nervous first-timer | `$$` |
 
-*Band key: `$` = entry, `$$` = mid, relative to a beginner set. `[VERIFY]` = confirm exact price, currency, and SKU against the retailer's current catalog before publishing or purchasing.*
+*Band key: `$` = entry level · `$$` = mid-range, relative to a beginner set.*
 
 ---
 
@@ -120,7 +120,7 @@ MAC is a fixture in professional kitchens, and the contrast between its gyuto (t
 **Cons**
 - Plain (if comfortable) Western handles
 - Step up in price from the Tojiro
-- Exact santoku model codes vary by market — `[VERIFY]`
+- MAC lists santoku in more than one line — the Superior SK-65 and the Professional MSK-65 are both around 6½ inches — so check which series you are ordering
 
 **In this decision:** go gyuto (MTH-80) if you want one blade to grow into; go santoku if most of your cooking is fast, straight-down veg prep on a modest board.
 
@@ -136,7 +136,7 @@ Shun makes the shape choice tempting in the worst way, because both the Classic 
 **Cons**
 - Premium partly for looks and brand
 - Harder core can chip if abused
-- D-handle is subtly right-handed (left-hand versions — `[VERIFY]`)
+- The D-shaped handle is a matter of personal fit — Shun describes it as comfortable for both left- and right-handed users, but it is less neutral than a symmetrical Western handle
 
 **In this decision:** the Classic Chef if you rock and want reach; the Classic Santoku if you want the same beauty in a more compact, push-cut-friendly package.
 
@@ -176,20 +176,6 @@ Let me leave you with the simplest possible way to decide. **Watch yourself cut 
 
 Everything else — steel, brand, finish — you can hold constant (the Tojiro DP line even lets you buy the identical knife in both shapes). And remember the two habits that matter more than the shape you choose: **use a wooden or soft plastic board**, and **keep the edge touched up**. A sharp santoku beats a dull gyuto and a sharp gyuto beats a dull santoku, every time.
 
-**Ready to commit?** Confirm the current price and exact model of your chosen shape through the links above, and get it into your kitchen this week. The best knife is the one you actually own and actually keep sharp — so make the call, and go cook something.
+**Ready to commit?** Confirm the current price and exact model of your chosen shape with a retailer you trust, and get it into your kitchen this week. The best knife is the one you actually own and actually keep sharp — so make the call, and go cook something.
 
 *Not sure your instinct is right? Spend one dinner paying attention to how your hands move, then decide. It's the cheapest, most accurate test there is.*
-
-<!--
-PRE-PUBLISH CHECKLIST — do not publish until every box is cleared:
-[ ] [VERIFY] pass 1: confirm every price band + exact street price against live catalogs (Hocho-Knife, JapanChefKnife, Amazon) — rebalance bands if shifted
-[ ] [VERIFY] pass 2: confirm exact SKUs/model numbers current — Tojiro DP gyuto (F-808) & santoku (F-884), MAC MTH-80 & MAC santoku model code (SK-65/HB-70 vary by market), Shun Classic Chef (DM0706) & Santoku (DM0702), Global G-2 & G-48
-[ ] [VERIFY] Shun left-handed availability + Westernized edge-angle figure against Shun spec
-[ ] [VERIFY] MAC santoku exact model/length before naming it definitively
-[ ] Insert affiliate links: Hocho-Knife, JapanChefKnife (10%), Amazon fallback — correct tracking IDs; FTC disclosure present
-[ ] Add structured data: Article + ItemList/Product schema (verified price/currency; no unsourced ratings)
-[ ] Internal links live: best-japanese-chef-knives-beginners (article-02) x3 — confirm final published slug/URL
-[ ] Add hero + per-shape comparison images (gyuto vs santoku profile diagram) with alt text + licensing
-[ ] Confirm disclosure above the fold and matches program TOS
-[ ] Final AI-cliché scrub + geometry/spec accuracy pass
--->

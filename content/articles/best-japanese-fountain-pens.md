@@ -6,7 +6,7 @@ updated: '2026-08-03'
 pillar: craft
 slug: best-japanese-fountain-pens
 keyword: "best japanese fountain pens"
-draft: false
+draft: true
 ---
 
 # Best Japanese Fountain Pens: Picking the One That's Worth It (Nakaya vs Sailor King of Pen and More)
@@ -64,19 +64,19 @@ Small practicalities matter over decades. Do you want a cartridge/converter (eas
 
 ## 4. Comparison table
 
-Prices are shown as relative bands, because premium pen pricing shifts with materials, exchange rates, and limited runs. **Confirm every price and exact model against the live catalog before relying on it — see the `[VERIFY]` notes.** Note the enormous spread: the flagship and artisan pens sit far above the entry-gold tier.
+Prices are shown as relative bands, because premium pen pricing shifts with materials, exchange rates, and limited runs. Always confirm the current price and the exact model with the retailer before you buy. Note the enormous spread: the flagship and artisan pens sit far above the entry-gold tier.
 
 | Pen | Maker | Nib | Nib character | Standout trait | Price band |
 |---|---|---|---|---|---|
-| Pilot Custom 74 | Pilot | 14K gold | Smooth, springy "glass" | Best-value gold entry | `$$` `[VERIFY]` |
-| Pilot Custom 823 | Pilot | 14K gold | Smooth, soft | Large vacuum filler, big ink capacity | `$$$` `[VERIFY]` |
-| Sailor 1911 / Pro Gear | Sailor | 21K gold | Crisp tactile feedback | Iconic feedback nib | `$$` `[VERIFY]` |
-| Sailor King of Pen (KOP) | Sailor | 21K gold (large) | Feedback + rare softness | Flagship big soft nib | `$$$$` `[VERIFY]` |
-| Platinum 3776 Century | Platinum | 14K gold | Balanced, firm, precise | Slip-and-seal cap (won't dry out) | `$$` `[VERIFY]` |
-| Platinum Izumo | Platinum | 18K gold | Balanced, refined | Urushi/ebonite luxury body | `$$$$` `[VERIFY]` |
-| Nakaya (e.g. Portable/Neo-Standard) | Nakaya | Platinum-based gold | Tunable, bespoke | Hand-turned ebonite + hand urushi | `$$$$` `[VERIFY]` |
+| Pilot Custom 74 | Pilot | 14K gold | Smooth, springy "glass" | Best-value gold entry | `$$` |
+| Pilot Custom 823 | Pilot | 14K gold | Smooth, soft | Large vacuum filler, big ink capacity | `$$$` |
+| Sailor 1911 / Pro Gear | Sailor | 21K gold on the full-size models; 14K on the Standard 1911S and Pro Gear Slim | Crisp tactile feedback | Iconic feedback nib | `$$` |
+| Sailor King of Pen (KOP) | Sailor | 21K gold (large) | Feedback + rare softness | Flagship big soft nib | `$$$$` |
+| Platinum 3776 Century | Platinum | 14K gold | Balanced, firm, precise | Slip-and-seal cap (won't dry out) | `$$` |
+| Platinum Izumo | Platinum | 18K gold | Balanced, refined | Urushi/ebonite luxury body | `$$$$` |
+| Nakaya (e.g. Portable/Neo-Standard) | Nakaya | Platinum-based gold | Tunable, bespoke | Hand-turned ebonite + hand urushi | `$$$$` |
 
-*Band key: `$$` = premium entry-gold, `$$$` = upper, `$$$$` = flagship/artisan, relative to this set. `[VERIFY]` = confirm exact price, currency, nib options, and SKU against the retailer's current catalog before publishing or purchasing.*
+*Band key: `$$` = premium entry-gold · `$$$` = upper · `$$$$` = flagship/artisan, relative to this set.*
 
 ---
 
@@ -132,7 +132,7 @@ Sailor is the artisan of the big three, and its 21K gold nibs are the reason. Bo
 
 ### Sailor King of Pen (KOP) — the flagship splurge
 
-This is the big one, literally and financially. The King of Pen carries a **large 21K gold nib** that adds a **softness uncommon for Sailor**, in a substantial, hand-filling body. It's the pen you buy when the entry tier no longer scratches the itch and you want Sailor's character scaled up into a genuine flagship. It is also, frankly, a serious financial commitment — the kind of purchase where a single sale can represent a large affiliate order, precisely because these sit at the very top of the price range.
+This is the big one, literally and financially. The King of Pen carries a **large 21K gold nib** that adds a **softness uncommon for Sailor**, in a substantial, hand-filling body. It's the pen you buy when the entry tier no longer scratches the itch and you want Sailor's character scaled up into a genuine flagship. It is also, frankly, a serious financial commitment, and worth handling in person if you ever get the chance.
 
 **Pros**
 - Large, soft, expressive 21K nib — a real step-change in feel
@@ -189,7 +189,7 @@ Nakaya is the emotional summit of this list. Each pen is **hand-turned from ebon
 
 **Cons**
 - Flagship-and-up pricing, and often long lead times
-- Limited retailers; specific finishes/nibs come and go — `[VERIFY]` availability
+- Sold through only a handful of retailers, and specific finishes and nib configurations come and go
 - The romance is the point — if you only care about raw writing feel, cheaper pens deliver most of it
 
 **Best for:** the enthusiast who wants the *object*, the ritual, and a pen made for their hand — or a once-in-a-lifetime gift.
@@ -214,20 +214,6 @@ Here's the mindset shift that makes this purchase easy instead of stressful: **y
 
 If you possibly can, **try before you buy** — a pen show, a shop, or a friend's collection will tell you in thirty seconds whether you're a glass person or a feedback person, and that's worth more than any review, mine included.
 
-**Ready to choose?** Confirm the current price, exact model, and nib options for your shortlisted pen through the links above, and treat yourself (or someone deserving) to a writing instrument that genuinely gets better with the decades. A great fountain pen isn't an expense you recover from — it's one you look forward to using every single day.
+**Ready to choose?** Confirm the current price, exact model, and nib options for your shortlisted pen with a retailer you trust, and treat yourself (or someone deserving) to a writing instrument that genuinely gets better with the decades. A great fountain pen isn't an expense you recover from — it's one you look forward to using every single day.
 
 *Torn between two of these? Tell me how you want the nib to feel — glass, feedback, or in-between — and the choice usually makes itself.*
-
-<!--
-PRE-PUBLISH CHECKLIST — do not publish until every box is cleared:
-[ ] [VERIFY] pass 1: confirm every price band + exact street price against live catalog (Pen Boutique / ShareASale program) — the King of Pen, Izumo, and Nakaya bands especially, as they drive high-value commissions
-[ ] [VERIFY] pass 2: confirm exact current models + nib options — Pilot Custom 74 & 823, Sailor 1911/Pro Gear & King of Pen, Platinum 3776 Century & Izumo, current Nakaya lines (Portable/Piccolo/Neo-Standard) and finishes/lead times
-[ ] [VERIFY] Nakaya nib origin phrasing (Platinum-based) against a current primary/retailer source before publishing
-[ ] [VERIFY] confirm 14K/18K/21K nib metal claims per model against maker spec sheets
-[ ] Insert affiliate links: Pen Boutique via ShareASale (10% / 90-day cookie) — correct deep links + tracking; note $30-payout math favors high-ticket (King of Pen ~$1,200+, Nakaya, Izumo); FTC disclosure present
-[ ] Add structured data: Article + ItemList/Product schema (verified price/currency; no unsourced aggregate ratings)
-[ ] Internal links: add links to any companion pen/stationery articles once published; confirm slugs
-[ ] Add hero + per-pen images (nib close-ups; urushi finish shots) with licensing + alt text
-[ ] Confirm disclosure above the fold and matches ShareASale/merchant TOS
-[ ] Final AI-cliché scrub + nib-character/spec accuracy pass
--->

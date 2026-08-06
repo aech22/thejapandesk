@@ -52,7 +52,7 @@ Three periods matter more than everything else combined. They come from Japan's 
 
 **New Year (roughly December 28 – January 4).** The biggest domestic travel event of the year. Most of the country stops working, and families travel to their hometowns. Flights, trains and hotels are at their most expensive and most booked. Arriving in this window also means a lot of restaurants and small businesses are simply closed.
 
-**Golden Week (April 29 – May 5).** A cluster of four public holidays — Showa Day on April 29, then Constitution Memorial Day, Greenery Day and Children's Day running May 3–5. When they line up with a weekend, much of the country takes the whole stretch off. This is the single worst week to arrive on a budget: fares are up, the shinkansen is full, and popular sights are genuinely unpleasant. `[VERIFY]` the exact bridge days for your travel year, because how the holidays fall against the weekend changes how long the crush lasts.
+**Golden Week (April 29 – May 5).** A cluster of four public holidays — Showa Day on April 29, then Constitution Memorial Day, Greenery Day and Children's Day running May 3–5. All four are fixed calendar dates under Japan's holiday law ([Cabinet Office](https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html)), so you can plan around them years out. What *isn't* fixed is how they fall against the weekend: check your travel year's calendar for the bridge days, because a Golden Week that butts up against two weekends stretches the crush out considerably. This is the single worst week to arrive on a budget: fares are up, the shinkansen is full, and popular sights are genuinely unpleasant.
 
 **Obon (roughly August 13–15, with travel spread over the surrounding week).** Not a public holiday in the legal sense, but customary leave that functions like one. People return to family homes; domestic transport peaks again. August is also the hottest and most humid month of the year in most of the country, which is worth knowing before you pay a premium for it.
 
@@ -62,7 +62,7 @@ Then there are two **soft peaks** driven by inbound visitors rather than Japanes
 
 **Autumn foliage (roughly November).** The same dynamic, slightly cheaper and considerably more forgiving. Foliage moves south over several weeks, so a mistimed trip still catches colour somewhere.
 
-There's also a smaller cluster worth knowing about: **the September holidays**. Respect for the Aged Day and the Autumn Equinox fall close together, and in years when they line up favourably they create an extended domestic travel weekend. It's nothing like Golden Week, but it can put a bump in an otherwise soft month, so `[VERIFY]` where those dates land in your travel year before you book late-September flights.
+There's also a smaller cluster worth knowing about: **the September holidays**. Neither of these is a fixed date. Respect for the Aged Day is the third Monday of September, so it moves between the 15th and the 21st, and Autumnal Equinox Day falls on the equinox itself — somewhere between September 22 and 24, with the National Astronomical Observatory announcing the following year's date each February ([Cabinet Office](https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html)). In years when the two land close together they create an extended domestic travel weekend. It's nothing like Golden Week, but it can put a bump in an otherwise soft month, so check where those two dates fall in your travel year before you book late-September flights.
 
 **The practical rule:** if your dates overlap New Year, Golden Week or Obon, moving your trip by a single week will usually save you more than any booking trick in section 7.
 
@@ -72,7 +72,7 @@ There's also a smaller cluster worth knowing about: **the September holidays**. 
 
 Cheap months are cheap for a reason. Here's the honest trade in each.
 
-**Mid-January to early March — the strongest value window.** The New Year rush is over and the spring surge hasn't started. Japan is cold, and northern regions get serious snow, but cities are perfectly comfortable with a proper coat, everything is open, and sights are quiet in a way they never are in April. If you want the best ratio of price to experience, this is it. Watch for a short spike around Chinese New Year (the date moves each year `[VERIFY]`), which lifts fares on some routes.
+**Mid-January to early March — the strongest value window.** The New Year rush is over and the spring surge hasn't started. Japan is cold, and northern regions get serious snow, but cities are perfectly comfortable with a proper coat, everything is open, and sights are quiet in a way they never are in April. If you want the best ratio of price to experience, this is it. Watch for a short spike around Lunar New Year, which lifts fares on some routes — it follows the lunar calendar and so lands anywhere from late January to mid-February, meaning it can sit in the middle of your otherwise cheap window. Look up the date for your travel year before you commit.
 
 **June — cheap, and wetter than you think.** This is *tsuyu*, the rainy season, across most of the country. It doesn't rain all day every day, but it rains a lot, and humidity climbs. Prices are noticeably softer. If you don't mind carrying an umbrella and you're mostly doing cities, museums and food, June is genuinely underrated. Hokkaido is largely outside the rainy season and is lovely at this time.
 
@@ -152,24 +152,8 @@ The cheapest time to fly to Japan isn't one month. It's the overlap between Japa
 
 If you take one thing from this: **move your trip one week away from New Year, Golden Week or Obon before you optimise anything else.** It's the highest-value decision in the whole process, and it costs you nothing but a calendar check.
 
-**When you know your window, start pricing it:**
-
-- 👉 **Search flights to Japan (flexible dates):** `[VERIFY affiliate link — the only flight programme currently partnered is Kiwi.com (3%, 30-day cookie). Aviasales / WayAway are named below but have NOT been joined yet; add them first if you prefer metasearch, otherwise use Kiwi.com. Confirm the deeplink format and marker 559180 in the dashboard.]`
-- 👉 **Compare Tokyo (NRT/HND) against Osaka (KIX):** `[VERIFY affiliate link — same programme as above]`
+**When you know your window, start pricing it.** Two searches do most of the work: run your chosen month with flexible dates on a metasearch site to find the cheap days inside it, then run the same dates again comparing Tokyo (NRT and HND separately) against Osaka (KIX). Those two comparisons are where the open-jaw and secondary-gateway savings in section 7 actually show up as numbers.
 
 Planning the rest? Once your flights are set, the two decisions that move your budget most are rail and data: see my [JR Pass guide for 2026](/japan-travel/is-jr-pass-worth-it-2026/) and the [best eSIM for Japan](/japan-travel/best-esim-for-japan/). If you're still shaping the trip itself, start with the [7-day Japan itinerary](/japan-travel/7-day-japan-itinerary/), or the [2-week](/japan-travel/2-week-japan-itinerary/) and [1-month](/japan-travel/1-month-japan-itinerary/) versions. And before you pack, the [Japan packing list](/japan-travel/japan-packing-list/) covers what the season you picked actually demands.
 
-*Sources consulted for this guide (confirm before relying on dates): Cabinet Office of Japan — official public holidays list `[VERIFY source link]`; Japan Meteorological Agency — rainy season and typhoon season data `[VERIFY source link]`; JNTO visitor arrival statistics `[VERIFY source link]`. Fare figures in the table are from Travelpayouts / Aviasales cached search data, refreshed automatically.*
-
-<!--
-PRE-PUBLISH CHECKLIST
-[ ] Replace the 2 [VERIFY affiliate link] slots with real deeplinks (marker 559180). Decide the programme first: Kiwi.com is already partnered (3%, 30-day cookie); Aviasales / WayAway are NOT joined yet and pay only ~1.1–1.3% of fare, though they are metasearch and suit "flexible dates" better. Either way treat flights as a funnel entry point, not a revenue line — the money in this article is the onward links to the JR Pass, eSIM and itinerary guides.
-[ ] Fill the 3 [VERIFY source link] slots with the real Cabinet Office / JMA / JNTO URLs.
-[ ] [VERIFY] Golden Week bridge days for the current travel year (how Apr 29 and May 3–5 fall against the weekend).
-[ ] [VERIFY] Chinese New Year date for the current travel year (affects the Jan–Feb value window).
-[ ] Confirm the fare table renders with real data — it is hidden automatically until src/data/fares/ is populated, and hidden again if that data is >14 days old.
-[ ] Reconsider the 9-column table on mobile once real data lands; if most routes return data, consider splitting into North America / UK+Australia groups.
-[ ] No fabricated first-hand experience — this is a timing/booking guide, and all seasonal claims are calendar and climate facts, not personal trip reports. Confirmed.
-[ ] Word count 2,500–3,500 — confirm after edits.
-[ ] Primary keyword "cheapest time to fly to Japan" in title, meta description, first 100 words — present.
--->
+*Sources consulted for this guide (confirm the dates for your own travel year): [Cabinet Office of Japan — national holidays](https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html); [Japan Meteorological Agency — rainy season start and end dates](https://www.data.jma.go.jp/cpd/baiu/index.html); [JNTO — visitor arrival statistics](https://statistics.jnto.go.jp/en/). Fare figures in the table are from Travelpayouts / Aviasales cached search data, refreshed automatically.*

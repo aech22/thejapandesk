@@ -14,7 +14,7 @@ fareWidget:
 
 # The Perfect 7-Day Japan Itinerary With Tours (First-Timer's Plan, Built by Someone Who Lives Here)
 
-*Affiliate disclosure: This article contains affiliate links to tour platforms including GetYourGuide and others. If you book a tour through one of them, I may earn a commission at no extra cost to you. This isn't a "look at my amazing trip" travelogue — it's a **planning guide**: a realistic day-by-day route for a first-timer's week in Japan, with the tours worth booking, the transport decisions that save real money, and the mistakes that quietly wreck week-one trips. Prices are marked `[VERIFY]` because fares and tour prices move; confirm the live figure before you pay.*
+*Affiliate disclosure: This article contains affiliate links to tour platforms including GetYourGuide and others. If you book a tour through one of them, I may earn a commission at no extra cost to you. This isn't a "look at my amazing trip" travelogue — it's a **planning guide**: a realistic day-by-day route for a first-timer's week in Japan, with the tours worth booking, the transport decisions that save real money, and the mistakes that quietly wreck week-one trips. Fares and tour prices move, so confirm the live figure before you pay.*
 
 ---
 
@@ -51,8 +51,6 @@ If you're a first-timer with roughly seven days who wants the icons, a real feel
 
 ## 4. The week at a glance
 
-Prices `[VERIFY]` — confirm live before booking.
-
 | Day | Base | Focus | Book-ahead tour? | Transport call |
 |---|---|---|---|---|
 | 1 | Tokyo | Arrive, Shibuya/Shinjuku, ease in | Optional: Shibuya Sky (sunset) | IC card (Suica/PASMO) |
@@ -79,13 +77,13 @@ Jet lag is real; day one should be gentle. Get your **IC card** (Suica or PASMO)
 
 This is your full Tokyo day: Asakusa's Senso-ji and old-town streets in the morning, then the **teamLab digital art museum** — and this is the one activity to **book ahead**, because it's timed-entry and genuinely sells out. Fill the rest with whatever your interests pull you toward (Akihabara, Harajuku, a food street). **Transport call:** IC card. **Book-ahead:** teamLab, locked before you leave home.
 
-👉 *Reserve your teamLab slot and other Tokyo tours: `[VERIFY affiliate link — GetYourGuide Tokyo]`* — and see my full [best Klook tours in Tokyo](/japan-travel/best-klook-tours-tokyo/) breakdown for how to choose.
+👉 *teamLab sells timed-entry tickets on its own site and through the major activity platforms — reserve your slot before you fly, and see my full [best Klook tours in Tokyo](/japan-travel/best-klook-tours-tokyo/) breakdown for how to choose the rest of your Tokyo days.*
 
 ### Day 3 — Tokyo day trip: Mt. Fuji or Hakone
 
 Hang a day trip off your Tokyo base instead of moving hotels. The two best first-timer options: a **Mt. Fuji day tour** (Lake Kawaguchi viewpoints, Oshino Hakkai's spring ponds) or **Hakone** (hot springs, the lake, Fuji views on a clear day). The Fuji bus tours exist precisely because doing it by public transport is fiddly — this is a case where a guided day earns its price. **Book ahead** in peak seasons (April–May, October–November), at least a week out. **Transport call:** tour bus handles it, or local rail for a DIY Hakone loop.
 
-👉 *Compare Mt. Fuji & Hakone day trips: `[VERIFY affiliate link — GetYourGuide Fuji/Hakone]`*
+👉 *When you compare Fuji and Hakone day trips, look at the departure time and exactly which viewpoints are included — those vary far more between listings than the price does.*
 
 ### Day 4 — Tokyo → Kyoto: the one big train leg
 
@@ -93,27 +91,25 @@ Now the only long-distance move of the week: the Shinkansen from Tokyo to Kyoto 
 
 Arrive in Kyoto around midday, drop bags, and spend the afternoon in the eastern temple district (Kiyomizu-dera, the Higashiyama lanes). A short **guided walk** here is a low-cost way to get oriented in a city that's easy to get lost in. **Book-ahead:** optional walk.
 
-👉 *Kyoto walking & temple tours: `[VERIFY affiliate link — GetYourGuide Kyoto]`*
+👉 *Half-day guided walks of the eastern temple district run most mornings and are widely listed — book one for your first afternoon or the following morning, while the orientation is still worth most.*
 
 ### Day 5 — Kyoto: the big three, paced sanely
 
 Kyoto's greatest hits in one well-ordered day: **Arashiyama** bamboo grove early (before crowds), **Fushimi Inari**'s vermilion torii gates (go earlyish or late for the quiet upper trails), and **Gion** in the evening for old-Kyoto atmosphere. Slot a **tea ceremony or kimono experience** into a slower gap — a perfect 1–2 hour cultural anchor and an ideal rainy-day backup. **Transport call:** IC card + local buses/trains. **Book-ahead:** optional cultural session.
 
-👉 *Book a Kyoto tea ceremony / kimono experience: `[VERIFY affiliate link — GetYourGuide Kyoto experience]`*
+👉 *Tea ceremony and kimono sessions in Kyoto are bookable online with English-speaking hosts; check the session length and whether materials are included before you pick one.*
 
 ### Day 6 — Kyoto → Osaka (with an optional Nara day trip)
 
 Osaka is only ~30–60 minutes from Kyoto by local rail — no Shinkansen, no rail pass needed. Two good shapes for the day: either **day-trip to Nara** first (the deer park and Todai-ji's Great Buddha are an easy half-day) then continue to Osaka, or move straight to Osaka and head for **Dotonbori** — the neon, the canal, the street food that Osaka is famous for. **Transport call:** local rail, IC card. **Book-ahead:** optional Nara tour or an Osaka food tour.
 
-👉 *Nara day trips & Osaka food tours: `[VERIFY affiliate link — GetYourGuide Osaka/Nara]`*
+👉 *Nara works perfectly well unguided — the deer park and Todai-ji are a short walk from the station — so book a guided version only if you want the history narrated. An evening Osaka food tour is the better use of a booking here.*
 
 ### Day 7 — Osaka: castle, last bites, depart
 
 Morning at **Osaka Castle**, then whatever your week made you crave — one more takoyaki run, a last bit of shopping — before heading to the airport (Kansai International is Osaka's, so you avoid a final long train back to Tokyo, which is exactly why the route ends here). If your flight's in the evening, an early **food crawl** or market visit is a strong finish. **Transport call:** IC card to the airport.
 
-**A note on multi-day tours:** if you'd rather have big chunks of this week fully handled, several operators sell **multi-day guided Japan tours** — a typical 3-to-5 day guided segment might run around US$500 `[VERIFY]`, on which an 8% affiliate booking is roughly US$40 to the referrer at no cost to you. They trade flexibility for zero logistics; worth it for travelers who want none of the planning, less so if you like improvising. Compare them against building your own week from the day-trips above.
-
-👉 *Browse multi-day Japan tours: `[VERIFY affiliate link — GetYourGuide multi-day Japan]`*
+**A note on multi-day tours:** if you'd rather have big chunks of this week fully handled, several operators sell **multi-day guided Japan tours** covering three to five days in one booking — transport, hotels and guiding included. They trade flexibility for zero logistics; worth it for travelers who want none of the planning, less so if you like improvising. Price them against the same days built from the individual day-trips above, and check what the headline figure actually includes before you compare — hotel standard and whether meals are covered move it a long way.
 
 ---
 
@@ -154,27 +150,12 @@ Two decisions carry most of the outcome. First, **transport**: on a compact week
 
 1. Decide your rail approach with my honest [Is the JR Pass Worth It in 2026?](/japan-travel/is-jr-pass-worth-it-2026/) guide — do the two-minute math before buying anything.
 2. Pick your Tokyo activities with [The Best Klook Tours in Tokyo](/japan-travel/best-klook-tours-tokyo/).
-3. Lock your must-book tours now, before they sell out:
-   - 👉 **Tokyo (teamLab, Shibuya Sky):** `[VERIFY affiliate link — GetYourGuide Tokyo]`
-   - 👉 **Mt. Fuji / Hakone day trip:** `[VERIFY affiliate link — GetYourGuide Fuji/Hakone]`
-   - 👉 **Kyoto & Osaka experiences:** `[VERIFY affiliate link — GetYourGuide Kyoto/Osaka]`
-4. Book the three bases themselves. This plan lives or dies on staying put, so book Tokyo, Kyoto and Osaka before the tours — in peak season the bases sell out first.
-   - 👉 **Tokyo / Kyoto / Osaka hotels:** `[VERIFY affiliate link — accommodation programme not yet approved. Candidates: Trip.com (1–5.5%, 7–30-day cookie) or Agoda (6%, 1-day cookie); Rakuten Travel (0.8–5%, 30 days) for ryokan and domestic-only inventory.]`
+3. Lock your must-book tours now, before they sell out — in this order:
+   - 👉 **Tokyo:** teamLab first (timed entry), then a Shibuya Sky sunset slot.
+   - 👉 **Mt. Fuji / Hakone day trip:** about a week out in peak season.
+   - 👉 **Kyoto & Osaka experiences:** the tea ceremony, kimono or food tour, which book up later and more easily.
+4. Book the three bases themselves. This plan lives or dies on staying put, so book Tokyo, Kyoto and Osaka before the tours — in peak season the bases sell out first, and central Kyoto goes earliest of the three.
 
 In my experience, the travelers who look back happiest on their first week are the ones who planned the *shape* well and then let the days breathe. Get the bases and the two big decisions right, and the rest takes care of itself.
 
 *Sources consulted (confirm live prices before booking): [Klook — Tokyo things to do & day trips](https://www.klook.com/destination/c28-tokyo/1-things-to-do/), [Guide2Japan — JR Pass 2026](https://www.guide2japan.com/plan-a-trip/jr-pass/), [JR East 2026 pass information](https://www.jreast.co.jp/e/press/pdf/0128_pass_en.pdf).*
-
-<!--
-PRE-PUBLISH CHECKLIST
-[ ] Replace every [VERIFY] price with live figures (esp. the ~US$500 multi-day tour example & the 8%≈$40 illustration).
-[ ] Insert real GetYourGuide affiliate links generated in the GetYourGuide partner dashboard — DIRECT partnership, not via Travelpayouts. BLOCKER, do this first: switch Travelpayouts LinkSwitcher off (or exclude GetYourGuide), otherwise it rewrites the links and the direct attribution is lost; confirm in the live DOM that the href is unchanged. Do not install the GetYourGuide analyzer script. Partner ID and the reasoning behind both calls are in CLAUDE.md. Fill ALL [VERIFY affiliate link] slots and confirm deep links & tracking IDs.
-[ ] Confirm this is tagged as top-of-funnel pillar content; internal links to article-12 (JR Pass) and article-13 (Klook Tokyo) present — CONFIRMED (multiple).
-[ ] Verify Shinkansen Tokyo–Kyoto ~2.5h and Kyoto–Osaka ~30–60 min timings against current schedules.
-[ ] Confirm teamLab timed-entry / sell-out and Fuji peak-season booking guidance.
-[ ] Fix internal links to final published URLs.
-[ ] Affiliate disclosure at top present — confirmed.
-[ ] Word count 2,500–3,500 — confirm after edits.
-[ ] No fabricated first-hand experiences — plan framed as guidance, confirmed.
-[ ] Primary keyword "7-day Japan itinerary with tours" in title, first 100 words, one H2 — present.
--->

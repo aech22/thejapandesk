@@ -19,10 +19,10 @@ export const TWITTER_SITE = '';        // 例: '@thejapandesk'
 // Cookie を書くため CookieConsent.astro のローダー経由で同意後に読み込む。空文字なら出力されない。
 export const TRAVELPAYOUTS_SCRIPT = 'https://emrldco.com/NTU5MTgw.js?t=559180';
 
-// 12Go は直接提携（2026-08-07 承認・アジアの長距離バス／鉄道／フェリーの予約）。
-// リンクは管理画面 https://agent.12go.asia/integration/ で発行したものを**そのまま**入れる
-// （パラメータ名を推測して手で組み立てない）。空文字の間は 12Go リンクを一切出力しない。
-// ★貼る前に Travelpayouts の LinkSwitcher を止めるか 12go.asia を除外すること（GetYourGuide と同じ罠）。
+// 12Go は直接提携（2026-08-07 承認・アジアの長距離バス／鉄道／フェリーの予約）。アフィリエイトID 16597922。
+// リンクは管理画面 https://agent.12go.asia/integration/ の Links で発行したものを**そのまま**入れる
+// （形式は https://12go.asia/?z=16597922。パラメータ名を推測して手で組み立てない）。
+// 空文字の間は 12Go リンクを一切出力しない。Sub_id には記事の slug を入れる（後から遡って付けられない）。
 export const TWELVEGO_LINK = '';
 
 // GetYourGuide は直接提携（パートナーID J2LM0TP・2026-08-06登録）。リンクはダッシュボードで発行する。

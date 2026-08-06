@@ -11,7 +11,7 @@ draft: false
 
 # 2-Week Japan Itinerary: Beyond the Golden Route (Built by Someone Who Lives Here)
 
-*Affiliate disclosure: This article contains affiliate links to tour platforms (GetYourGuide) and rail-pass resellers. If you book through one, I may earn a commission at no extra cost to you. This is a **planning guide**, not a travelogue — a realistic 14-day route with the transport and booking calls that decide whether two weeks feels rich or rushed. Two weeks is also the point where the **14-day rail pass and multi-region tours finally start to pay off**, so I'll be specific about when they do. Prices are marked `[VERIFY]`; confirm live before you pay.*
+*Affiliate disclosure: This article contains affiliate links to tour platforms (GetYourGuide) and rail-pass resellers. If you book through one, I may earn a commission at no extra cost to you. This is a **planning guide**, not a travelogue — a realistic 14-day route with the transport and booking calls that decide whether two weeks feels rich or rushed. Two weeks is also the point where the **14-day rail pass and multi-region tours finally start to pay off**, so I'll be specific about when they do. Prices move, so confirm the live figure before you pay.*
 
 ---
 
@@ -48,8 +48,6 @@ If you've got roughly two weeks, want the icons *and* one region in real depth, 
 
 ## 4. The fortnight at a glance
 
-Prices `[VERIFY]` — confirm live before booking.
-
 | Days | Base(s) | Focus | Book-ahead | Transport call |
 |---|---|---|---|---|
 | 1–3 | Tokyo | Arrive, city icons, teamLab | **teamLab (sells out)** | IC card |
@@ -74,7 +72,7 @@ Week one is the standard first-timer route, so I'll keep it tight here and point
 
 For the full day-by-day of this week — the tour picks, the mistakes to avoid, the exact transport calls — use the dedicated [7-day Japan itinerary](/japan-travel/7-day-japan-itinerary/); it *is* week one of this plan.
 
-👉 *Lock week-one must-book tours (teamLab, Fuji/Hakone): `[VERIFY affiliate link — GetYourGuide Tokyo]`*
+👉 *Lock the two week-one items that genuinely sell out — a teamLab time slot and, in peak season, your Fuji or Hakone day trip — before anything else on this list.*
 
 ---
 
@@ -92,7 +90,7 @@ The most popular "second week" for good reason. From Kyoto/Osaka, loop up into c
 
 This region rewards a slower pace and pairs beautifully with an onsen night to reset tired legs.
 
-👉 *Takayama / Shirakawa-go / Kanazawa tours & day trips: `[VERIFY affiliate link — GetYourGuide Central Japan]`*
+👉 *Shirakawa-go is the one to book rather than improvise: it is reached by bus, seats are limited, and winter services fill up. Takayama and Kanazawa are both easy to explore unguided once you're there.*
 
 ### Option B — The West: Hiroshima, Miyajima, and the Shimanami Kaido (history + islands + cycling)
 
@@ -102,7 +100,7 @@ The strongest week two for active travelers:
 - **Miyajima** — the floating torii gate and island trails.
 - **Shimanami Kaido** — a ~70 km island-hopping **cycling route** across the Inland Sea that long-trip reporters repeatedly name the best experience of the whole fortnight. Rentals are available; e-bikes are limited, so plan ahead.
 
-👉 *Hiroshima, Miyajima & cycling experiences: `[VERIFY affiliate link — GetYourGuide West Japan]`*
+👉 *Hiroshima and Miyajima need no booking beyond the ferry, but reserve your Shimanami Kaido bike in advance — especially if you want an e-bike or a one-way drop-off at the far end.*
 
 ### Option C — The North: Sapporo & Hokkaido (space, food, and a different Japan)
 
@@ -113,7 +111,7 @@ For summer escape or winter snow, fly or Shinkansen north:
 
 Note Hokkaido adds real distance; this is the option where **flights** sometimes beat rail on both time and cost — check both.
 
-👉 *Sapporo & Hokkaido tours: `[VERIFY affiliate link — GetYourGuide Hokkaido]`*
+👉 *Hokkaido is the week-two option where you most need transport sorted in advance — price the flight against the rail route, and book any national-park or winter-activity day early, since they run to fixed seasons.*
 
 ### Day 14 — leave a buffer
 
@@ -126,7 +124,7 @@ End with a **buffer day** near your departure airport, not a travel day. Long-tr
 On the 7-day golden route, I tell people the nationwide pass usually *loses*. **Two weeks is different**, and it's worth being precise:
 
 - **Week one alone** (Tokyo–Kyoto–Osaka) still doesn't justify a nationwide pass by itself.
-- **Add a multi-region week two** with several long Shinkansen legs (e.g. Osaka → Kanazawa → back toward Tokyo, or the run out to Hiroshima and back), and the **nationwide 14-day pass** (~¥80,000 `[VERIFY]`) often *does* break even — this is the multi-region trip it was actually designed for.
+- **Add a multi-region week two** with several long Shinkansen legs (e.g. Osaka → Kanazawa → back toward Tokyo, or the run out to Hiroshima and back), and the **nationwide 14-day pass** — ¥80,000 for the ordinary adult version as of August 2026, rising to ¥84,000 from 1 October 2026 ([official prices](https://japanrailpass.net/en/purchase/price/)) — often *does* break even — this is the multi-region trip it was actually designed for.
 - **But if your week two is compact** (staying within one region reachable on a *regional* pass, like the Kansai WIDE area), a regional pass plus a couple of individual tickets can still beat the nationwide one.
 
 The rule stays the same — **do the math on your actual legs** — but the answer genuinely changes with the second week. Run it with the full method here: [Is the JR Pass Worth It in 2026?](/japan-travel/is-jr-pass-worth-it-2026/).
@@ -145,7 +143,7 @@ Two more long-trip logistics that matter more at 14 days than at 7:
 - **Summer heat escape or winter snow:** **Option C (Hokkaido)**, and price flights against rail.
 - **Budget-focused:** keep week two inside one region on a **regional pass**, lean on free highlights, and skip the nationwide pass unless your legs clearly justify it.
 - **Couple / slower pace:** cut one week-one day trip, add a night in the week-two region, and protect the day-8 rest day fiercely.
-- **"Handle the hard parts":** self-guide week one, book a **multi-day guided segment** for the week-two region (a 3–5 day guided run is typically ~US$500 `[VERIFY]`), and keep your buffer day.
+- **"Handle the hard parts":** self-guide week one, book a **multi-day guided segment** for the week-two region — a three-to-five-day run with transport, hotels and guiding in one booking — and keep your buffer day.
 
 ---
 
@@ -161,25 +159,10 @@ Get the two big decisions right — which single region gets week two, and wheth
 2. Sort week-one detail and Tokyo tours: [7-day Japan itinerary](/japan-travel/7-day-japan-itinerary/) and [best Klook tours in Tokyo](/japan-travel/best-klook-tours-tokyo/).
 3. Size your data for two weeks: [best eSIM for Japan](/japan-travel/best-esim-for-japan/).
 4. Lock the tours that sell out:
-   - 👉 **Week one (teamLab, Fuji/Hakone):** `[VERIFY affiliate link — GetYourGuide Tokyo]`
-   - 👉 **Week-two region (Alps / West / Hokkaido):** `[VERIFY affiliate link — GetYourGuide region]`
-5. Book the bases. A fortnight usually means four or five hotels, and the week-two regions have far thinner inventory than Tokyo — book those first.
-   - 👉 **Hotels & ryokan:** `[VERIFY affiliate link — accommodation programme not yet approved. Candidates: Trip.com (1–5.5%, 7–30-day cookie) or Agoda (6%, 1-day cookie); Rakuten Travel (0.8–5%, 30 days) for ryokan and domestic-only inventory.]`
+   - 👉 **Week one:** the teamLab time slot first, then a peak-season Fuji or Hakone day trip.
+   - 👉 **Week-two region:** the Shirakawa-go bus in the Alps, a Shimanami Kaido bike in the west, or seasonal activity days in Hokkaido.
+5. Book the bases. A fortnight usually means four or five hotels, and the week-two regions have far thinner inventory than Tokyo — book those first, and the ryokan nights earliest of all.
 
 The travelers who look back happiest on two weeks aren't the ones who saw the most — they're the ones who chose one region to love and gave themselves time to love it.
 
 *Sources consulted (confirm live prices before booking): [Klook — Japan things to do & day trips](https://www.klook.com/destination/c28-tokyo/1-things-to-do/), [Guide2Japan — JR Pass 2026](https://www.guide2japan.com/plan-a-trip/jr-pass/), [JR East 2026 pass information](https://www.jreast.co.jp/e/press/pdf/0128_pass_en.pdf).*
-
-<!--
-PRE-PUBLISH CHECKLIST
-[ ] Replace every [VERIFY] price with live figures (14-day pass ~¥80,000; multi-day tour ~US$500).
-[ ] Insert real GetYourGuide affiliate links generated in the GetYourGuide partner dashboard — DIRECT partnership, not via Travelpayouts. BLOCKER, do this first: switch Travelpayouts LinkSwitcher off (or exclude GetYourGuide), otherwise it rewrites the links and the direct attribution is lost; confirm in the live DOM that the href is unchanged. Do not install the GetYourGuide analyzer script. Partner ID and the reasoning behind both calls are in CLAUDE.md. Fill ALL [VERIFY affiliate link] slots and confirm deep links & tracking IDs per region.
-[ ] Confirm week-two region facts before publish: Shimanami Kaido ~70 km & e-bike availability; Takayama/Shirakawa-go/Kanazawa transit; Hokkaido flight-vs-rail. Correct any that are off.
-[ ] Verify the 14-day-pass "breaks even on multi-region" claim against the JR Pass guide's live math — keep the two articles consistent.
-[ ] Internal links to JR Pass / 7-day / Klook / eSIM present and pointing to final /japan-travel/<slug>/ URLs — CONFIRMED.
-[ ] Data-usage figure (~14 GB/2 weeks) presented as community-reported, not first-hand — confirmed.
-[ ] Affiliate disclosure at top — confirmed.
-[ ] Primary keyword "2 week Japan itinerary" in title, first 100 words, one H2 — present.
-[ ] No fabricated first-hand experiences — framed as guidance from common community routes — confirmed.
-[ ] Word count 2,500–3,500 — confirm after edits.
--->

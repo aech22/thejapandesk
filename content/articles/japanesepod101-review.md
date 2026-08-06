@@ -11,7 +11,7 @@ draft: false
 
 # JapanesePod101 Review: Is It Actually Worth It? (An Honest, Research-Based Look for 2026)
 
-*Affiliate disclosure: This article contains affiliate links. If you subscribe through one of them, I may earn a commission at no extra cost to you. Just as important, I want to be upfront about method: this is a research-based review built from the free lessons, the public curriculum, the pricing page, and a wide read of learner feedback — not a claim that I personally ground through all 2,000+ audio lessons over three years. Where a price or a commission figure appears, I've flagged it with `[VERIFY]` so nothing here is guessed. I grew up speaking Japanese, so where it helps I'll point out whether the example sentences and the politeness levels actually sound like something a real person would say.*
+*Affiliate disclosure: This article contains affiliate links. If you subscribe through one of them, I may earn a commission at no extra cost to you. Just as important, I want to be upfront about method: this is a research-based review built from the free lessons, the public curriculum, the pricing page, and a wide read of learner feedback — not a claim that I personally ground through all 2,000+ audio lessons over three years. Where I couldn't confirm a current figure against an official source, I've described how the plans are structured rather than guess at a number. I grew up speaking Japanese, so where it helps I'll point out whether the example sentences and the politeness levels actually sound like something a real person would say.*
 
 ---
 
@@ -59,20 +59,20 @@ Before I judge JapanesePod101, here's the yardstick. When I evaluate any listeni
 
 ## 4. Comparison table: JapanesePod101 tiers and how they sit against the field
 
-Here's the landscape at a glance. Every price is flagged because tiers and promotional rates shift constantly — confirm on the live pricing page before you buy.
+Here's the landscape at a glance. I've deliberately left exact figures out of the last column: JapanesePod101 runs promotions more or less continuously, so any number I printed here would be stale — or worse, a sale price dressed up as the standard one — by the time you read it. Check the live pricing page before you buy.
 
-| Option | Core strength | Kanji/reading system | Best for | Rough price |
+| Option | Core strength | Kanji/reading system | Best for | Pricing |
 |---|---|---|---|---|
-| **JapanesePod101 — Free** | Sample lessons, kana course, limited access | Minimal | Testing the teaching style | Free |
-| **JapanesePod101 — Basic** | Full lesson audio + notes | Minimal | Budget listeners | ~$4–8/mo `[VERIFY]` |
-| **JapanesePod101 — Premium** | Audio + full study tools, quizzes, flashcards | Minimal | Most serious learners | ~$10–25/mo `[VERIFY]` |
-| **JapanesePod101 — Premium PLUS** | Everything + 1-on-1 teacher feedback | Minimal | Learners who want a human | ~$23–47/mo `[VERIFY]` |
-| **Renshuu (free tier)** | Vocab/kanji/grammar SRS, community | Strong, free | Budget all-rounders | Free `[VERIFY]` |
-| **WaniKani** | Kanji via SRS + mnemonics | Excellent (kanji only) | Reading-focused learners | ~$9/mo, ~$299 lifetime `[VERIFY]` |
+| **JapanesePod101 — Free** | Sample lessons, kana course, limited access | Minimal | Testing the teaching style | Free account |
+| **JapanesePod101 — Basic** | Full lesson audio + notes | Minimal | Budget listeners | Entry paid tier |
+| **JapanesePod101 — Premium** | Audio + full study tools, quizzes, flashcards | Minimal | Most serious learners | Mid tier |
+| **JapanesePod101 — Premium PLUS** | Everything + 1-on-1 teacher feedback | Minimal | Learners who want a human | Top tier |
+| **Renshuu (free tier)** | Vocab/kanji/grammar SRS, community | Strong, free | Budget all-rounders | Free tier, optional premium |
+| **WaniKani** | Kanji via SRS + mnemonics | Excellent (kanji only) | Reading-focused learners | Monthly, annual, or one-time lifetime |
 
 The honest read of that table: JapanesePod101 owns the "listening and speaking" column and is weak-to-absent in the "reading kanji" column. It is not trying to be your everything. The people who are happiest with it treat it as the *audio spine* of a stack, not the whole skeleton.
 
-One note on that cheapest-looking Basic price: the low end of every JapanesePod101 range assumes you pay for a long stretch (often 12–24 months) upfront. A rolling monthly subscription sits at the *top* of each range. Budget accordingly, and treat the countdown-timer "sales" with the skepticism they deserve — a discount that's always running isn't really a deadline.
+One note on how those tiers are priced, because it trips people up: the cheap-looking headline rate on any JapanesePod101 plan assumes you pay for a long stretch upfront. A rolling month-to-month subscription always works out dearer per month than a multi-year commitment does. Budget accordingly, and treat the countdown-timer "sales" with the skepticism they deserve — a discount that's always running isn't really a deadline.
 
 ---
 
@@ -128,20 +128,6 @@ It is one of the best tools in existence for the specific problem of "I can't un
 
 The move I'd recommend: **start with the free account.** It costs nothing, it exposes you to the exact teaching style, and it tells you within a week whether the host-driven format clicks for your brain. If it does, Premium is the sweet-spot tier for most people; Premium PLUS only if pronunciation coaching is your priority.
 
-**Try the free lessons here → `[VERIFY: JapanesePod101 affiliate link]`** and see if the format fits before you spend a yen. If you're leaning more toward reading and kanji as your foundation, read my companion guide on the best WaniKani alternatives next — the two together cover both halves of the language.
+**The free lessons are the honest place to begin.** A free account on the JapanesePod101 site costs nothing and tells you within a week whether the format fits, before you spend a yen. If you're leaning more toward reading and kanji as your foundation, read my companion guide on the best WaniKani alternatives next — the two together cover both halves of the language.
 
 がんばってください — you've got this.
-
-<!--
-PRE-PUBLISH CHECKLIST
-[ ] Replace [VERIFY: JapanesePod101 affiliate link] with real affiliate URL
-[ ] Confirm JapanesePod101 commission is 25% and note cookie duration on money page (not in body — commission belongs on the /money reference, kept out of reader-facing copy)
-[ ] Verify all four tier prices (Free/Basic/Premium/Premium PLUS) on live pricing page; confirm the "long-term prepay = low end of range" caveat still holds
-[ ] Verify Renshuu free tier still free; verify WaniKani $9/mo & $299 lifetime
-[ ] Add internal link to article-09 (WaniKani alternatives) once URL exists
-[ ] Add internal link to article-10 (learn from anime) if relevant
-[ ] Confirm affiliate disclosure is above the fold (it is)
-[ ] Spellcheck Japanese: 何してるの / 何をしていますか / です・ます / がんばってください
-[ ] Word count target 2,500–3,500 — confirm
-[ ] Re-read for AI clichés ("in today's fast-paced world", "unlock", "delve", "game-changer") — remove any that crept in
--->

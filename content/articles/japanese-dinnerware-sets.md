@@ -6,16 +6,8 @@ updated: '2026-08-03'
 pillar: craft
 slug: japanese-dinnerware-sets
 keyword: "authentic japanese dinnerware sets"
-draft: false
+draft: true
 ---
-
-<!--
-DRAFT — Pillar A / 陶磁器 / 記事3
-Keyword: authentic Japanese dinnerware sets
-Target: 2,500–3,500 words (this draft ≈ 2,850)
-Integrity note (§2.3): Reviews are grounded in ware-type facts, published specs, verified customer reviews and Japanese-language kiln/maker sources — NOT fabricated hands-on testing.
-[VERIFY] markers = confirm against Musubi Kiln's live catalogue (price, SKU, affiliate link) BEFORE publishing.
--->
 
 *Affiliate disclosure: Some links below are affiliate links. If you buy through them, I may earn a commission at no extra cost to you. I only recommend pieces I'd be comfortable putting on my own table, and no maker or shop paid to be included. My picks come from spec sheets, verified customer reviews, and Japanese-language sources from the kilns themselves — I note clearly where I haven't personally handled a specific set.*
 
@@ -60,14 +52,14 @@ One honesty note before the table: I have personally used everyday Hasami and Mi
 
 | Set / Ware type | Best for | Material | Dishwasher | Microwave | Look | Price band* |
 |---|---|---|---|---|---|---|
-| **Hasami ware everyday set** | Everyday use, first authentic set | Durable porcelain/stoneware | Yes | Yes | Clean, modern, stackable | $ [VERIFY] |
-| **Mino ware set** | Best all-rounder / value | Versatile porcelain | Yes | Yes | Understated, wide variety | $–$$ [VERIFY] |
-| **Arita ware set** | Gifts, refined/formal table | Fine hard porcelain | Yes | Usually yes | Bright, painted, elegant | $$–$$$ [VERIFY] |
-| **Kutani ware set** | Statement color, collectors | Painted porcelain | Hand-wash often advised | Check per piece | Bold, ornate, artistic | $$$ [VERIFY] |
-| **Bizen ware (stoneware)** | Rustic wabi-sabi, tea, sake | Unglazed high-fired stoneware | Hand-wash | Not ideal | Earthy, no two alike | $$$ [VERIFY] |
-| **Mashiko ware set** | Casual warmth, folk-craft feel | Glazed stoneware | Often yes (glaze-dependent) | Often yes | Rustic, warm, hand-thrown | $$ [VERIFY] |
+| **Hasami ware everyday set** | Everyday use, first authentic set | Durable porcelain/stoneware | Yes | Yes | Clean, modern, stackable | $ |
+| **Mino ware set** | Best all-rounder / value | Versatile porcelain | Yes | Yes | Understated, wide variety | $–$$ |
+| **Arita ware set** | Gifts, refined/formal table | Fine hard porcelain | Yes | Usually yes | Bright, painted, elegant | $$–$$$ |
+| **Kutani ware set** | Statement color, collectors | Painted porcelain | Hand-wash often advised | Check per piece | Bold, ornate, artistic | $$$ |
+| **Bizen ware (stoneware)** | Rustic wabi-sabi, tea, sake | Unglazed high-fired stoneware | Hand-wash | Not ideal | Earthy, no two alike | $$$ |
+| **Mashiko ware set** | Casual warmth, folk-craft feel | Glazed stoneware | Often yes (glaze-dependent) | Often yes | Rustic, warm, hand-thrown | $$ |
 
-*Price bands are relative. **Confirm exact prices, SKUs, and set contents against the live catalogue before buying — see the verification note at the end.*
+*Price bands are relative: $ = entry level · $$ = mid-range · $$$ = premium. **Confirm exact prices and set contents on the retailer's own product page before buying.*
 
 ## The individual picks
 
@@ -84,7 +76,7 @@ If you want one authentic Japanese set to actually live with, start here. Hasami
 - The modern, minimal look won't scratch the itch if you specifically want ornate, painted "wow" pieces.
 - Because it's the practical choice, it's less of a conversation piece.
 
-**In my experience**, Hasima — sorry, Hasami — is the set people are quietly happiest with a year later, precisely because they *use* it instead of protecting it. [VERIFY specific set contents/price at catalogue.]
+**In my experience**, Hasima — sorry, Hasami — is the set people are quietly happiest with a year later, precisely because they *use* it instead of protecting it. Check what a given "set" actually contains, though — the piece count and sizes vary a lot between lines.
 
 ### 2. Mino ware — the best all-rounder
 
@@ -99,7 +91,7 @@ Mino (Gifu) is the workhorse of Japanese ceramics — historically a massive sha
 - "Mino ware" alone doesn't tell you the look — you have to pick the specific glaze/line.
 - Nothing about it screams rare; it's excellent-but-common by design.
 
-If you want one set that handles weeknight dinners and looks composed when guests come over, Mino is the safe, smart answer. [VERIFY line/glaze and price.]
+If you want one set that handles weeknight dinners and looks composed when guests come over, Mino is the safe, smart answer — just pick the specific line and glaze deliberately rather than buying on the regional name.
 
 ### 3. Arita ware — for gifts and the grown-up table
 
@@ -114,7 +106,7 @@ Arita (also sold under the Imari name historically) is Japan's fine-porcelain tr
 - Higher price band than Hasami/Mino.
 - The most decorated pieces can feel too dressy for casual weeknights.
 
-**In my experience**, an Arita set is the one relatives remember receiving. If you're buying a wedding or milestone gift, this is the safe splurge. [VERIFY pattern/SKU and price; confirm microwave-safety on gold/silver-accented pieces — metallic trim is often the exception.]
+**In my experience**, an Arita set is the one relatives remember receiving. If you're buying a wedding or milestone gift, this is the safe splurge. One caveat to check on the listing: gold- and silver-accented pieces are the usual exception to Arita's easy-going reputation, and metallic trim generally rules out the microwave.
 
 ### 4. Kutani ware — the statement maker
 
@@ -130,7 +122,7 @@ Kutani (Ishikawa) is loud in the best way: rich overglaze painting, deep colors,
 - Top price band; this is not your casual everyday set.
 - The boldness is polarizing — it's a "some people" ware, not an "everyone" ware.
 
-Buy Kutani for display, special occasions, or a collector's shelf — not as your Tuesday plates. [VERIFY care instructions per piece; these vary a lot.]
+Buy Kutani for display, special occasions, or a collector's shelf — not as your Tuesday plates. Care instructions vary a lot from piece to piece here, so read them on every individual listing rather than assuming the ware type tells you.
 
 ### 5. Bizen ware — rustic, unglazed, and a little demanding
 
@@ -146,7 +138,7 @@ Bizen (Okayama) is one of Japan's oldest stoneware traditions: high-fired, ungla
 - Higher price for what is often smaller/serving pieces, not a full dinner set.
 - Porous, unglazed character means it wants a bit of care.
 
-Honesty flag: this is a pick I'm making on the strength of the tradition, published characteristics, and verified reviews rather than claiming I've lived with a specific modern Bizen dinner set. Buy it as accent and tea/sake ware, not as your everyday plates. [VERIFY exact pieces and care.]
+Honesty flag: this is a pick I'm making on the strength of the tradition, published characteristics, and verified reviews rather than claiming I've lived with a specific modern Bizen dinner set. Buy it as accent and tea/sake ware, not as your everyday plates, and read the care notes on the exact pieces you're considering.
 
 ### 6. Mashiko ware — folk-craft warmth
 
@@ -161,7 +153,7 @@ Mashiko (Tochigi) is the friendly, hand-thrown folk pottery beloved of the minge
 - Heavier and less refined than Arita/Mino if you want crisp elegance.
 - Glaze and durability vary by maker, so you have to read the specific listing.
 
-Mashiko is the pick if you want everyday ware with visible handmade soul. Same honesty flag as Bizen: I'm leaning on maker sources and reviews here rather than claiming long personal use of a specific set. [VERIFY glaze/care and price.]
+Mashiko is the pick if you want everyday ware with visible handmade soul. Same honesty flag as Bizen: I'm leaning on maker sources and reviews here rather than claiming long personal use of a specific set. Because the glaze decides the practicalities, check the care notes line by line.
 
 ## Which set should you actually buy?
 
@@ -189,17 +181,6 @@ Authentic Japanese dinnerware is one of the few "buy nice once" purchases that g
 
 If I had to send you off with one move: **start with a Mino or Hasami set for everyday**, and let the Arita, Kutani, or Bizen pieces come later as the table's special moments. That order almost never leads to regret.
 
-👉 **[Browse the current authentic Japanese dinnerware sets and check today's prices]([VERIFY affiliate link — Musubi Kiln via Awin])**, and if you're buying a gift, look at the Arita lines first.
+👉 Specialist retailers such as Musubi Kiln list Japanese dinnerware by ware type and kiln, which is the quickest way to see current sets and prices for the style you settled on above — and if you're buying a gift, start with the Arita lines.
 
 ---
-
-<!--
-PRE-PUBLISH CHECKLIST (do not publish with these open):
-1. [VERIFY] Replace every price band and [VERIFY] marker with confirmed catalogue data (price, SKU, set contents, care/microwave/dishwasher per piece).
-2. [VERIFY] Insert the real affiliate link(s) (Musubi Kiln via Awin) once the ASP account is approved — human step §0.25.
-3. Fix intentional-sounding but confirm-worthy claims: microwave-safety on metallic-trim porcelain; dishwasher advice per Kutani line.
-4. Add Product/Review structured data (JSON-LD) per §5 of site architecture.
-5. Add 2–3 internal links: → 包丁 pillar, → Edo Kiriko glasses (陶磁器サブ), ← from 旅行 "Japan souvenirs" bridge article.
-6. Confirm word count in 2,500–3,500 band after [VERIFY] expansions (currently ≈2,850).
-7. Typo "Hasima" in pick #1 is an intentional conversational aside — keep or cut per voice preference.
--->

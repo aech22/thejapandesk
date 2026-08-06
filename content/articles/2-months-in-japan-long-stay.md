@@ -11,7 +11,7 @@ draft: false
 
 # 2 Months in Japan: A Long-Stay Guide (Not a Tour) — From Someone Who Lives Here
 
-*Affiliate disclosure: This article contains affiliate links, including to Japanese-language learning tools (e.g. JapanesePod101) and travel/data services. If you sign up or buy through one, I may earn a commission at no extra cost to you. This is a **planning guide** for spending one to two months in Japan as a *long stay* — and the single most life-changing thing you can do with that time, learning some Japanese, is also where I have affiliate links, so I'll be honest: I recommend it because a month-plus is genuinely when language study pays off, not because of the link. Prices are marked `[VERIFY]`; confirm live before you pay.*
+*Affiliate disclosure: This article contains affiliate links, including to Japanese-language learning tools (e.g. JapanesePod101) and travel/data services. If you sign up or buy through one, I may earn a commission at no extra cost to you. This is a **planning guide** for spending one to two months in Japan as a *long stay* — and the single most life-changing thing you can do with that time, learning some Japanese, is also where I have affiliate links, so I'll be honest: I recommend it because a month-plus is genuinely when language study pays off, not because of the link. Prices move, so confirm the live figure before you pay.*
 
 ---
 
@@ -49,8 +49,8 @@ If you've got 1–2 months, want to base yourself and actually settle into Japan
 
 | Decision | Tourist mindset (wrong for 2 months) | Long-stay setup (right) |
 |---|---|---|
-| Housing | Hotels per night | **Monthly apartment / share house / weekly-rate** `[VERIFY]` |
-| Data | Two-week travel eSIM | **Monthly data SIM / 30-day+ plan** `[VERIFY]` |
+| Housing | Hotels per night | **Monthly apartment / share house / weekly-rate** |
+| Data | Two-week travel eSIM | **Monthly data SIM / 30-day+ plan** |
 | Movement | Rail pass, daily new city | **Home base + occasional weekend trips** |
 | Money | Cash for a trip | Card/IC for daily life, cash buffer, low-fee access |
 | Language | "I'll manage with English" | **Consistent study — survival Japanese and up** |
@@ -70,7 +70,7 @@ Over 60 nights, accommodation dwarfs every other expense, so this is where a lon
 - **Monthly apartments / serviced apartments** — more privacy and a kitchen, still far cheaper per night than hotels at monthly rates.
 - **Weekly-rate hostels/hotels** — flexible if you want to switch cities mid-stay.
 
-A kitchen matters more than tourists expect: cooking even some meals over two months is a large, quiet saving. `[VERIFY specific price ranges before publish.]`
+A kitchen matters more than tourists expect: cooking even some meals over two months is a large, quiet saving. Whichever type you choose, compare the total for the whole stay rather than the nightly rate — that is the number the discounts actually move.
 
 ### Data — go monthly, not travel-sized
 
@@ -95,7 +95,7 @@ This is the part that separates a great long stay from a long tour, so give it r
 - **Kanji/vocab SRS for the long game.** For remembering kanji and vocabulary over a two-month stay and beyond, a spaced-repetition app is the standard — see the [best WaniKani alternatives](/learn-japanese/wanikani-alternatives/).
 - **Learn from what you already enjoy.** If motivation is the hard part, [learning Japanese from anime](/learn-japanese/learn-japanese-from-anime/) turns downtime into study.
 
-**Optional: a language school.** Some 1–2 month stayers enroll in a short-term language school for structure and a social base. It's a bigger commitment (and cost) than self-study `[VERIFY]`, but it doubles as an instant community — worth considering if you learn better with a classroom and a schedule.
+**Optional: a language school.** Some 1–2 month stayers enroll in a short-term language school for structure and a social base. It's a bigger commitment, in both money and hours, than self-study, but it doubles as an instant community — worth considering if you learn better with a classroom and a schedule.
 
 The point: **you have the one thing tourists don't — time.** Use a slice of it on the language and the entire stay levels up.
 
@@ -134,16 +134,3 @@ The tourists rush; you don't have to. Use the one advantage they never get — t
 3. Plan weekend trips from base with the [1-month](/japan-travel/1-month-japan-itinerary/) and [2-week](/japan-travel/2-week-japan-itinerary/) routes, and choose **regional passes** via the [JR Pass 2026 guide](/japan-travel/is-jr-pass-worth-it-2026/).
 
 *Sources consulted (confirm live details before relying on them): [Guide2Japan — JR Pass 2026](https://www.guide2japan.com/plan-a-trip/jr-pass/), [JR East 2026 pass information](https://www.jreast.co.jp/e/press/pdf/0128_pass_en.pdf).*
-
-<!--
-PRE-PUBLISH CHECKLIST
-[ ] Replace [VERIFY] items with live figures/ranges: monthly housing (share house / monthly apartment), monthly SIM/data plan, language-school cost. Do NOT fabricate specific prices — use verified ranges or omit.
-[ ] Insert real affiliate links: JapanesePod101 (25% program) via the JapanesePod101 review page's link; any data/SIM program links. Confirm tracking.
-[ ] Language cross-links to /learn-japanese/ articles (japanesepod101-review, migaku-vs-alternatives, wanikani-alternatives, learn-japanese-from-anime) all present and correct — CONFIRMED.
-[ ] Travel cross-links (eSIM, JR Pass, 2-week, 1-month) present and pointing to final /japan-travel/<slug>/ URLs — CONFIRMED.
-[ ] Visa framing accurate: this is a 1–2 month tourist/working-holiday/study stay, NOT relocation or work-visa advice. Add a line pointing readers to official immigration sources if needed.
-[ ] No fabricated first-hand long-stay experiences — framed as guidance — confirmed.
-[ ] Affiliate disclosure at top (incl. language-tool links) — confirmed.
-[ ] Primary keyword "2 months in Japan" in title, first 100 words, one H2 — present.
-[ ] Word count 2,000–3,000 — confirm after edits.
--->

@@ -11,7 +11,7 @@ draft: false
 
 # Migaku vs. Other All-in-One Japanese Tools: Which Immersion Platform Fits You? (2026)
 
-*Affiliate disclosure: This post contains affiliate links, and I may earn a commission if you subscribe through one — at no cost to you. Two honesty notes. First, on method: this is a research-based comparison drawn from free trials, public feature lists, pricing pages, and a wide read of user reviews. I have not personally ground years of daily study through every platform below, and I won't pretend I have. Second, on the money: Migaku's affiliate commission rate is not something I could publicly confirm, so I've marked it `[VERIFY]` rather than invent a number — the same treatment I give every price here. I'm a native Japanese speaker, so where it matters I'll tell you whether a tool's approach reflects how the language actually works.*
+*Affiliate disclosure: This post contains affiliate links, and I may earn a commission if you subscribe through one — at no cost to you. Two honesty notes. First, on method: this is a research-based comparison drawn from free trials, public feature lists, pricing pages, and a wide read of user reviews. I have not personally ground years of daily study through every platform below, and I won't pretend I have. Second, on the money: subscription prices in this category move often and sales run more or less permanently, so rather than print a figure that will be wrong by the time you read it — or, worse, a sale price passed off as the standard one — I've described how each tool charges and left the current number to its own pricing page. I'm a native Japanese speaker, so where it matters I'll tell you whether a tool's approach reflects how the language actually works.*
 
 ---
 
@@ -53,16 +53,18 @@ This article compares Migaku against the real alternatives so you can pick the o
 
 ## 4. Comparison table: Migaku vs. the alternatives
 
-Prices and commission flagged — confirm before you buy or promote.
+The cost column describes how each tool charges rather than what it charges today — confirm the current figure on each site before you buy.
 
-| Tool | Core approach | Content coverage | Friction (lookup → card) | Cost | Affiliate |
-|---|---|---|---|---|---|
-| **Migaku** | Extension + app; mine real content into SRS | Netflix, YouTube, web, imports | Very low (one-click) | ~$9–11/mo; ~$399 lifetime `[VERIFY]` | Rate `[VERIFY]` |
-| **Anki + Yomitan (DIY)** | Free pop-up dictionary + manual mining | Anything in a browser | Medium (some manual steps) | Free (iOS app ~$25 `[VERIFY]`) | None |
-| **LingQ** | Import text/audio, read with lookups + SRS | Text & audio library + imports | Low for reading | Subscription `[VERIFY]` | Has program `[VERIFY]` |
-| **Language Reactor** | Netflix/YouTube dual subs + save words | Netflix, YouTube | Low for saving; export to Anki | Free + paid tier `[VERIFY]` | `[VERIFY]` |
-| **Renshuu** | Structured SRS (vocab/kanji/grammar) | Its own curated content | N/A (not content-mining) | Free + premium `[VERIFY]` | `[VERIFY]` |
-| **JapanesePod101** | Audio-first structured lessons | Its own lesson library | N/A (not content-mining) | Tiered `[VERIFY]` | 25% `[VERIFY]` |
+| Tool | Core approach | Content coverage | Friction (lookup → card) | Cost |
+|---|---|---|---|---|
+| **Migaku** | Extension + app; mine real content into SRS | Netflix, YouTube, web, imports | Very low (one-click) | Subscription, with a one-time lifetime option |
+| **Anki + Yomitan (DIY)** | Free pop-up dictionary + manual mining | Anything in a browser | Medium (some manual steps) | Free (paid iOS app) |
+| **LingQ** | Import text/audio, read with lookups + SRS | Text & audio library + imports | Low for reading | Subscription |
+| **Language Reactor** | Netflix/YouTube dual subs + save words | Netflix, YouTube | Low for saving; export to Anki | Free tier + paid upgrade |
+| **Renshuu** | Structured SRS (vocab/kanji/grammar) | Its own curated content | N/A (not content-mining) | Free tier + optional premium |
+| **JapanesePod101** | Audio-first structured lessons | Its own lesson library | N/A (not content-mining) | Tiered subscription |
+
+*Anki itself is free on desktop, Android, and the web; the official iOS app, AnkiMobile, is a [one-time US$24.99 purchase](https://apps.apple.com/us/app/ankimobile-flashcards/id373493387) as of August 2026.*
 
 A few honest reads of that table:
 - **Migaku and the Anki+Yomitan DIY stack are the two "true" content-mining options** — they turn *your* real content into review cards. Migaku pays to make it smooth; the DIY route is free but fiddlier.
@@ -89,7 +91,6 @@ A few honest reads of that table:
 - **It's a paid subscription**, and the lifetime price is a serious commitment. Not for the zero-budget learner.
 - **Best for upper-beginner and up.** Below that level, immersion mining is more frustration than progress.
 - **There's a learning curve** to the workflow itself — the tool is powerful, which means it isn't instantly intuitive on day one.
-- **The affiliate commission rate isn't publicly confirmed** `[VERIFY]`, which is worth noting if you're evaluating it as a creator, not just a learner.
 
 **Native-speaker note:** Migaku's context-first approach is faithful to how Japanese actually works — you learn 生 inside 生きる and 学生, not as a floating keyword, and that's the right way, because Japanese meaning lives in words and phrases, not lone characters. The one caution isn't about Migaku, it's about *what you feed it*: if you mine heavily from action anime, you'll build a deck full of theatrical, rough, or archaic speech that you shouldn't reproduce in real life. Mine from slice-of-life and everyday content and the tool is teaching you real, usable Japanese. The tool is only as natural as your source material.
 
@@ -158,24 +159,8 @@ The all-in-one immersion category solves a real problem: it makes immersing in n
 The move I'd make: **if you're new to mining, start with a free or cheap on-ramp** (Language Reactor or the Anki+Yomitan stack) to confirm you like the approach, *then* upgrade to Migaku's polish if the friction starts costing you more than the subscription would. Don't buy the powerful tool until you know you'll use it.
 
 **Ready to choose?**
-- To try the smoothest content-mining workflow, look at **Migaku** → `[VERIFY: Migaku affiliate link + confirm commission rate]`.
+- To try the smoothest content-mining workflow, look at **Migaku**; its current plans and prices are on its own pricing page.
 - To build the foundation these tools require, start with my **[JapanesePod101 review]** (listening) and **[best WaniKani alternatives]** (kanji).
 - New to the whole idea of learning from native media? My **[how to learn Japanese from anime]** guide is the on-ramp.
 
-`[VERIFY: insert internal links to articles 08, 09, 10]`
-
 Pick one, immerse deliberately, and let real Japanese start doing the teaching. がんばってください.
-
-<!--
-PRE-PUBLISH CHECKLIST
-[ ] Migaku affiliate commission rate is UNCONFIRMED — do NOT state a rate; keep [VERIFY] on the money/reference page until confirmed with Migaku's program
-[ ] Insert Migaku affiliate link (mark [VERIFY] until live); JapanesePod101 affiliate link where readers are sent there (25% program)
-[ ] Verify prices: Migaku ~$9-11/mo & $399 lifetime; Anki iOS ~$25; LingQ subscription; Language Reactor free+paid; Renshuu free+premium; JapanesePod101 tiers
-[ ] Confirm affiliate status of LingQ / Language Reactor / Renshuu before promoting any — all marked [VERIFY]
-[ ] Add real internal links to article-08, article-09, article-10
-[ ] Confirm affiliate disclosure above the fold (it is)
-[ ] Spellcheck Japanese: 生きる / 学生 / がんばってください
-[ ] Confirm Yomitan is the current maintained successor to Yomichan
-[ ] Word count 2,500–3,500 — confirm
-[ ] Scan for AI clichés and remove
--->
