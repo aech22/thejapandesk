@@ -5,7 +5,7 @@ import CookieConsent from '../components/CookieConsent.astro';
 import { PILLARS } from '../data/pillars';
 import {
   SITE_TITLE, SITE_DESCRIPTION, SITE_LIVE,
-  PINTEREST_VERIFY, TWITTER_SITE,
+  PINTEREST_VERIFY, TWITTER_SITE, TRAVELPAYOUTS_SCRIPT,
 } from '../consts';
 
 interface Props {
@@ -86,6 +86,19 @@ const breadcrumbLd = breadcrumbs && breadcrumbs.length
     <Jsonld data={siteLd} />
     {breadcrumbLd && <Jsonld data={breadcrumbLd} />}
     {/* GA は Cookie 同意後にのみ読み込む（CookieConsent コンポーネント側で制御） */}
+    {/* Travelpayouts。サイト認証に使われるため同意ゲートに載せず全ページで無条件に読む。
+        data-cfasync は Cloudflare Rocket Loader 除外、data-cmp-ab はベンダー指定の属性。
+        元スニペットの WordPress キャッシュプラグイン向け属性（nowprocket 等）はこの環境では無効なため省いた。 */}
+    {TRAVELPAYOUTS_SCRIPT && (
+      <script is:inline data-cfasync="false" data-cmp-ab="2" set:html={`
+  (function () {
+      var script = document.createElement("script");
+      script.async = 1;
+      script.setAttribute("data-cmp-ab","2");
+      script.src = '${TRAVELPAYOUTS_SCRIPT}';
+      document.head.appendChild(script);
+  })();`} />
+    )}
   </head>
   <body class="min-h-screen font-sans text-ink antialiased">
     <header class="sticky top-0 z-30 border-b border-black/5 bg-paper/85 backdrop-blur">

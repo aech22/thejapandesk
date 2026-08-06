@@ -14,3 +14,7 @@ export const SITE_LIVE = false;
 export const GA_MEASUREMENT_ID = 'G-G84FY7N72R';   // GA4測定ID（Cookie同意後に発火）
 export const PINTEREST_VERIFY = '';    // Pinterest ドメイン認証タグ
 export const TWITTER_SITE = '';        // 例: '@thejapandesk'
+
+// Travelpayouts スクリプト（サイト認証＋リンク収益化）。marker 559180。
+// 全ページの <head> で読ませる必要があるため BaseLayout から出力する。空文字なら出力されない。
+export const TRAVELPAYOUTS_SCRIPT = 'https://emrldco.com/NTU5MTgw.js?t=559180';
