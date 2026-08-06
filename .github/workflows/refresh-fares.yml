@@ -1,0 +1,66 @@
+name: Refresh flight fares
+
+# Travelpayouts の運賃データを週次で取り直し、変化があればコミットして本番へ反映する。
+#
+# ⚠️ このワークフローが自分でビルド・デプロイまでやる理由:
+#    GITHUB_TOKEN による push は「他のワークフローを起動しない」という GitHub の再帰防止仕様がある。
+#    つまりここで main へコミットしても deploy.yml は動かない。PAT を発行して回避する手もあるが、
+#    秘密情報を増やしたくないので、このワークフロー内で完結させている。
+#    → deploy.yml と同じ publish 手順をここにも書いてある。片方を変えたらもう片方も直すこと。
+
+on:
+  schedule:
+    - cron: '0 20 * * 3'   # 毎週水 20:00 UTC = 木 05:00 JST
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: pages-deploy      # deploy.yml と同じグループ。同時デプロイを避ける
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: npm
+
+      - run: npm ci
+
+      - name: Fetch fares from Travelpayouts
+        env:
+          TRAVELPAYOUTS_TOKEN: ${{ secrets.TRAVELPAYOUTS_TOKEN }}
+        run: npm run fetch:fares
+
+      - name: Commit updated fare data
+        id: commit
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add src/data/fares
+          if git diff --staged --quiet; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "運賃データに変化なし。デプロイはスキップする。"
+          else
+            git commit -m "chore: 運賃データを更新（Travelpayouts 自動取得）"
+            git push
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Build
+        if: steps.commit.outputs.changed == 'true'
+        run: npm run build
+
+      - name: Deploy to GitHub Pages
+        if: steps.commit.outputs.changed == 'true'
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist

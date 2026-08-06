@@ -54,6 +54,28 @@
 
 **ニッチ選定の前提**: 報酬 $30/件の足切りが厳しく、Tier1 は7ニッチ（陶磁器/包丁/盆栽/万年筆/剣道/語学/旅行）に落ち着いた。$30 は高単価物販×専門店10-20%・高額旅行予約8%・語学SaaS生涯プランからのみ出る（低単価サブスク・eSIM・コーヒー器具は未達）。
 
+## 運賃データ（Travelpayouts Flight Data API）
+
+旅行ピラー向けに、航空券の月別最安値をビルド前に取得して静的HTMLへ焼き込む仕組み。**収益源ではなく集客・内部送客の入口**という位置づけ（フライトの報酬はチケット価格の1.1〜1.6%＝$30足切りに単体では届かない。刈り取りは GetYourGuide / Klook / JR Pass への内部リンクで行う）。
+
+| | 場所 |
+|---|---|
+| 取得スクリプト | `scripts/fetch_fares.mjs`（`npm run fetch:fares` / `npm run fetch:fares:spike`） |
+| 路線定義（単一ソース） | `src/data/fareRoutes.json` — 取得側と表示側の両方が読む |
+| 出力データ | `src/data/fares/{ORIGIN}-{DEST}.json` |
+| 表示 | `src/components/FareTable.astro` — 記事の frontmatter `fareWidget:` で差し込む |
+| 定期更新 | `.github/workflows/refresh-fares.yml`（週次・木05:00 JST） |
+
+- **トークンは `TRAVELPAYOUTS_TOKEN`**（環境変数／GitHub Secrets）。**`PUBLIC_` 接頭辞を使わない**（Astro がクライアントバンドルへ出力してしまう。リポジトリは public）
+- **ブラウザから API を叩かない。** ビルド時取得のみ。理由は①トークン露出②Cookie同意ゲートの管轄に入り非同意ユーザーに表が出ない③JS依存だとインデックスされない
+- **鮮度ガード**: データが **14日**より古いと `FareTable` が価格を伏せて「refreshing」表示に切り替える。更新が止まった静的サイトが古い運賃を配り続けるのを防ぐ最後の砦。**この閾値を緩めない**
+- **API が返すのは直近48時間の検索キャッシュ**であり在庫でも確定運賃でもない。記事本文で「この値段で買える」と書かない（表の免責文が常時出る）
+- 記事本文は `.md` でコンポーネントを直接書けないため、**frontmatter 駆動**（`fareWidget: { dest, origins }`）で `ArticleLayout` が本文末に描画する。MDX は導入しない
+
+⚠️ **`refresh-fares.yml` が自分でビルド・デプロイまで行う理由**: `GITHUB_TOKEN` による push は他のワークフローを起動しない（GitHub の再帰防止仕様）ため、main へコミットしても `deploy.yml` は動かない。PAT を増やさない判断で、publish 手順を両方のワークフローに持たせている。**片方を変えたらもう片方も直すこと。**
+
+⚠️ **bot が `src/data/fares/` を main にコミットする**ので、ローカルから push する前に `git pull --rebase` すること（共通正本ハマりどころ #10 と同じ状態）。
+
 ## SNS 発信
 
 **Pinterest（本命）＞ Reddit（価値提供・直リンク禁止）＞ YouTube/Shorts＞ Instagram（補助）。X は捨て。** ハンドルは `@thejapandesk` で統一予定。

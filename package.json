@@ -7,7 +7,9 @@
     "dev": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "check": "astro check"
+    "check": "astro check",
+    "fetch:fares": "node scripts/fetch_fares.mjs",
+    "fetch:fares:spike": "node scripts/fetch_fares.mjs --spike"
   },
   "dependencies": {
     "astro": "^5.13.0",

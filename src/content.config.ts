@@ -15,6 +15,15 @@ const articles = defineCollection({
     keyword: z.string().nullish(),
     draft: z.boolean().default(false),
     noindex: z.boolean().nullish(),
+    // 運賃テーブルの差し込み。本文は .md でコンポーネントを書けないため、
+    // frontmatter で宣言して ArticleLayout が本文末に描画する（事実は記事本文に書かない）。
+    fareWidget: z
+      .object({
+        dest: z.string(),
+        origins: z.array(z.string()).optional(),
+        heading: z.string().nullish(),
+      })
+      .optional(),
   }),
 });
 

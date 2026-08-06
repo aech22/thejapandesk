@@ -1,0 +1,19 @@
+{
+  "_comment": "運賃データの路線定義。scripts/fetch_fares.mjs（取得）と src/components/FareTable.astro（表示）が共有する単一ソース。ここを直せば両方に効く。",
+  "currency": "usd",
+  "origins": [
+    { "iata": "LAX", "label": "Los Angeles", "country": "US" },
+    { "iata": "SFO", "label": "San Francisco", "country": "US" },
+    { "iata": "JFK", "label": "New York", "country": "US" },
+    { "iata": "ORD", "label": "Chicago", "country": "US" },
+    { "iata": "LHR", "label": "London", "country": "UK" },
+    { "iata": "SYD", "label": "Sydney", "country": "AU" },
+    { "iata": "MEL", "label": "Melbourne", "country": "AU" },
+    { "iata": "YVR", "label": "Vancouver", "country": "CA" },
+    { "iata": "YYZ", "label": "Toronto", "country": "CA" }
+  ],
+  "destinations": [
+    { "iata": "NRT", "label": "Tokyo" },
+    { "iata": "KIX", "label": "Osaka" }
+  ]
+}

@@ -7,6 +7,9 @@ pillar: japan-travel
 slug: 7-day-japan-itinerary
 keyword: "7 day japan itinerary"
 draft: false
+fareWidget:
+  dest: NRT
+  origins: [LAX, JFK, LHR, SYD]
 ---
 
 # The Perfect 7-Day Japan Itinerary With Tours (First-Timer's Plan, Built by Someone Who Lives Here)
