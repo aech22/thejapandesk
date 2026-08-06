@@ -79,6 +79,8 @@
 **LinkSwitcher はこのアカウントで利用可能なプログラムのブランドしか変換しない。** 変換対象の判定はクライアント側スクリプトに無く、サーバ（`link-switch/v1/convert`）が返す。
 
 - ⚠️ **これは現時点の測定値**。Travelpayouts の "Unlock more" が解除されて GetYourGuide や 12Go が使えるようになった瞬間、LinkSwitcher は**それらの変換も始める**（＝直接提携の成果が黙って付け替えられる）。**プログラムが解除されたら、直接提携しているブランドを LinkSwitcher から除外すること。**
+- 検証方法（再現手順）: 本番ページで `document.body.appendChild` した `<a>` の `href` が数秒後に `emrldco.com/re?` へ変わるかを見る。`/re?` URL は**開かない**（クリックが記録される）。
+
 ### Klook は当面 Travelpayouts に集約する（2026-08-07 決定）
 
 **直接提携（6.5%）へは切り替えない。LinkSwitcher もそのまま稼働させる（＝ダッシュボードでの作業は不要）。**
@@ -89,7 +91,6 @@
   1. **Travelpayouts 上の Klook 成果が単月 $50 を安定して超えた**とき — 合算による現金化メリットが消え、料率差がそのまま純損になる
   2. **旅行ピラー公開後、Klook リンクのクリックが月100件を超えた**とき — 差分が試算できるだけの母数が出る
 - 切り替えるときは、**LinkSwitcher から Klook を除外するのが先**（除外しないと直接リンクまで Travelpayouts に変換され、直接分が食われる）
-- 検証方法（再現手順）: 本番ページで `document.body.appendChild` した `<a>` の `href` が数秒後に `emrldco.com/re?` へ変わるかを見る。`/re?` URL は**開かない**（クリックが記録される）。
 
 剣道 Tozando・Migaku・日本デニムは料率が ASP ログイン必須で**未確定＝人間ステップ**。
 

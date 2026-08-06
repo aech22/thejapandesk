@@ -6,9 +6,10 @@ export const SITE_DESCRIPTION =
   'Honest buying guides and how-tos for Japanese craft goods, learning the language, and travelling Japan — written from Japan, using first-hand and Japanese-language sources.';
 export const SITE_URL = 'https://thejapandesk.net';
 
-// ★公開ゲート：ローンチ準備が整うまで false。false の間は全ページ noindex（[VERIFY] 下書きが検索に載らない）。
-// ASP承認 → 記事の[VERIFY]潰し → 動作確認 が済んだら true にして再デプロイ。
-export const SITE_LIVE = false;
+// ★公開ゲート。false の間は全ページ noindex ＋ robots.txt 全拒否。
+// 2026-08-07 に true へ。全22記事の [VERIFY] を 0 にし、物販ピラー(craft)を停止したうえで公開した。
+// false に戻すと robots.txt との整合が崩れるので、戻すときは public/robots.txt も一緒に戻すこと。
+export const SITE_LIVE = true;
 
 // 計測・検証（取得後にここへ。空文字なら出力されない）
 export const GA_MEASUREMENT_ID = 'G-G84FY7N72R';   // GA4測定ID（Cookie同意後に発火）
