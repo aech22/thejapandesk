@@ -13,7 +13,9 @@ export const SITE_LIVE = true;
 
 // 計測・検証（取得後にここへ。空文字なら出力されない）
 export const GA_MEASUREMENT_ID = 'G-G84FY7N72R';   // GA4測定ID（Cookie同意後に発火）
-export const PINTEREST_VERIFY = '';    // Pinterest ドメイン認証タグ
+// Pinterest ドメイン認証タグ。The Japan Desk 用アカウント（英語圏・日本語5サイトとは別アカウント）で発行。
+// 認証済みドメインは1アカウントにしか紐付かないため、日本語側アカウントのタグをここに入れないこと。
+export const PINTEREST_VERIFY = 'b7f723ea6938dde168ee771ce775b253';
 export const TWITTER_SITE = '';        // 例: '@thejapandesk'
 
 // Travelpayouts スクリプト（サイト認証＋リンク収益化）。marker 559180。
