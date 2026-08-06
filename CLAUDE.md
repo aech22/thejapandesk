@@ -49,6 +49,7 @@
 | — | JapanesePod101（語学） | 25% |
 | — | Klook（旅行） | 6.5% |
 | — | GetYourGuide（旅行） | [VERIFY] |
+| — | **12Go**（旅行・陸路/海路の予約） | [VERIFY]（**2026-08-07 承認済み**・支払下限 300 THB） |
 
 **GetYourGuide は直接提携**（`partner.getyourguide.com`・パートナーID `J2LM0TP`・2026-08-06登録）。以前「自社プログラムを持たないためネットワーク経由が唯一の手段」と記録していたが**誤り**で、Travelpayouts 経由の8%は使わない。実料率はダッシュボードで確認して埋める。
 **リンク設置前の必須条件**: Travelpayouts の LinkSwitcher が `getyourguide.com` リンクを Travelpayouts リンクへ自動変換するため、**停止（または GetYourGuide を除外）してから**貼らないと直接提携の成果が付け替えられる。
@@ -57,6 +58,28 @@
 剣道 Tozando・Migaku・日本デニムは料率が ASP ログイン必須で**未確定＝人間ステップ**。
 
 **ニッチ選定の前提**: 報酬 $30/件の足切りが厳しく、Tier1 は7ニッチ（陶磁器/包丁/盆栽/万年筆/剣道/語学/旅行）に落ち着いた。$30 は高単価物販×専門店10-20%・高額旅行予約8%・語学SaaS生涯プランからのみ出る（低単価サブスク・eSIM・コーヒー器具は未達）。
+
+## 12Go のトラフィック規約（2026-08-07・[公式](https://blog.12go.asia/allowed-types-of-traffic-12go-terms-and-rules/)）
+
+直接提携なので**このサイトの集客のやり方がそのまま規約の対象**になる。当サイトの各チャネルへの当てはめ:
+
+| チャネル | 12Go の扱い | The Japan Desk での運用 |
+|---|---|---|
+| 記事へのオーガニック検索流入 | **Allowed**（SEO traffic to affiliate website） | 本命。これがメインの導線 |
+| Pinterest・YouTube・Instagram・メール | **Allowed to White Label**（White Label への送客のみ） | **ピンや概要欄に 12Go リンクを直接貼らない。必ず自サイトの記事へ送り、リンクは記事内に置く** |
+| Reddit | 明示なし（social 扱い＋メッセンジャーへの無差別送信は禁止） | 従来どおり**直リンク禁止**。価値提供のみ |
+| リスティング広告（PPC） | 非ブランドKWのみ可・**ブランド入札は禁止** | **広告は運用しない。**やるなら別途 §禁止KW を Negative に入れる |
+| リターゲティング／リマーケティング | **禁止** | 実施しない |
+| iframe・ポップアップ／アンダー・ツールバー・doorway | **禁止** | 実施しない。**12Go 公式ウィジェット（検索フォーム・時刻表）が iframe 実装なら要問い合わせ**（推測で貼らない） |
+| キャッシュバック・モチベーテッド・アダルト | **禁止** | 該当なし |
+| クーポン／割引サイト・プロモコード | Allowed | 該当なし（当サイトはクーポンを扱わない） |
+
+- **ブランド名の使い方**: 広告見出しで 12Go を名乗る・12Go に成りすます行為は**アカウント停止事由**。記事本文で「12Go で予約できる」と事実として書くのは通常の紹介であり別物
+- **迷ったら貼る前に affiliate@12go.asia に確認する**（規約末尾に「不明なら問い合わせを」と明記されている。処罰より公正な運用が目的、とのこと）
+
+⚠️ **Travelpayouts の LinkSwitcher との衝突（GetYourGuide と同じ罠）**: LinkSwitcher が有効なままだと `12go.asia` へのリンクを Travelpayouts リンクへ自動変換し、**直接提携の成果が付け替えられる**おそれがある。12Go リンクを貼る前に、Travelpayouts 側で LinkSwitcher を停止するか `12go.asia` を除外すること。
+
+⚠️ **Travelpayouts は 2026-08-07 時点で20プログラムが利用不可**（審査落ちではなく**トラフィック不足**。「3ヶ月連続で安定した月間流入が出てから再申請」・8月8日以降に再提出可）。`SITE_LIVE=false` で noindex の間は**その3ヶ月のカウントが始まらない**。旅行ピラーの収益は当面 **GetYourGuide（直接）＋ 12Go（直接）** で組む。
 
 ## 運賃データ（Travelpayouts Flight Data API）
 
@@ -113,6 +136,7 @@ picknavi へのドメイン統合は**却下**し、新規ドメイン＋イン�
 ## ローンチに残る手順（README.md にも記載）
 
 1. [ ] 各記事の `[VERIFY]` を潰す（ASP承認後）
+   - [ ] 12Go: Travelpayouts の LinkSwitcher を停止／`12go.asia` 除外 → `/integration/` でリンク発行 → `consts.ts` の `TWELVEGO_LINK` → 旅行記事へ設置
 2. [ ] `consts.ts` の `SITE_LIVE = true` ＋ `PINTEREST_VERIFY` 設定（`GA_MEASUREMENT_ID` は `G-G84FY7N72R` で設定済み）
 3. [ ] `robots.txt` を許可に差し替え（Disallow 削除・Sitemap 行を有効化）
 4. [ ] About / Contact に運営者名・メールアドレス
