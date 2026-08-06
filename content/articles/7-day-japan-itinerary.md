@@ -40,7 +40,7 @@ If you're a first-timer with roughly seven days who wants the icons, a real feel
 
 **Criterion 1 — Minimize moves, maximize bases.** Every base change costs you half a day in packing, transit, and re-orienting. So this week uses **three bases (Tokyo, Kyoto, Osaka)** with day trips hung off them, rather than a new hotel every night. Fewer moves is the highest-leverage decision in a short trip.
 
-**Criterion 2 — Match transport to the route, not to habit.** A one-week golden-route trip is *exactly* the case where a nationwide rail pass often loses to individual tickets — the math has changed since 2023, and I won't hand you the outdated default. I flag the specific transport call at each leg. (Full breakdown in my [JR Pass 2026 guide](article-12-is-jr-pass-worth-it-2026.md).)
+**Criterion 2 — Match transport to the route, not to habit.** A one-week golden-route trip is *exactly* the case where a nationwide rail pass often loses to individual tickets — the math has changed since 2023, and I won't hand you the outdated default. I flag the specific transport call at each leg. (Full breakdown in my [JR Pass 2026 guide](/japan-travel/is-jr-pass-worth-it-2026/).)
 
 **Criterion 3 — Book only what needs booking, and protect free time around it.** Timed-entry attractions and popular day trips should be reserved ahead; everything else stays flexible. A good week alternates "anchored" mornings (a booked tour) with open afternoons (wander, rest, follow a whim). Over-scheduling is how first trips stop being fun.
 
@@ -76,7 +76,7 @@ Jet lag is real; day one should be gentle. Get your **IC card** (Suica or PASMO)
 
 This is your full Tokyo day: Asakusa's Senso-ji and old-town streets in the morning, then the **teamLab digital art museum** — and this is the one activity to **book ahead**, because it's timed-entry and genuinely sells out. Fill the rest with whatever your interests pull you toward (Akihabara, Harajuku, a food street). **Transport call:** IC card. **Book-ahead:** teamLab, locked before you leave home.
 
-👉 *Reserve your teamLab slot and other Tokyo tours: `[VERIFY affiliate link — GetYourGuide Tokyo]`* — and see my full [best Klook tours in Tokyo](article-13-best-klook-tours-tokyo.md) breakdown for how to choose.
+👉 *Reserve your teamLab slot and other Tokyo tours: `[VERIFY affiliate link — GetYourGuide Tokyo]`* — and see my full [best Klook tours in Tokyo](/japan-travel/best-klook-tours-tokyo/) breakdown for how to choose.
 
 ### Day 3 — Tokyo day trip: Mt. Fuji or Hakone
 
@@ -86,7 +86,7 @@ Hang a day trip off your Tokyo base instead of moving hotels. The two best first
 
 ### Day 4 — Tokyo → Kyoto: the one big train leg
 
-Now the only long-distance move of the week: the Shinkansen from Tokyo to Kyoto (~2.5 hours). **This is the transport decision that matters most.** For a compact golden-route week like this, individual Shinkansen tickets frequently come out *cheaper* than a nationwide 7-day JR Pass — the pass needs roughly three long bullet-train legs to break even, and this itinerary has essentially one. Do the two-minute math before you buy any pass. (I walk through it fully in the [JR Pass 2026 guide](article-12-is-jr-pass-worth-it-2026.md).)
+Now the only long-distance move of the week: the Shinkansen from Tokyo to Kyoto (~2.5 hours). **This is the transport decision that matters most.** For a compact golden-route week like this, individual Shinkansen tickets frequently come out *cheaper* than a nationwide 7-day JR Pass — the pass needs roughly three long bullet-train legs to break even, and this itinerary has essentially one. Do the two-minute math before you buy any pass. (I walk through it fully in the [JR Pass 2026 guide](/japan-travel/is-jr-pass-worth-it-2026/).)
 
 Arrive in Kyoto around midday, drop bags, and spend the afternoon in the eastern temple district (Kiyomizu-dera, the Higashiyama lanes). A short **guided walk** here is a low-cost way to get oriented in a city that's easy to get lost in. **Book-ahead:** optional walk.
 
@@ -149,12 +149,14 @@ Two decisions carry most of the outcome. First, **transport**: on a compact week
 
 **Start here, in order:**
 
-1. Decide your rail approach with my honest [Is the JR Pass Worth It in 2026?](article-12-is-jr-pass-worth-it-2026.md) guide — do the two-minute math before buying anything.
-2. Pick your Tokyo activities with [The Best Klook Tours in Tokyo](article-13-best-klook-tours-tokyo.md).
+1. Decide your rail approach with my honest [Is the JR Pass Worth It in 2026?](/japan-travel/is-jr-pass-worth-it-2026/) guide — do the two-minute math before buying anything.
+2. Pick your Tokyo activities with [The Best Klook Tours in Tokyo](/japan-travel/best-klook-tours-tokyo/).
 3. Lock your must-book tours now, before they sell out:
    - 👉 **Tokyo (teamLab, Shibuya Sky):** `[VERIFY affiliate link — GetYourGuide Tokyo]`
    - 👉 **Mt. Fuji / Hakone day trip:** `[VERIFY affiliate link — GetYourGuide Fuji/Hakone]`
    - 👉 **Kyoto & Osaka experiences:** `[VERIFY affiliate link — GetYourGuide Kyoto/Osaka]`
+4. Book the three bases themselves. This plan lives or dies on staying put, so book Tokyo, Kyoto and Osaka before the tours — in peak season the bases sell out first.
+   - 👉 **Tokyo / Kyoto / Osaka hotels:** `[VERIFY affiliate link — accommodation programme not yet approved. Candidates: Trip.com (1–5.5%, 7–30-day cookie) or Agoda (6%, 1-day cookie); Rakuten Travel (0.8–5%, 30 days) for ryokan and domestic-only inventory.]`
 
 In my experience, the travelers who look back happiest on their first week are the ones who planned the *shape* well and then let the days breathe. Get the bases and the two big decisions right, and the rest takes care of itself.
 

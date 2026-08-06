@@ -93,7 +93,7 @@ The headline pattern: **the nationwide pass got expensive; the regional passes m
 
 **Who it's for:** country-spanning itineraries, not golden-route loops. If you can't name three long bullet-train legs you'll actually ride in the week, it's probably not you.
 
-👉 *Check the current nationwide JR Pass price and availability here: `[VERIFY affiliate link — FlexOffers / JR Pass]`*
+👉 *Check the current nationwide JR Pass price and availability here: `[VERIFY affiliate link — Klook (direct) or 12Go (Travelpayouts); both resell the nationwide JR Pass]`*
 
 ### Option B — Regional passes (the alternative the resellers under-sell)
 
@@ -110,7 +110,7 @@ This is where a lot of savvy 2026 travelers quietly win, so let me give it real 
 
 **Who they're for:** the large majority of trips, which are more concentrated than travelers assume.
 
-👉 *Compare regional JR passes here: `[VERIFY affiliate link — FlexOffers / regional pass]`*
+👉 *Compare regional JR passes here: `[VERIFY affiliate link — Klook (direct) or 12Go (Travelpayouts); both list JR East / JR Central / Kansai regional passes]`*
 
 ### Option C — Individual tickets + an IC card
 
@@ -149,17 +149,17 @@ So before you buy anything, do the one search from section 5 — total up your r
 
 **When you've run your number and you know which option fits, use the links below to book — and confirm the live price first, because 2026 fares are moving:**
 
-- 👉 **Nationwide JR Pass (7/14/21-day):** `[VERIFY affiliate link — FlexOffers / JR Pass]`
-- 👉 **Regional passes (Kansai WIDE / JR East / Hokuriku Arch):** `[VERIFY affiliate link — FlexOffers / regional pass]`
+- 👉 **Nationwide JR Pass (7/14/21-day):** `[VERIFY affiliate link — Klook (direct) or 12Go (Travelpayouts)]`
+- 👉 **Regional passes (Kansai WIDE / JR East / Hokuriku Arch):** `[VERIFY affiliate link — Klook (direct) or 12Go (Travelpayouts)]`
 
-Planning the rest of the trip? See my companion guides on [the best Klook tours in Tokyo](article-13-best-klook-tours-tokyo.md) for the day trips a rail pass won't cover, and my [7-day Japan itinerary](article-14-7-day-japan-itinerary.md) that ties the trains and tours together.
+Planning the rest of the trip? See my companion guides on [the best Klook tours in Tokyo](/japan-travel/best-klook-tours-tokyo/) for the day trips a rail pass won't cover, and my [7-day Japan itinerary](/japan-travel/7-day-japan-itinerary/) that ties the trains and tours together.
 
 *Sources consulted for this guide (confirm live prices before buying): [Guide2Japan JR Pass 2026](https://www.guide2japan.com/plan-a-trip/jr-pass/), [BluePlanet — Is the JR Pass Worth It 2026](https://selfguidejapan.com/blog/is-jr-pass-worth-it-2026), [Trip To Japan — Is the JR Pass Worth It](https://www.triptojapan.com/blog/is-japan-rail-pass-worth-it), [Japan Experience — 2026 price increase](https://www.japan-experience.com/all-about-japan/news/japan-railways-price-increase-2026), [JR East official 2026 pass PDF](https://www.jreast.co.jp/e/press/pdf/0128_pass_en.pdf).*
 
 <!--
 PRE-PUBLISH CHECKLIST
 [ ] Replace every [VERIFY] price with the live figure from the official JR / reseller page (esp. Oct 1 2026 hike: 7-day ¥50,000 → ¥53,000).
-[ ] Insert real FlexOffers (JR Pass) affiliate links in all 3 [VERIFY affiliate link] slots; confirm they are the JR Pass / regional pass programs.
+[ ] Insert the real JR Pass affiliate links in all 4 [VERIFY affiliate link] slots. Programme decided 2026-08-06: Klook direct (6.5%) first choice, 12Go via Travelpayouts (4–5.5%, 30-day cookie) as the fallback / regional-pass depth. FlexOffers was referenced here in error — it is not one of this site's ASPs.
 [ ] Confirm Nozomi/Mizuho supplement wording against current pass terms.
 [ ] Confirm JR East consolidated pass details & March 14 2026 launch; confirm Kansai WIDE (~¥12,000) and Hokuriku Arch (~¥35,000) live prices.
 [ ] Fix internal links (article-13, article-14) to final published URLs.

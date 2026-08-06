@@ -149,7 +149,7 @@ Do that and every activity on your itinerary earns its place. In my experience, 
 - 👉 **Mt. Fuji day trip:** `[VERIFY affiliate link — Klook Mt Fuji day trip]`
 - 👉 **Shibuya Sky:** `[VERIFY affiliate link — Klook Shibuya Sky]`
 
-Planning the whole trip, not just Tokyo? See my [7-day Japan itinerary with tours](article-14-7-day-japan-itinerary.md) to slot these into a full route, and my honest take on whether [the JR Pass is worth it in 2026](article-12-is-jr-pass-worth-it-2026.md) before you buy any rail pass.
+Planning the whole trip, not just Tokyo? See my [7-day Japan itinerary with tours](/japan-travel/7-day-japan-itinerary/) to slot these into a full route, and my honest take on whether [the JR Pass is worth it in 2026](/japan-travel/is-jr-pass-worth-it-2026/) before you buy any rail pass.
 
 *Sources consulted (confirm live prices before booking): [Klook — Best Things to Do in Tokyo 2026](https://www.klook.com/destination/c28-tokyo/1-things-to-do/), [Klook — Tokyo Day Trips](https://www.klook.com/destination/c28-tokyo/1002-day-trips/), [Klook Travel Blog — Day Trips from Tokyo](https://www.klook.com/en-US/blog/daytrips-tokyo/).*
 

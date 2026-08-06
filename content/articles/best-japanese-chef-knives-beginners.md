@@ -50,7 +50,7 @@ You'll also see **carbon steels** — White (Shirogami) and Blue (Aogami) paper 
 
 ### Criterion 2: A shape and size you'll actually reach for
 
-The two shapes you'll consider are the **gyuto** (a Japanese take on the Western chef's knife — longer, curved belly, pointed tip, great all-rounder) and the **santoku** (shorter, flatter edge, blunt "sheepsfoot" tip, superb for straight down push-cuts and tight kitchens). If you're torn between them, I wrote a full [gyuto vs santoku comparison](article-03-gyuto-vs-santoku.md) that breaks down which suits your cutting style — worth a read before you commit.
+The two shapes you'll consider are the **gyuto** (a Japanese take on the Western chef's knife — longer, curved belly, pointed tip, great all-rounder) and the **santoku** (shorter, flatter edge, blunt "sheepsfoot" tip, superb for straight down push-cuts and tight kitchens). If you're torn between them, I wrote a full [gyuto vs santoku comparison](/craft/gyuto-vs-santoku/) that breaks down which suits your cutting style — worth a read before you commit.
 
 For size, a **210mm (8-inch) gyuto** or a **165–180mm santoku** is the beginner default for a reason. Big enough to handle a cabbage, controllable enough that you won't feel like you're wielding a sword.
 
@@ -215,7 +215,7 @@ Pick this only if you already keep a tidy kitchen and you're genuinely excited �
 - **"I want real Japanese character without grail-knife prices."** → **Sakai Takayuki 33-Layer Damascus.** Authentic Sakai charm at a sane price.
 - **"I'm ready for the deep end and I keep a tidy kitchen."** → **Tojiro Shirogami.** Your gateway to carbon-steel obsession.
 
-If you're choosing between a gyuto and a santoku shape for any of these, don't guess — read the [gyuto vs santoku breakdown](article-03-gyuto-vs-santoku.md) and match the blade to how you actually cut.
+If you're choosing between a gyuto and a santoku shape for any of these, don't guess — read the [gyuto vs santoku breakdown](/craft/gyuto-vs-santoku/) and match the blade to how you actually cut.
 
 ## 7. Conclusion: buy one, and start cutting
 

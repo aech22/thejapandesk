@@ -54,9 +54,9 @@ Prices `[VERIFY]` — they vary enormously by maker, materials, and shop.
 
 | Category | Why it's worth it | Rough entry price `[VERIFY]` | Care needed | Travel note | Deep-dive guide |
 |---|---|---|---|---|---|
-| **Kitchen knives** | World-class steel & hand-forging; a lifetime tool | Mid-range and up `[VERIFY]` | Hand-wash, dry, occasional sharpening | **Must be checked luggage — never carry-on** | [Japanese kitchen knives buying guide](article-japan-knives.md) |
-| **Ceramics** | Centuries-old kiln traditions; daily beauty | Low entry (a mug) to high (art pieces) `[VERIFY]` | Hand-wash; some unglazed types need seasoning | Pack in clothes / bubble wrap; sturdy types travel fine | [Japanese ceramics buying guide](article-japan-ceramics.md) |
-| **Pens (fountain & more)** | Precision makers; refillable for life | Affordable entry to premium `[VERIFY]` | Refill ink; occasional flush | Easiest of the three to carry (mind cabin pressure) | [Japanese fountain pens buying guide](article-japan-pens.md) |
+| **Kitchen knives** | World-class steel & hand-forging; a lifetime tool | Mid-range and up `[VERIFY]` | Hand-wash, dry, occasional sharpening | **Must be checked luggage — never carry-on** | [Japanese kitchen knives buying guide](/craft/best-japanese-chef-knives-beginners/) |
+| **Ceramics** | Centuries-old kiln traditions; daily beauty | Low entry (a mug) to high (art pieces) `[VERIFY]` | Hand-wash; some unglazed types need seasoning | Pack in clothes / bubble wrap; sturdy types travel fine | [Japanese ceramics buying guide](/craft/arita-vs-mino-vs-hasami/) |
+| **Pens (fountain & more)** | Precision makers; refillable for life | Affordable entry to premium `[VERIFY]` | Refill ink; occasional flush | Easiest of the three to carry (mind cabin pressure) | [Japanese fountain pens buying guide](/craft/best-japanese-fountain-pens/) |
 
 ---
 
@@ -72,7 +72,7 @@ Japanese kitchen knives are, for a lot of serious cooks, the benchmark of the cr
 
 **Who it's for:** anyone who cooks and wants one object from Japan they'll use forever.
 
-👉 *Full details — steel types, gyuto vs. specialist shapes, best shops, and how to fly home with one — in my [Japanese kitchen knives buying guide](article-japan-knives.md).*
+👉 *Full details — steel types, gyuto vs. specialist shapes, best shops, and how to fly home with one — in my [Japanese kitchen knives buying guide](/craft/best-japanese-chef-knives-beginners/).*
 
 ### Ceramics — everyday beauty from 400-year-old kilns
 
@@ -84,7 +84,7 @@ Japan's pottery towns each have a personality. **Arita** (fine white porcelain w
 
 **Who it's for:** everyone. This is the most accessible of the three — there's a great piece at almost any budget.
 
-👉 *Which kiln towns to seek out, how to pack ceramics for the flight, and daily-use vs. display picks — in my [Japanese ceramics buying guide](article-japan-ceramics.md).*
+👉 *Which kiln towns to seek out, how to pack ceramics for the flight, and daily-use vs. display picks — in my [Japanese ceramics buying guide](/craft/arita-vs-mino-vs-hasami/).*
 
 ### Pens — precision you can carry in a pocket
 
@@ -94,7 +94,7 @@ Japan makes some of the world's most respected pens — fountain pens especially
 
 **Pros:** the easiest of the three to bring home (small, light, carry-on friendly); refillable and repairable for decades; a daily pleasure that costs little to start. **Cons:** fountain pens need occasional flushing and refilling; cabin pressure can cause leaks on planes (empty or fully fill before flying and store nib-up). **Who it's for:** writers, journalers, gift-givers, and anyone who wants a meaningful souvenir that fits in a jacket pocket.
 
-👉 *Nib widths, fountain vs. rollerball, best entry pens, and inks worth the suitcase space — in my [Japanese fountain pens buying guide](article-japan-pens.md).*
+👉 *Nib widths, fountain vs. rollerball, best entry pens, and inks worth the suitcase space — in my [Japanese fountain pens buying guide](/craft/best-japanese-fountain-pens/).*
 
 ---
 
@@ -112,9 +112,9 @@ Get these three rules right and your crafts arrive in the same condition they le
 
 ## 6. My recommendation, by buyer type
 
-- **You cook seriously:** buy the **knife** first. One good gyuto is the single most-used object most people bring home from Japan — just remember it flies checked, not carry-on. Start with the [knife guide](article-japan-knives.md).
-- **You want the best value + broadest appeal:** buy **ceramics**. A daily-use mug or rice bowl from a real kiln town costs little and delights every morning. Start with the [ceramics guide](article-japan-ceramics.md).
-- **Carry-on only / strict luggage limits:** buy a **pen**. It's the one category that travels effortlessly and still carries real craft. Start with the [pen guide](article-japan-pens.md).
+- **You cook seriously:** buy the **knife** first. One good gyuto is the single most-used object most people bring home from Japan — just remember it flies checked, not carry-on. Start with the [knife guide](/craft/best-japanese-chef-knives-beginners/).
+- **You want the best value + broadest appeal:** buy **ceramics**. A daily-use mug or rice bowl from a real kiln town costs little and delights every morning. Start with the [ceramics guide](/craft/arita-vs-mino-vs-hasami/).
+- **Carry-on only / strict luggage limits:** buy a **pen**. It's the one category that travels effortlessly and still carries real craft. Start with the [pen guide](/craft/best-japanese-fountain-pens/).
 - **Buying a meaningful gift:** a **pen** (easy to wrap, universally useful) or a single beautiful **ceramic cup** are the safest crowd-pleasers; a knife is a wonderful gift *only* for someone who cooks and will maintain it.
 - **You want one of each (the collector's move):** knife (checked), a couple of sturdy ceramic pieces (packed in clothes), and a pen (in your jacket). That's a trio you'll be using in ten years — the exact opposite of the trinket drawer.
 
@@ -128,11 +128,11 @@ So spend the bulk of your souvenir budget on one, two, or all three of these. Us
 
 **Ready to choose well? Go deep on the category that fits you:**
 
-- 👉 **[Japanese kitchen knives buying guide](article-japan-knives.md)** — the lifetime tool for cooks (checked-luggage rules inside).
-- 👉 **[Japanese ceramics buying guide](article-japan-ceramics.md)** — the best-value, broadest-appeal pick.
-- 👉 **[Japanese fountain pens buying guide](article-japan-pens.md)** — the carry-on-friendly daily pleasure.
+- 👉 **[Japanese kitchen knives buying guide](/craft/best-japanese-chef-knives-beginners/)** — the lifetime tool for cooks (checked-luggage rules inside).
+- 👉 **[Japanese ceramics buying guide](/craft/arita-vs-mino-vs-hasami/)** — the best-value, broadest-appeal pick.
+- 👉 **[Japanese fountain pens buying guide](/craft/best-japanese-fountain-pens/)** — the carry-on-friendly daily pleasure.
 
-And if you're still planning the trip itself, see my [7-day Japan itinerary with tours](article-14-7-day-japan-itinerary.md) — several of the routes pass right through the knife shops and kiln towns worth building a stop around.
+And if you're still planning the trip itself, see my [7-day Japan itinerary with tours](/japan-travel/7-day-japan-itinerary/) — several of the routes pass right through the knife shops and kiln towns worth building a stop around.
 
 <!--
 PRE-PUBLISH CHECKLIST

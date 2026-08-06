@@ -23,7 +23,7 @@ So you stall. And stalling is expensive, because the knife you don't buy can't m
 
 Here's the reassuring truth: this is not a high-stakes decision. Both shapes are excellent all-rounders that will handle the overwhelming majority of what you do in a kitchen. The "right" answer comes down to your cutting *style*, your hand size, your counter space, and honestly a bit of personal taste. My job here is to make the difference concrete — the actual blade geometry, what each shape does better, and which specific models are worth your money — so you can pick in about ten minutes and never look back.
 
-If you're still at the even-earlier stage of "which brand and steel," start with my companion guide to the [best Japanese chef knives for beginners](article-02-best-japanese-chef-knives-beginners.md), then come back here to settle the shape.
+If you're still at the even-earlier stage of "which brand and steel," start with my companion guide to the [best Japanese chef knives for beginners](/craft/best-japanese-chef-knives-beginners/), then come back here to settle the shape.
 
 ## 2. Who this article is NOT for
 
@@ -168,7 +168,7 @@ Global lets you choose your shape while getting the **most forgiving steel** in 
 - **"I'm terrified of chipping an expensive edge."** → **Global** in either shape; softest, most forgiving steel here.
 - **"Honestly, I can't decide."** → In my experience, undecided beginners are happiest with a **gyuto**, because its extra versatility means fewer moments of "I wish I had the other one." You can always add a santoku later — the two make a great pair.
 
-Still unsure which *brand and steel* to build on underneath the shape? The full [best Japanese chef knives for beginners](article-02-best-japanese-chef-knives-beginners.md) guide walks through steel types, care, and seven specific blades in detail.
+Still unsure which *brand and steel* to build on underneath the shape? The full [best Japanese chef knives for beginners](/craft/best-japanese-chef-knives-beginners/) guide walks through steel types, care, and seven specific blades in detail.
 
 ## 7. Conclusion: pick the shape that matches your hands
 
