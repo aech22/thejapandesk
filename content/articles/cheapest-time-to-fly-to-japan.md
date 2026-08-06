@@ -154,8 +154,8 @@ If you take one thing from this: **move your trip one week away from New Year, G
 
 **When you know your window, start pricing it:**
 
-- 👉 **Search flights to Japan (flexible dates):** `[VERIFY affiliate link — Aviasales / WayAway via Travelpayouts; confirm deeplink format and marker in dashboard]`
-- 👉 **Compare Tokyo (NRT/HND) against Osaka (KIX):** `[VERIFY affiliate link — Aviasales / WayAway via Travelpayouts]`
+- 👉 **Search flights to Japan (flexible dates):** `[VERIFY affiliate link — the only flight programme currently partnered is Kiwi.com (3%, 30-day cookie). Aviasales / WayAway are named below but have NOT been joined yet; add them first if you prefer metasearch, otherwise use Kiwi.com. Confirm the deeplink format and marker 559180 in the dashboard.]`
+- 👉 **Compare Tokyo (NRT/HND) against Osaka (KIX):** `[VERIFY affiliate link — same programme as above]`
 
 Planning the rest? Once your flights are set, the two decisions that move your budget most are rail and data: see my [JR Pass guide for 2026](/japan-travel/is-jr-pass-worth-it-2026/) and the [best eSIM for Japan](/japan-travel/best-esim-for-japan/). If you're still shaping the trip itself, start with the [7-day Japan itinerary](/japan-travel/7-day-japan-itinerary/), or the [2-week](/japan-travel/2-week-japan-itinerary/) and [1-month](/japan-travel/1-month-japan-itinerary/) versions. And before you pack, the [Japan packing list](/japan-travel/japan-packing-list/) covers what the season you picked actually demands.
 
@@ -163,7 +163,7 @@ Planning the rest? Once your flights are set, the two decisions that move your b
 
 <!--
 PRE-PUBLISH CHECKLIST
-[ ] Replace the 2 [VERIFY affiliate link] slots with real Aviasales / WayAway deeplinks (marker 559180). Confirm deeplink format in the Travelpayouts dashboard first — flight commission is ~1.1–1.6% of fare, so treat this as a funnel entry point, not a revenue line.
+[ ] Replace the 2 [VERIFY affiliate link] slots with real deeplinks (marker 559180). Decide the programme first: Kiwi.com is already partnered (3%, 30-day cookie); Aviasales / WayAway are NOT joined yet and pay only ~1.1–1.3% of fare, though they are metasearch and suit "flexible dates" better. Either way treat flights as a funnel entry point, not a revenue line — the money in this article is the onward links to the JR Pass, eSIM and itinerary guides.
 [ ] Fill the 3 [VERIFY source link] slots with the real Cabinet Office / JMA / JNTO URLs.
 [ ] [VERIFY] Golden Week bridge days for the current travel year (how Apr 29 and May 3–5 fall against the weekend).
 [ ] [VERIFY] Chinese New Year date for the current travel year (affects the Jan–Feb value window).

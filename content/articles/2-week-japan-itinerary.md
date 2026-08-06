@@ -11,7 +11,7 @@ draft: false
 
 # 2-Week Japan Itinerary: Beyond the Golden Route (Built by Someone Who Lives Here)
 
-*Affiliate disclosure: This article contains affiliate links to tour platforms (GetYourGuide via Awin / Travelpayouts, typically ~8% commission) and rail-pass resellers. If you book through one, I may earn a commission at no extra cost to you. This is a **planning guide**, not a travelogue — a realistic 14-day route with the transport and booking calls that decide whether two weeks feels rich or rushed. Two weeks is also the point where the **14-day rail pass and multi-region tours finally start to pay off**, so I'll be specific about when they do. Prices are marked `[VERIFY]`; confirm live before you pay.*
+*Affiliate disclosure: This article contains affiliate links to tour platforms (GetYourGuide via Travelpayouts, typically ~8% commission) and rail-pass resellers. If you book through one, I may earn a commission at no extra cost to you. This is a **planning guide**, not a travelogue — a realistic 14-day route with the transport and booking calls that decide whether two weeks feels rich or rushed. Two weeks is also the point where the **14-day rail pass and multi-region tours finally start to pay off**, so I'll be specific about when they do. Prices are marked `[VERIFY]`; confirm live before you pay.*
 
 ---
 
@@ -173,7 +173,7 @@ The travelers who look back happiest on two weeks aren't the ones who saw the mo
 <!--
 PRE-PUBLISH CHECKLIST
 [ ] Replace every [VERIFY] price with live figures (14-day pass ~¥80,000; multi-day tour ~US$500).
-[ ] Insert real GetYourGuide affiliate links (Awin / Travelpayouts, ~8%) in ALL [VERIFY affiliate link] slots; confirm deep links & tracking IDs per region.
+[ ] Insert real GetYourGuide affiliate links via Travelpayouts (8%). GetYourGuide runs no in-house programme, so a network is the only route; Travelpayouts pays 8% vs Awin 7% vs TradeDoubler 5%, so use Travelpayouts and do not split tracking across networks. Fill ALL [VERIFY affiliate link] slots and confirm deep links & tracking IDs per region.
 [ ] Confirm week-two region facts before publish: Shimanami Kaido ~70 km & e-bike availability; Takayama/Shirakawa-go/Kanazawa transit; Hokkaido flight-vs-rail. Correct any that are off.
 [ ] Verify the 14-day-pass "breaks even on multi-region" claim against the JR Pass guide's live math — keep the two articles consistent.
 [ ] Internal links to JR Pass / 7-day / Klook / eSIM present and pointing to final /japan-travel/<slug>/ URLs — CONFIRMED.

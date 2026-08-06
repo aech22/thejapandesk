@@ -78,7 +78,7 @@ The headline pattern: **for one person on a modern phone, an eSIM is usually the
 
 ### Option A — A travel eSIM (data-only)
 
-**What it is:** a digital SIM you install by scanning a QR code, usually *before* you leave home, that switches on when you land. Your normal SIM stays in the phone for calls/texts on your home number; the eSIM carries your Japan data. Travellers have reported good results with Japan-focused eSIM brands `[VERIFY — name the brands only once the programme is approved and their Japan plans have been checked live. Shortlisted 2026-08-06: Airalo (12%, 30-day cookie, widest brand recognition) and Yesim (18%, 90-day cookie). Do not describe any brand as tested — none has been.]`.
+**What it is:** a digital SIM you install by scanning a QR code, usually *before* you leave home, that switches on when you land. Your normal SIM stays in the phone for calls/texts on your home number; the eSIM carries your Japan data. Travellers have reported good results with Japan-focused eSIM brands `[VERIFY — name the brands only once the programme is approved and their Japan plans have been checked live. Partnered 2026-08-06: Yesim, Airalo, GigSky, Saily (all Travelpayouts) plus Klook eSIM (direct). Rank them by which is genuinely better for a Japan traveller, NOT by commission — this article opens by promising it is a decision guide, not a sales pitch, so a commission-driven order would contradict its own disclosure. Do not describe any brand as tested — none has been.]`.
 
 **Pros**
 - Cheapest option for a single traveller with a compatible phone.
@@ -93,7 +93,7 @@ The headline pattern: **for one person on a modern phone, an eSIM is usually the
 
 **Who it's for:** the default choice for most solo and couple travellers on modern phones.
 
-👉 *Check a Japan travel eSIM plan here: `[VERIFY affiliate link — Airalo or Yesim (Travelpayouts)]`*
+👉 *Check a Japan travel eSIM plan here: `[VERIFY affiliate link — Yesim or Airalo (Travelpayouts), or Klook eSIM (direct). Use the WEB destination, never the app one: Airalo rewards desktop web and mobile web but pays nothing on in-app purchases.]`*
 
 ### Option B — Pocket Wi-Fi (rental router)
 
@@ -165,8 +165,8 @@ What you should *not* do is arrive with only a 3 GB bundle and run dry on day fo
 
 **When you know which fits, use the links below — and confirm the live data allowance and price first, because these plans change often:**
 
-- 👉 **Japan travel eSIM (10–20 GB):** `[VERIFY affiliate link — Airalo or Yesim (Travelpayouts)]`
-- 👉 **Pocket Wi-Fi rental:** `[VERIFY affiliate link — Klook; it is the only partner in this site's line-up that rents Japan pocket Wi-Fi. Travelpayouts has no pocket Wi-Fi programme.]`
+- 👉 **Japan travel eSIM (10–20 GB):** `[VERIFY affiliate link — Yesim or Airalo (Travelpayouts), or Klook eSIM (direct). WEB destination only, never the app one.]`
+- 👉 **Pocket Wi-Fi rental:** `[VERIFY affiliate link — Klook (direct partnership, not via Travelpayouts). Klook is the only partner in this site's line-up that rents Japan pocket Wi-Fi; Travelpayouts has no pocket Wi-Fi programme.]`
 
 Sorting the rest of the trip? Once you're online, the next two decisions are trains and day trips: see the honest math in [Is the JR Pass Worth It in 2026?](/japan-travel/is-jr-pass-worth-it-2026/) and the [best Klook tours in Tokyo](/japan-travel/best-klook-tours-tokyo/), and tie it all together with the [7-day Japan itinerary](/japan-travel/7-day-japan-itinerary/).
 
@@ -176,6 +176,9 @@ Sorting the rest of the trip? Once you're online, the next two decisions are tra
 PRE-PUBLISH CHECKLIST
 [ ] Replace every [VERIFY] price/data figure with the live number from the provider page (eSIM GB & price, pocket Wi-Fi ¥/day, roaming $/day).
 [ ] Name only eSIM/pocket-Wi-Fi programs you are actually affiliated with; insert real affiliate links in all [VERIFY affiliate link] slots. NOTE: eSIM commissions are low — this article's job is traffic + cross-sell to JR Pass / Klook / itinerary. Keep eSIM links modest, keep the cross-links.
+[ ] eSIM link destinations must be the WEB version, never the app one. Airalo pays on desktop web and mobile web but pays NOTHING on in-app purchases, and the Travelpayouts default destination for Airalo/GigSky/Yesim is the app. Check every generated link before pasting.
+[ ] Order the eSIM recommendations by what is genuinely best for a Japan traveller, not by commission. The disclosure at the top of this article promises "a decision guide, not a sales pitch"; ranking by payout would contradict it. For reference only — Yesim 18%/90-day cookie, Airalo 12%/30-day (best-known brand), GigSky 20%/30-day, Saily 15%/30-day, Klook eSIM 20% direct.
+[ ] Self-purchase earns nothing (Airalo terms). To confirm a link is tracking, watch for the click in the Travelpayouts stats — do not test-buy.
 [ ] Verify the Mobile Suica claims: (a) does tapping the gate truly work with data off? (b) current iPhone vs Android/region support. Correct if wrong.
 [ ] Confirm the traveller data-usage figures (~14 GB / 2 weeks) are presented as community-reported, not first-hand — no fabricated personal testing. Confirmed as reported, not tested.
 [x] Suica guide internal link resolved to /japan-travel/suica-pasmo-icoca-guide/.
