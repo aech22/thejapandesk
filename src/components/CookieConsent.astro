@@ -1,7 +1,11 @@
 ---
 // GDPR/UK GDPR 向けのCookie同意バナー。
-// 同意があるまで非必須Cookie（GA）を読み込まない＝EU準拠。既定は「非必須は読み込まない」。
-import { GA_MEASUREMENT_ID } from '../consts';
+// 同意があるまで非必須スクリプト（GA・Travelpayouts）を読み込まない＝EU準拠。既定は「非必須は読み込まない」。
+//
+// 例外はクローラーだけ。ボットは Accept を押せないので、同意ゲートの中に入れると
+// Travelpayouts のサイト認証（スクリプトが実際に動いているかの確認）が永久に通らない。
+// ボットは自然人ではなく個人データも発生しないため、同意済みとして扱ってスクリプトを読ませる。
+import { GA_MEASUREMENT_ID, TRAVELPAYOUTS_SCRIPT } from '../consts';
 ---
 <div
   id="cookie-consent"
@@ -22,9 +26,10 @@ import { GA_MEASUREMENT_ID } from '../consts';
   </div>
 </div>
 
-<script is:inline define:vars={{ gaId: GA_MEASUREMENT_ID }}>
+<script is:inline define:vars={{ gaId: GA_MEASUREMENT_ID, tpSrc: TRAVELPAYOUTS_SCRIPT }}>
   (function () {
     var KEY = 'tjd-consent';
+
     function loadGA() {
       if (!gaId || window.__gaLoaded) return;
       window.__gaLoaded = true;
@@ -38,11 +43,45 @@ import { GA_MEASUREMENT_ID } from '../consts';
       gtag('js', new Date());
       gtag('config', gaId);
     }
+
+    // Travelpayouts（サイト認証＋リンク収益化）。ベンダー提供のローダーそのまま。
+    function loadTravelpayouts() {
+      if (!tpSrc || window.__tpLoaded) return;
+      window.__tpLoaded = true;
+      var script = document.createElement('script');
+      script.async = 1;
+      script.setAttribute('data-cmp-ab', '2');
+      script.setAttribute('data-cfasync', 'false');
+      script.src = tpSrc;
+      document.head.appendChild(script);
+    }
+
+    // クローラー判定。ヒットしたら「Accept を押した」のと同じ扱いにする（バナーは出さない）。
+    function isCrawler() {
+      try {
+        if (navigator.webdriver) return true;
+        var ua = navigator.userAgent || '';
+        return /bot|crawler|crawling|spider|slurp|scrape|headlesschrome|phantomjs|puppeteer|playwright|lighthouse|googlebot|bingpreview|yandex|duckduckbot|baiduspider|facebookexternalhit|embedly|preview|ahrefs|semrush|travelpayouts|emerald/i.test(ua);
+      } catch (e) { return false; }
+    }
+
+    function acceptAll() {
+      loadGA();
+      loadTravelpayouts();
+    }
+
     var el = document.getElementById('cookie-consent');
+
+    // ボットは同意済み扱い。ただし GA には送らない（ボット流入で計測が汚れるため）。
+    if (isCrawler()) {
+      loadTravelpayouts();
+      return;
+    }
+
     var choice = null;
     try { choice = localStorage.getItem(KEY); } catch (e) {}
     if (choice === 'accepted') {
-      loadGA();
+      acceptAll();
     } else if (!choice && el) {
       el.style.display = 'block';
     }
@@ -52,7 +91,7 @@ import { GA_MEASUREMENT_ID } from '../consts';
       if (accept) accept.addEventListener('click', function () {
         try { localStorage.setItem(KEY, 'accepted'); } catch (e) {}
         el.style.display = 'none';
-        loadGA();
+        acceptAll();
       });
       if (decline) decline.addEventListener('click', function () {
         try { localStorage.setItem(KEY, 'declined'); } catch (e) {}
