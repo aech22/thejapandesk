@@ -51,9 +51,24 @@
 | — | GetYourGuide（旅行） | [VERIFY] |
 | — | **12Go**（旅行・陸路/海路の予約） | [VERIFY]（**2026-08-07 承認済み**・支払下限 300 THB） |
 
-**GetYourGuide は直接提携**（`partner.getyourguide.com`・パートナーID `J2LM0TP`・2026-08-06登録）。以前「自社プログラムを持たないためネットワーク経由が唯一の手段」と記録していたが**誤り**で、Travelpayouts 経由の8%は使わない。実料率はダッシュボードで確認して埋める。
-**リンク設置前の必須条件**: Travelpayouts の LinkSwitcher が `getyourguide.com` リンクを Travelpayouts リンクへ自動変換するため、**停止（または GetYourGuide を除外）してから**貼らないと直接提携の成果が付け替えられる。
+**GetYourGuide は直接提携**（`partner.getyourguide.com`・パートナーID `J2LM0TP`・2026-08-06登録）。以前「自社プログラムを持たないためネットワーク経由が唯一の手段」と記録していたが**誤り**。そもそも **Travelpayouts の My Programs に GetYourGuide は無い**（2026-08-07 ユーザー確認・"Unlock more 20" 側と思われる）ため、旧記載の「Travelpayouts 経由8%」は選択肢として存在しない。実料率はダッシュボードで確認して埋める。
 **integration analyzer（`widget.getyourguide.com/dist/pa.umd.production.min.js`）は意図的に未導入**。ページ内の競合リンク（Klook・Viator・Tiqets 等）を URL とリンクテキストごと GetYourGuide へ送信する機能を含むため。リンク発行と成果計上には不要。
+
+### LinkSwitcher が実際に何を書き換えるか（2026-08-07 本番で実測）
+
+本番ページに各ドメインのリンクをDOMへ差し込み、6秒後の `href` を読んで確認した結果:
+
+| リンク先 | 書き換え | 備考 |
+|---|---|---|
+| `getyourguide.com` | **されない** | 直接提携の妨げにならない |
+| `12go.asia` | **されない** | 同上 |
+| `klook.com` | **される** | `emrldco.com/re?campaign_id=137&marker=761056&p=4110&trs=559180&u=...` ＋ `rel="noopener nofollow sponsored"` 付与 |
+
+**LinkSwitcher はこのアカウントで利用可能なプログラムのブランドしか変換しない。** 変換対象の判定はクライアント側スクリプトに無く、サーバ（`link-switch/v1/convert`）が返す。
+
+- ⚠️ **これは現時点の測定値**。Travelpayouts の "Unlock more" が解除されて GetYourGuide や 12Go が使えるようになった瞬間、LinkSwitcher は**それらの変換も始める**（＝直接提携の成果が黙って付け替えられる）。**プログラムが解除されたら、直接提携しているブランドを LinkSwitcher から除外すること。**
+- 🔴 **今すぐの実害は Klook**。出典として貼っている `www.klook.com` 3本（best-klook-tours-tokyo）が Travelpayouts 経由で収益化されている。**Klook を直接提携（6.5%）に切り替えるなら、LinkSwitcher から Klook を除外しないと直接分が食われる。**
+- 検証方法（再現手順）: 本番ページで `document.body.appendChild` した `<a>` の `href` が数秒後に `emrldco.com/re?` へ変わるかを見る。`/re?` URL は**開かない**（クリックが記録される）。
 
 剣道 Tozando・Migaku・日本デニムは料率が ASP ログイン必須で**未確定＝人間ステップ**。
 
