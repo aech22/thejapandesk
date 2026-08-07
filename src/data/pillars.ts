@@ -1,6 +1,6 @@
-// 3ピラー（サイロ）。ナビ・フッター・ピラーハブページ・パンくずで使う。
+// ピラー（サイロ）。ナビ・フッター・ピラーハブページ・パンくずで使う。
 export interface Pillar {
-  slug: 'craft' | 'learn-japanese' | 'japan-travel';
+  slug: 'craft' | 'learn-japanese' | 'japan-travel' | 'japan-nature';
   label: string;
   short: string;
   description: string;
@@ -37,6 +37,18 @@ export const PILLARS: Pillar[] = [
     short: 'Travel',
     description:
       'Practical, up-to-date planning — passes, tours and itineraries — using current local information.',
+  },
+  {
+    slug: 'japan-nature',
+    label: 'Japan Nature & Outdoors',
+    short: 'Nature',
+    description:
+      'Mountains, rivers, gorges and hot springs — where to go, when they actually look like the photos, and how to get there.',
+    // 2026-08-07 追加。**記事がまだ0本なので停止中。**
+    // 空のピラーページとナビ項目を公開中のサイトに出すと薄いページを1枚増やすだけになるため、
+    // craft と同じ paused の仕組みで定義だけ置いてある。
+    // 記事を1本でも入れたら paused を消す（ナビ・トップ・/japan-nature/ が同時に出る）。
+    paused: true,
   },
 ];
 

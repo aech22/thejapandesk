@@ -29,9 +29,19 @@
 
 ## 構成
 
-3ピラーのサイロ: `/craft/` ・ `/learn-japanese/` ・ `/japan-travel/`
+4ピラーのサイロ: `/craft/` ・ `/learn-japanese/` ・ `/japan-travel/` ・ `/japan-nature/`
 
 記事は `content/articles/*.md`（frontmatter: title / description / date / pillar / slug / keyword / draft）。
+
+**うちサイトに出ているのは 2ピラー**（learn-japanese / japan-travel）。craft は提携未成立で停止中、**japan-nature は 2026-08-07 に新設したが記事が0本のため停止中**（どちらも `pillars.ts` の `paused: true`）。ピラーの出し分けは `ACTIVE_PILLARS` が単一の窓口。
+
+### japan-nature（自然系・2026-08-07 追加）
+
+山・川・渓谷・温泉・紅葉。旅行ピラーから分けたのは、読者の検索意図が「行き方・パス・予算」ではなく「どこが・いつ・どう見えるか」で、Pinterest 側のボードも分けたほうがテーマ権威が立つため。
+
+- **収益の当て先は既存のまま**: GetYourGuide（直接提携）・Klook（Travelpayouts経由）のツアー／アクティビティと、12Go の陸路移動。物販ASPが要らないので **craft と違って提携待ちにならない**
+- **有効化の手順**: 記事を1本以上入れる → `src/data/pillars.ts` の japan-nature から `paused: true` を消す → `pinterest-kit/pin_data_en.py` に該当 slug のピン文面を足す（無いとキットがその記事をスキップする）
+- 12Go の規約上、**ピンから 12Go へ直リンクしない**（自サイトの記事へ送り、リンクは記事内に置く）
 
 ## 記事の状態（2026-08-07 更新）
 
@@ -164,7 +174,7 @@
 | ローカル出力 | `pinterest-kit/out_en/thejapandesk/`（日本語側の `out/` とは分離） |
 | Drive | マイドライブ／**`thejapandesk_Pinterest投稿キット`**（日本語側とは別フォルダ） |
 
-**ボードは3つ**: `Japanese Craft & Goods` / `Learning Japanese` / `Japan Travel`（pillar と1対1）。
+**ボードは4つ**: `Japanese Craft & Goods` / `Learning Japanese` / `Japan Travel` / `Japan Nature & Outdoors`（pillar と1対1）。**うち今すぐ作るのは `Learning Japanese` と `Japan Travel` の2つだけ**。craft と nature はピンが1枚も無いので、記事ができてから作る（空ボードはテーマ権威に寄与しない）。
 
 **投稿頻度は週5本（≒1日1本）から**。新規アカウント＋新規ドメインは Pinterest のスパムフィルタが厳しいため。反応を見て1日3本まで上げる。
 
