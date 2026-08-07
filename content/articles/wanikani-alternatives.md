@@ -167,6 +167,6 @@ Kanji is the part of Japanese that scares people off, and the tool you choose ma
 
 If you take one thing away: **start with the free options before you pay.** Renshuu costs nothing, Anki costs nothing on most platforms, and both are strong enough that plenty of fluent readers never used anything else. Try one for two weeks. If it sticks, you've saved yourself a subscription. If it doesn't, you've learned something about how your brain wants to work, and you can pay for the tool that fits.
 
-**Ready to build the rest of the stack?** Kanji alone won't get you speaking or understanding. Pair your kanji tool with a listening-first course — my honest [JapanesePod101 review] walks through the audio side — and if immersion is your thing, read my [Migaku vs. other all-in-one tools] comparison to see how sentence mining fits in.
+**Ready to build the rest of the stack?** Kanji alone won't get you speaking or understanding. Pair your kanji tool with a listening-first course — my honest [JapanesePod101 review](/learn-japanese/japanesepod101-review/) walks through the audio side — and if immersion is your thing, read my [Migaku vs. other all-in-one tools](/learn-japanese/migaku-vs-alternatives/) comparison to see how sentence mining fits in.
 
 がんばってください. The characters stop being scary faster than you'd think.

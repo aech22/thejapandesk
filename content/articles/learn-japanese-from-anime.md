@@ -86,7 +86,7 @@ Here's the actual system, in order.
 
 Before anime can teach you, you need: **hiragana and katakana**, the **most basic grammar** (は/が/を particles, present/past, です/ます), and a **starter vocabulary** of a few hundred common words. This is 4–8 weeks of foundational study, and it's non-negotiable.
 
-*Pros:* Makes everything after it work. *Cons:* It's the least glamorous part, and it's where anime-motivated learners most often quit. My advice: run a structured beginner resource *in parallel* with pleasure-watching, so you keep the motivation while you build the base. A listening-first course is ideal here because it trains your ear at the same time — I break one down in my [JapanesePod101 review]. Pair it with a kanji tool from my [best WaniKani alternatives] guide and you've got the foundation covered.
+*Pros:* Makes everything after it work. *Cons:* It's the least glamorous part, and it's where anime-motivated learners most often quit. My advice: run a structured beginner resource *in parallel* with pleasure-watching, so you keep the motivation while you build the base. A listening-first course is ideal here because it trains your ear at the same time — I break one down in my [JapanesePod101 review](/learn-japanese/japanesepod101-review/). Pair it with a kanji tool from my [best WaniKani alternatives](/learn-japanese/wanikani-alternatives/) guide and you've got the foundation covered.
 
 ### Step 1 — Switch to Japanese subtitles (this is the turning point)
 
@@ -104,7 +104,7 @@ When a word or grammar point recurs and you don't know it, pause and look it up 
 
 This is the heart of the method. When you hit a sentence you *almost* understand — one unknown word in an otherwise-clear sentence — you "mine" it: capture that sentence (with its audio and a screenshot) into a spaced-repetition deck. Now you review it later, in context, with the exact scene attached.
 
-You can do this **manually with Anki** (free, total control, more fiddly) or with an **assisted tool like Migaku** that turns a click on a subtitle into a finished card with audio, image, and definition. Migaku exists to remove the tedium from exactly this loop, which is why serious immersion learners gravitate to it — I compare it against the alternatives in my [Migaku vs. other all-in-one tools] piece.
+You can do this **manually with Anki** (free, total control, more fiddly) or with an **assisted tool like Migaku** that turns a click on a subtitle into a finished card with audio, image, and definition. Migaku exists to remove the tedium from exactly this loop, which is why serious immersion learners gravitate to it — I compare it against the alternatives in my [Migaku vs. other all-in-one tools](/learn-japanese/migaku-vs-alternatives/) piece.
 
 *Pros:* Highest-yield method known for immersion learning. The context makes words stick like nothing else, because you remember the *scene*. *Cons:* Real effort and a workflow to learn. Best once you're upper-beginner and can find those "one unknown word" sentences. Total beginners will find every sentence has ten unknowns — a sign to spend more time at Step 0.
 
@@ -148,8 +148,8 @@ Anime can absolutely teach you Japanese — but not the way most people do it. P
 The single highest-leverage move today: **finish Step 0.** Anime rewards a foundation, so the fastest path to "learning from anime" is, ironically, spending a few weeks building the base that makes anime comprehensible.
 
 Here's where to go next:
-- To build your listening base and learn the *polite* register anime won't teach you, read my honest **[JapanesePod101 review]**.
-- To choose a kanji tool so you can actually *read* those Japanese subtitles, see my **[best WaniKani alternatives for kanji]** guide.
-- When you're ready to make sentence mining painless, compare the assisted immersion tools in **[Migaku vs. other all-in-one Japanese tools]**.
+- To build your listening base and learn the *polite* register anime won't teach you, read my honest **[JapanesePod101 review](/learn-japanese/japanesepod101-review/)**.
+- To choose a kanji tool so you can actually *read* those Japanese subtitles, see my **[best WaniKani alternatives for kanji](/learn-japanese/wanikani-alternatives/)** guide.
+- When you're ready to make sentence mining painless, compare the assisted immersion tools in **[Migaku vs. other all-in-one Japanese tools](/learn-japanese/migaku-vs-alternatives/)**.
 
 Now go put on something in Japanese subtitles. がんばって.

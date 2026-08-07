@@ -130,7 +130,7 @@ A few honest reads of that table:
 
 **What they are:** Not content-mining tools at all — Renshuu is a free, structured SRS platform (vocab, kanji, grammar); JapanesePod101 is an audio-first structured course.
 
-**Why they're here:** A lot of people shopping for an "all-in-one" tool don't actually want to *mine content* — they want *one place that gives them structure*. If that's secretly you, an immersion tool is the wrong category, and one of these is your real answer. Renshuu is the free structured all-rounder; JapanesePod101 is the audio-first structured course. I've reviewed the audio option in full in my [JapanesePod101 review], and Renshuu features heavily in my [best WaniKani alternatives] guide.
+**Why they're here:** A lot of people shopping for an "all-in-one" tool don't actually want to *mine content* — they want *one place that gives them structure*. If that's secretly you, an immersion tool is the wrong category, and one of these is your real answer. Renshuu is the free structured all-rounder; JapanesePod101 is the audio-first structured course. I've reviewed the audio option in full in my [JapanesePod101 review](/learn-japanese/japanesepod101-review/), and Renshuu features heavily in my [best WaniKani alternatives](/learn-japanese/wanikani-alternatives/) guide.
 
 **Verdict:** Included honestly because the best tool is the one that matches what you *actually* need — and for some readers, that's structure, not mining.
 
@@ -160,7 +160,7 @@ The move I'd make: **if you're new to mining, start with a free or cheap on-ramp
 
 **Ready to choose?**
 - To try the smoothest content-mining workflow, look at **Migaku**; its current plans and prices are on its own pricing page.
-- To build the foundation these tools require, start with my **[JapanesePod101 review]** (listening) and **[best WaniKani alternatives]** (kanji).
-- New to the whole idea of learning from native media? My **[how to learn Japanese from anime]** guide is the on-ramp.
+- To build the foundation these tools require, start with my **[JapanesePod101 review](/learn-japanese/japanesepod101-review/)** (listening) and **[best WaniKani alternatives](/learn-japanese/wanikani-alternatives/)** (kanji).
+- New to the whole idea of learning from native media? My **[how to learn Japanese from anime](/learn-japanese/learn-japanese-from-anime/)** guide is the on-ramp.
 
 Pick one, immerse deliberately, and let real Japanese start doing the teaching. がんばってください.
