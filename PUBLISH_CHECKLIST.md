@@ -442,3 +442,55 @@ PRE-PUBLISH CHECKLIST
 - [x] 運営側の理屈（料率・報酬）を本文に書いていない
 - [x] `[VERIFY]` 0件（ビルド後の dist でも0件）
 - [x] 内部リンク5本（JRパス・IC・航空券・パッキング・Klookツアー）＋被リンク3本（航空券・2週間・パッキング）。ビルド後のリンク切れ0件
+
+---
+
+# リンク化に必要な作業の洗い出し（2026-08-07）
+
+「ブランド名は書いてあるがリンクになっていない」を解消するために要る作業を、**外部ログインが要るかどうか**で分けた。
+
+## 0. 先に直すべき不具合 — 語学3記事の内部リンク13本が壊れている（外部ログイン不要）
+
+`[JapanesePod101 review]` のように **URL部分 `(...)` が無い Markdown** が13箇所あり、ページ上では**ただの角カッコ付きテキストとして表示されている**（ビルド後HTMLで確認済み）。
+
+| ファイル | 行 | 壊れているリンク |
+|---|---|---|
+| learn-japanese-from-anime.md | 89, 151 | JapanesePod101 review ×2 |
+| learn-japanese-from-anime.md | 89, 152 | best WaniKani alternatives ×2 |
+| learn-japanese-from-anime.md | 107, 153 | Migaku vs. other all-in-one tools ×2 |
+| migaku-vs-alternatives.md | 133, 163 | JapanesePod101 review ×2 |
+| migaku-vs-alternatives.md | 133, 163 | best WaniKani alternatives ×2 |
+| migaku-vs-alternatives.md | 164 | how to learn Japanese from anime |
+| wanikani-alternatives.md | 170 | JapanesePod101 review |
+| wanikani-alternatives.md | 170 | Migaku vs. other all-in-one tools |
+
+**なぜ最優先か**: 語学ピラーは「各記事 → `japanesepod101-review` → アフィリリンク」というハブ＆スポーク構造で、**アフィリリンクを置くのはレビュー記事1本だけでよい**。その導線が5本とも切れているので、リンクを発行して貼っても読者がそこへ辿り着けない。**リンク発行より先にこれを直す。**
+
+- [ ] 13本を `/learn-japanese/<slug>/` 形式の内部リンクに直す（`japanesepod101-review` / `wanikani-alternatives` / `migaku-vs-alternatives` / `learn-japanese-from-anime`）
+- [ ] 直したらビルド後の dist でリンク切れ0件を確認
+
+## 1. 人間ステップ（ダッシュボードにログインが要る・私にはできない）
+
+| # | 作業 | 場所 | 得るもの |
+|---|---|---|---|
+| H1 | **JapanesePod101 の提携状態を確認**。CLAUDE.md は「承認済み（25%）」、Obsidian の ASP一覧（2026-08-04）は「これから登録する3番目」と**記述が食い違っている**。まず口座があるか確認する | 自社アフィリ（直販登録・支払$50/PayPal） | アフィリリンク1本 |
+| H2 | GetYourGuide のリンク発行 | `partner.getyourguide.com`（パートナーID `J2LM0TP`） | ツアーのディープリンク数本 |
+| H3 | 12Go のリンク発行。**Sub_id に記事の slug を入れる**（後から遡れない） | `agent.12go.asia/integration/` の **Links** | `https://12go.asia/?z=16597922` 形式 |
+| H4 | Travelpayouts の再申請（8/8以降・ロック解除はトラフィック3ヶ月が条件） | Travelpayouts | 20プログラムの解放 |
+
+**H1 が最優先**。料率25%で最も高く、対象記事が公開中で、他にブロッカーが無い。
+
+## 2. リンクを受け取ってから私がやる作業
+
+- [ ] JapanesePod101: `japanesepod101-review` の CTA（§で「worth it」と結論する箇所・比較表の下・末尾）へ設置。`rel="sponsored"`。**他5記事には貼らない**（ハブへ集約する設計を崩さない）
+- [ ] GetYourGuide: `1-month` / `2-week` / `7-day` / `japan-autumn-foliage-guide` の該当節へ設置
+- [ ] 12Go: `src/consts.ts` の `TWELVEGO_LINK` を設定 → `is-jr-pass-worth-it-2026` ほか陸路の記事へ設置
+- [ ] 開示文の整合（アフィリリンクが入る記事に開示があるか。`suica-pasmo-icoca-guide` は現状リンク0本＝開示不要のまま）
+- [ ] ビルド → リンク切れ0件・`[VERIFY]`0件 → デプロイ
+- [ ] **本番DOMで `href` を確認**。GetYourGuide と 12Go が LinkSwitcher に書き換えられていないこと（2026-08-07 時点では書き換えられない実測あり）。**`emrldco.com/re?` のURLは開かない**
+
+## 3. 作業しないもの（と理由）
+
+- **Klook**: 素のURLで既に収益化されている。発行作業そのものが無い
+- **Awin / ShareASale / CJ（陶磁器・万年筆・包丁・盆栽）**: craft ピラーが `draft: true` で停止中。置く先が公開されていないので、ピラー再開を決めてからまとめて発行する
+- **Amazon Associates**: 承認後180日以内に適格販売3件という条件があるので、流入が出る前に申請しない
