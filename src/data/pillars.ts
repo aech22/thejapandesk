@@ -44,11 +44,8 @@ export const PILLARS: Pillar[] = [
     short: 'Nature',
     description:
       'Mountains, rivers, gorges and hot springs — where to go, when they actually look like the photos, and how to get there.',
-    // 2026-08-07 追加。**記事がまだ0本なので停止中。**
-    // 空のピラーページとナビ項目を公開中のサイトに出すと薄いページを1枚増やすだけになるため、
-    // craft と同じ paused の仕組みで定義だけ置いてある。
-    // 記事を1本でも入れたら paused を消す（ナビ・トップ・/japan-nature/ が同時に出る）。
-    paused: true,
+    // 2026-08-07 追加。同日に japan-autumn-foliage-guide を入れて公開状態にした
+    // （記事0本の間は craft と同じ paused: true で伏せてあった）。
   },
 ];
 

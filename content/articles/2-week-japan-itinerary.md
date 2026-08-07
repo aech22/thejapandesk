@@ -158,6 +158,7 @@ Get the two big decisions right — which single region gets week two, and wheth
 1. Run your rail math for the longer trip: [Is the JR Pass Worth It in 2026?](/japan-travel/is-jr-pass-worth-it-2026/) — the 14-day pass answer flips on a two-region fortnight.
 2. Sort week-one detail and Tokyo tours: [7-day Japan itinerary](/japan-travel/7-day-japan-itinerary/) and [best Klook tours in Tokyo](/japan-travel/best-klook-tours-tokyo/).
 3. Size your data for two weeks: [best eSIM for Japan](/japan-travel/best-esim-for-japan/).
+4. If you're travelling in autumn, pick week two against the measured colour dates rather than the guidebook ones: [when Japan's autumn leaves actually peak](/japan-nature/japan-autumn-foliage-guide/) — Sapporo and Kyoto are about a month apart, which is exactly the spread a fortnight can exploit.
 4. Lock the tours that sell out:
    - 👉 **Week one:** the teamLab time slot first, then a peak-season Fuji or Hakone day trip.
    - 👉 **Week-two region:** the Shirakawa-go bus in the Alps, a Shimanami Kaido bike in the west, or seasonal activity days in Hokkaido.

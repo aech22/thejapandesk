@@ -97,7 +97,7 @@ The best Japan packing list is short. Bring the few things that are painful to s
 
 1. Data: [best eSIM for Japan](/japan-travel/best-esim-for-japan/) — set it up at home, activate on landing.
 2. Day-one transit: [Suica, PASMO & ICOCA guide](/japan-travel/suica-pasmo-icoca-guide/) — buy it there, but know how first.
-3. The trip itself: [7-day](/japan-travel/7-day-japan-itinerary/) and [2-week](/japan-travel/2-week-japan-itinerary/) itineraries.
+3. The trip itself: [7-day](/japan-travel/7-day-japan-itinerary/) and [2-week](/japan-travel/2-week-japan-itinerary/) itineraries. Travelling in autumn, or heading into the mountains? [When Japan's autumn leaves actually peak](/japan-nature/japan-autumn-foliage-guide/) covers the temperature gap you're packing for as well as the timing.
 4. Buy the short list of gear that's genuinely worth bringing — a power bank, a Japan travel adapter with your cables, packing cubes, and a luggage scale if you plan to shop. That's the whole kit; everything else waits until you land.
 
 *Sources consulted (confirm before relying on them): [Japan National Tourism Organization — travel basics](https://www.japan.travel/en/plan/); [Ministry of Health, Labour and Welfare — importing medication into Japan for personal use](https://www.mhlw.go.jp/english/topics/import/).*
