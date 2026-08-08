@@ -118,7 +118,7 @@ If your dates are locked, or you've already picked a window, these move the numb
 
 **Fly open-jaw.** Into Tokyo, out of Osaka (or the reverse) is frequently priced similarly to a round trip and saves you a backtracking leg. Since most first trips run Tokyo → Kyoto/Osaka anyway, this is close to free money. Pair it with the rail maths in my [JR Pass guide](/japan-travel/is-jr-pass-worth-it-2026/) — an open-jaw trip often changes which pass wins.
 
-**Check both Tokyo airports.** Narita (NRT) and Haneda (HND) price differently and vary by carrier and season. Haneda is far more convenient for the city; Narita is often cheaper. Always price both.
+**Check both Tokyo airports.** Narita (NRT) and Haneda (HND) price differently and vary by carrier and season. Haneda is far more convenient for the city; Narita is often cheaper. Always price both. Price the ground leg at the same time rather than after you have booked — a cheap fare into the less convenient airport stops being cheap once you add the transfer ([Haneda](https://12go.asia/en/bus/Haneda-Airport/Tokyo/?z=16597922&sub_id=cheapest-time-to-fly-to-japan) and [Kansai](https://12go.asia/en/bus/Kansai-Airport/Osaka/?z=16597922&sub_id=cheapest-time-to-fly-to-japan) both have direct coach options).
 
 **Consider a secondary gateway.** Osaka Kansai (KIX), Fukuoka (FUK) and Sapporo (CTS) sometimes undercut Tokyo substantially, especially if your itinerary starts west or north anyway.
 

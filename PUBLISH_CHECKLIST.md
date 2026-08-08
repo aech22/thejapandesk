@@ -504,7 +504,8 @@ PRE-PUBLISH CHECKLIST
 - [x] 商品ページを開かずに書いた（誤クリック防止）。したがって**確認できない事実は書かない**方針を全面適用している
 - [x] §2.3 整合性: 体験したように書いていない。「リスティングの読み方」という立て付けにしてある
 - [x] 料率・報酬の話を本文に書いていない。冒頭で「報酬額で順位を付けていない」と明示
-- [ ] **商品が終売したら記事の該当行を消す**。GetYourGuide のリンク切れは404ではなくリダイレクトになることがあるので、四半期に一度 `curl -I` でステータスを見る（**ブラウザで開かない**）
+- [ ] **商品が終売したら記事の該当行を消す。** ⚠️ **`curl -I` では判定できない**（2026-08-08 実測: GetYourGuide も Klook も curl に 403 を返し、12Go は存在しない地点でも 202 を返す）。
+  代わりに `npm run check:links -- --list` が出す**追跡パラメータを外したURL**をブラウザで開いて目視する。**partner_id / z= の付いたURLは絶対に開かない**（誤クリックが記録される）
 - [ ] Klook の同種商品と重複していないか（`best-klook-tours-tokyo` と競合させない）
 
 ## GetYourGuide リンクの設置状況（2026-08-08・30本すべて設置済み）
@@ -519,7 +520,8 @@ PRE-PUBLISH CHECKLIST
 
 - ビルド後の dist で **30本すべてに `partner_id=J2LM0TP` と `rel="sponsored nofollow noopener"` が付いていることを確認済み**
 - `rel` は記事側で書かず、`src/plugins/affiliate-rel.mjs`（rehypeプラグイン）がドメイン判定で自動付与する。**プログラムを増やしたら `AFFILIATE_HOSTS` に1行足す**
-- ⚠️ **GetYourGuide の商品URLをブラウザで開かない。** `partner_id` 付きなので誤クリックが記録される。生存確認は `curl -I` で
+- ⚠️ **GetYourGuide の商品URLをブラウザで開かない。** `partner_id` 付きなので誤クリックが記録される。生存確認は `npm run check:links -- --list` の追跡なしURLで行う
+- **`npm run check:links`**（`scripts/check_affiliate_links.mjs`）でパラメータの欠落と `sub_id` の記事slug不一致を機械的に検出できる。**リンク先の生死は検出できない**（上記の理由）
 
 ---
 

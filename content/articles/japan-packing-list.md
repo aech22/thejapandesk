@@ -47,6 +47,8 @@ These are the things that are annoying, expensive, or impossible to sort once yo
 
 ## 3. Buy in Japan (don't waste suitcase space)
 
+One sizing note before the lists. **If any part of your trip is a highway bus or a ferry, your luggage allowance is smaller than a train's** — under-floor space is finite, and some operators charge for a second case. It is the single most common reason people wish they had packed lighter. The [bus and ferry guide](/japan-travel/japan-highway-bus-and-ferry-guide/) covers which routes that applies to.
+
 Japan sells these better and cheaper than you can pack them — get them on arrival:
 
 - **An IC card (Suica/PASMO/ICOCA)** — buy at the airport or any station machine, not online. Full guide: [Suica, PASMO & ICOCA](/japan-travel/suica-pasmo-icoca-guide/).

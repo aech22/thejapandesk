@@ -107,6 +107,7 @@ With a home base, exploration becomes *weekend trips*, not a march:
 
 - **Day and overnight trips** from your base — the routing guides still help for these: pull individual days from the [2-week](/japan-travel/2-week-japan-itinerary/) and [1-month](/japan-travel/1-month-japan-itinerary/) plans.
 - **Regional rail passes** beat any nationwide pass for a base-and-explore pattern — you're not doing long national legs, you're doing repeat regional hops. (Math: [JR Pass 2026 guide](/japan-travel/is-jr-pass-worth-it-2026/).)
+- **Buses and ferries open the weekends the railway does not.** Over two months you will exhaust the rail-reachable day trips from any base long before you exhaust the road-reachable ones — a [coach or ferry booking](https://12go.asia/en/travel/Osaka/Beppu/?z=16597922&sub_id=2-months-in-japan-long-stay) is what gets you to the thatched villages and the other islands. See the [bus and ferry guide](/japan-travel/japan-highway-bus-and-ferry-guide/).
 - **Live the ordinary, not just the icons** — a neighborhood konbini routine, a local izakaya, a nearby onsen, seasonal festivals. Over two months these become the memories, more than any landmark.
 
 ---

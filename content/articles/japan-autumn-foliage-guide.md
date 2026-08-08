@@ -147,6 +147,8 @@ If you are building a mountain leg into the trip, the [Japan packing list](/japa
 - For the postcard rather than the leaves: [Mt Fuji, Chureito Pagoda, Lake Kawaguchi and Oshino Hakkai](https://www.getyourguide.com/tokyo-l193/tokyo-mt-fujichureito-pagodalake-kawaguchioshino-hakkai-t792363/?partner_id=J2LM0TP&utm_medium=online_publisher). The pagoda-and-Fuji frame is the most photographed autumn composition in Japan, and it is a long, awkward day to assemble by public transport.
 - At the other end of the calendar: [Asahiyama Zoo and Biei day tour from Sapporo](https://www.getyourguide.com/sapporo-l32644/hokkaido-asahiyama-zoo-biei-ningle-terrace-day-tour-t695416/?partner_id=J2LM0TP&utm_medium=online_publisher). Hokkaido's colour is finished by early November, so this is an October booking, not a November one.
 
+**Getting to the mountains is usually a bus problem, not a train problem.** The high places that colour first are frequently off the rail network entirely — [Japan by highway bus and ferry](/japan-travel/japan-highway-bus-and-ferry-guide/) covers which ones, and why the seats sell out in exactly the weeks you want them.
+
 **Weekdays, always.** An eleven-day window that includes two weekends is effectively a seven-day window, because the two weekends will be unusable at anywhere famous.
 
 ---

@@ -98,6 +98,8 @@ A common beginner mix-up: an IC card is **not** a rail pass, and you often want 
 
 On many trips you tap the IC card for all the local stuff **and** decide separately whether a Shinkansen pass is worth it. That pass decision has changed a lot since 2023 — don't buy one on autopilot. Run the honest math in [Is the JR Pass Worth It in 2026?](/japan-travel/is-jr-pass-worth-it-2026/).
 
+There is a third category that neither product covers: **long-distance highway buses and ferries.** You cannot tap an IC card onto an intercity coach the way you tap onto a city bus — those are reserved seats, bought in advance, on services that are outside the JR network entirely. If your route includes a mountain village or a crossing to another island, that leg is booked separately ([12Go](https://12go.asia/en/bus/Tokyo/Osaka/?z=16597922&sub_id=suica-pasmo-icoca-guide) is one place to price it), and the guide to [Japan's bus and ferry network](/japan-travel/japan-highway-bus-and-ferry-guide/) explains which destinations only exist that way.
+
 ---
 
 ## 8. My recommendation, by traveler type

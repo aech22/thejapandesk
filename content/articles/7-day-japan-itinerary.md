@@ -79,7 +79,7 @@ One exception to the "don't spend money on day one" rule: if you land at Narita 
 
 This is your full Tokyo day: Asakusa's Senso-ji and old-town streets in the morning, then the **teamLab digital art museum** — and this is the one activity to **book ahead**, because it's timed-entry and genuinely sells out. Fill the rest with whatever your interests pull you toward (Akihabara, Harajuku, a food street). **Transport call:** IC card. **Book-ahead:** teamLab, locked before you leave home.
 
-👉 *teamLab sells timed-entry tickets on its own site and through the major activity platforms — reserve your slot before you fly, and see my full [best Klook tours in Tokyo](/japan-travel/best-klook-tours-tokyo/) breakdown for how to choose the rest of your Tokyo days.*
+👉 *teamLab sells timed-entry tickets on its own site and through the major activity platforms — reserve your slot before you fly, and see my full [best Klook tours in Tokyo](/japan-travel/best-klook-tours-tokyo/) breakdown for how to choose the rest of your Tokyo days. If you would rather book a kimono day or a tea ceremony than a tour, [Japanese culture experiences worth booking](/japan-travel/japanese-culture-experiences-worth-booking/) explains what actually differs between the near-identical listings.*
 
 ### Day 3 — Tokyo day trip: Mt. Fuji or Hakone
 

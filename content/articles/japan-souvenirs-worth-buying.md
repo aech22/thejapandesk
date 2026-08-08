@@ -112,6 +112,14 @@ The fastest way to ruin a good craft purchase is the flight home. Each category 
 
 Get these three rules right and your crafts arrive in the same condition they left the shop.
 
+## 5c. The souvenir that has no weight
+
+Everything above goes in your luggage, which is exactly the constraint some people are trying to escape. The alternative is to bring home **images and a skill instead of an object** — a professional [kimono photoshoot in Kyoto](https://www.getyourguide.com/kyoto-l96826/kyoto-private-custom-kimono-pro-photoshoot-t1287192/?partner_id=J2LM0TP&utm_medium=online_publisher) produces something you will actually look at again, and a [private tea ceremony with calligraphy](https://www.getyourguide.com/kyoto-l96826/kyoto-100-private-tea-ceremony-calligraphy-and-kimono-t1333068/?partner_id=J2LM0TP&utm_medium=online_publisher) sends you home able to do something you could not do before.
+
+I am not claiming this beats a good knife. I am pointing out that "what do I bring back" and "what do I put in the case" are different questions, and the second one has a weight limit. My guide to [Japanese culture experiences](/japan-travel/japanese-culture-experiences-worth-booking/) covers how to tell the good bookings from the interchangeable ones.
+
+---
+
 ## 6. My recommendation, by buyer type
 
 - **You cook seriously:** buy the **knife** first. One good gyuto is the single most-used object most people bring home from Japan — just remember it flies checked, not carry-on.

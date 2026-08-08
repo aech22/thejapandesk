@@ -119,7 +119,7 @@ A short, bookable cultural session — matcha tea ceremony, kimono wearing, hand
 
 ### 7. Nikko or Kamakura day trip — the second-timer's pick
 
-Once you've done the Tokyo core, a day trip to Nikko (shrines and waterfalls in the mountains) or Kamakura (the Great Buddha, coastal temples) is the natural next step, and a guided day removes the transit planning.
+Once you've done the Tokyo core, a day trip to Nikko (shrines and waterfalls in the mountains) or Kamakura (the Great Buddha, coastal temples) is the natural next step, and a guided day removes the transit planning. If you would rather do it independently, several of those destinations are reached by coach rather than rail — see [Japan by highway bus and ferry](/japan-travel/japan-highway-bus-and-ferry-guide/).
 
 **Pros:** gorgeous temple-and-nature contrast to the city; logistics handled; great for a second visit. **Cons:** full-day commitment; group pace; overlaps with what confident travelers can DIY by train. **Book ahead?** Yes. **Who it's for:** second-time visitors, temple and nature lovers. **Who should skip:** first-timers who haven't seen central Tokyo yet — do the core first.
 

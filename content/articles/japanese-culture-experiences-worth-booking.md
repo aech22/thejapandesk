@@ -156,7 +156,7 @@ Six things, in the order they cause problems:
 5. **The return time on any rental**, because it sets the end of your day whether you planned for that or not.
 6. **Whether it is private or a group.** "Private" in these listings usually means the tour is yours alone rather than that the venue is closed, and the price reflects it.
 
-On timing: if your trip is in autumn, the experience bookings compete for the same weeks as everybody else's, and the peak is later than most guides claim. The measured dates are in my guide to [when Japan's autumn leaves actually peak](/japan-nature/japan-autumn-foliage-guide/). For getting between the cities these bookings are in, run the numbers in the [JR Pass guide](/japan-travel/is-jr-pass-worth-it-2026/), and pick up an IC card for the local legs — the [Suica, PASMO and ICOCA guide](/japan-travel/suica-pasmo-icoca-guide/) covers which one and why it barely matters.
+On timing: if your trip is in autumn, the experience bookings compete for the same weeks as everybody else's, and the peak is later than most guides claim. The measured dates are in my guide to [when Japan's autumn leaves actually peak](/japan-nature/japan-autumn-foliage-guide/). For getting between the cities these bookings are in, run the numbers in the [JR Pass guide](/japan-travel/is-jr-pass-worth-it-2026/), and pick up an IC card for the local legs — the [Suica, PASMO and ICOCA guide](/japan-travel/suica-pasmo-icoca-guide/) covers which one and why it barely matters. And if a booking's meeting point is outside the city, check the road before assuming a train serves it: [Japan by highway bus and ferry](/japan-travel/japan-highway-bus-and-ferry-guide/) covers the network that does.
 
 ---
 

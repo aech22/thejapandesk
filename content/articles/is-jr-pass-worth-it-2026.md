@@ -130,6 +130,8 @@ There is a second half to this option that the pass comparison never mentions: *
 
 **Who it's for:** anyone whose ticket total (section 3, criterion 3) comes in at or below the pass. For golden-route loops, that's most people.
 
+For the legs that sit outside every pass — the thatched villages, the lake resorts, the crossings to other islands — see [Japan by highway bus and ferry](/japan-travel/japan-highway-bus-and-ferry-guide/), which covers what the road and sea network reaches that the railway does not.
+
 **How to get your real number in two minutes:** look up your actual Shinkansen legs on a fare site (the official Japan Rail fare/route search, or a well-known route planner), add your rough local transit, and compare the total to the pass price. If tickets are clearly cheaper, you're done — buy tickets. In my experience this one search saves golden-route travelers more money than any coupon code ever will.
 
 ---
