@@ -37,7 +37,7 @@ And if you need certainty above all — a fixed connection, guaranteed luggage s
 
 ## 3. What the bus and ferry network actually reaches
 
-Four categories, and it is worth understanding them separately because they fail in different ways.
+Five categories, and it is worth understanding them separately because they fail in different ways.
 
 ### 3-1. Mountain villages the railway never got to
 
@@ -57,6 +57,14 @@ This is the category where "book ahead" is not padding. A limited number of seat
 - [Tokyo to Mt Fuji Kawaguchiko FujiQ Highland](https://12go.asia/en/bus/Tokyo/Mt-Fuji-Kawaguchiko-FujiQ-Highland/?z=16597922&sub_id=japan-highway-bus-and-ferry-guide) — the same corridor, dropping at the amusement park rather than the lake town
 
 That second link is worth pausing on, because it demonstrates something about how these bookings work that I will come back to in section 4: **the destination can be the attraction itself, not the nearest city.**
+
+The purest example of the category is one step further up the same mountain. **Mount Fuji's 5th Station** — the point every summer climb starts from — has no railway and never will. The road is the only way up, and in climbing season the bus is the way most people take it.
+
+- [Tokyo to Mount Fuji 5th Station](https://12go.asia/en/bus/Tokyo/Mount-Fuji-5th-Station/?z=16597922&sub_id=japan-highway-bus-and-ferry-guide) — the trailhead, not the nearest town
+
+**Hakone** is the other classic: a hot-spring valley reached by a chain of small private railways, cable cars and a ropeway, where the through bus removes most of the chain.
+
+- [Tokyo to Hakone](https://12go.asia/en/bus/Tokyo/Hakone/?z=16597922&sub_id=japan-highway-bus-and-ferry-guide) — and note that the ropeway's own Togendai terminal exists as a stop in its own right, which is the granularity point from section 4 in miniature
 
 Nikko, the temple-and-gorge day trip north of Tokyo, sits in between: it does have rail service, and it also has road service, and which is better depends on where in Tokyo you start.
 
@@ -79,11 +87,22 @@ Airports and theme parks generate the trips where dragging luggage through a sta
 - [Kansai Airport to Osaka](https://12go.asia/en/bus/Kansai-Airport/Osaka/?z=16597922&sub_id=japan-highway-bus-and-ferry-guide)
 - [Tokyo to Tokyo Disneyland](https://12go.asia/en/bus/Tokyo/Tokyo-Disneyland/?z=16597922&sub_id=japan-highway-bus-and-ferry-guide)
 - [Tokyo Disneyland to Osaka](https://12go.asia/en/bus/Tokyo-Disneyland/Osaka/?z=16597922&sub_id=japan-highway-bus-and-ferry-guide) — a long-haul bus that starts at the park gates, which is exactly the sort of connection that does not exist on the rail map
+- [Osaka to Universal Studios Japan](https://12go.asia/en/bus/Osaka/Universal-Studios-Japan/?z=16597922&sub_id=japan-highway-bus-and-ferry-guide) — the Kansai equivalent, and the same logic applies: the gate is a stop, so the park is one leg rather than a transfer
 
 And for completeness, the two long-haul corridors where the bus competes on price rather than reach:
 
 - [Tokyo to Osaka](https://12go.asia/en/bus/Tokyo/Osaka/?z=16597922&sub_id=japan-highway-bus-and-ferry-guide) — the classic night bus, and the cheapest way to move between Japan's two biggest cities
 - [Hiroshima to Osaka](https://12go.asia/en/bus/Hiroshima/Osaka/?z=16597922&sub_id=japan-highway-bus-and-ferry-guide)
+
+### 3-5. The far ends, where the network changes shape entirely
+
+Hokkaido and Okinawa are the two parts of Japan where a visitor's rail instincts break down completely. Hokkaido's railway is sparse and slow across a very large island; Okinawa has essentially no intercity rail at all. In both, the road network *is* the transport system, and the airport is the hub rather than the station.
+
+- [New Chitose Airport to Niseko](https://12go.asia/en/bus/New-Chitose-Airport/Niseko/?z=16597922&sub_id=japan-highway-bus-and-ferry-guide) — the ski corridor, where the airport transfer is the trip's first real decision
+- [New Chitose Airport to Noboribetsu](https://12go.asia/en/bus/New-Chitose-Airport/Noboribetsu/?z=16597922&sub_id=japan-highway-bus-and-ferry-guide) — the hot-spring town, on the same principle
+- [Naha Airport to northern Okinawa](https://12go.asia/en/bus/Naha-Airport-Naha-City/North-Okinawa/?z=16597922&sub_id=japan-highway-bus-and-ferry-guide) — the resort coast, which is otherwise a car rental you may not want
+
+If you are adding either region to a trip, do the transport research *before* you commit to the dates. These are the two places where a bad connection costs you half a day rather than half an hour.
 
 ---
 

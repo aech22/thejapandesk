@@ -551,13 +551,24 @@ PRE-PUBLISH CHECKLIST
 地点名のスペースはハイフン。`bus`＝バス限定、`travel`＝全交通手段（管理画面下部の例が `/en/travel/bangkok/phuket`）。
 
 ⚠️ **路線の実在は検証できていない。** 存在しない地点を入れても 12Go は 404 ではなく 202 を返すため、
-URLの生死では判定できない。**使ったのはスクショの候補リストに実際に表示されていた地点名だけ**
-（Tokyo / Tokyo Disneyland / Haneda Airport / Kansai Airport / Kawaguchiko / Mt Fuji Kawaguchiko FujiQ Highland /
-Nikko / Nagoya / Takayama / Shirakawa go / Kanazawa / Hiroshima / Osaka / Fukuoka / Beppu）。
+URLの生死では判定できない。**使ったのはスクショの候補リストに実際に表示されていた地点名だけ。**
 **便が無い組み合わせはページが空になるだけ**なので、公開後に一度ずつ検索結果を目視すること。
 
-- [ ] **USJ（ユニバーサル・スタジオ・ジャパン）は未確認。** 候補リストに写っていなかったため今回は作っていない。
-  管理画面の Origin 欄に `universal` と打って地点が出るなら、Osaka 発着の1本を足せる
+- [x] **USJ は 2026-08-08 に確認できたので追加済み**（`usj` で `Universal Studios Japan` が候補に出る）。Osaka 発の1本を §3-4 に設置
+
+### 確認済みの日本の地点名（スクショで実在を目視したもの・今後の記事で流用可）
+
+**関東**: Tokyo / Tokyo Station / Tokyo Yaesu Bus Terminal / Tokyo Disneyland / Haneda Airport / Kamakura / Hakone / Hakone Yumoto / Togendai Hakone Ropeway / Gora Hakone / Nikko / Tobu Nikko
+**富士**: Mount Fuji / **Mount Fuji 5th Station** / Mt Fuji Kawaguchiko FujiQ Highland / Kawaguchiko / Kawaguchiko Lake / Kawaguchiko Tenjoyama Park
+**中部**: Nagoya / Nagano / JR Nagano Station East Exit / Ueda Nagano / Takayama / Takayama Nohi Bus Center / Shirakawa go / Shirakawa go Bus Terminal / Kanazawa / Kanazawa Station East Exit
+**関西**: Osaka / Osaka Station / Osaka South Port Kamome Ferry Terminal / Osaka Expo / **Universal Studios Japan** / Kansai Airport / Kobe / Kobe Port / Kobe Sannomiya Ferry Terminal / Nara
+**中国・九州**: Hiroshima / Hiroshima Port / Hiroshima Bus Center / Hiroshima Peace Memorial Park / Fukuoka / Fukuoka Hakata Bus Terminal / Beppu / Beppu Port / Sun Flower Beppu Terminal / Nagasaki / Peace Park Nagasaki
+**北海道**: Hokkaido / New Chitose Airport / Otaru / Biei / Niseko / Noboribetsu / Kushiro / Akita（東北）
+**沖縄**: Okinawa / Naha Airport Naha City / North Okinawa / Central Okinawa / Okinawa City
+
+→ **自然ピラーの残り5本（上高地・立山黒部・温泉・渓谷・富士）に直接効く地点が揃っている。**
+特に `Mount Fuji 5th Station`（登山口・鉄道が無い）と `Togendai Hakone Ropeway`、北海道の
+`Niseko`/`Noboribetsu`/`Biei` は、記事を書くときにそのまま使える。**sub_id は記事slugに変えること。**
 
 ### 欲しい deep link（路線の候補）
 
