@@ -36,6 +36,10 @@ if (d.issues.length > 0) {
   throw new Error(`DayPlan: ${plan} day ${day} の行程が成立していない:\n- ${d.issues.join('\n- ')}`);
 }
 
+// 型注釈は必ず frontmatter 側に置く。テンプレート内で `as Record<string, string>` と書くと
+// 山括弧が JSX タグとして解釈されて構文が壊れる。
+const KIND_TEXT: Record<string, string> = KIND_LABEL;
+
 const KIND_STYLE: Record<string, string> = {
   spot: 'bg-accent-600/10 text-accent-600',
   move: 'bg-brand-700/10 text-brand-700',
@@ -103,7 +107,7 @@ const fmtChecked = (iso: string) =>
         <div class="min-w-0 flex-1">
           <div class="flex flex-wrap items-baseline gap-x-2 gap-y-1">
             <span class:list={['rounded px-1.5 py-0.5 text-[11px] font-bold uppercase tracking-wide', KIND_STYLE[b.kind] ?? KIND_STYLE.admin]}>
-              {KIND_LABEL[b.kind] ?? b.kind}
+              {KIND_TEXT[b.kind] ?? b.kind}
             </span>
             <span class="font-bold text-ink/90">{b.title}</span>
             {b.booking === 'required' && (

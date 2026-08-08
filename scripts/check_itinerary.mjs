@@ -16,7 +16,7 @@
 import { readdirSync, readFileSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
 import { dirname, join } from 'node:path';
-import { computeDay, fmtClock, fmtDuration, parseClock } from '../src/lib/itinerary.mjs';
+import { computeDay, fmtDuration, parseClock } from '../src/lib/itinerary.mjs';
 
 const HERE = dirname(fileURLToPath(import.meta.url));
 const DATA_DIR = join(HERE, '..', 'src', 'data', 'itineraries');
