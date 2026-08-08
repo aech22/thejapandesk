@@ -73,6 +73,8 @@ Jet lag is real; day one should be gentle. Get your **IC card** (Suica or PASMO)
 
 *Don't over-book day one. The single most common week-one mistake is a packed arrival day fighting jet lag.*
 
+One exception to the "don't spend money on day one" rule: if you land at Narita with luggage, at night, or with anyone who does not travel light, a [private transfer to or from Narita Airport](https://www.getyourguide.com/narita-l153599/narita-airport-nrt-private-one-way-transfer-tofrom-tokyo-t626550/?partner_id=J2LM0TP&utm_medium=online_publisher) removes the single worst hour of the trip. The train is cheap, frequent and genuinely fine — it is also 60–90 minutes with cases, at the end of a long-haul flight, into a station you have never seen.
+
 ### Day 2 — Tokyo: the icons + the one you must reserve
 
 This is your full Tokyo day: Asakusa's Senso-ji and old-town streets in the morning, then the **teamLab digital art museum** — and this is the one activity to **book ahead**, because it's timed-entry and genuinely sells out. Fill the rest with whatever your interests pull you toward (Akihabara, Harajuku, a food street). **Transport call:** IC card. **Book-ahead:** teamLab, locked before you leave home.

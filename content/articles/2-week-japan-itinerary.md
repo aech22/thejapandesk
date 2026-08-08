@@ -92,6 +92,8 @@ This region rewards a slower pace and pairs beautifully with an onsen night to r
 
 👉 *Shirakawa-go is the one to book rather than improvise: it is reached by bus, seats are limited, and winter services fill up. Takayama and Kanazawa are both easy to explore unguided once you're there.*
 
+*A lighter alternative if you want depth without relocating:* the coast north of Kyoto is reachable as a long day from Kyoto or Osaka, and it looks nothing like the golden route — [Izumo Shrine, the Yura River bridge and the boathouse village of Ine](https://www.getyourguide.com/miyazu-l157683/osakakyoto-izumo-shrine-yura-river-bridge-ine-day-tour-t1169216/?partner_id=J2LM0TP&utm_medium=online_publisher) is the sea-facing version of Kansai that most two-week trips never see.
+
 ### Option B — The West: Hiroshima, Miyajima, and the Shimanami Kaido (history + islands + cycling)
 
 The strongest week two for active travelers:
@@ -115,7 +117,7 @@ Note Hokkaido adds real distance; this is the option where **flights** sometimes
 
 ### Day 14 — leave a buffer
 
-End with a **buffer day** near your departure airport, not a travel day. Long-trip reporters almost universally regret cramming the last day; the happy ones left it for final shopping (this is when to buy that extra suitcase you now need) and a slow last meal. If week two ended in the west or north, route your final Shinkansen or flight the night before so day 14 isn't a scramble.
+End with a **buffer day** near your departure airport, not a travel day. If you are flying out of Kansai with two weeks of shopping, a [private transfer from Osaka to KIX](https://www.getyourguide.com/osaka-l1204/osaka-kansai-kix-airport-to-osaka-city-private-transfer-t418939/?partner_id=J2LM0TP&utm_medium=online_publisher) is the cheapest insurance on the trip — the airport express is excellent right up until you are carrying more than you can lift onto it. Long-trip reporters almost universally regret cramming the last day; the happy ones left it for final shopping (this is when to buy that extra suitcase you now need) and a slow last meal. If week two ended in the west or north, route your final Shinkansen or flight the night before so day 14 isn't a scramble.
 
 ---
 

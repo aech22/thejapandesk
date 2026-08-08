@@ -86,7 +86,7 @@ Choose your grand finale:
 - **Kyushu (south):** Fukuoka's food, Beppu/Yufuin onsen towns, active volcanic landscapes — a warm, food-heavy close.
 - **Hokkaido (north):** Sapporo, seafood, national parks in summer or world-class snow in winter — a cooler, spacious change of scene.
 
-This is the leg where a **21-day nationwide pass window** or a **domestic flight** may win over point-to-point tickets — check both. End with a **buffer day** near your departure airport; a month deserves a calm last day, not a scramble, and it's when to buy the extra suitcase you now need.
+This is the leg where a **21-day nationwide pass window** or a **domestic flight** may win over point-to-point tickets — check both. End with a **buffer day** near your departure airport; a month deserves a calm last day, not a scramble, and it's when to buy the extra suitcase you now need. After a month you will be moving more luggage than you arrived with, which is the one situation where a [private airport transfer to or from KIX](https://www.getyourguide.com/kobe-l32593/kansai-airport-kixprivate-transfer-tofrom-osaka-t605836/?partner_id=J2LM0TP&utm_medium=online_publisher) stops being a luxury.
 
 👉 *Both finales are seasonal: Kyushu's onsen towns are pleasant year-round, while Hokkaido's national-park and snow activities run to fixed seasons and sell out. Book the seasonal days early and leave the city days open.*
 
