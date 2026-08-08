@@ -30,9 +30,11 @@ const problems = [];
 const clean = new Set();
 let total = 0;
 
-for (const file of readdirSync(DIR).filter((f) => f.endsWith('.md'))) {
+// .mdx も見る。旅程記事は工程表コンポーネントを差し込むため .mdx になっており、
+// 拡張子で取りこぼすとアフィリリンクが黙って検査対象から外れる。
+for (const file of readdirSync(DIR).filter((f) => /\.mdx?$/.test(f))) {
   const text = readFileSync(join(DIR, file), 'utf8');
-  const slug = file.replace(/\.md$/, '');
+  const slug = file.replace(/\.mdx?$/, '');
 
   for (const m of text.matchAll(/\]\((https?:\/\/[^)\s]+)\)/g)) {
     let url;

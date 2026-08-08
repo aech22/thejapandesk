@@ -1,0 +1,643 @@
+{
+  "id": "7-day-japan",
+  "title": "7-Day Japan Itinerary — hour-by-hour",
+  "checkedAt": "2026-08-09",
+  "startAssumption": "Every day below is built from a stated start time and then adds up. If you start an hour later, everything after shifts by an hour — the plan still works, it just ends later. Durations are planning estimates from someone who does these journeys; opening hours are quoted from the official source, with the date they were checked.",
+  "days": [
+    {
+      "day": 1,
+      "base": "Tokyo",
+      "title": "Arrival — land, get set up, do almost nothing",
+      "start": "14:00",
+      "startNote": "Assumes wheels-down at Narita at 14:00, a common arrival slot from North America and Europe. Landing at Haneda? Cut about 45 minutes off the airport transfer. Landing in the morning? You get a real evening — add Shibuya Sky tonight instead of tomorrow.",
+      "walkKm": 2.5,
+      "fallback": "Raining, or the flight ate you alive: skip the neighbourhood walk and eat in the basement food hall (depachika) of the nearest big station building. It is indoors, it is genuinely good, and it is a two-minute walk from a train.",
+      "blocks": [
+        {
+          "kind": "admin",
+          "title": "Immigration, baggage, customs",
+          "min": 60,
+          "tip": "Fill in Visit Japan Web and screenshot the QR codes before you fly — the airport wifi is the worst possible place to be filling in a web form. An hour is the honest allowance: it can be 25 minutes, and it can be 90 if three widebodies landed with you."
+        },
+        {
+          "kind": "admin",
+          "title": "Airport setup: IC card, cash, data",
+          "min": 25,
+          "tip": "Do all three here, not in the city. Get a Suica or PASMO (or add one to your phone), pull ¥20,000–30,000 from an ATM in the arrivals hall, and activate your eSIM before you leave wifi. Every one of these is slower and more annoying to fix later."
+        },
+        {
+          "kind": "pit",
+          "title": "Restroom and water before the transfer",
+          "min": 10,
+          "tip": "The airport express has a toilet; the crowded local leg at the other end may not. Take the window now."
+        },
+        {
+          "kind": "move",
+          "title": "Narita → your Tokyo base",
+          "mode": "rail",
+          "min": 105,
+          "breakdown": { "walk": 10, "ride": 75, "station": 20 },
+          "tip": "The 75 minutes is the train. The other 30 is the part nobody budgets: walking to the platform with cases, and then finding the right exit of a station you have never seen — Tokyo's big stations have a dozen. If you are arriving at night, with heavy luggage, or with anyone who does not travel light, a private transfer removes the single worst hour of the trip."
+        },
+        {
+          "kind": "admin",
+          "title": "Check in, drop bags",
+          "min": 30,
+          "tip": "Most Japanese hotels check in from 15:00. If you arrive earlier they will store your bags — you do not have to wait around."
+        },
+        {
+          "kind": "rest",
+          "title": "Sit down for half an hour. Actually sit down",
+          "min": 30,
+          "tip": "This is the block people delete, and it is the reason day two starts badly. Shower, lie flat, do not get into bed properly — 30 minutes horizontal is recovery, 90 minutes is a 3am wake-up."
+        },
+        {
+          "kind": "spot",
+          "title": "Slow walk around your own neighbourhood",
+          "min": 45,
+          "optional": true,
+          "tip": "Not a sight. Find the nearest konbini, the nearest station entrance, and somewhere you could eat at 10pm. Knowing these three things makes the rest of the week frictionless."
+        },
+        {
+          "kind": "meal",
+          "title": "Dinner near your base",
+          "min": 60,
+          "tip": "Stay within ten minutes' walk. Jet lag plus a 40-minute train to a famous restaurant is how a first evening turns grim."
+        },
+        {
+          "kind": "flex",
+          "title": "Unscheduled",
+          "min": 60,
+          "tip": "On arrival day this is not spare capacity, it is the buffer for the queue at immigration being twice as long as you hoped. If it survives to the evening, spend it asleep."
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "base": "Tokyo",
+      "title": "Tokyo icons — the old town in the morning, the one you must reserve after lunch",
+      "start": "08:00",
+      "startNote": "The 08:00 start is doing real work here: Senso-ji before 10:00 is a different place from Senso-ji at 11:00.",
+      "walkKm": 7.0,
+      "fallback": "Heavy rain: the whole afternoon is already indoors. Swap the morning for the Tokyo National Museum or an Ameyoko-to-Akihabara arcade crawl and keep the teamLab slot exactly as booked.",
+      "blocks": [
+        { "kind": "meal", "title": "Breakfast", "min": 30 },
+        {
+          "kind": "move",
+          "title": "→ Asakusa",
+          "mode": "rail",
+          "min": 35,
+          "breakdown": { "walk": 8, "ride": 20, "station": 7 },
+          "tip": "The 7 minutes of 'station' is real: Asakusa has four separate stations run by different companies, and the exit you want for Kaminarimon is not always the one you surface at."
+        },
+        {
+          "kind": "pit",
+          "title": "Restroom and water at the station exit",
+          "min": 10,
+          "tip": "Do it here. The public toilets by the temple queue hard from about 10:00, and there is nowhere convenient between the gate and the main hall."
+        },
+        {
+          "kind": "spot",
+          "title": "Kaminarimon → Nakamise-dori → Senso-ji main hall",
+          "min": 60,
+          "fact": {
+            "hours": "Main hall 6:00–17:00 (opens 6:30 October–March)",
+            "source": "https://www.senso-ji.jp/guide/",
+            "checkedAt": "2026-08-09"
+          },
+          "tip": "60 minutes is a walk-the-arcade-slowly pace with a few minutes at the incense burner. The grounds are open long before the main hall — arriving at 08:00 is not wasted, it is the best light and no crowds."
+        },
+        {
+          "kind": "spot",
+          "title": "Denboin-dori and the Asakusa backstreets",
+          "min": 30,
+          "optional": true,
+          "tip": "First thing to cut if you are running behind. One street back from Nakamise and the crowd halves."
+        },
+        {
+          "kind": "move",
+          "title": "Asakusa → Azabudai Hills (teamLab Borderless)",
+          "mode": "rail",
+          "min": 45,
+          "breakdown": { "walk": 10, "ride": 25, "station": 10 },
+          "tip": "One change. The 10 minutes of station buffer is the change itself plus the walk up from the subway — do not budget this as a straight 25-minute ride."
+        },
+        {
+          "kind": "meal",
+          "title": "Early lunch near the venue",
+          "min": 60,
+          "tip": "Eat before 12:00 or after 13:30. Between those, popular places in an office district run a 20–30 minute queue and you will be watching the clock against a timed ticket."
+        },
+        {
+          "kind": "pit",
+          "title": "Restroom before entry",
+          "min": 10,
+          "tip": "Non-negotiable before a two-hour walk-through venue where leaving may mean not getting back in."
+        },
+        {
+          "kind": "spot",
+          "title": "teamLab Borderless",
+          "min": 120,
+          "anchor": "12:40",
+          "booking": "required",
+          "fact": {
+            "hoursNote": "Timed entry; opening hours and closed days change by date — check the official calendar for your day and book the slot before you fly.",
+            "source": "https://www.teamlab.art/e/borderless-azabudai/",
+            "checkedAt": "2026-08-09"
+          },
+          "tip": "This is the one thing on the whole week with a hard time on it, which is why the morning is built to deliver you here with ten minutes in hand. Wear something you do not mind sitting on the floor in, and skip the heels — parts of it are mirrored floor."
+        },
+        {
+          "kind": "rest",
+          "title": "Coffee, sitting down",
+          "min": 30,
+          "tip": "You are about four hours of walking into the day with a Shibuya evening still ahead."
+        },
+        {
+          "kind": "flex",
+          "title": "Unscheduled — this is your Tokyo afternoon",
+          "min": 80,
+          "tip": "Deliberately empty. Akihabara, Harajuku, a department store, or nothing at all. If the morning ran late, this is what absorbs it."
+        },
+        {
+          "kind": "move",
+          "title": "→ Shibuya",
+          "mode": "rail",
+          "min": 30,
+          "breakdown": { "walk": 7, "ride": 18, "station": 5 }
+        },
+        {
+          "kind": "spot",
+          "title": "Shibuya Crossing, Hachiko, Center-gai",
+          "min": 60,
+          "tip": "Cross it, then watch it from above from the second-floor window of the station building — the view everyone photographs is free."
+        },
+        {
+          "kind": "spot",
+          "title": "Shibuya Sky",
+          "min": 75,
+          "anchor": "18:00",
+          "mustStartBy": "21:20",
+          "booking": "required",
+          "fact": {
+            "hours": "10:00–22:30, last admission 21:20",
+            "fee": "Adults ¥2,700 online for slots before 15:00, ¥3,400 from 15:00",
+            "source": "https://www.gotokyo.org/en/spot/1749/index.html",
+            "checkedAt": "2026-08-09"
+          },
+          "tip": "Book the slot for roughly 45 minutes before sunset so you get daylight, golden hour and the lit city in one visit. Tokyo's sunset moves a lot — about 16:30 at the end of December, about 19:00 in late June — so pick the slot against your actual date, not against this 18:00. It also closes in high wind, so have tonight's dinner plan able to survive without it."
+        },
+        { "kind": "meal", "title": "Dinner in Shibuya", "min": 75 },
+        {
+          "kind": "move",
+          "title": "→ back to your base",
+          "mode": "rail",
+          "min": 25,
+          "breakdown": { "walk": 5, "ride": 15, "station": 5 }
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "base": "Tokyo",
+      "title": "Day trip — Mt. Fuji (or Hakone, if the forecast says cloud)",
+      "start": "06:45",
+      "startNote": "Coach tours to the Fuji Five Lakes typically board between 07:30 and 08:30 in Shinjuku. This day is built around an 08:00 boarding; move the whole day if yours is different.",
+      "walkKm": 5.0,
+      "fallback": "Fuji is invisible on a cloudy day and no tour refunds you for weather. If the forecast is poor, switch to Hakone the day before: the Open-Air Museum, the lake and an onsen all work in rain, and it is a rail day rather than a coach day so you can change your mind late.",
+      "blocks": [
+        { "kind": "meal", "title": "Breakfast", "min": 30, "tip": "Hotel breakfast or konbini. This is the earliest start of the week." },
+        {
+          "kind": "move",
+          "title": "→ tour departure point",
+          "mode": "rail",
+          "min": 30,
+          "breakdown": { "walk": 8, "ride": 15, "station": 7 }
+        },
+        {
+          "kind": "pit",
+          "title": "Konbini stop: water, snacks, restroom",
+          "min": 15,
+          "tip": "Buy more water than you think. The mountain stops have small shops with long queues, and the coach will not stop when you want it to — it stops when the schedule says."
+        },
+        {
+          "kind": "admin",
+          "title": "Tour check-in and boarding",
+          "min": 20,
+          "anchor": "08:00",
+          "booking": "required",
+          "tip": "Book at least a week ahead in April–May and October–November; these sell out. Turn up 15 minutes before the stated departure — coaches leave on time and there is no second one."
+        },
+        {
+          "kind": "move",
+          "title": "Coach: Tokyo → Fuji Five Lakes, first leg",
+          "mode": "coach",
+          "min": 60,
+          "breakdown": { "walk": 0, "ride": 60, "station": 0 }
+        },
+        {
+          "kind": "rest",
+          "title": "Expressway service-area stop",
+          "min": 15,
+          "tip": "This stop is your toilet window, and it is not optional — the next reliable one is at the first viewpoint over an hour away. Japanese service areas are genuinely good: clean toilets, decent food, regional snacks."
+        },
+        {
+          "kind": "move",
+          "title": "Coach, second leg",
+          "mode": "coach",
+          "min": 55,
+          "breakdown": { "walk": 0, "ride": 55, "station": 0 }
+        },
+        {
+          "kind": "spot",
+          "title": "First Fuji viewpoint",
+          "min": 60,
+          "tip": "Which viewpoint varies far more between tour listings than the price does — check the actual stops before you book."
+        },
+        { "kind": "meal", "title": "Lunch (often at a set stop on the tour)", "min": 60 },
+        { "kind": "spot", "title": "Oshino Hakkai spring ponds", "min": 60 },
+        {
+          "kind": "move",
+          "title": "Coach between stops",
+          "mode": "coach",
+          "min": 30,
+          "breakdown": { "walk": 0, "ride": 30, "station": 0 }
+        },
+        { "kind": "spot", "title": "Lake Kawaguchi shore, or the ropeway", "min": 75 },
+        {
+          "kind": "pit",
+          "title": "Restroom before the long ride back",
+          "min": 15,
+          "tip": "Two-plus hours with one stop. Go now even if you do not need to."
+        },
+        {
+          "kind": "move",
+          "title": "Coach back, first leg",
+          "mode": "coach",
+          "min": 75,
+          "breakdown": { "walk": 0, "ride": 75, "station": 0 },
+          "tip": "Sunday evenings and the end of a holiday week can add an hour of traffic to this. If you have anything booked tonight, do not book it before 20:00."
+        },
+        { "kind": "rest", "title": "Service-area stop", "min": 15 },
+        {
+          "kind": "move",
+          "title": "Coach back, second leg into Shinjuku",
+          "mode": "coach",
+          "min": 60,
+          "breakdown": { "walk": 0, "ride": 60, "station": 0 }
+        },
+        {
+          "kind": "move",
+          "title": "→ your base",
+          "mode": "rail",
+          "min": 30,
+          "breakdown": { "walk": 8, "ride": 15, "station": 7 }
+        },
+        { "kind": "meal", "title": "Dinner", "min": 60 },
+        {
+          "kind": "flex",
+          "title": "Unscheduled",
+          "min": 60,
+          "tip": "Held back for traffic on the way home. If the coach ran clean, you have an hour in Tokyo; if it did not, you needed every minute of this."
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "base": "Tokyo → Kyoto",
+      "title": "The one long train leg, then eastern Kyoto at the good hour",
+      "start": "08:00",
+      "startNote": "Built around a late-morning Shinkansen, which gets you into Kyoto with the whole afternoon intact. Anything after 13:00 and you lose the eastern temples on arrival day.",
+      "walkKm": 8.0,
+      "fallback": "Rain in Kyoto: Kiyomizu-dera is fine wet (the slopes are covered in places and the crowds thin), but swap the Gion evening walk for a covered arcade — Nishiki and Teramachi run for blocks under roof.",
+      "blocks": [
+        {
+          "kind": "admin",
+          "title": "Pack, and send your big bag ahead to Kyoto",
+          "min": 30,
+          "tip": "Luggage forwarding (takkyubin) from hotel to hotel is the single best-value thing most visitors never do. It arrives next day, so send it this morning and travel with an overnight bag. Dragging a large case through Tokyo Station at rush hour is the alternative."
+        },
+        { "kind": "admin", "title": "Check out", "min": 15 },
+        {
+          "kind": "move",
+          "title": "→ Tokyo Station",
+          "mode": "rail",
+          "min": 35,
+          "breakdown": { "walk": 8, "ride": 20, "station": 7 }
+        },
+        {
+          "kind": "admin",
+          "title": "Collect or buy your Shinkansen ticket, find the platform",
+          "min": 25,
+          "tip": "Reserved seats do sell out on weekends, holidays and the first and last days of a long weekend. Buy the day before if you can. Tokyo Station is enormous and the Shinkansen gates are not near the local ones — 25 minutes is not padding."
+        },
+        {
+          "kind": "pit",
+          "title": "Restroom, then buy an ekiben on the platform",
+          "min": 20,
+          "tip": "Eating a station bento on the Shinkansen is not a tourist gimmick, it is what everyone does. There is no meal service to wait for."
+        },
+        {
+          "kind": "move",
+          "title": "Shinkansen: Tokyo → Kyoto",
+          "mode": "rail",
+          "min": 150,
+          "breakdown": { "walk": 5, "ride": 140, "station": 5 },
+          "tip": "About 2h15 in the seat on a Nozomi, a little over 2h40 on a Hikari; trains run every few minutes all day, so this is a duration to budget, not a departure to chase. Sit on the right-hand side heading west (seat E) for Mt. Fuji about 45 minutes out, weather permitting."
+        },
+        {
+          "kind": "move",
+          "title": "Kyoto Station → accommodation, drop bags",
+          "mode": "rail",
+          "min": 45,
+          "breakdown": { "walk": 12, "ride": 25, "station": 8 }
+        },
+        { "kind": "rest", "title": "Twenty minutes off your feet before you start again", "min": 20 },
+        {
+          "kind": "move",
+          "title": "→ Kiyomizu-dera",
+          "mode": "rail",
+          "min": 35,
+          "breakdown": { "walk": 12, "ride": 16, "station": 7 },
+          "tip": "The last stretch is uphill on foot whichever way you come — the bus stop and the station are both a walk below the temple. That climb is inside this 35 minutes."
+        },
+        {
+          "kind": "spot",
+          "title": "Kiyomizu-dera",
+          "min": 75,
+          "mustStartBy": "17:00",
+          "fact": {
+            "hours": "6:00–18:00 (until 18:30 in July and August); during the spring, summer and autumn night openings, reception closes at 21:00",
+            "source": "https://www.kiyomizudera.or.jp/news/open-hour.php",
+            "checkedAt": "2026-08-09"
+          },
+          "tip": "Starting later than 17:00 leaves you rushing the one thing you came up the hill for. If your train slipped, do Kiyomizu-dera first thing tomorrow instead and walk Gion tonight — swapping is much better than compressing."
+        },
+        {
+          "kind": "spot",
+          "title": "Sannenzaka and Ninenzaka, downhill to Yasaka Shrine",
+          "min": 75,
+          "tip": "Do this downhill from the temple, not uphill from Gion. Same street, half the effort, and it lands you in Gion exactly at dusk."
+        },
+        { "kind": "pit", "title": "Restroom stop", "min": 10 },
+        { "kind": "rest", "title": "Tea or coffee, sitting down", "min": 30 },
+        {
+          "kind": "spot",
+          "title": "Gion and the Shirakawa lane at dusk",
+          "min": 60,
+          "tip": "The lantern-lit canal lane at Shirakawa is quieter and prettier than the main Hanamikoji drag. Photographing geiko and maiko on the private streets is restricted and fined — look, do not chase."
+        },
+        { "kind": "meal", "title": "Dinner", "min": 75 },
+        { "kind": "flex", "title": "Unscheduled", "min": 60 },
+        {
+          "kind": "move",
+          "title": "→ back to your accommodation",
+          "mode": "rail",
+          "min": 25,
+          "breakdown": { "walk": 8, "ride": 12, "station": 5 }
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "base": "Kyoto",
+      "title": "Kyoto's big three, ordered so you are always ahead of the crowd",
+      "start": "07:00",
+      "startNote": "The earliest non-tour start of the week, and the highest-payoff one. The bamboo grove at 08:15 and the same grove at 10:30 are not the same experience.",
+      "walkKm": 11.0,
+      "fallback": "Rain, or legs gone: this is the day with the most cuttable content. Drop Fushimi Inari to tomorrow morning, and spend the afternoon on an indoor tea ceremony or kimono session — that is exactly what the 90-minute flex block is sized for.",
+      "blocks": [
+        { "kind": "meal", "title": "Breakfast", "min": 30 },
+        {
+          "kind": "move",
+          "title": "→ Arashiyama",
+          "mode": "rail",
+          "min": 45,
+          "breakdown": { "walk": 10, "ride": 27, "station": 8 }
+        },
+        {
+          "kind": "spot",
+          "title": "Bamboo grove",
+          "min": 45,
+          "tip": "This is the whole reason for the 07:00 start. It is a short path — 45 minutes is walking it slowly and taking photographs without anyone in them, which is only possible this early."
+        },
+        { "kind": "spot", "title": "Tenryu-ji garden", "min": 45 },
+        {
+          "kind": "pit",
+          "title": "Restroom and a coffee stand",
+          "min": 15,
+          "tip": "Take it in the Arashiyama shopping street. The next hour is a train with two changes."
+        },
+        { "kind": "spot", "title": "Togetsukyo bridge and the riverside", "min": 30, "optional": true },
+        {
+          "kind": "move",
+          "title": "Arashiyama → Fushimi Inari",
+          "mode": "rail",
+          "min": 70,
+          "breakdown": { "walk": 10, "ride": 50, "station": 10 },
+          "tip": "The longest local hop of the week — opposite corners of the city, two changes. This is the moment to be honest with yourself: if the group is flagging, go back to the hotel and do Fushimi Inari at 07:00 tomorrow, which is a better visit anyway."
+        },
+        { "kind": "meal", "title": "Lunch near Inari", "min": 60 },
+        {
+          "kind": "spot",
+          "title": "Fushimi Inari — the torii gates up to the Yotsutsuji viewpoint and back",
+          "min": 90,
+          "tip": "Be clear about which walk you are doing. Gates-and-back at the bottom is 30 minutes. Up to the Yotsutsuji viewpoint and back — the one worth doing — is around 90 minutes of steady stone steps. The full summit loop is 2–3 hours and is not in this plan. There is no admission fee and the crowds thin dramatically about ten minutes above the entrance."
+        },
+        { "kind": "rest", "title": "Sit down. You have just climbed a hill", "min": 30 },
+        {
+          "kind": "move",
+          "title": "→ central Kyoto",
+          "mode": "rail",
+          "min": 35,
+          "breakdown": { "walk": 10, "ride": 18, "station": 7 }
+        },
+        { "kind": "spot", "title": "Nishiki Market and Teramachi arcade", "min": 60, "optional": true },
+        {
+          "kind": "flex",
+          "title": "Unscheduled — or your tea ceremony / kimono session",
+          "min": 90,
+          "tip": "Sized on purpose: a booked tea ceremony or kimono session is typically 60–90 minutes, and this is where it goes. It is also the best rainy-day swap in the week. Check the session length and whether materials are included before you pick between near-identical listings."
+        },
+        { "kind": "meal", "title": "Dinner", "min": 75 },
+        {
+          "kind": "move",
+          "title": "→ back to your accommodation",
+          "mode": "rail",
+          "min": 25,
+          "breakdown": { "walk": 8, "ride": 12, "station": 5 }
+        }
+      ]
+    },
+    {
+      "day": 6,
+      "base": "Kyoto → Osaka",
+      "title": "Nara on the way, Osaka in the evening",
+      "start": "08:00",
+      "startNote": "One move and one day trip stacked into a single day. It works because Nara sits between Kyoto and Osaka — you are not backtracking.",
+      "walkKm": 9.0,
+      "fallback": "Rain: Nara Park is mostly outdoors and miserable wet. Skip it, go straight to Osaka, and give the afternoon to the aquarium or the Umeda Sky Building instead — the Dotonbori evening is largely covered arcade and works in any weather.",
+      "blocks": [
+        {
+          "kind": "admin",
+          "title": "Pack; send the big bag ahead to your Osaka hotel",
+          "min": 40,
+          "tip": "Same trick as day four. You are about to spend a day walking around Nara — do not do it with a suitcase, and do not pay for a coin locker large enough to hold one."
+        },
+        {
+          "kind": "move",
+          "title": "Kyoto → Nara",
+          "mode": "rail",
+          "min": 65,
+          "breakdown": { "walk": 12, "ride": 43, "station": 10 }
+        },
+        { "kind": "pit", "title": "Restroom and water at Nara station", "min": 10 },
+        {
+          "kind": "spot",
+          "title": "Nara Park and the deer",
+          "min": 45,
+          "tip": "The deer crackers are sold at stalls in the park. Bow to a deer and it may well bow back; hold food above your head in a crowd of them and you will regret it. They are wild animals, not a petting zoo."
+        },
+        {
+          "kind": "spot",
+          "title": "Todai-ji Great Buddha Hall",
+          "min": 60,
+          "fact": {
+            "hours": "Daibutsuden 7:30–17:30",
+            "source": "https://www.todaiji.or.jp/en/",
+            "checkedAt": "2026-08-09"
+          },
+          "tip": "About ten minutes' walk in from the park, and the approach is part of it. Sixty minutes covers the gate, the hall and the walk between."
+        },
+        { "kind": "spot", "title": "The approach to Kasuga Taisha", "min": 45, "optional": true },
+        { "kind": "meal", "title": "Lunch in Nara", "min": 60 },
+        { "kind": "rest", "title": "Twenty minutes before the next move", "min": 20 },
+        {
+          "kind": "move",
+          "title": "Nara → Osaka",
+          "mode": "rail",
+          "min": 60,
+          "breakdown": { "walk": 12, "ride": 38, "station": 10 }
+        },
+        { "kind": "admin", "title": "Check in, drop bags", "min": 30 },
+        {
+          "kind": "flex",
+          "title": "Unscheduled",
+          "min": 90,
+          "tip": "Placed here deliberately: it is the landing pad for a day that has already contained a hotel change and a day trip. If Nara overran, this absorbs it and the evening is untouched."
+        },
+        {
+          "kind": "move",
+          "title": "→ Dotonbori",
+          "mode": "rail",
+          "min": 25,
+          "breakdown": { "walk": 8, "ride": 12, "station": 5 }
+        },
+        { "kind": "spot", "title": "Dotonbori and Shinsaibashi", "min": 75 },
+        {
+          "kind": "meal",
+          "title": "Osaka street-food crawl",
+          "min": 90,
+          "tip": "Do this as three small standing stops — takoyaki, kushikatsu, okonomiyaki — not one sit-down dinner. Ninety minutes sounds generous until you hit the 15–20 minute queues that form at the famous stands after 18:00. At kushikatsu counters, the no-double-dipping rule on the communal sauce is real and taken seriously."
+        },
+        { "kind": "pit", "title": "Restroom stop", "min": 10 },
+        { "kind": "flex", "title": "Unscheduled", "min": 45 },
+        {
+          "kind": "move",
+          "title": "→ back to your hotel",
+          "mode": "rail",
+          "min": 20,
+          "breakdown": { "walk": 6, "ride": 9, "station": 5 }
+        }
+      ]
+    },
+    {
+      "day": 7,
+      "base": "Osaka",
+      "title": "Castle, last bites, and an airport run built backwards from your flight",
+      "start": "07:30",
+      "startNote": "This day is built backwards from an 18:00 departure from Kansai International. Work out your own: international check-in usually closes 60 minutes before departure, the train from Namba is about 70 minutes door to gate-hall, and collecting bags from the hotel is another 40. That is your last-possible-moment; everything above it is what fits.",
+      "walkKm": 7.0,
+      "fallback": "Rain, or an early flight: cut Kuromon Ichiba and go castle → hotel → airport. The castle grounds are the one thing worth keeping, and the keep itself is indoors.",
+      "blocks": [
+        { "kind": "meal", "title": "Breakfast", "min": 30 },
+        {
+          "kind": "admin",
+          "title": "Pack; leave your bags at the hotel",
+          "min": 30,
+          "tip": "Every hotel will hold them after checkout. Do not haul cases around on your last morning and do not pay for station lockers you do not need."
+        },
+        {
+          "kind": "move",
+          "title": "→ Osaka Castle",
+          "mode": "rail",
+          "min": 35,
+          "breakdown": { "walk": 10, "ride": 18, "station": 7 },
+          "tip": "The walk from any of the surrounding stations to the keep itself is a solid 10–15 minutes through the park — that is inside this figure, and it surprises people who assume the station is at the castle."
+        },
+        {
+          "kind": "spot",
+          "title": "Osaka Castle and the park",
+          "min": 90,
+          "anchor": "09:05",
+          "fact": {
+            "hours": "9:00–18:00, last admission 17:30",
+            "fee": "Adults ¥1,200",
+            "closed": "December 28 – January 1",
+            "source": "https://www.osakacastle.net/guide/",
+            "checkedAt": "2026-08-09"
+          },
+          "tip": "Being here at opening is worth more than any other timing decision today — the queue for the keep builds through the morning, and tickets can be bought in advance online."
+        },
+        {
+          "kind": "move",
+          "title": "→ Kuromon Ichiba / Namba",
+          "mode": "rail",
+          "min": 35,
+          "breakdown": { "walk": 10, "ride": 18, "station": 7 }
+        },
+        {
+          "kind": "spot",
+          "title": "Kuromon Ichiba market",
+          "min": 50,
+          "tip": "A covered market where the stalls grill and fry to order — the correct last meal in Osaka, and it is indoors if the weather turned."
+        },
+        { "kind": "meal", "title": "Lunch, or keep grazing the market", "min": 60 },
+        {
+          "kind": "flex",
+          "title": "Unscheduled — last shopping",
+          "min": 60,
+          "tip": "The real function of this block is that a delay today costs you a flight, not an attraction. If everything ran on time, spend it. If it did not, you never had it."
+        },
+        {
+          "kind": "move",
+          "title": "→ back to the hotel, collect bags",
+          "mode": "rail",
+          "min": 40,
+          "breakdown": { "walk": 10, "ride": 22, "station": 8 }
+        },
+        {
+          "kind": "pit",
+          "title": "Restroom and a konbini run",
+          "min": 15,
+          "tip": "Last chance to spend the coins in your pocket, and airside prices are airside prices everywhere."
+        },
+        {
+          "kind": "move",
+          "title": "Namba → Kansai International",
+          "mode": "rail",
+          "min": 70,
+          "breakdown": { "walk": 10, "ride": 50, "station": 10 },
+          "tip": "Both the limited express and the standard airport service run from Namba. Reserve the express seat the day before if you want a guaranteed seat with luggage — on the standard service at commuter hour you may be standing with your cases."
+        },
+        {
+          "kind": "admin",
+          "title": "Check-in, security, immigration",
+          "min": 90,
+          "mustStartBy": "17:00",
+          "tip": "Ninety minutes is the working minimum for an international departure at a big airport, and it assumes you are not also claiming a tax refund — if you are, add 30. Check-in typically closes 60 minutes before departure, and that cutoff is enforced."
+        }
+      ]
+    }
+  ]
+}

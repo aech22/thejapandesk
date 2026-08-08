@@ -10,13 +10,15 @@
     "check": "astro check",
     "fetch:fares": "node scripts/fetch_fares.mjs",
     "fetch:fares:spike": "node scripts/fetch_fares.mjs --spike",
-    "check:links": "node scripts/check_affiliate_links.mjs"
+    "check:links": "node scripts/check_affiliate_links.mjs",
+    "check:itinerary": "node scripts/check_itinerary.mjs"
   },
   "dependencies": {
-    "astro": "^5.13.0",
+    "@astrojs/mdx": "^4.3.14",
     "@astrojs/sitemap": "^3.4.0",
+    "@tailwindcss/typography": "^0.5.16",
     "@tailwindcss/vite": "^4.1.0",
-    "tailwindcss": "^4.1.0",
-    "@tailwindcss/typography": "^0.5.16"
+    "astro": "^5.13.0",
+    "tailwindcss": "^4.1.0"
   }
 }

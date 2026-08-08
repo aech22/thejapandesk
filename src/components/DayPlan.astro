@@ -1,0 +1,173 @@
+---
+// 1日ぶんの実行可能な工程表。
+//
+// このコンポーネントが守る約束:
+//   1. 時刻は書かない、計算する。データが持つのは開始時刻と各ブロックの所要時間だけで、
+//      表示される時刻はすべて積み上げ（src/lib/itinerary.mjs）。手書きの時刻がずれる事故が起きない。
+//   2. 事実（開館時間・料金・休館日）は必ず出典と確認日を添えて出す。出典の無い事実は表示しない。
+//   3. 所要時間は「事実」ではなく「計画上の見積り」として提示する（脚注で明示）。
+//
+// データ: src/data/itineraries/<plan>.json（単一ソース）。記事側に時刻を書かせない。
+
+import { computeDay, fmtDuration, KIND_LABEL } from '../lib/itinerary.mjs';
+
+interface Props {
+  plan: string; // src/data/itineraries/<plan>.json の id
+  day: number;  // 1 始まり
+}
+
+const { plan, day } = Astro.props;
+
+const modules = import.meta.glob<{ default: any }>('../data/itineraries/*.json', { eager: true });
+const planData = Object.values(modules)
+  .map((m) => m.default)
+  .find((p) => p?.id === plan);
+
+if (!planData) throw new Error(`DayPlan: itinerary "${plan}" が src/data/itineraries に無い`);
+
+const raw = planData.days.find((d: any) => d.day === day);
+if (!raw) throw new Error(`DayPlan: itinerary "${plan}" に day ${day} が無い`);
+
+const d = computeDay(raw);
+
+// 破綻した行程を静かに配信しないための最後の砦。npm run check:itinerary と同じ判定を
+// ビルド時にも通す（検算を回し忘れてもビルドで落ちる）。
+if (d.issues.length > 0) {
+  throw new Error(`DayPlan: ${plan} day ${day} の行程が成立していない:\n- ${d.issues.join('\n- ')}`);
+}
+
+const KIND_STYLE: Record<string, string> = {
+  spot: 'bg-accent-600/10 text-accent-600',
+  move: 'bg-brand-700/10 text-brand-700',
+  pit: 'bg-black/5 text-ink/55',
+  meal: 'bg-black/5 text-ink/55',
+  rest: 'bg-black/5 text-ink/55',
+  flex: 'bg-black/5 text-ink/55',
+  admin: 'bg-black/5 text-ink/55',
+};
+
+const moveParts = (b: any) => {
+  const p = b.breakdown ?? {};
+  return [
+    p.walk ? `${p.walk} walking` : null,
+    p.ride ? `${p.ride} in transit` : null,
+    p.station ? `${p.station} in stations and changes` : null,
+  ].filter(Boolean).join(' + ');
+};
+
+const fmtChecked = (iso: string) =>
+  new Date(iso).toLocaleDateString('en-US', {
+    year: 'numeric', month: 'short', timeZone: 'UTC',
+  });
+---
+
+<section class="not-prose my-8 overflow-hidden rounded-xl border border-black/10 bg-white">
+  <header class="border-b border-black/10 bg-brand-50/60 px-4 py-4 sm:px-5">
+    <p class="text-xs font-bold uppercase tracking-wide text-accent-600">
+      Day {d.day} &middot; {d.base}
+    </p>
+    <h3 class="mt-1 font-serif text-lg font-bold text-brand-700">{d.title}</h3>
+
+    <dl class="mt-3 grid grid-cols-2 gap-x-4 gap-y-2 text-sm sm:grid-cols-4">
+      <div>
+        <dt class="text-xs font-bold text-ink/45">Runs</dt>
+        <dd class="tabular-nums font-bold text-ink/80">{d.start}&ndash;{d.endLabel}</dd>
+      </div>
+      <div>
+        <dt class="text-xs font-bold text-ink/45">On your feet</dt>
+        <dd class="tabular-nums font-bold text-ink/80">≈ {fmtDuration(d.totals.onFoot)}</dd>
+      </div>
+      <div>
+        <dt class="text-xs font-bold text-ink/45">Walking</dt>
+        <dd class="tabular-nums font-bold text-ink/80">≈ {d.walkKm} km</dd>
+      </div>
+      <div>
+        <dt class="text-xs font-bold text-ink/45">Slack held back</dt>
+        <dd class="tabular-nums font-bold text-accent-600">{fmtDuration(d.totals.flex)}</dd>
+      </div>
+    </dl>
+
+    {d.startNote && (
+      <p class="mt-3 text-sm leading-relaxed text-ink/70">{d.startNote}</p>
+    )}
+  </header>
+
+  <ol class="divide-y divide-black/5">
+    {d.blocks.map((b: any) => (
+      <li class="flex gap-3 px-4 py-3 sm:gap-4 sm:px-5">
+        <div class="w-12 shrink-0 pt-0.5 sm:w-14">
+          <span class="block tabular-nums text-sm font-bold text-ink/80">{b.start}</span>
+          <span class="block tabular-nums text-xs text-ink/40">{fmtDuration(b.min)}</span>
+        </div>
+
+        <div class="min-w-0 flex-1">
+          <div class="flex flex-wrap items-baseline gap-x-2 gap-y-1">
+            <span class:list={['rounded px-1.5 py-0.5 text-[11px] font-bold uppercase tracking-wide', KIND_STYLE[b.kind] ?? KIND_STYLE.admin]}>
+              {KIND_LABEL[b.kind] ?? b.kind}
+            </span>
+            <span class="font-bold text-ink/90">{b.title}</span>
+            {b.booking === 'required' && (
+              <span class="rounded bg-accent-600 px-1.5 py-0.5 text-[11px] font-bold uppercase tracking-wide text-white">
+                Book ahead
+              </span>
+            )}
+            {b.optional && (
+              <span class="text-[11px] font-bold uppercase tracking-wide text-ink/40">
+                Cut this first
+              </span>
+            )}
+            {b.anchor && (
+              <span class="text-[11px] font-bold uppercase tracking-wide text-ink/40">
+                Fixed time
+              </span>
+            )}
+          </div>
+
+          {b.kind === 'move' && moveParts(b) && (
+            <p class="mt-1 text-sm text-ink/55">{moveParts(b)}.</p>
+          )}
+
+          {b.waitMin > 0 && (
+            <p class="mt-1 text-sm text-ink/55">
+              Includes {fmtDuration(b.waitMin)} of built-in slack before the fixed start &mdash;
+              you are meant to arrive early here.
+            </p>
+          )}
+
+          {b.tip && <p class="mt-1 text-sm leading-relaxed text-ink/70">{b.tip}</p>}
+
+          {b.fact && (
+            <p class="mt-1.5 rounded-lg bg-black/[0.03] px-2.5 py-2 text-sm leading-relaxed text-ink/70">
+              {b.fact.hours && <><strong class="font-bold">Hours:</strong> {b.fact.hours}. </>}
+              {b.fact.hoursNote && <>{b.fact.hoursNote} </>}
+              {b.fact.fee && <><strong class="font-bold">Admission:</strong> {b.fact.fee}. </>}
+              {b.fact.closed && <><strong class="font-bold">Closed:</strong> {b.fact.closed}. </>}
+              <a href={b.fact.source} class="font-bold text-accent-600 underline">Official source</a>,
+              checked {fmtChecked(b.fact.checkedAt)} &mdash; confirm before you go.
+            </p>
+          )}
+
+          {b.mustStartBy && (
+            <p class="mt-1 text-sm font-bold text-ink/55">
+              Hard cutoff: must be starting this by {b.mustStartBy}.
+            </p>
+          )}
+        </div>
+      </li>
+    ))}
+  </ol>
+
+  <footer class="border-t border-black/10 bg-black/[0.02] px-4 py-3 sm:px-5">
+    {d.fallback && (
+      <p class="text-sm leading-relaxed text-ink/70">
+        <strong class="font-bold">If the weather or your legs give out:</strong> {d.fallback}
+      </p>
+    )}
+    <p class="mt-2 text-xs leading-relaxed text-ink/50">
+      Times are calculated by adding up the durations from the stated start, so the whole day shifts
+      cleanly if you start later. Durations for sights, transfers, meals and buffers are
+      <strong class="font-bold"> planning estimates</strong>, not guarantees &mdash; opening hours,
+      fees and closed days are quoted from the official source shown, with the month they were checked.
+    </p>
+  </footer>
+</section>

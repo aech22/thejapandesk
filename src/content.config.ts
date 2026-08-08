@@ -4,7 +4,8 @@ import { glob } from 'astro/loaders';
 // content/articles/*.md をブログ記事コレクションとして読む（本文はMarkdownをそのままレンダリング）。
 // pillar = サイロ（craft / learn-japanese / japan-travel / japan-nature）。URLは /{pillar}/{slug}/。
 const articles = defineCollection({
-  loader: glob({ pattern: '**/*.md', base: './content/articles' }),
+  // .mdx は工程表コンポーネント（DayPlan）を本文に差し込む旅程記事だけが使う。
+  loader: glob({ pattern: '**/*.{md,mdx}', base: './content/articles' }),
   schema: z.object({
     title: z.string(),
     description: z.string(),
