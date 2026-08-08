@@ -538,13 +538,26 @@ PRE-PUBLISH CHECKLIST
 - ルートURLの形: `https://12go.asia/en/travel/{出発}/{到着}`
 - `sub_id` は `a-z A-Z 0-9 -` のみ・255文字。**後から遡れない**ので必ず記事slugを入れる
 
-### 現在の設置（トップページ宛の暫定リンク）
+### 設置状況（2026-08-08 に路線deeplinkへ差し替え済み・計24本）
 
-| 記事 | sub_id | 状態 |
+| 記事 | 本数 | 路線 |
 |---|---|---|
-| is-jr-pass-worth-it-2026 | 同左 | トップページ宛。**路線URLに差し替えたい** |
-| 2-week-japan-itinerary | 同左 | 同上 |
-| 1-month-japan-itinerary | 同左 | 同上 |
+| japan-highway-bus-and-ferry-guide（新規） | 21 | 白川郷・河口湖・別府・ディズニーランド・空港送迎ほか14路線 |
+| is-jr-pass-worth-it-2026 | 1 | Tokyo→Osaka（夜行バス） |
+| 2-week-japan-itinerary | 1 | Kanazawa→Shirakawa-go |
+| 1-month-japan-itinerary | 1 | Osaka→Beppu（フェリー） |
+
+**URLの作り方（管理画面のスクショで確定）**: `https://12go.asia/en/{bus|travel}/{出発}/{到着}/?z=16597922&sub_id={記事slug}`。
+地点名のスペースはハイフン。`bus`＝バス限定、`travel`＝全交通手段（管理画面下部の例が `/en/travel/bangkok/phuket`）。
+
+⚠️ **路線の実在は検証できていない。** 存在しない地点を入れても 12Go は 404 ではなく 202 を返すため、
+URLの生死では判定できない。**使ったのはスクショの候補リストに実際に表示されていた地点名だけ**
+（Tokyo / Tokyo Disneyland / Haneda Airport / Kansai Airport / Kawaguchiko / Mt Fuji Kawaguchiko FujiQ Highland /
+Nikko / Nagoya / Takayama / Shirakawa go / Kanazawa / Hiroshima / Osaka / Fukuoka / Beppu）。
+**便が無い組み合わせはページが空になるだけ**なので、公開後に一度ずつ検索結果を目視すること。
+
+- [ ] **USJ（ユニバーサル・スタジオ・ジャパン）は未確認。** 候補リストに写っていなかったため今回は作っていない。
+  管理画面の Origin 欄に `universal` と打って地点が出るなら、Osaka 発着の1本を足せる
 
 ### 欲しい deep link（路線の候補）
 
