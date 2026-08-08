@@ -92,6 +92,8 @@ This region rewards a slower pace and pairs beautifully with an onsen night to r
 
 👉 *Shirakawa-go is the one to book rather than improvise: it is reached by bus, seats are limited, and winter services fill up. Takayama and Kanazawa are both easy to explore unguided once you're there.*
 
+Week two is also where a rail pass stops helping, because these are coach and local routes rather than JR ones. [12Go](https://12go.asia/?z=16597922&sub_id=2-week-japan-itinerary) covers buses and ferries across Asia including Japan and is worth checking for the legs the pass leaves out — verify your exact route is listed before planning around it.
+
 *A lighter alternative if you want depth without relocating:* the coast north of Kyoto is reachable as a long day from Kyoto or Osaka, and it looks nothing like the golden route — [Izumo Shrine, the Yura River bridge and the boathouse village of Ine](https://www.getyourguide.com/miyazu-l157683/osakakyoto-izumo-shrine-yura-river-bridge-ine-day-tour-t1169216/?partner_id=J2LM0TP&utm_medium=online_publisher) is the sea-facing version of Kansai that most two-week trips never see.
 
 ### Option B — The West: Hiroshima, Miyajima, and the Shimanami Kaido (history + islands + cycling)

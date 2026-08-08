@@ -26,7 +26,15 @@ export const TRAVELPAYOUTS_SCRIPT = 'https://emrldco.com/NTU5MTgw.js?t=559180';
 // リンクは管理画面 https://agent.12go.asia/integration/ の Links で発行したものを**そのまま**入れる
 // （形式は https://12go.asia/?z=16597922。パラメータ名を推測して手で組み立てない）。
 // 空文字の間は 12Go リンクを一切出力しない。Sub_id には記事の slug を入れる（後から遡って付けられない）。
-export const TWELVEGO_LINK = '';
+export const TWELVEGO_LINK = 'https://12go.asia/?z=16597922';
+
+// 12Go の仕様（2026-08-08 管理画面 Integration → Links で確認）:
+//   ・**12Go のどのURLでも、末尾に `?z=16597922`（既にクエリがあれば `&z=16597922`）を付ければ
+//     アフィリリンクになる。** 例: https://12go.asia/en/travel/bangkok/phuket?date=2026-08-15&z=16597922
+//   ・ルート指定の形は https://12go.asia/en/travel/{出発}/{到着}
+//   ・`sub_id=` で記事を識別する（a-z A-Z 0-9 - のみ・255文字。**後から遡って付けられない**）
+// 記事本文のリンクは Markdown に直接書く（記事ごとに sub_id が変わるため定数にできない）。
+// この定数はIDの記録と、将来コンポーネント側から使う場合の入口として置いてある。
 
 // GetYourGuide は直接提携（パートナーID J2LM0TP・2026-08-06登録）。リンクはダッシュボードで発行する。
 // integration analyzer（widget.getyourguide.com/dist/pa.umd.production.min.js）は 2026-08-07 に

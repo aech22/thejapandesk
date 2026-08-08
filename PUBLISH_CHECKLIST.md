@@ -520,3 +520,53 @@ PRE-PUBLISH CHECKLIST
 - ビルド後の dist で **30本すべてに `partner_id=J2LM0TP` と `rel="sponsored nofollow noopener"` が付いていることを確認済み**
 - `rel` は記事側で書かず、`src/plugins/affiliate-rel.mjs`（rehypeプラグイン）がドメイン判定で自動付与する。**プログラムを増やしたら `AFFILIATE_HOSTS` に1行足す**
 - ⚠️ **GetYourGuide の商品URLをブラウザで開かない。** `partner_id` 付きなので誤クリックが記録される。生存確認は `curl -I` で
+
+---
+
+## 12Go のリンク（2026-08-08・暫定3本を設置済み／deep link 待ち）
+
+### 分かったこと（管理画面 Integration → Links の実物で確認）
+
+**12Go のどのURLでも、末尾に `?z=16597922`（既にクエリがあれば `&z=16597922`）を付ければアフィリリンクになる。**
+公式の例: `https://12go.asia/en/travel/bangkok/phuket?date=2026-08-15&z=16597922`
+
+→ **Deep links のフォームを1件ずつ埋める必要はない。** 12Goで路線ページを開いてURLをコピーし、
+`&z=16597922&sub_id=<記事のslug>` を足すだけでよい。フォームを使う場合は
+**「Deeplink」欄をコピーする（HTML code 欄は使わない）**。relはこちらの rehype プラグインが付けるので、
+先方のHTMLを貼ると二重管理になる。
+
+- ルートURLの形: `https://12go.asia/en/travel/{出発}/{到着}`
+- `sub_id` は `a-z A-Z 0-9 -` のみ・255文字。**後から遡れない**ので必ず記事slugを入れる
+
+### 現在の設置（トップページ宛の暫定リンク）
+
+| 記事 | sub_id | 状態 |
+|---|---|---|
+| is-jr-pass-worth-it-2026 | 同左 | トップページ宛。**路線URLに差し替えたい** |
+| 2-week-japan-itinerary | 同左 | 同上 |
+| 1-month-japan-itinerary | 同左 | 同上 |
+
+### 欲しい deep link（路線の候補）
+
+**⚠️ 12Goが日本のどの路線を実際に売っているかは未確認**（サイトがJS描画で読めず、アフィリリンクは
+誤クリックになるので開いていない）。**検索して結果が出ない組み合わせは捨ててよい。** 出たものだけ使う。
+
+| 記事（sub_id） | Origin → Destination | 記事のどこで効くか |
+|---|---|---|
+| is-jr-pass-worth-it-2026 | Tokyo → Osaka | 「パスが覆わない区間」＝夜行バス。パス比較の直後 |
+| " | Tokyo → Kyoto | 同上 |
+| " | Osaka → Hiroshima | 同上 |
+| 2-week-japan-itinerary | Takayama → Shirakawa-go | 記事が「バスで行く・席が限られる」と名指ししている区間 |
+| " | Kanazawa → Shirakawa-go | 同上（逆方向から入る人向け） |
+| " | Osaka → Takayama | 週2のアルプス入り |
+| 1-month-japan-itinerary | Osaka → Beppu | 九州（別府・湯布院）へのフェリー。記事が別府に触れている |
+| " | Fukuoka → Beppu | 同上（陸路） |
+| japan-autumn-foliage-guide | Tokyo → Nikko | 紅葉。日光は記事の標高の節で扱っている |
+| " | Tokyo → Kawaguchiko | 富士・忠霊塔の構図 |
+| " | Nagoya → Takayama | 中部の紅葉 |
+
+**自然ピラーの残り5本（上高地・立山黒部・温泉・渓谷・富士）の deep link は、記事を書くときに一緒に取る。**
+`sub_id` は記事slugで、slugが確定していないうちに取ると後から直せないため。
+
+- [ ] 上記の路線を検索し、出たものだけURLをコピー → `&z=16597922&sub_id=<slug>` を付けて渡す
+- [ ] 受け取ったら暫定のトップページ宛リンクを路線リンクに差し替える

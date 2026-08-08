@@ -96,7 +96,7 @@ This is the leg where a **21-day nationwide pass window** or a **domestic flight
 
 **Lodging (the bigger lever at 30 nights).** Nightly hotel rates compound brutally over a month. Shift at least two of your four bases to **weekly-rate stays or serviced apartments** — many properties discount heavily at 7+ nights, and a small kitchen cuts food costs too. This single move usually saves more than every travel hack combined. Keep a light daypack and **forward luggage** between regions.
 
-**Rail (run it once, properly).** A month across four regions can justify a **21-day nationwide pass (¥100,000 as of August 2026)** *for the long-haul spine* — but the frequent winner is a **mix**: regional passes inside Kansai and the west, individual tickets for short hops, and a pass or flight only for the big north/south jump. Don't buy the 21-day pass reflexively; do the math on your actual legs with the [JR Pass 2026 guide](/japan-travel/is-jr-pass-worth-it-2026/).
+**Rail (run it once, properly).** A month across four regions can justify a **21-day nationwide pass (¥100,000 as of August 2026)** *for the long-haul spine* — but the frequent winner is a **mix**: regional passes inside Kansai and the west, individual tickets for short hops, and a pass or flight only for the big north/south jump. Don't buy the 21-day pass reflexively; do the math on your actual legs with the [JR Pass 2026 guide](/japan-travel/is-jr-pass-worth-it-2026/). Over a month you will also hit several legs that no JR pass touches — island ferries, overnight coaches, routes run by private operators; [12Go](https://12go.asia/?z=16597922&sub_id=1-month-japan-itinerary) is one aggregator that covers Japan for exactly those gaps.
 
 Two long-trip logistics scale up at a month:
 
