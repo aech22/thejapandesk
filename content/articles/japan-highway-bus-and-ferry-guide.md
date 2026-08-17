@@ -77,6 +77,8 @@ Japan's coastal ferries are the least-known part of its transport system among v
 - [Osaka to Beppu](https://12go.asia/en/travel/Osaka/Beppu/?z=16597922&sub_id=japan-highway-bus-and-ferry-guide) — this is the one I would build a trip around rather than fit into one
 - [Fukuoka to Beppu](https://12go.asia/en/bus/Fukuoka/Beppu/?z=16597922&sub_id=japan-highway-bus-and-ferry-guide) — the overland version, for when you are already on Kyushu
 
+Beppu is a good destination for this leg specifically because you do not need to have booked a ryokan to make the arrival worthwhile: its municipal bathhouses cost ¥300 and open at 6:30am, which is roughly when the overnight ferry puts you ashore. The [onsen towns you can bathe in without booking a room](/japan-nature/japan-onsen-towns-worth-the-detour/) guide compares it against five other towns on exactly that measure.
+
 A ferry cabin is not a Shinkansen seat, and the sailing schedule dictates your day rather than the reverse. Both of those are the point.
 
 ### 3-4. Door-to-door, at hours the trains are awkward
