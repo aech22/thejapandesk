@@ -59,7 +59,8 @@
 - **理由**: 物販ASP（Awin/Musubi Kiln・ShareASale/Pen Boutique・CJ/Bonsai Boy）の提携が未成立で、リンクの無い買い物ガイドを公開しても収益にならない
 - **復活手順**: ①`pillars.ts` の craft の `paused: true` を消す ②craft 7記事の `draft: true` を `false` に戻す ③`japan-souvenirs-worth-buying.md` の工芸3記事への内部リンク（表の "Deep-dive guide" 列・各節末の一行・おすすめ節・末尾リスト＝計12本）を戻す。**この12本は停止時に404になるため外してある**
 - ピラーの出し分けは `ACTIVE_PILLARS`（`pillars.ts`）が単一の窓口。ナビ・トップ・ピラーページ生成は必ずこれを使う（`PILLARS` を直接使うと停止中のピラーが出る）
-- 語学ピラー（learn-japanese・4記事）は **JapanesePod101 が提携承認済み（25%）なので停止しない**（2026-08-07 判断）
+- 語学ピラー（learn-japanese・4記事）は **JapanesePod101（料率25%）を当てにして停止しない**（2026-08-07 判断）
+  - ⚠️ **「提携承認済み」は誤りだった**（2026-08-18 訂正）。Innovative Language（運営会社）から届いた審査メール（`affiliates@innovativelanguage.com`・2026-08-18）により、**申請は審査中で未承認**と確定した。審査の4条件のうちサイト側の要件（本文に "Innovative Language" を記載）は `74a3c00` で対応済み（`japanesepod101-review` の導入部）。**承認が下りるまで料率25%は見込みであって確定値ではない。**
 
 ## ASP と料率
 
