@@ -25,6 +25,8 @@ The gap almost nobody warns you about is the **listening gap**. Reading a senten
 
 That's the specific hole JapanesePod101 aims at. It's a podcast-first, audio-heavy program — thousands of dialogues recorded by native speakers, each unpacked line by line by a bilingual host team. The pitch is essentially: *you learn a language the way you learned your first one, by hearing a huge volume of it in context, with a translator sitting next to you.*
 
+Worth knowing who is behind it, because it explains a lot about the product: JapanesePod101 is made by **Innovative Language**, the company that runs the same podcast-first format across dozens of languages (SpanishPod101, KoreanClass101, and so on). Practically, that means you are judging two things at once — a mature, well-worn learning platform shared across the whole network, and a Japanese-specific host team doing the actual teaching. The software is more polished than a single-language startup could manage; the marketing machine attached to it is also bigger, which I'll come back to.
+
 Whether that pitch survives contact with reality — and whether it's worth paying for when free tools exist — is the whole question. Let's get into it honestly, including the parts the product page won't tell you.
 
 ---
