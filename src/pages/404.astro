@@ -1,0 +1,28 @@
+---
+// 404. GitHub Pages serves dist/404.html as-is. A broken link should hand the reader the
+// pillar hubs instead of a dead end. noindex, and kept out of the sitemap (astro.config.mjs).
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { ACTIVE_PILLARS as PILLARS } from '../data/pillars';
+import { SITE_TITLE } from '../consts';
+---
+<BaseLayout title={`Page not found | ${SITE_TITLE}`} noindex={true}>
+  <main class="mx-auto max-w-3xl px-4 py-20">
+    <h1 class="font-serif text-3xl font-bold text-brand-700">Page not found</h1>
+    <p class="mt-4 leading-relaxed text-ink/65">
+      The page you were looking for has moved or no longer exists. Start again from one of the guides below.
+    </p>
+    <ul class="mt-8 divide-y divide-black/5">
+      {PILLARS.map((p) => (
+        <li class="py-4">
+          <a href={`/${p.slug}/`} class="group block">
+            <p class="font-serif text-lg font-bold text-brand-700 group-hover:text-accent-600">{p.label}</p>
+            <p class="mt-1 text-sm leading-relaxed text-ink/55">{p.description}</p>
+          </a>
+        </li>
+      ))}
+    </ul>
+    <p class="mt-8">
+      <a href="/" class="text-sm font-bold text-accent-600 hover:underline">← Back to the home page</a>
+    </p>
+  </main>
+</BaseLayout>

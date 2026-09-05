@@ -43,6 +43,16 @@
 - **有効化の手順**: 記事を1本以上入れる → `src/data/pillars.ts` の japan-nature から `paused: true` を消す → `pinterest-kit/pin_data_en.py` に該当 slug のピン文面を足す（無いとキットがその記事をスキップする）
 - 12Go の規約上、**ピンから 12Go へ直リンクしない**（自サイトの記事へ送り、リンクは記事内に置く）
 
+## SEO の決めごと（2026-09-06）
+
+`affiliate-seo-baseline` の7項目のうち、このサイトに欠けていた構造的なものを埋めた。文言に関する項目（カテゴリの `metaTitle`・生成プロンプトの検索語ルール）は英語圏専用のため日本語向けの指示をそのまま持ち込まず、手をつけていない。
+
+- **記事末に関連記事を4本、機械的に置く**（`RelatedArticles.astro` ＋ `src/utils/related.ts`）。それまで記事末は本文で終わっていて、`japanesepod101-review` は他記事へのリンクが**1本も無い行き止まり**だった。スコアは keyword と title の語の共有が3点・同ピラーが2点で、同点は新しい順。`japan` / `japanese` / `best` などほぼ全記事に出る語はストップワードにして信号にしない。**リンク先を LLM に書かせない**（存在しない slug を書くため）。`draft: true`（craft の7本）は候補から外す
+- **sitemap は記事に `<lastmod>` を出す**（`astro.config.mjs`）。Content Collections は設定ファイルから読めないので frontmatter を直接パースする。URL は `/{pillar}/{slug}/` で、ピラーも slug もファイル名ではなく frontmatter にあるので**両方を読んで組み立てる**。priority はトップ1.0・記事0.8・ピラーハブ0.6・固定ページ0.3。`.md` / `.mdx` 両対応
+- **`404.astro` を置いた**。`noindex` 付きで、sitemap からは `filter` で除外。リンク切れで来た人をピラーハブへ戻す
+
+⚠️ **検証はビルド後の `dist/` の grep で行う。** 記事本文にアフィリエイトリンク（Travelpayouts・12Go・GetYourGuide）を含むので、レンダリングすると誤インプレッションになる。
+
 ## 記事の状態（2026-08-07 更新）
 
 **`[VERIFY]` マーカーは全22記事で 0 件になった**（334件を処理）。方針は「確認できない数字は書かない」で、公式一次ソースで裏が取れたものだけ数字＋出典リンクを残し、取れないものはレンジ＋時点注記か削除にした。

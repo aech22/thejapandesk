@@ -3,6 +3,7 @@ import { getCollection, render } from 'astro:content';
 import BaseLayout from '../layouts/BaseLayout.astro';
 import ArticleLayout from '../layouts/ArticleLayout.astro';
 import { ACTIVE_PILLARS as PILLARS, pillarBySlug } from '../data/pillars';
+import { relatedArticles } from '../utils/related';
 import { SITE_TITLE } from '../consts';
 
 // 単一のキャッチオール route で「ピラーハブ(/craft/)」と「記事(/craft/slug/)」の両方を生成する。
@@ -23,7 +24,7 @@ export async function getStaticPaths() {
 
   const articlePages = all.map((a) => ({
     params: { slug: `${a.data.pillar}/${a.data.slug}` },
-    props: { type: 'article' as const, entry: a },
+    props: { type: 'article' as const, entry: a, related: relatedArticles(all, a) },
   }));
 
   return [...pillarPages, ...articlePages];
@@ -38,7 +39,7 @@ if (props.type === 'article') {
 const pillar = props.type === 'pillar' ? pillarBySlug(props.pillarSlug)! : null;
 ---
 {props.type === 'article' ? (
-  <ArticleLayout data={props.entry.data}>
+  <ArticleLayout data={props.entry.data} related={props.related}>
     <Content />
   </ArticleLayout>
 ) : (

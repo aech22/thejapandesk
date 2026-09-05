@@ -2,6 +2,8 @@
 import BaseLayout from './BaseLayout.astro';
 import Jsonld from '../components/Jsonld.astro';
 import FareTable from '../components/FareTable.astro';
+import RelatedArticles from '../components/RelatedArticles.astro';
+import type { CollectionEntry } from 'astro:content';
 import { pillarBySlug } from '../data/pillars';
 import { SITE_TITLE, SITE_URL } from '../consts';
 
@@ -20,8 +22,10 @@ interface Props {
       heading?: string | null;
     };
   };
+  /** Chosen in the route from frontmatter join keys — see src/utils/related.ts. */
+  related?: CollectionEntry<'articles'>[];
 }
-const { data } = Astro.props;
+const { data, related = [] } = Astro.props;
 const pillar = pillarBySlug(data.pillar)!;
 const url = `${SITE_URL}/${data.pillar}/${data.slug}/`;
 const published = data.date.toISOString();
@@ -83,5 +87,6 @@ const articleLd = {
         />
       )}
     </article>
+    <RelatedArticles articles={related} />
   </main>
 </BaseLayout>
