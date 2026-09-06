@@ -12,172 +12,322 @@
       "id": "jr-pass-nationwide-until-2026-09-30",
       "claim": "Nationwide JAPAN RAIL PASS prices for exchange orders purchased through 30 September 2026: Ordinary is ¥50,000 (7-day), ¥80,000 (14-day) and ¥100,000 (21-day) for adults, and ¥25,000 / ¥40,000 / ¥50,000 for children; Green is ¥70,000 / ¥110,000 / ¥140,000 for adults and ¥35,000 / ¥55,000 / ¥70,000 for children",
       "kind": "price",
-      "numbers": ["¥50,000", "¥80,000", "¥100,000", "¥25,000", "¥40,000", "¥70,000", "¥110,000", "¥140,000", "¥35,000", "¥55,000"],
+      "numbers": [
+        "¥50,000",
+        "¥80,000",
+        "¥100,000",
+        "¥25,000",
+        "¥40,000",
+        "¥70,000",
+        "¥110,000",
+        "¥140,000",
+        "¥35,000",
+        "¥55,000"
+      ],
       "effectiveUntil": "2026-09-30",
-      "periodPhrases": ["30 September", "September 30", "Sept 30", "1 October", "October 1", "Oct 1", "from October", "before October"],
+      "periodPhrases": [
+        "30 September",
+        "September 30",
+        "Sept 30",
+        "1 October",
+        "October 1",
+        "Oct 1",
+        "from October",
+        "before October"
+      ],
       "source": "https://japanrailpass.net/en/purchase/price/",
       "sourceType": "primary",
       "sourceFetchable": false,
       "verifiedAt": "2026-09-07",
-      "note": "2026-09-07 に公式サイトの価格表をユーザーがブラウザで目視して確認した（自動取得は 403/404 で不可）。海外のJR指定販売店で購入する場合の『9月30日までに購入分』の表と、購入ボタン直下の表が同一の金額。こども料金は6〜11歳。"
+      "note": "2026-09-07 に公式サイトの価格表をユーザーがブラウザで目視して確認した（自動取得は 403/404 で不可）。海外のJR指定販売店で購入する場合の『9月30日までに購入分』の表と、購入ボタン直下の表が同一の金額。こども料金は6〜11歳。",
+      "subjectPhrases": [
+        "japan rail pass",
+        "nationwide pass",
+        "nationwide jr pass",
+        "jr pass"
+      ]
     },
     {
       "id": "jr-pass-nationwide-from-2026-10-01",
       "claim": "Nationwide JAPAN RAIL PASS prices for exchange orders purchased on or after 1 October 2026: Ordinary is ¥53,000 (7-day), ¥84,000 (14-day) and ¥105,000 (21-day) for adults, and ¥27,000 / ¥42,000 / ¥53,000 for children; Green is ¥74,000 / ¥116,000 / ¥147,000 for adults and ¥37,000 / ¥58,000 / ¥74,000 for children",
       "kind": "price",
-      "numbers": ["¥53,000", "¥84,000", "¥105,000", "¥27,000", "¥42,000", "¥74,000", "¥116,000", "¥147,000", "¥37,000", "¥58,000"],
+      "numbers": [
+        "¥53,000",
+        "¥84,000",
+        "¥105,000",
+        "¥27,000",
+        "¥42,000",
+        "¥74,000",
+        "¥116,000",
+        "¥147,000",
+        "¥37,000",
+        "¥58,000"
+      ],
       "effectiveFrom": "2026-10-01",
-      "periodPhrases": ["1 October", "October 1", "Oct 1", "from October", "October 2026", "30 September", "September 30"],
+      "periodPhrases": [
+        "1 October",
+        "October 1",
+        "Oct 1",
+        "from October",
+        "October 2026",
+        "30 September",
+        "September 30"
+      ],
       "source": "https://japanrailpass.net/en/purchase/price/",
       "sourceType": "primary",
       "sourceFetchable": false,
       "verifiedAt": "2026-09-07",
-      "note": "同上。公式は『購入地の現地時間で 2026年10月1日以降に購入した分』と定義している。適用されるのは購入日であって利用日ではない。"
+      "note": "同上。公式は『購入地の現地時間で 2026年10月1日以降に購入した分』と定義している。適用されるのは購入日であって利用日ではない。",
+      "subjectPhrases": [
+        "japan rail pass",
+        "nationwide pass",
+        "nationwide jr pass",
+        "jr pass"
+      ]
     },
     {
       "id": "jrwest-kansai-wide-area-pass",
       "claim": "The JR West Kansai WIDE Area Pass costs ¥12,000 for adults and ¥6,000 for children and is valid for five consecutive days",
       "kind": "price",
-      "numbers": ["¥12,000", "¥6,000"],
+      "numbers": [
+        "¥12,000",
+        "¥6,000"
+      ],
       "source": "https://www.westjr.co.jp/travel-information/en/tickets-passes/jrwest-rail-pass/kansai_wide/",
       "sourceType": "primary",
       "sourceFetchable": false,
       "verifiedAt": "2026-09-07",
-      "note": "2026-09-07 に tickets.jr-odekake.net（JRおでかけネット）の『おねだん』表を目視。MCO・E-MCO・国内発売・WEST-TR の全ての種別で同額なので、海外での引換券購入でも国内購入でも価格は変わらない。"
+      "note": "2026-09-07 に tickets.jr-odekake.net（JRおでかけネット）の『おねだん』表を目視。MCO・E-MCO・国内発売・WEST-TR の全ての種別で同額なので、海外での引換券購入でも国内購入でも価格は変わらない。",
+      "subjectPhrases": [
+        "kansai wide"
+      ]
     },
     {
       "id": "jrwest-kansai-hiroshima-area-pass",
       "claim": "The JR West Kansai-Hiroshima Area Pass costs ¥17,000 for adults and ¥8,500 for children and is valid for five consecutive days",
       "kind": "price",
-      "numbers": ["¥17,000", "¥8,500"],
+      "numbers": [
+        "¥17,000",
+        "¥8,500"
+      ],
       "source": "https://www.westjr.co.jp/travel-information/en/tickets-passes/jrwest-rail-pass/kansai_hiroshima/",
       "sourceType": "primary",
       "sourceFetchable": false,
       "verifiedAt": "2026-09-07",
-      "note": "同上。全種別で同額。"
+      "note": "同上。全種別で同額。",
+      "subjectPhrases": [
+        "kansai-hiroshima",
+        "kansai–hiroshima",
+        "kansai and hiroshima"
+      ]
     },
     {
       "id": "jreast-pass",
       "claim": "The JR EAST PASS costs ¥35,000 for adults and ¥17,500 for children for five days, and ¥50,000 for adults and ¥25,000 for children for ten days",
       "kind": "price",
-      "numbers": ["¥35,000", "¥17,500", "¥50,000", "¥25,000"],
+      "numbers": [
+        "¥35,000",
+        "¥17,500",
+        "¥50,000",
+        "¥25,000"
+      ],
       "source": "https://www.jreast.co.jp/multi/en/pass/",
       "sourceType": "primary",
       "sourceFetchable": false,
       "verifiedAt": "2026-09-07",
-      "note": "2026-09-07 に JR East の Find Your Pass 一覧を目視。大人は12歳以上、こどもは6〜11歳。"
+      "note": "2026-09-07 に JR East の Find Your Pass 一覧を目視。大人は12歳以上、こどもは6〜11歳。",
+      "subjectPhrases": [
+        "jr east pass",
+        "jr-east pass"
+      ]
     },
     {
       "id": "jreast-south-hokkaido-pass",
       "claim": "The JR East-South Hokkaido Rail Pass costs ¥40,000 for adults and ¥20,000 for children for six days",
       "kind": "price",
-      "numbers": ["¥40,000", "¥20,000"],
+      "numbers": [
+        "¥40,000",
+        "¥20,000"
+      ],
       "source": "https://www.jreast.co.jp/multi/en/pass/",
       "sourceType": "primary",
       "sourceFetchable": false,
-      "verifiedAt": "2026-09-07"
+      "verifiedAt": "2026-09-07",
+      "subjectPhrases": [
+        "east-south hokkaido",
+        "east south hokkaido"
+      ]
     },
     {
       "id": "jr-tohoku-south-hokkaido-pass",
       "claim": "The JR Tohoku-South Hokkaido Rail Pass costs ¥32,000 for adults and ¥16,000 for children for six days",
       "kind": "price",
-      "numbers": ["¥32,000", "¥16,000"],
+      "numbers": [
+        "¥32,000",
+        "¥16,000"
+      ],
       "source": "https://www.jreast.co.jp/multi/en/pass/",
       "sourceType": "primary",
       "sourceFetchable": false,
-      "verifiedAt": "2026-09-07"
+      "verifiedAt": "2026-09-07",
+      "subjectPhrases": [
+        "tohoku-south hokkaido",
+        "tohoku south hokkaido"
+      ]
     },
     {
       "id": "hokuriku-arch-pass",
       "claim": "The Hokuriku Arch Pass costs ¥35,000 for adults and ¥17,500 for children for seven days",
       "kind": "price",
-      "numbers": ["¥35,000", "¥17,500"],
+      "numbers": [
+        "¥35,000",
+        "¥17,500"
+      ],
       "source": "https://www.jreast.co.jp/multi/en/pass/",
       "sourceType": "primary",
       "sourceFetchable": false,
-      "verifiedAt": "2026-09-07"
+      "verifiedAt": "2026-09-07",
+      "subjectPhrases": [
+        "hokuriku arch"
+      ]
     },
     {
       "id": "jr-tokyo-wide-pass",
       "claim": "The JR TOKYO Wide Pass costs ¥16,000 for adults and ¥8,000 for children and is valid for three days",
       "kind": "price",
-      "numbers": ["¥16,000", "¥8,000"],
+      "numbers": [
+        "¥16,000",
+        "¥8,000"
+      ],
       "source": "https://www.jreast.co.jp/multi/en/pass/",
       "sourceType": "primary",
       "sourceFetchable": false,
-      "verifiedAt": "2026-09-07"
+      "verifiedAt": "2026-09-07",
+      "subjectPhrases": [
+        "tokyo wide pass"
+      ]
     },
     {
       "id": "nex-tokyo-round-trip",
       "claim": "The N'EX TOKYO Round Trip Ticket for the Narita Express costs ¥5,200 for adults and ¥2,600 for children and is valid for 14 days",
       "kind": "price",
-      "numbers": ["¥5,200", "¥2,600"],
+      "numbers": [
+        "¥5,200",
+        "¥2,600"
+      ],
       "source": "https://www.jreast.co.jp/multi/en/pass/",
       "sourceType": "primary",
       "sourceFetchable": false,
-      "verifiedAt": "2026-09-07"
+      "verifiedAt": "2026-09-07",
+      "subjectPhrases": [
+        "n'ex",
+        "narita express"
+      ]
     },
     {
       "id": "tokyo-one-day-tickets",
       "claim": "The Tokyo 1-Day Ticket costs ¥1,720 for adults and ¥860 for children, and the Tokyo Metropolitan District Pass (Tokunai Pass) costs ¥870 for adults and ¥430 for children; both are valid for one day",
       "kind": "price",
-      "numbers": ["¥1,720", "¥860", "¥870", "¥430"],
+      "numbers": [
+        "¥1,720",
+        "¥860",
+        "¥870",
+        "¥430"
+      ],
       "source": "https://www.jreast.co.jp/multi/en/pass/",
       "sourceType": "primary",
       "sourceFetchable": false,
-      "verifiedAt": "2026-09-07"
+      "verifiedAt": "2026-09-07",
+      "subjectPhrases": [
+        "tokyo 1-day",
+        "tokunai",
+        "metropolitan district pass"
+      ]
     },
     {
       "id": "nonbiri-holiday-suica-pass",
       "claim": "The NONBIRI Holiday Suica Pass costs ¥2,850 for adults and ¥1,420 for children and is valid for one day",
       "kind": "price",
-      "numbers": ["¥2,850", "¥1,420"],
+      "numbers": [
+        "¥2,850",
+        "¥1,420"
+      ],
       "source": "https://www.jreast.co.jp/multi/en/pass/",
       "sourceType": "primary",
       "sourceFetchable": false,
-      "verifiedAt": "2026-09-07"
+      "verifiedAt": "2026-09-07",
+      "subjectPhrases": [
+        "nonbiri"
+      ]
     },
     {
       "id": "yokohama-minatomirai-pass",
       "claim": "The Yokohama Minatomirai Pass costs ¥560 for adults and ¥280 for children and is valid for one day",
       "kind": "price",
-      "numbers": ["¥560", "¥280"],
+      "numbers": [
+        "¥560",
+        "¥280"
+      ],
       "source": "https://www.jreast.co.jp/multi/en/pass/",
       "sourceType": "primary",
       "sourceFetchable": false,
-      "verifiedAt": "2026-09-07"
+      "verifiedAt": "2026-09-07",
+      "subjectPhrases": [
+        "minatomirai"
+      ]
     },
     {
       "id": "sendai-area-pass",
       "claim": "The SENDAI AREA PASS costs ¥1,420 for adults and ¥720 for children and is valid for one day",
       "kind": "price",
-      "numbers": ["¥1,420", "¥720"],
+      "numbers": [
+        "¥1,420",
+        "¥720"
+      ],
       "source": "https://www.jreast.co.jp/multi/en/pass/",
       "sourceType": "primary",
       "sourceFetchable": false,
-      "verifiedAt": "2026-09-07"
+      "verifiedAt": "2026-09-07",
+      "subjectPhrases": [
+        "sendai area pass"
+      ]
     },
     {
       "id": "kinosaki-sotoyu",
       "claim": "Kinosaki's public baths cost ¥800 per adult visit (¥400 for children aged 3 to primary school); the all-day Yumepa pass is ¥1,500 for adults and ¥750 for children",
       "kind": "price",
-      "numbers": ["¥800", "¥400", "¥1,500", "¥750"],
+      "numbers": [
+        "¥800",
+        "¥400",
+        "¥1,500",
+        "¥750"
+      ],
       "source": "https://kinosaki-spa.gr.jp/about/spa/",
       "sourceType": "primary",
       "sourceFetchable": true,
       "verifiedAt": "2026-09-06",
-      "note": "公式ページに料金改定日の記載は無い。記事 japan-onsen-towns-worth-the-detour の記述と一致することを 2026-09-06 に確認した。"
+      "note": "公式ページに料金改定日の記載は無い。記事 japan-onsen-towns-worth-the-detour の記述と一致することを 2026-09-06 に確認した。",
+      "subjectPhrases": [
+        "kinosaki"
+      ]
     },
     {
       "id": "kurokawa-nyuto-tegata",
       "claim": "The Kurokawa nyuto-tegata costs ¥1,500 for adults and ¥700 for children (age 3 to sixth grade), carries three stickers, is valid for six months from purchase, and is usable 8:30-21:00",
       "kind": "price",
-      "numbers": ["¥1,500", "¥700"],
+      "numbers": [
+        "¥1,500",
+        "¥700"
+      ],
       "source": "https://www.kurokawaonsen.or.jp/tegata/",
       "sourceType": "primary",
       "sourceFetchable": true,
       "verifiedAt": "2026-09-06",
-      "note": "記事は『¥1,500 for three』と書いており公式と一致。ただし記事はこども料金に触れていない。1人1枚でシェア不可。"
+      "note": "記事は『¥1,500 for three』と書いており公式と一致。ただし記事はこども料金に触れていない。1人1枚でシェア不可。",
+      "subjectPhrases": [
+        "kurokawa",
+        "nyuto-tegata"
+      ]
     }
   ],
   "_unverified": {
@@ -185,22 +335,43 @@
     "items": [
       {
         "topic": "のぞみ・みずほ号の追加料金と、個別区間の運賃・IC カードのデポジット",
-        "numbers": ["¥4,960", "¥29,500", "¥500", "¥2,000", "¥220"],
-        "articles": ["is-jr-pass-worth-it-2026", "suica-pasmo-icoca-guide"],
+        "numbers": [
+          "¥4,960",
+          "¥29,500",
+          "¥500",
+          "¥2,000",
+          "¥220"
+        ],
+        "articles": [
+          "is-jr-pass-worth-it-2026",
+          "suica-pasmo-icoca-guide"
+        ],
         "blocker": "未検証。¥4,960 は JR東海の『[ONLY WITH JAPAN RAIL PASS] NOZOMI MIZUHO Ticket』のページ、IC カードのデポジットは各社のページで確認する必要がある。¥29,500〜45,000 はそもそも公表運賃ではなく筆者の見積りなので、台帳に移すなら kind=budget として登録する。"
       },
       {
         "topic": "別府の市営温泉ほか、城崎・黒川以外の温泉料金",
-        "numbers": ["¥300", "¥100", "¥1,200", "¥600", "¥200"],
-        "articles": ["japan-onsen-towns-worth-the-detour"],
+        "numbers": [
+          "¥300",
+          "¥100",
+          "¥1,200",
+          "¥600",
+          "¥200"
+        ],
+        "articles": [
+          "japan-onsen-towns-worth-the-detour"
+        ],
         "blocker": "記事本文は『price list, effective 1 April 2026』と出典に言及しているが、URL を辿った検証をしていない。"
       },
       {
         "topic": "Chiba 2-Day Pass（大人 ¥4,170 / こども ¥2,080）",
-        "numbers": ["¥4,170", "¥2,080"],
+        "numbers": [
+          "¥4,170",
+          "¥2,080"
+        ],
         "articles": [],
         "blocker": "2026-09-07 に JR East のページで金額は目視したが、**期間限定商品**と明記されている。販売期間の記載を確認していないので、facts[] へ入れると期間切れの価格を書ける状態になる。販売期間を確認して effectiveUntil を入れてから移す。"
       }
     ]
-  }
+  },
+  "_subject": "subjectPhrases は「この金額はどの商品のものか」を段落から読み取るための語。共有された値（¥50,000 は全国JRパス7日間でもJR東日本パス10日間でもある）の切り分けに使う。改定ありの商品名が同じ段落にあれば期間表記を要求し、期間の無い商品名だけがあればその商品の価格として通す。どちらも名指しされていない段落は「どの商品の値か読めない」ので安全側に倒して期間表記を要求する。"
 }

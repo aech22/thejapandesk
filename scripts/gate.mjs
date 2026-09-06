@@ -72,13 +72,9 @@ export function check(text, facts) {
 /**
  * 有効期間を持つ fact が「その fact にしか出てこない数値」を持つとき、その数値の集合を返す。
  *
- * 期間を持たない fact と共有している値は対象から外す。JRパスの ¥50,000（7日間・現行）は
- * JR東日本パス10日間の ¥50,000 でもあるので、これに期間表記を強制すると
- * 「JR East Pass は ¥50,000」という正しい文が落ちる。落ちて困るのは、
- * 誤検出でトピックが3回失敗して blocked になり、更新が静かに止まるため。
- *
- * 代わりに漏れるのは、¥50,000 のような共有された値を期間表記なしで書ける点。
- * ここは生成プロンプト側の指示で補う（機械で完全には塞げない）。
+ * 期間を持たない fact と共有している値は含めない。JRパスの ¥50,000（7日間・現行）は
+ * JR東日本パス10日間の ¥50,000 でもあるので、数値だけでは区別できない。
+ * 共有された値の扱いは periodViolations が subjectPhrases で判定する。
  */
 export function datedOnlyTokens(facts) {
   const dated = new Set();
@@ -100,10 +96,37 @@ export function datedOnlyTokens(facts) {
  *
  * 返すのは {id, tokens, expected} の配列。空配列なら合格。
  */
-export function undatedPeriodViolations(text, facts) {
+const mentions = (lowerText, phrases) =>
+  (phrases || []).some((p) => lowerText.includes(String(p).toLowerCase()));
+
+/** 本文中の通貨額・率を、出現位置つきで返す。共有された値の帰属判定に位置が要る。 */
+function amountsWithPos(text) {
+  const out = [];
+  for (const m of String(text || '').matchAll(AMOUNT)) {
+    out.push({ token: normalize(m[1] + m[2].replace(/,+$/, '')), pos: m.index });
+    if (m[3]) out.push({ token: normalize(m[1] + m[3].replace(/,+$/, '')), pos: m.index });
+  }
+  for (const m of String(text || '').matchAll(PERCENT)) {
+    out.push({ token: normalize(m[1].replace(/,+$/, '') + '%'), pos: m.index });
+  }
+  return out;
+}
+
+/** 語句の全出現位置を返す（重なりは数えない）。 */
+function positionsOf(lowerText, phrase) {
+  const needle = String(phrase).toLowerCase();
+  const out = [];
+  for (let i = lowerText.indexOf(needle); i !== -1; i = lowerText.indexOf(needle, i + needle.length)) {
+    out.push(i);
+  }
+  return out;
+}
+
+export function periodViolations(text, facts) {
   const datedOnly = datedOnlyTokens(facts);
   const dated = (facts || []).filter((f) => f.effectiveFrom || f.effectiveUntil);
   if (!dated.length) return [];
+  const all = facts || [];
 
   // 判定は記事全体ではなく段落ごとに行う。記事のどこかに一度だけ日付があれば通る作りだと、
   // 「the ¥50,000 pass」と裸で書いた別の段落が改定日を過ぎた朝にそのまま誤りになる
@@ -112,15 +135,43 @@ export function undatedPeriodViolations(text, facts) {
   const blocks = String(text || '').split(/\n\s*\n/);
   const found = new Map();
   for (const block of blocks) {
-    const seen = new Set(extractAmounts(block));
     const lower = block.toLowerCase();
+    const amounts = amountsWithPos(block);
+    if (!amounts.length) continue;
+
     for (const f of dated) {
-      const hit = (f.numbers || []).map(normalize).filter((n) => seen.has(n) && datedOnly.has(n));
-      if (!hit.length) continue;
-      const phrases = f.periodPhrases || [];
-      if (phrases.some((p) => lower.includes(String(p).toLowerCase()))) continue;
-      const prev = found.get(f.id) || { id: f.id, tokens: [], expected: phrases };
-      prev.tokens = [...new Set([...prev.tokens, ...hit])];
+      const owned = new Set((f.numbers || []).map(normalize));
+      const hits = amounts.filter((a) => owned.has(a.token));
+      if (!hits.length) continue;
+      if (mentions(lower, f.periodPhrases)) continue;
+
+      // 共有された値（¥50,000 は全国パス7日間でもJR東日本パス10日間でもある）は、
+      // 「その金額にいちばん近い商品名」で帰属を決める。段落に商品名があるかどうかだけで
+      // 判定すると、`Hokuriku Arch Pass (¥35,000, 7 days) ... the nationwide pass` のように
+      // 比較対象として全国パスに触れただけの文が落ちる（実際に既存記事で踏んだ）。
+      // 同距離なら改定ありの側を採る（安全側に倒す）。名前がどこにも無ければ、
+      // どの商品の値か読者にも分からないので期間表記を要求する。
+      const bad = hits
+        .filter((a) => {
+          if (datedOnly.has(a.token)) return true;
+          const owners = all.filter((o) => (o.numbers || []).map(normalize).includes(a.token));
+          let best = null;
+          for (const o of owners) {
+            const isDated = !!(o.effectiveFrom || o.effectiveUntil);
+            for (const p of o.subjectPhrases || []) {
+              for (const pos of positionsOf(lower, p)) {
+                const d = Math.abs(pos - a.pos);
+                if (!best || d < best.d || (d === best.d && isDated)) best = { d, isDated };
+              }
+            }
+          }
+          return best ? best.isDated : true;
+        })
+        .map((a) => a.token);
+      if (!bad.length) continue;
+
+      const prev = found.get(f.id) || { id: f.id, tokens: [], expected: f.periodPhrases || [] };
+      prev.tokens = [...new Set([...prev.tokens, ...bad])];
       found.set(f.id, prev);
     }
   }
@@ -158,7 +209,7 @@ if (isMain) {
   for (const f of files) {
     const text = readFileSync(f, 'utf8');
     const bad = check(text, facts);
-    const undated = undatedPeriodViolations(text, facts);
+    const undated = periodViolations(text, facts);
     if (bad.length || undated.length) {
       ng++;
       const lines = [`NG ${f}`];

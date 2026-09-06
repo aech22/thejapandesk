@@ -20,7 +20,7 @@
 import { readFileSync, writeFileSync, existsSync } from 'node:fs';
 import { fileURLToPath, pathToFileURL } from 'node:url';
 import { dirname, join } from 'node:path';
-import { check, loadFacts, undatedPeriodViolations } from './gate.mjs';
+import { check, loadFacts, periodViolations } from './gate.mjs';
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
 const TOPICS_PATH = join(ROOT, 'scripts', 'topics.json');
@@ -37,7 +37,8 @@ You are writing the full body of one article in Markdown. Return JSON only.
 
 HARD RULES — breaking any of these means the article is discarded:
 1. The ONLY money figures and percentages you may write are the ones listed in VERIFIED FIGURES below, copied exactly as written there. Every other figure is forbidden: no invented yen prices, no dollar figures, no "around $30", no "about 20%", no arithmetic on the listed figures, and no currency conversion. If money matters to a point you cannot support from the list, describe the trade-off in words ("the express costs roughly double the bus") without naming a number.
-1b. Any figure marked "PERIOD REQUIRED" must be written with both sides of the change in the same article, using one of the listed date phrases, like "¥50,000 through 30 September 2026, rising to ¥53,000 from 1 October 2026". Never present such a figure as simply the current price, and never write it with only an "as of" date. A price that carries its own validity window stays true after the change takes effect; one with an "as of" note does not.
+1b. Any figure marked "PERIOD REQUIRED" must be written with both sides of the change in the same paragraph, using one of the listed date phrases, like "¥50,000 through 30 September 2026, rising to ¥53,000 from 1 October 2026". Never present such a figure as simply the current price, and never write it with only an "as of" date. A price that carries its own validity window stays true after the change takes effect; one with an "as of" note does not.
+1c. Name the product next to its price, every time. Two different passes can cost the same amount, so "the ¥50,000 pass" is ambiguous; write "the JR East Pass at ¥50,000" or "the nationwide pass at ¥50,000 through 30 September 2026".
 2. Do NOT claim first-hand experience. You have not visited, bathed, hiked, ridden, or bought anything. Never write "I went", "when I visited", "I tried". Write about what a reader will encounter, not about what you did.
 3. Do NOT write any URL, link, or affiliate link. Do not link to other articles on this site. Links are added mechanically after generation.
 4. Do NOT invent named facts you cannot be sure of: specific opening hours, specific station platform numbers, named staff, or the current rules of a specific named business. Speak at the level that stays true.
@@ -172,7 +173,7 @@ async function main() {
   const text = `${prose.title}\n${prose.description}\n${prose.body}`;
   const violations = [
     ...check(text, facts).map((t) => `台帳外:${t}`),
-    ...undatedPeriodViolations(text, facts).map((v) => `期間なし:${v.tokens.join(',')}(${v.id})`),
+    ...periodViolations(text, facts).map((v) => `期間なし:${v.tokens.join(',')}(${v.id})`),
   ];
   if (violations.length) {
     head.failures = (head.failures || 0) + 1;

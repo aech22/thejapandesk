@@ -14,7 +14,7 @@ import {
   allowedTokens,
   staleFacts,
   datedOnlyTokens,
-  undatedPeriodViolations,
+  periodViolations,
 } from './gate.mjs';
 
 let pass = 0;
@@ -89,6 +89,7 @@ const DATED = [
     numbers: ['¥50,000', '¥80,000'],
     effectiveUntil: '2026-09-30',
     periodPhrases: ['30 September 2026', '1 October 2026'],
+    subjectPhrases: ['japan rail pass', 'nationwide pass'],
     verifiedAt: '2026-09-07',
   },
   {
@@ -96,38 +97,71 @@ const DATED = [
     numbers: ['¥53,000', '¥84,000'],
     effectiveFrom: '2026-10-01',
     periodPhrases: ['1 October 2026'],
+    subjectPhrases: ['japan rail pass', 'nationwide pass'],
     verifiedAt: '2026-09-07',
   },
-  // 期間を持たない別商品が ¥50,000 を共有している。こちらは期間表記を求めない。
-  { id: 'east-pass', numbers: ['¥50,000', '¥25,000'], verifiedAt: '2026-09-07' },
+  // 期間を持たない別商品が ¥50,000 を共有している。段落がどちらを指しているかで判定が変わる。
+  {
+    id: 'east-pass',
+    numbers: ['¥50,000', '¥25,000'],
+    subjectPhrases: ['jr east pass'],
+    verifiedAt: '2026-09-07',
+  },
 ];
 
 eq('期間つき専用の値だけを抽出', [...datedOnlyTokens(DATED)].sort(), ['¥53000', '¥80000', '¥84000']);
 eq(
   '期間の明示が無ければ違反',
-  undatedPeriodViolations('The 14-day pass is ¥84,000.', DATED).map((v) => v.id),
+  periodViolations('The 14-day pass is ¥84,000.', DATED).map((v) => v.id),
   ['pass-new'],
 );
 eq(
   '期間を書けば合格',
-  undatedPeriodViolations('It is ¥80,000 through 30 September 2026 and ¥84,000 from 1 October 2026.', DATED),
+  periodViolations('It is ¥80,000 through 30 September 2026 and ¥84,000 from 1 October 2026.', DATED),
+  [],
+);
+
+// 共有された値（¥50,000）は、段落が名指ししている商品名で切り分ける。
+eq(
+  '共有された値でも、期間の無い商品を名指ししていれば合格',
+  periodViolations('The JR East Pass 10-day is ¥50,000.', DATED),
   [],
 );
 eq(
-  '共有された値は期間表記を求めない',
-  undatedPeriodViolations('The JR East Pass 10-day is ¥50,000.', DATED),
+  '共有された値でも、改定ありの商品を名指ししていれば違反',
+  periodViolations('The nationwide pass costs ¥50,000 for seven days.', DATED).map((v) => v.id),
+  ['pass-old'],
+);
+eq(
+  '両方を名指ししている段落では改定ありを優先して違反',
+  periodViolations('The Japan Rail Pass at ¥50,000 undercuts the JR East Pass.', DATED).map((v) => v.id),
+  ['pass-old'],
+);
+eq(
+  'どの商品か読めない段落は安全側に倒して違反',
+  periodViolations('That sits below the ¥50,000 pass.', DATED).map((v) => v.id),
+  ['pass-old'],
+);
+eq(
+  '改定ありの商品名があっても、期間を書いていれば合格',
+  periodViolations('The Japan Rail Pass is ¥50,000 through 30 September 2026.', DATED),
   [],
 );
-eq('期間つきの値が本文に無ければ違反ゼロ', undatedPeriodViolations('No prices here.', DATED), []);
-eq('台帳が空なら違反ゼロ', undatedPeriodViolations('It is ¥84,000.', []), []);
+eq(
+  '別の商品の段落に改定ありの商品名が無ければ、共有値でも合格',
+  periodViolations('For east Japan, the JR East Pass covers 10 days at ¥50,000.', DATED),
+  [],
+);
+eq('期間つきの値が本文に無ければ違反ゼロ', periodViolations('No prices here.', DATED), []);
+eq('台帳が空なら違反ゼロ', periodViolations('It is ¥84,000.', []), []);
 eq(
   '期間の表記は大文字小文字を無視する',
-  undatedPeriodViolations('¥84,000 from 1 october 2026.', DATED),
+  periodViolations('¥84,000 from 1 october 2026.', DATED),
   [],
 );
 eq(
   '違反には該当トークンを載せる',
-  undatedPeriodViolations('¥80,000 and ¥84,000, no dates.', DATED).map((v) => v.tokens.join(',')),
+  periodViolations('¥80,000 and ¥84,000, no dates.', DATED).map((v) => v.tokens.join(',')),
   ['¥80000', '¥84000'],
 );
 
