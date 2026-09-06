@@ -1,0 +1,59 @@
+{
+  "_note": "検証済みの数値の台帳。生成記事の本文に書いてよい通貨額・率の唯一の出どころ。ここに無い値が本文に現れたら scripts/gate.mjs が弾く。追加するときは必ず一次情報のURLと検証日を入れること。コドナビの src/data/facts.json と同じ役割だが、TJD は『運営者が公表している価格』を扱うため kind を持つ（下記）。",
+  "_kinds": {
+    "price": "事業者・自治体が公表している価格。source（一次情報URL）と verifiedAt が必須。",
+    "budget": "筆者が読者に示す予算の目安。特定の商品価格の主張ではないので source は不要だが、黙って本文に出させないためここに登録する。"
+  },
+  "_fetchable": "sourceFetchable=false は、公式サイトが自動取得を拒否するため人が目視で確認する必要があることを示す（JR各社は 2026-09-06 時点で 403 を返す）。再検証を自動化できないので、verifiedAt の更新は人の作業になる。",
+  "_staleDays": 180,
+  "facts": [
+    {
+      "id": "kinosaki-sotoyu",
+      "claim": "Kinosaki's public baths cost ¥800 per adult visit (¥400 for children aged 3 to primary school); the all-day Yumepa pass is ¥1,500 for adults and ¥750 for children",
+      "kind": "price",
+      "numbers": ["¥800", "¥400", "¥1,500", "¥750"],
+      "source": "https://kinosaki-spa.gr.jp/about/spa/",
+      "sourceType": "primary",
+      "sourceFetchable": true,
+      "verifiedAt": "2026-09-06",
+      "note": "公式ページに料金改定日の記載は無い。記事 japan-onsen-towns-worth-the-detour の記述と一致することを 2026-09-06 に確認した。"
+    },
+    {
+      "id": "kurokawa-nyuto-tegata",
+      "claim": "The Kurokawa nyuto-tegata costs ¥1,500 for adults and ¥700 for children (age 3 to sixth grade), carries three stickers, is valid for six months from purchase, and is usable 8:30-21:00",
+      "kind": "price",
+      "numbers": ["¥1,500", "¥700"],
+      "source": "https://www.kurokawaonsen.or.jp/tegata/",
+      "sourceType": "primary",
+      "sourceFetchable": true,
+      "verifiedAt": "2026-09-06",
+      "note": "記事は『¥1,500 for three』と書いており公式と一致。ただし記事はこども料金に触れていない。1人1枚でシェア不可。"
+    }
+  ],
+  "_unverified": {
+    "_note": "既存記事が主張しているが、まだ一次情報で裏を取っていない値。**ここは許可集合に入らない**（gate.mjs は facts[] しか読まない）。裏が取れたら facts[] へ移す。台帳に未検証の値を混ぜると許可集合が汚染され、ゲートそのものが意味を失うため、この分離は必須。",
+    "items": [
+      {
+        "topic": "JAPAN RAIL PASS の券種価格",
+        "numbers": ["¥50,000", "¥53,000", "¥70,000", "¥74,000", "¥80,000", "¥84,000", "¥100,000", "¥105,000", "¥110,000", "¥116,000", "¥140,000", "¥147,000"],
+        "articles": ["is-jr-pass-worth-it-2026", "2-week-japan-itinerary", "1-month-japan-itinerary"],
+        "blocker": "japanrailpass.net（404）/ japanrailpass-reservation.net（403）/ jreast.co.jp（403）のいずれも自動取得を拒否する（2026-09-06 実測）。人がブラウザで確認して verifiedAt を入れる必要がある。",
+        "sourceFetchable": false,
+        "corroboration": "2026-09-06 のウェブ検索では、複数の独立した二次情報が『10月1日から 50,000→53,000 / 80,000→84,000 / 100,000→105,000、グリーン7日 70,000→74,000』で一致した。記事の記述とも整合する。ただし**二次情報なので facts[] には入れない**（sourceType: primary を満たさない）。台帳へ移すには公式ページの目視確認が要る。",
+        "🔴 freshness": "**2026-10-01 に値上げが実施される。** 記事 is-jr-pass-worth-it-2026 は『as of August 2026』と時点を明記しているが、10月以降は旧価格が主価格として読まれる状態になる。値上げ日までに記事側の書き換えが要る。あわせて、値上げは海外代理店向けで、公式オンラインショップは当面据え置くという情報があるため、単純な置換では誤りになる。"
+      },
+      {
+        "topic": "個別区間の運賃・IC カードのデポジット",
+        "numbers": ["¥4,960", "¥12,000", "¥17,000", "¥29,500", "¥35,000", "¥500", "¥2,000", "¥220"],
+        "articles": ["is-jr-pass-worth-it-2026", "suica-pasmo-icoca-guide"],
+        "blocker": "未検証。区間運賃は改定頻度が低いので台帳化に向くが、出典を1件も確認していない。"
+      },
+      {
+        "topic": "別府の市営温泉ほか、城崎・黒川以外の温泉料金",
+        "numbers": ["¥300", "¥100", "¥1,200", "¥600", "¥200"],
+        "articles": ["japan-onsen-towns-worth-the-detour"],
+        "blocker": "記事本文は『price list, effective 1 April 2026』と出典に言及しているが、URL を辿った検証をしていない。"
+      }
+    ]
+  }
+}

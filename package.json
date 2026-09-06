@@ -11,7 +11,12 @@
     "fetch:fares": "node scripts/fetch_fares.mjs",
     "fetch:fares:spike": "node scripts/fetch_fares.mjs --spike",
     "check:links": "node scripts/check_affiliate_links.mjs",
-    "check:itinerary": "node scripts/check_itinerary.mjs"
+    "check:itinerary": "node scripts/check_itinerary.mjs",
+    "check:gate": "node scripts/gate.mjs",
+    "test:gate": "node scripts/test_gate.mjs",
+    "generate": "node scripts/generate.mjs",
+    "replenish": "node scripts/replenish.mjs",
+    "test:replenish": "node scripts/test_replenish.mjs"
   },
   "dependencies": {
     "@astrojs/mdx": "^4.3.14",
