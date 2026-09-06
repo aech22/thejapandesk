@@ -1,0 +1,29 @@
+{
+  "_note": "生成の待ち行列。1回の実行で先頭1件だけを消化する。日次なので残り件数＝あと何日もつか。残りが3件以下になると scripts/replenish.mjs が生成の前に補充する。",
+  "_fields": {
+    "slug": "topics.json の slug",
+    "failures": "ゲートで落ちた連続回数。3回でblockedにして末尾へ送る（無いと更新が静かに止まる）",
+    "blocked": "true になったら人が題材を見直す。自動では復活しない",
+    "lastViolations": "最後にゲートで落ちた値。何を書かせてしまったかの手がかり"
+  },
+  "pending": [
+    {
+      "slug": "onsen-with-tattoos",
+      "failures": 0,
+      "blocked": false,
+      "lastViolations": []
+    },
+    {
+      "slug": "hiking-in-the-japan-alps",
+      "failures": 0,
+      "blocked": false,
+      "lastViolations": []
+    },
+    {
+      "slug": "tokyo-to-kyoto-cheapest-way",
+      "failures": 0,
+      "blocked": false,
+      "lastViolations": []
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "_note": "生成する記事の定義。1エントリ=1記事。queue.json が消化の順番を持つ。scripts/replenish.mjs が需要データから追記する。",
+  "_fields": {
+    "slug": "URL に使う英小文字とハイフン。/{pillar}/{slug}/ になる。既存記事と重複しないこと",
+    "pillar": "craft | learn-japanese | japan-travel | japan-nature。craft は paused なので使わない",
+    "keyword": "frontmatter の keyword。RelatedArticles のスコアに使われる",
+    "title": "記事タイトルの案。生成時に LLM が整えるが、検索語は落とさない",
+    "angle": "この記事が答えること。1〜2文",
+    "sourceQuery": "根拠にした実需要クエリ（Google サジェストの原文）",
+    "type": "guide（手順・作法）| problem（つまずきの解消）| comparison（並べて選ぶ）| essay（場面から入る読み物）"
+  },
+  "_seeded": "初期4件は 2026-09-06 の週次需要チェックで『一語も掠っていない』と判定された塊から起こした。数値を主張しない題材だけを選んである（台帳が2件しかないため）。",
+  "topics": [
+    {
+      "slug": "japan-onsen-etiquette",
+      "pillar": "japan-nature",
+      "keyword": "japan onsen etiquette",
+      "title": "Onsen Etiquette: What to Actually Do, in Order",
+      "angle": "はじめて温泉に入る英語圏の読者が、脱衣所に入ってから出るまでに何をどの順でやるのかに答える。タトゥー・男女別・かけ湯・タオルの扱いという、実際に検索されている迷いどころを外さない。",
+      "sourceQuery": "japan onsen etiquette",
+      "type": "guide"
+    },
+    {
+      "slug": "onsen-with-tattoos",
+      "pillar": "japan-nature",
+      "keyword": "onsen tattoo rules",
+      "title": "Bathing With Tattoos in Japan: How to Find a Bath That Will Let You In",
+      "angle": "タトゥーがあると入れないという話の実際を、断られる理由と、貸切風呂・タトゥーOKの施設・カバーシールという回避の順で説明する。特定施設の可否は断定しない。",
+      "sourceQuery": "japan onsen etiquette tattoo",
+      "type": "problem"
+    },
+    {
+      "slug": "hiking-in-the-japan-alps",
+      "pillar": "japan-nature",
+      "keyword": "hiking in japan alps",
+      "title": "Hiking the Japan Alps: Which Trails Suit a First Visit",
+      "angle": "北アルプスに行きたい読者が、日帰りで歩ける道と山小屋泊が要る道の違い、歩ける季節、装備の考え方を掴めるようにする。",
+      "sourceQuery": "hiking in japan alps easy hikes",
+      "type": "guide"
+    },
+    {
+      "slug": "tokyo-to-kyoto-cheapest-way",
+      "pillar": "japan-travel",
+      "keyword": "tokyo to kyoto cheap",
+      "title": "Tokyo to Kyoto on a Budget: How to Decide Between the Options",
+      "angle": "東京から京都へ安く移動したい読者に、新幹線・夜行バス・在来線・LCC という選択肢の向き不向きを、所要時間と体力と柔軟性の観点で比べさせる。",
+      "sourceQuery": "tokyo to kyoto cheapest way to travel",
+      "type": "comparison"
+    }
+  ]
+}
