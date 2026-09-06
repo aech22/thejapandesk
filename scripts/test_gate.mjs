@@ -7,7 +7,15 @@
 //   ② 表記ゆれ（カンマ・全角・範囲・末尾のカンマ）で同じ値が別物にならないか
 //   ③ 価格でないもの（日数・箇所数）を誤って拾わないか
 
-import { check, extractAmounts, normalize, allowedTokens, staleFacts } from './gate.mjs';
+import {
+  check,
+  extractAmounts,
+  normalize,
+  allowedTokens,
+  staleFacts,
+  datedOnlyTokens,
+  undatedPeriodViolations,
+} from './gate.mjs';
 
 let pass = 0;
 let fail = 0;
@@ -71,6 +79,56 @@ eq(
   '180日以内なら stale ではない',
   staleFacts([{ id: 'z', verifiedAt: '2026-08-01' }], 180, new Date('2026-09-06')).length,
   0,
+);
+
+// ④ 有効期間つきの価格（2026-10-01 の JRパス値上げで踏んだ形を固定する）
+//    `¥53,000（2026-09-07 時点）` は改定日の翌朝に誤りになる。時点ではなく期間を書かせる。
+const DATED = [
+  {
+    id: 'pass-old',
+    numbers: ['¥50,000', '¥80,000'],
+    effectiveUntil: '2026-09-30',
+    periodPhrases: ['30 September 2026', '1 October 2026'],
+    verifiedAt: '2026-09-07',
+  },
+  {
+    id: 'pass-new',
+    numbers: ['¥53,000', '¥84,000'],
+    effectiveFrom: '2026-10-01',
+    periodPhrases: ['1 October 2026'],
+    verifiedAt: '2026-09-07',
+  },
+  // 期間を持たない別商品が ¥50,000 を共有している。こちらは期間表記を求めない。
+  { id: 'east-pass', numbers: ['¥50,000', '¥25,000'], verifiedAt: '2026-09-07' },
+];
+
+eq('期間つき専用の値だけを抽出', [...datedOnlyTokens(DATED)].sort(), ['¥53000', '¥80000', '¥84000']);
+eq(
+  '期間の明示が無ければ違反',
+  undatedPeriodViolations('The 14-day pass is ¥84,000.', DATED).map((v) => v.id),
+  ['pass-new'],
+);
+eq(
+  '期間を書けば合格',
+  undatedPeriodViolations('It is ¥80,000 through 30 September 2026 and ¥84,000 from 1 October 2026.', DATED),
+  [],
+);
+eq(
+  '共有された値は期間表記を求めない',
+  undatedPeriodViolations('The JR East Pass 10-day is ¥50,000.', DATED),
+  [],
+);
+eq('期間つきの値が本文に無ければ違反ゼロ', undatedPeriodViolations('No prices here.', DATED), []);
+eq('台帳が空なら違反ゼロ', undatedPeriodViolations('It is ¥84,000.', []), []);
+eq(
+  '期間の表記は大文字小文字を無視する',
+  undatedPeriodViolations('¥84,000 from 1 october 2026.', DATED),
+  [],
+);
+eq(
+  '違反には該当トークンを載せる',
+  undatedPeriodViolations('¥80,000 and ¥84,000, no dates.', DATED).map((v) => v.tokens.join(',')),
+  ['¥80000', '¥84000'],
 );
 
 console.log(`\n${pass} passed, ${fail} failed`);

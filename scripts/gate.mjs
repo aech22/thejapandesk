@@ -69,6 +69,64 @@ export function check(text, facts) {
   return extractAmounts(text).filter((t) => !allowed.has(t));
 }
 
+/**
+ * 有効期間を持つ fact が「その fact にしか出てこない数値」を持つとき、その数値の集合を返す。
+ *
+ * 期間を持たない fact と共有している値は対象から外す。JRパスの ¥50,000（7日間・現行）は
+ * JR東日本パス10日間の ¥50,000 でもあるので、これに期間表記を強制すると
+ * 「JR East Pass は ¥50,000」という正しい文が落ちる。落ちて困るのは、
+ * 誤検出でトピックが3回失敗して blocked になり、更新が静かに止まるため。
+ *
+ * 代わりに漏れるのは、¥50,000 のような共有された値を期間表記なしで書ける点。
+ * ここは生成プロンプト側の指示で補う（機械で完全には塞げない）。
+ */
+export function datedOnlyTokens(facts) {
+  const dated = new Set();
+  const undated = new Set();
+  for (const f of facts || []) {
+    const target = f.effectiveFrom || f.effectiveUntil ? dated : undated;
+    for (const n of f.numbers || []) target.add(normalize(n));
+  }
+  for (const n of undated) dated.delete(n);
+  return dated;
+}
+
+/**
+ * 改定日を持つ価格を、期間の明示なしに書いていないか検査する。
+ *
+ * `¥53,000（2026-09-07 時点）` は 10月1日の朝に誤りになる。時点ではなく期間を書かせる。
+ * `¥50,000 through 30 September 2026, ¥53,000 from 1 October 2026` なら改定日をまたいでも
+ * 文が正しいままなので、静的サイトを再ビルドする必要もない。
+ *
+ * 返すのは {id, tokens, expected} の配列。空配列なら合格。
+ */
+export function undatedPeriodViolations(text, facts) {
+  const datedOnly = datedOnlyTokens(facts);
+  const dated = (facts || []).filter((f) => f.effectiveFrom || f.effectiveUntil);
+  if (!dated.length) return [];
+
+  // 判定は記事全体ではなく段落ごとに行う。記事のどこかに一度だけ日付があれば通る作りだと、
+  // 「the ¥50,000 pass」と裸で書いた別の段落が改定日を過ぎた朝にそのまま誤りになる
+  // （既存記事 is-jr-pass-worth-it-2026 に実際に2箇所あった）。
+  // Markdown の表は内部に空行が無いので、この分割でひとかたまりとして扱われる。
+  const blocks = String(text || '').split(/\n\s*\n/);
+  const found = new Map();
+  for (const block of blocks) {
+    const seen = new Set(extractAmounts(block));
+    const lower = block.toLowerCase();
+    for (const f of dated) {
+      const hit = (f.numbers || []).map(normalize).filter((n) => seen.has(n) && datedOnly.has(n));
+      if (!hit.length) continue;
+      const phrases = f.periodPhrases || [];
+      if (phrases.some((p) => lower.includes(String(p).toLowerCase()))) continue;
+      const prev = found.get(f.id) || { id: f.id, tokens: [], expected: phrases };
+      prev.tokens = [...new Set([...prev.tokens, ...hit])];
+      found.set(f.id, prev);
+    }
+  }
+  return [...found.values()];
+}
+
 /** verifiedAt が古い fact を返す。既定 180 日（旅行系の価格は年度単位で改定される）。 */
 export function staleFacts(facts, staleDays = 180, today = new Date()) {
   const limit = staleDays * 86400000;
@@ -98,13 +156,20 @@ if (isMain) {
   }
   let ng = 0;
   for (const f of files) {
-    const bad = check(readFileSync(f, 'utf8'), facts);
-    if (bad.length) {
+    const text = readFileSync(f, 'utf8');
+    const bad = check(text, facts);
+    const undated = undatedPeriodViolations(text, facts);
+    if (bad.length || undated.length) {
       ng++;
-      console.log(`NG ${f}\n   台帳に無い値: ${bad.join(' ')}`);
+      const lines = [`NG ${f}`];
+      if (bad.length) lines.push(`   台帳に無い値: ${bad.join(' ')}`);
+      for (const u of undated) {
+        lines.push(`   期間の明示が無い: ${u.tokens.join(' ')}（${u.id}・例「${u.expected[0]}」）`);
+      }
+      console.log(lines.join('\n'));
     } else {
       console.log(`OK ${f}`);
     }
   }
-  console.log(`\n${files.length}件中 ${ng}件が台帳外の値を含む`);
+  console.log(`\n${files.length}件中 ${ng}件が要修正`);
 }

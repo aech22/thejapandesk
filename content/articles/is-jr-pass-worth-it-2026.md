@@ -121,7 +121,7 @@ This is where a lot of savvy 2026 travelers quietly win, so let me give it real 
 
 The option nobody's incentivized to sell you, because there's no pass to earn commission on.
 
-For a classic compact trip — **Tokyo + Kyoto + Osaka only** — the individual Shinkansen and local fares typically total somewhere in the region of **¥29,500–45,000** depending on how many day trips you bolt on (an estimate for a typical itinerary, checked August 2026 — price your own legs before deciding). That sits *below* the ¥50,000 nationwide 7-day pass. You pay only for what you ride, you're never restricted to JR-only routes, and you can take the fastest *Nozomi* without buying a ¥4,960 supplement each time.
+For a classic compact trip — **Tokyo + Kyoto + Osaka only** — the individual Shinkansen and local fares typically total somewhere in the region of **¥29,500–45,000** depending on how many day trips you bolt on (an estimate for a typical itinerary, checked August 2026 — price your own legs before deciding). That sits *below* the nationwide 7-day pass, which is ¥50,000 through September 30, 2026 and ¥53,000 from October 1. You pay only for what you ride, you're never restricted to JR-only routes, and you can take the fastest *Nozomi* without buying a ¥4,960 supplement each time.
 
 There is a second half to this option that the pass comparison never mentions: **the legs no rail pass covers at all.** Long-distance coaches, overnight buses and ferries sit outside the JR network entirely, and on some routes they are both cheaper than the train and the only sensible way to arrive. [12Go](https://12go.asia/en/bus/Tokyo/Osaka/?z=16597922&sub_id=is-jr-pass-worth-it-2026) aggregates buses, trains and ferries across Asia including Japan, which makes it a reasonable place to check a leg before you assume the Shinkansen is your only option. Confirm that your specific route is listed — coverage varies by operator.
 
@@ -138,7 +138,7 @@ For the legs that sit outside every pass — the thatched villages, the lake res
 
 ## 6. My recommendation, by use case
 
-- **Tokyo + Kyoto + Osaka, 5–7 days (the classic first trip):** **Buy individual tickets.** A ticket total in the ¥29,500–45,000 region undercuts the ¥50,000 pass, and you keep *Nozomi* speed and full flexibility. This is the single most common trip and the one where the pass most often *loses*.
+- **Tokyo + Kyoto + Osaka, 5–7 days (the classic first trip):** **Buy individual tickets.** A ticket total in the ¥29,500–45,000 region undercuts the pass at ¥50,000 through September 30, 2026, and by more once it reaches ¥53,000 from October 1, and you keep *Nozomi* speed and full flexibility. This is the single most common trip and the one where the pass most often *loses*.
 - **Kansai-focused (Kyoto/Osaka/Kobe/Nara/Himeji, west to Okayama):** **Buy the JR West Kansai WIDE Area Pass (¥12,000).** Cheaper than nationwide by a mile and hike-proof.
 - **Kansai plus Hiroshima and Miyajima:** **Buy the Kansai–Hiroshima Area Pass (¥17,000)** instead — the WIDE pass stops at Okayama and won't get you there.
 - **Tokyo base + east Japan (Tohoku / Nagano / Niigata):** **Buy the consolidated JR East Pass (¥35,000 / 5 days, ¥50,000 / 10 days).** Right-sized to where you're actually going.
