@@ -46,6 +46,51 @@
       "angle": "東京から京都へ安く移動したい読者に、新幹線・夜行バス・在来線・LCC という選択肢の向き不向きを、所要時間と体力と柔軟性の観点で比べさせる。",
       "sourceQuery": "tokyo to kyoto cheapest way to travel",
       "type": "comparison"
+    },
+    {
+      "slug": "onsen-etiquette-for-women",
+      "pillar": "japan-nature",
+      "keyword": "onsen etiquette japan women",
+      "title": "Onsen Etiquette for Women: What to Expect Before Your First Visit",
+      "angle": "女性が温泉を利用する際に気になる服装、体毛の処理、生理時の対応などのマナーを具体的に解説する。",
+      "sourceQuery": "onsen etiquette japan women",
+      "type": "guide"
+    },
+    {
+      "slug": "private-onsen-etiquette-couples",
+      "pillar": "japan-nature",
+      "keyword": "private onsen etiquette for couples",
+      "title": "Private Onsen Etiquette for Couples: Which House Rules Still Apply",
+      "angle": "貸切風呂やカップル向け温泉を予約して利用する際に、一般的な温泉マナーがどこまで適用されるのかを説明する。",
+      "sourceQuery": "private onsen etiquette for couples",
+      "type": "guide"
+    },
+    {
+      "slug": "jr-pass-seat-reservation-guide",
+      "pillar": "japan-travel",
+      "keyword": "japan rail pass reservation",
+      "title": "How to Reserve Seats With Your Japan Rail Pass, Step by Step",
+      "angle": "ジャパンレールパスを使って新幹線や特急列車の座席を予約する手順と、事前予約が必要になる場面を順を追って説明する。",
+      "sourceQuery": "japan rail pass reservation",
+      "type": "guide"
+    },
+    {
+      "slug": "jr-pass-baggage-rules",
+      "pillar": "japan-travel",
+      "keyword": "japan rail pass baggage",
+      "title": "What You Can Bring on the Train: Japan Rail Pass Baggage Rules Explained",
+      "angle": "ジャパンレールパスで新幹線に乗る際に持ち込める荷物のサイズや置き場所のルールを旅行者向けに解説する。",
+      "sourceQuery": "japan rail pass baggage",
+      "type": "guide"
+    },
+    {
+      "slug": "learn-japanese-with-anki",
+      "pillar": "learn-japanese",
+      "keyword": "learn japanese anki deck",
+      "title": "How to Use Anki Decks to Learn Japanese More Effectively",
+      "angle": "Ankiを使った日本語学習の始め方、既存デッキの選び方、そして継続して復習を続けるための工夫を解説する。",
+      "sourceQuery": "learn japanese anki deck",
+      "type": "guide"
     }
   ]
 }
