@@ -8,12 +8,6 @@
   },
   "pending": [
     {
-      "slug": "jr-pass-seat-reservation-guide",
-      "failures": 0,
-      "blocked": false,
-      "lastViolations": []
-    },
-    {
       "slug": "jr-pass-baggage-rules",
       "failures": 0,
       "blocked": false,
@@ -21,6 +15,36 @@
     },
     {
       "slug": "learn-japanese-with-anki",
+      "failures": 0,
+      "blocked": false,
+      "lastViolations": []
+    },
+    {
+      "slug": "learn-japanese-hiragana-guide",
+      "failures": 0,
+      "blocked": false,
+      "lastViolations": []
+    },
+    {
+      "slug": "learn-japanese-while-sleeping",
+      "failures": 0,
+      "blocked": false,
+      "lastViolations": []
+    },
+    {
+      "slug": "japan-rail-pass-eligibility-guide",
+      "failures": 0,
+      "blocked": false,
+      "lastViolations": []
+    },
+    {
+      "slug": "onsen-mixed-bathing-etiquette",
+      "failures": 0,
+      "blocked": false,
+      "lastViolations": []
+    },
+    {
+      "slug": "onsen-etiquette-with-kids",
       "failures": 0,
       "blocked": false,
       "lastViolations": []

@@ -91,6 +91,51 @@
       "angle": "Ankiを使った日本語学習の始め方、既存デッキの選び方、そして継続して復習を続けるための工夫を解説する。",
       "sourceQuery": "learn japanese anki deck",
       "type": "guide"
+    },
+    {
+      "slug": "learn-japanese-hiragana-guide",
+      "pillar": "learn-japanese",
+      "keyword": "learn japanese hiragana",
+      "title": "ひらがなから始める日本語学習の完全ガイド",
+      "angle": "独学でひらがな46文字を覚える具体的な順序と練習法、そしてカタカナや漢字学習へどう移行すべきかを解説する。",
+      "sourceQuery": "learn japanese hiragana",
+      "type": "guide"
+    },
+    {
+      "slug": "learn-japanese-while-sleeping",
+      "pillar": "learn-japanese",
+      "keyword": "learn japanese while sleeping",
+      "title": "睡眠学習で日本語は本当に身につくのか",
+      "angle": "睡眠中に音声を流すだけで日本語が習得できるのか、その科学的根拠と、効果を高めるための昼間の学習との組み合わせ方を検証する。",
+      "sourceQuery": "learn japanese while sleeping",
+      "type": "essay"
+    },
+    {
+      "slug": "japan-rail-pass-eligibility-guide",
+      "pillar": "japan-travel",
+      "keyword": "japan rail pass for foreigners",
+      "title": "外国人旅行者がジャパンレールパスを購入できる条件とは",
+      "angle": "誰がパスの購入資格を持つのか、在留資格やパスポートの確認手順、購入時に注意すべき点を順を追って説明する。",
+      "sourceQuery": "japan rail pass for foreigners",
+      "type": "guide"
+    },
+    {
+      "slug": "onsen-mixed-bathing-etiquette",
+      "pillar": "japan-nature",
+      "keyword": "onsen mixed bathing etiquette",
+      "title": "混浴温泉で知っておきたいマナーと心構え",
+      "angle": "混浴温泉に入る際の服装やタオルの扱い、視線や会話における作法など、初めて利用する人が戸惑わないためのマナーを説明する。",
+      "sourceQuery": "onsen mixed bathing etiquette",
+      "type": "guide"
+    },
+    {
+      "slug": "onsen-etiquette-with-kids",
+      "pillar": "japan-nature",
+      "keyword": "onsen etiquette kids",
+      "title": "子供連れで温泉に入るときのマナーと注意点",
+      "angle": "異性の親と一緒に入浴できる目安や施設ごとのルールの違い、子供に教えておくべき基本マナー、家族風呂を選ぶべき場面を解説する。",
+      "sourceQuery": "onsen etiquette kids",
+      "type": "guide"
     }
   ]
 }
