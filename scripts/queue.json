@@ -8,12 +8,6 @@
   },
   "pending": [
     {
-      "slug": "jr-pass-baggage-rules",
-      "failures": 0,
-      "blocked": false,
-      "lastViolations": []
-    },
-    {
       "slug": "learn-japanese-with-anki",
       "failures": 0,
       "blocked": false,
