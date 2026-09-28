@@ -136,6 +136,51 @@
       "angle": "異性の親と一緒に入浴できる目安や施設ごとのルールの違い、子供に教えておくべき基本マナー、家族風呂を選ぶべき場面を解説する。",
       "sourceQuery": "onsen etiquette kids",
       "type": "guide"
+    },
+    {
+      "slug": "jr-pass-exchange-office-guide",
+      "pillar": "japan-travel",
+      "keyword": "japan rail pass exchange office",
+      "title": "Japan Rail Pass Exchange Office: What to Expect Step by Step",
+      "angle": "交換所での手続きの流れ、必要書類、混雑を避けるタイミングなど、引換証をJRパスに交換する際に旅行者が知っておくべき手順を説明する。",
+      "sourceQuery": "japan rail pass exchange office",
+      "type": "guide"
+    },
+    {
+      "slug": "green-car-vs-ordinary-jr-pass",
+      "pillar": "japan-travel",
+      "keyword": "japan rail pass first class vs regular",
+      "title": "Green Car vs Ordinary Class: Which JR Pass Option Fits Your Trip",
+      "angle": "グリーン車と普通車の座席の快適さ、混雑度、予約のしやすさなどを比較し、どちらを選ぶべきか判断基準を示す。",
+      "sourceQuery": "japan rail pass first class vs regular",
+      "type": "comparison"
+    },
+    {
+      "slug": "onsen-etiquette-at-hotels-and-ryokan",
+      "pillar": "japan-nature",
+      "keyword": "onsen etiquette hotel",
+      "title": "Onsen Etiquette at Hotels and Ryokan: What Changes From Public Baths",
+      "angle": "ホテルや旅館内の温泉と公共の共同浴場とではマナーや利用手順がどう異なるのかを説明し、宿泊客が戸惑わないようにする。",
+      "sourceQuery": "onsen etiquette hotel",
+      "type": "guide"
+    },
+    {
+      "slug": "finding-japanese-classes-near-you",
+      "pillar": "learn-japanese",
+      "keyword": "learn japanese classes near me",
+      "title": "How to Find the Right In-Person Japanese Class Near You",
+      "angle": "地元の日本語教室やカルチャーセンターを探す際に確認すべきポイントや、体験授業で見極めるべき点を解説する。",
+      "sourceQuery": "learn japanese classes near me",
+      "type": "guide"
+    },
+    {
+      "slug": "learn-japanese-through-discord-communities",
+      "pillar": "learn-japanese",
+      "keyword": "learn japanese discord",
+      "title": "Using Discord Communities to Practice Japanese Every Day",
+      "angle": "日本語学習者向けのDiscordサーバーをどう活用すれば毎日の練習に役立つか、良いコミュニティの見分け方とマナーを説明する。",
+      "sourceQuery": "learn japanese discord",
+      "type": "guide"
     }
   ]
 }

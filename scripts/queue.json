@@ -8,12 +8,6 @@
   },
   "pending": [
     {
-      "slug": "japan-rail-pass-eligibility-guide",
-      "failures": 0,
-      "blocked": false,
-      "lastViolations": []
-    },
-    {
       "slug": "onsen-mixed-bathing-etiquette",
       "failures": 0,
       "blocked": false,
@@ -21,6 +15,36 @@
     },
     {
       "slug": "onsen-etiquette-with-kids",
+      "failures": 0,
+      "blocked": false,
+      "lastViolations": []
+    },
+    {
+      "slug": "jr-pass-exchange-office-guide",
+      "failures": 0,
+      "blocked": false,
+      "lastViolations": []
+    },
+    {
+      "slug": "green-car-vs-ordinary-jr-pass",
+      "failures": 0,
+      "blocked": false,
+      "lastViolations": []
+    },
+    {
+      "slug": "onsen-etiquette-at-hotels-and-ryokan",
+      "failures": 0,
+      "blocked": false,
+      "lastViolations": []
+    },
+    {
+      "slug": "finding-japanese-classes-near-you",
+      "failures": 0,
+      "blocked": false,
+      "lastViolations": []
+    },
+    {
+      "slug": "learn-japanese-through-discord-communities",
       "failures": 0,
       "blocked": false,
       "lastViolations": []
