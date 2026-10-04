@@ -8,12 +8,6 @@
   },
   "pending": [
     {
-      "slug": "onsen-etiquette-at-hotels-and-ryokan",
-      "failures": 0,
-      "blocked": false,
-      "lastViolations": []
-    },
-    {
       "slug": "finding-japanese-classes-near-you",
       "failures": 0,
       "blocked": false,
@@ -21,6 +15,36 @@
     },
     {
       "slug": "learn-japanese-through-discord-communities",
+      "failures": 0,
+      "blocked": false,
+      "lastViolations": []
+    },
+    {
+      "slug": "learn-japanese-by-listening",
+      "failures": 0,
+      "blocked": false,
+      "lastViolations": []
+    },
+    {
+      "slug": "learn-japanese-conversation-practice",
+      "failures": 0,
+      "blocked": false,
+      "lastViolations": []
+    },
+    {
+      "slug": "jr-pass-regional-vs-nationwide",
+      "failures": 0,
+      "blocked": false,
+      "lastViolations": []
+    },
+    {
+      "slug": "jr-pass-accessibility-guide",
+      "failures": 0,
+      "blocked": false,
+      "lastViolations": []
+    },
+    {
+      "slug": "onsen-etiquette-lgbtq-travelers",
       "failures": 0,
       "blocked": false,
       "lastViolations": []

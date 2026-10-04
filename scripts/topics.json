@@ -181,6 +181,51 @@
       "angle": "日本語学習者向けのDiscordサーバーをどう活用すれば毎日の練習に役立つか、良いコミュニティの見分け方とマナーを説明する。",
       "sourceQuery": "learn japanese discord",
       "type": "guide"
+    },
+    {
+      "slug": "learn-japanese-by-listening",
+      "pillar": "learn-japanese",
+      "keyword": "learn japanese by listening",
+      "title": "How to Learn Japanese by Listening",
+      "angle": "独学でリスニング力を伸ばすための具体的な方法(ポッドキャスト、シャドーイング、ディクテーションなど)の選び方と、レベル別にどの順番で練習すべきかを解説する。",
+      "sourceQuery": "learn japanese by listening",
+      "type": "guide"
+    },
+    {
+      "slug": "learn-japanese-conversation-practice",
+      "pillar": "learn-japanese",
+      "keyword": "learn japanese conversation",
+      "title": "How to Practice Japanese Conversation When You Have No Partner",
+      "angle": "会話相手がいない学習者が、言語交換アプリや独り言練習、オンラインレッスンなどを組み合わせて話す力を伸ばす手順と、挫折しないための注意点を説明する。",
+      "sourceQuery": "learn japanese conversation",
+      "type": "guide"
+    },
+    {
+      "slug": "jr-pass-regional-vs-nationwide",
+      "pillar": "japan-travel",
+      "keyword": "japan rail pass areas",
+      "title": "Regional JR Pass or Nationwide Pass: How to Decide",
+      "angle": "北海道や東日本などの地域限定パスと全国版パスのどちらを選ぶべきか、旅程の範囲や滞在都市のパターンごとに判断基準を示す。",
+      "sourceQuery": "japan rail pass areas",
+      "type": "comparison"
+    },
+    {
+      "slug": "jr-pass-accessibility-guide",
+      "pillar": "japan-travel",
+      "keyword": "japan rail pass disability",
+      "title": "Using the Japan Rail Pass with a Disability: What to Expect",
+      "angle": "車椅子利用者や介助を必要とする旅行者がJRパスで移動する際の予約の流れ、駅での支援依頼の方法、事前に準備しておくべき点を説明する。",
+      "sourceQuery": "japan rail pass disability",
+      "type": "guide"
+    },
+    {
+      "slug": "onsen-etiquette-lgbtq-travelers",
+      "pillar": "japan-nature",
+      "keyword": "gay onsen etiquette",
+      "title": "Onsen Etiquette for LGBTQ+ Travelers: What to Expect",
+      "angle": "性的指向や性自認にかかわらず温泉を安心して楽しむために知っておくべき慣習や、更衣室・浴場での配慮、トラブルを避けるための心構えを説明する。",
+      "sourceQuery": "gay onsen etiquette",
+      "type": "guide"
     }
   ]
 }
