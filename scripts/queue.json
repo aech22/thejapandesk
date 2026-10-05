@@ -8,12 +8,6 @@
   },
   "pending": [
     {
-      "slug": "finding-japanese-classes-near-you",
-      "failures": 0,
-      "blocked": false,
-      "lastViolations": []
-    },
-    {
       "slug": "learn-japanese-through-discord-communities",
       "failures": 0,
       "blocked": false,
