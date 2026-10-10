@@ -8,12 +8,6 @@
   },
   "pending": [
     {
-      "slug": "jr-pass-regional-vs-nationwide",
-      "failures": 0,
-      "blocked": false,
-      "lastViolations": []
-    },
-    {
       "slug": "jr-pass-accessibility-guide",
       "failures": 0,
       "blocked": false,
@@ -21,6 +15,36 @@
     },
     {
       "slug": "onsen-etiquette-lgbtq-travelers",
+      "failures": 0,
+      "blocked": false,
+      "lastViolations": []
+    },
+    {
+      "slug": "learn-japanese-free-resources-guide",
+      "failures": 0,
+      "blocked": false,
+      "lastViolations": []
+    },
+    {
+      "slug": "learn-japanese-roadmap-for-beginners",
+      "failures": 0,
+      "blocked": false,
+      "lastViolations": []
+    },
+    {
+      "slug": "jr-pass-activation-process-guide",
+      "failures": 0,
+      "blocked": false,
+      "lastViolations": []
+    },
+    {
+      "slug": "jr-pass-digital-vs-paper-pass",
+      "failures": 0,
+      "blocked": false,
+      "lastViolations": []
+    },
+    {
+      "slug": "mount-fuji-climbing-season-guide",
       "failures": 0,
       "blocked": false,
       "lastViolations": []

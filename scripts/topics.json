@@ -226,6 +226,51 @@
       "angle": "性的指向や性自認にかかわらず温泉を安心して楽しむために知っておくべき慣習や、更衣室・浴場での配慮、トラブルを避けるための心構えを説明する。",
       "sourceQuery": "gay onsen etiquette",
       "type": "guide"
+    },
+    {
+      "slug": "learn-japanese-free-resources-guide",
+      "pillar": "learn-japanese",
+      "keyword": "learn japanese free",
+      "title": "日本語を無料で学ぶ方法:信頼できる学習リソースの選び方",
+      "angle": "無料で日本語を学べるサイトやアプリ、コミュニティにはどんな種類があり、それぞれ何を目的に使い分けるべきかを整理し、学習者が自分に合った無料リソースを選べるようにする。",
+      "sourceQuery": "learn japanese free",
+      "type": "guide"
+    },
+    {
+      "slug": "learn-japanese-roadmap-for-beginners",
+      "pillar": "learn-japanese",
+      "keyword": "learn japanese basics",
+      "title": "日本語学習のロードマップ:初心者がどの順番で何を学ぶべきか",
+      "angle": "ひらがな・カタカナ・漢字・文法・会話をどの順序で学ぶのが効率的かを示し、初心者が迷わず学習計画を立てられるようにする。",
+      "sourceQuery": "learn japanese basics",
+      "type": "guide"
+    },
+    {
+      "slug": "jr-pass-activation-process-guide",
+      "pillar": "japan-travel",
+      "keyword": "japan rail pass activation",
+      "title": "JRパスのアクティベーション手順:引き換えから利用開始までの流れ",
+      "angle": "JRパスを実際に使い始めるまでにどんな手続きが必要か、交換所での流れや必要書類、利用開始日の決め方を順を追って説明する。",
+      "sourceQuery": "japan rail pass activation",
+      "type": "guide"
+    },
+    {
+      "slug": "jr-pass-digital-vs-paper-pass",
+      "pillar": "japan-travel",
+      "keyword": "japan rail pass digital",
+      "title": "JRパスはデジタルか紙か:購入前に知っておくべき違いと選び方",
+      "angle": "デジタル版と紙版のJRパスでは利用方法や改札の通り方、紛失時の対応などがどう異なるかを比較し、旅行者がどちらを選ぶべきか判断できるようにする。",
+      "sourceQuery": "japan rail pass digital",
+      "type": "comparison"
+    },
+    {
+      "slug": "mount-fuji-climbing-season-guide",
+      "pillar": "japan-nature",
+      "keyword": "mount fuji hike",
+      "title": "富士登山ベストシーズンと準備:初めての富士山ハイキングガイド",
+      "angle": "富士山に登るのに適した時期や装備、山小屋の利用、体力面での準備など、初めて富士登山に挑む人が事前に知っておくべきことを解説する。",
+      "sourceQuery": "mount fuji hike",
+      "type": "guide"
     }
   ]
 }
