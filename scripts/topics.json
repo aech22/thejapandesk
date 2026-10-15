@@ -271,6 +271,51 @@
       "angle": "富士山に登るのに適した時期や装備、山小屋の利用、体力面での準備など、初めて富士登山に挑む人が事前に知っておくべきことを解説する。",
       "sourceQuery": "mount fuji hike",
       "type": "guide"
+    },
+    {
+      "slug": "learn-japanese-writing-systems-overview",
+      "pillar": "learn-japanese",
+      "keyword": "learn japanese alphabet",
+      "title": "Hiragana, Katakana, Kanji: How Japan's Three Writing Systems Work Together",
+      "angle": "ひらがな・カタカナ・漢字という3つの文字体系がそれぞれ何のために使われ、学習者はどの順番で習得すべきかを説明する。アルファベットに相当するものがないという誤解も解く。",
+      "sourceQuery": "learn japanese alphabet",
+      "type": "guide"
+    },
+    {
+      "slug": "jr-pass-coverage-guide",
+      "pillar": "japan-travel",
+      "keyword": "japan rail pass coverage",
+      "title": "What the Japan Rail Pass Actually Covers: Trains, Lines and Limits",
+      "angle": "ジャパンレールパスが新幹線や在来線、私鉄、バスなどのどの範囲をカバーし、何が対象外になるのかを路線カテゴリー別に整理して説明する。",
+      "sourceQuery": "japan rail pass coverage",
+      "type": "guide"
+    },
+    {
+      "slug": "onsen-etiquette-menstruation",
+      "pillar": "japan-nature",
+      "keyword": "onsen etiquette menstruation",
+      "title": "Onsen Etiquette During Your Period: What You Need to Know Before You Go",
+      "angle": "生理中に温泉を利用してもよいのか、タンポンや生理用品の扱い、入浴を控えるべき場合の判断基準について、プライバシーに配慮しながら答える。",
+      "sourceQuery": "onsen etiquette menstruation",
+      "type": "guide"
+    },
+    {
+      "slug": "mount-fuji-hiking-what-to-expect",
+      "pillar": "japan-nature",
+      "keyword": "mount fuji hike",
+      "title": "What to Expect When You Hike Mount Fuji: Trails, Huts and Pacing",
+      "angle": "富士山登山の各登山道の違い、山小屋での休憩の取り方、体力配分や高山病への対処法など、初めて登る人が事前に知っておくべき流れを説明する。",
+      "sourceQuery": "mount fuji hike",
+      "type": "guide"
+    },
+    {
+      "slug": "how-fast-can-you-learn-japanese",
+      "pillar": "learn-japanese",
+      "keyword": "learn japanese fast",
+      "title": "How Fast Can You Really Learn Japanese? A Realistic Roadmap",
+      "angle": "短期間で日本語を習得できるという宣伝文句がなぜ誤解を招くのか、学習の実際の進み方やレベルごとに必要な期間の目安となる考え方を解説する。",
+      "sourceQuery": "learn japanese fast",
+      "type": "essay"
     }
   ]
 }
