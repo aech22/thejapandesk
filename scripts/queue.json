@@ -8,12 +8,6 @@
   },
   "pending": [
     {
-      "slug": "jr-pass-coverage-guide",
-      "failures": 0,
-      "blocked": false,
-      "lastViolations": []
-    },
-    {
       "slug": "onsen-etiquette-menstruation",
       "failures": 0,
       "blocked": false,
