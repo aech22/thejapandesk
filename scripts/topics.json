@@ -316,6 +316,51 @@
       "angle": "短期間で日本語を習得できるという宣伝文句がなぜ誤解を招くのか、学習の実際の進み方やレベルごとに必要な期間の目安となる考え方を解説する。",
       "sourceQuery": "learn japanese fast",
       "type": "essay"
+    },
+    {
+      "slug": "learn-japanese-through-reading",
+      "pillar": "learn-japanese",
+      "keyword": "learn japanese by reading",
+      "title": "Learn Japanese by Reading: A Step-by-Step Approach for Beginners",
+      "angle": "多読（たどく）を使って日本語を学ぶ具体的な手順を説明し、どのレベルの教材から始め、辞書引きの頻度やステップアップのタイミングをどう判断すべきかを解説する。",
+      "sourceQuery": "learn japanese by reading",
+      "type": "guide"
+    },
+    {
+      "slug": "learn-japanese-calligraphy-shodo-guide",
+      "pillar": "learn-japanese",
+      "keyword": "learn japanese calligraphy",
+      "title": "Learn Japanese Calligraphy (Shodo): What Beginners Should Know Before Starting",
+      "angle": "書道を始めるにあたって必要な道具、基本の筆運びの順序、独学と教室で学ぶ場合の違いなど、初心者が最初に知っておくべきことをまとめる。",
+      "sourceQuery": "learn japanese calligraphy",
+      "type": "guide"
+    },
+    {
+      "slug": "jr-pass-exclusions-guide",
+      "pillar": "japan-travel",
+      "keyword": "japan rail pass exclusions",
+      "title": "What the Japan Rail Pass Does Not Cover: A Practical Guide",
+      "angle": "JRパスが対象外とする路線や列車の種類（私鉄、一部の新幹線区間など）を整理し、旅行者が事前にどう代替手段を計画すべきかを説明する。",
+      "sourceQuery": "japan rail pass exclusions",
+      "type": "guide"
+    },
+    {
+      "slug": "jr-pass-advance-booking-timing",
+      "pillar": "japan-travel",
+      "keyword": "japan rail pass how far in advance",
+      "title": "When to Buy and Activate Your Japan Rail Pass: Timing Explained",
+      "angle": "JRパスの購入・引き換え・有効化のタイミングをどのように決めるべきか、旅程との関係でいつ手続きを始めるのが最適かを順序立てて解説する。",
+      "sourceQuery": "japan rail pass how far in advance",
+      "type": "guide"
+    },
+    {
+      "slug": "onsen-etiquette-shaving-grooming",
+      "pillar": "japan-nature",
+      "keyword": "onsen etiquette shaving",
+      "title": "Onsen Etiquette for Shaving and Grooming: What Is and Isn't Acceptable",
+      "angle": "温泉施設内での剃毛や身だしなみに関するマナーについて、脱衣所や浴室で許容される行動と避けるべき行動を具体的に説明する。",
+      "sourceQuery": "onsen etiquette shaving",
+      "type": "problem"
     }
   ]
 }
