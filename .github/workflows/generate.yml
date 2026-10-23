@@ -33,7 +33,7 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
-          node-version: '20'
+          node-version: '24'
           cache: npm
 
       # ゲートと補充の検査が壊れた状態で本番を動かさないよう、生成の前にテストを通す
