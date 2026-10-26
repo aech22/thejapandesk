@@ -8,12 +8,6 @@
   },
   "pending": [
     {
-      "slug": "learn-japanese-through-reading",
-      "failures": 0,
-      "blocked": false,
-      "lastViolations": []
-    },
-    {
       "slug": "learn-japanese-calligraphy-shodo-guide",
       "failures": 0,
       "blocked": false,
