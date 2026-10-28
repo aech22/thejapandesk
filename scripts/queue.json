@@ -8,12 +8,6 @@
   },
   "pending": [
     {
-      "slug": "learn-japanese-calligraphy-shodo-guide",
-      "failures": 0,
-      "blocked": false,
-      "lastViolations": []
-    },
-    {
       "slug": "jr-pass-exclusions-guide",
       "failures": 0,
       "blocked": false,
