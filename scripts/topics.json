@@ -361,6 +361,51 @@
       "angle": "温泉施設内での剃毛や身だしなみに関するマナーについて、脱衣所や浴室で許容される行動と避けるべき行動を具体的に説明する。",
       "sourceQuery": "onsen etiquette shaving",
       "type": "problem"
+    },
+    {
+      "slug": "learn-japanese-reddit-communities-guide",
+      "pillar": "learn-japanese",
+      "keyword": "learn japanese reddit",
+      "title": "日本語学習に役立つRedditコミュニティの活用法",
+      "angle": "どのサブレディットが日本語学習者に有用か、質問の仕方や教材共有の探し方、注意すべき誤情報の見分け方を解説する。",
+      "sourceQuery": "learn japanese reddit",
+      "type": "guide"
+    },
+    {
+      "slug": "learn-japanese-audiobooks-guide",
+      "pillar": "learn-japanese",
+      "keyword": "learn japanese audiobook",
+      "title": "オーディオブックで日本語を学ぶ方法",
+      "angle": "通勤や家事の合間にオーディオブックを使って日本語のリスニング力を伸ばす方法と、レベル別の選び方、他の学習法との組み合わせ方を説明する。",
+      "sourceQuery": "learn japanese audiobook",
+      "type": "guide"
+    },
+    {
+      "slug": "jr-pass-gran-class-experience",
+      "pillar": "japan-travel",
+      "keyword": "japan rail pass gran class",
+      "title": "JRパスでグランクラスを利用する際に知っておくべきこと",
+      "angle": "グランクラス車両がどのような体験を提供するか、通常車両との違い、利用を検討する際に考慮すべきポイントを説明する。",
+      "sourceQuery": "japan rail pass gran class",
+      "type": "comparison"
+    },
+    {
+      "slug": "jr-pass-group-travel-guide",
+      "pillar": "japan-travel",
+      "keyword": "japan rail pass group",
+      "title": "グループでJRパスを使って日本を旅する際のコツ",
+      "angle": "複数人でJRパスを利用して移動する際の座席確保や行程計画の立て方、スムーズに乗車するための注意点をまとめる。",
+      "sourceQuery": "japan rail pass group",
+      "type": "guide"
+    },
+    {
+      "slug": "mount-fuji-volcano-status-explained",
+      "pillar": "japan-nature",
+      "keyword": "mount fuji active volcano",
+      "title": "富士山が活火山であることの意味を理解する",
+      "angle": "富士山がなぜ活火山に分類されているのか、登山者や周辺地域にとって何を意味するのか、日常的な安全への考え方を解説する。",
+      "sourceQuery": "mount fuji active volcano",
+      "type": "essay"
     }
   ]
 }
