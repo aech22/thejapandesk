@@ -406,6 +406,51 @@
       "angle": "富士山がなぜ活火山に分類されているのか、登山者や周辺地域にとって何を意味するのか、日常的な安全への考え方を解説する。",
       "sourceQuery": "mount fuji active volcano",
       "type": "essay"
+    },
+    {
+      "slug": "learn-japanese-through-games",
+      "pillar": "learn-japanese",
+      "keyword": "learn japanese games",
+      "title": "ゲームで日本語を学ぶ:効果的な取り入れ方と選び方",
+      "angle": "市販・無料を問わずゲームを使って日本語を学ぶ方法を整理し、学習者のレベルや目的に応じてどのジャンルのゲームが適しているかを説明する。アニメ視聴や読書による学習とは異なるゲーム学習特有の利点と注意点を示す。",
+      "sourceQuery": "learn japanese games",
+      "type": "guide"
+    },
+    {
+      "slug": "learn-japanese-textbook-comparison",
+      "pillar": "learn-japanese",
+      "keyword": "learn japanese genki",
+      "title": "Genkiだけじゃない:日本語教科書の選び方比較",
+      "angle": "Genkiをはじめとする代表的な日本語教科書の特徴を比較し、文法重視か会話重視かなど学習スタイルに応じた選び方の判断基準を示す。独学者がどの段階でどの教材に進むべきかの流れも説明する。",
+      "sourceQuery": "learn japanese genki",
+      "type": "comparison"
+    },
+    {
+      "slug": "jr-pass-alternatives-for-residents",
+      "pillar": "japan-travel",
+      "keyword": "japan rail pass for residents",
+      "title": "ジャパンレールパスが使えない人のための乗車券の選び方",
+      "angle": "日本に住む外国人や日本国籍を持つ人がなぜジャパンレールパスの対象外になるのかを説明し、その代わりに検討すべき乗車券の種類や選択の流れを示す。",
+      "sourceQuery": "japan rail pass for residents",
+      "type": "guide"
+    },
+    {
+      "slug": "onsen-health-benefits-guide",
+      "pillar": "japan-nature",
+      "keyword": "onsen benefits",
+      "title": "温泉に入ることで期待できる心身への効果",
+      "angle": "温泉入浴がもたらすとされる心身への効果と、それを実感するための正しい入浴の順序や習慣を説明する。効能を得るための入り方に焦点を当て、マナーそのものには深入りしない。",
+      "sourceQuery": "onsen benefits",
+      "type": "essay"
+    },
+    {
+      "slug": "mount-fuji-wildlife-guide",
+      "pillar": "japan-nature",
+      "keyword": "mount fuji animals",
+      "title": "富士山で出会える野生動物と植生",
+      "angle": "富士山の登山道や麓周辺で見られる野生動物や植物について、訪れる季節ごとに何が観察できるかを説明する。登山計画そのものではなく自然観察の視点に焦点を当てる。",
+      "sourceQuery": "mount fuji animals",
+      "type": "essay"
     }
   ]
 }
