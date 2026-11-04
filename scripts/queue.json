@@ -8,12 +8,6 @@
   },
   "pending": [
     {
-      "slug": "jr-pass-group-travel-guide",
-      "failures": 0,
-      "blocked": false,
-      "lastViolations": []
-    },
-    {
       "slug": "mount-fuji-volcano-status-explained",
       "failures": 0,
       "blocked": false,
