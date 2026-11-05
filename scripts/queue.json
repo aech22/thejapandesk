@@ -8,12 +8,6 @@
   },
   "pending": [
     {
-      "slug": "mount-fuji-volcano-status-explained",
-      "failures": 0,
-      "blocked": false,
-      "lastViolations": []
-    },
-    {
       "slug": "learn-japanese-through-games",
       "failures": 0,
       "blocked": false,
