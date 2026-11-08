@@ -8,12 +8,6 @@
   },
   "pending": [
     {
-      "slug": "jr-pass-alternatives-for-residents",
-      "failures": 0,
-      "blocked": false,
-      "lastViolations": []
-    },
-    {
       "slug": "onsen-health-benefits-guide",
       "failures": 0,
       "blocked": false,
@@ -21,6 +15,36 @@
     },
     {
       "slug": "mount-fuji-wildlife-guide",
+      "failures": 0,
+      "blocked": false,
+      "lastViolations": []
+    },
+    {
+      "slug": "learn-japanese-course-types-comparison",
+      "failures": 0,
+      "blocked": false,
+      "lastViolations": []
+    },
+    {
+      "slug": "learn-japanese-for-adult-beginners-guide",
+      "failures": 0,
+      "blocked": false,
+      "lastViolations": []
+    },
+    {
+      "slug": "jr-pass-hokkaido-guide",
+      "failures": 0,
+      "blocked": false,
+      "lastViolations": []
+    },
+    {
+      "slug": "mount-fuji-visibility-guide",
+      "failures": 0,
+      "blocked": false,
+      "lastViolations": []
+    },
+    {
+      "slug": "onsen-etiquette-vs-other-countries",
       "failures": 0,
       "blocked": false,
       "lastViolations": []

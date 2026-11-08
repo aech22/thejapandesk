@@ -451,6 +451,51 @@
       "angle": "富士山の登山道や麓周辺で見られる野生動物や植物について、訪れる季節ごとに何が観察できるかを説明する。登山計画そのものではなく自然観察の視点に焦点を当てる。",
       "sourceQuery": "mount fuji animals",
       "type": "essay"
+    },
+    {
+      "slug": "learn-japanese-course-types-comparison",
+      "pillar": "learn-japanese",
+      "keyword": "learn japanese course",
+      "title": "独学・オンライン・通学、日本語コースの選び方を徹底比較",
+      "angle": "独学教材、オンラインコース、通学スクール、大学の語学講座など主要な学習方法の違いを整理し、学習スタイルや目的に応じてどれを選ぶべきかを解説する。",
+      "sourceQuery": "learn japanese course",
+      "type": "comparison"
+    },
+    {
+      "slug": "learn-japanese-for-adult-beginners-guide",
+      "pillar": "learn-japanese",
+      "keyword": "learn japanese for adult beginners",
+      "title": "大人の初心者が日本語学習を始めるための完全ガイド",
+      "angle": "社会人や大人が一から日本語を学び始める際に直面しやすい壁と、仕事や生活と両立しながら学習を継続するための順序立った進め方を説明する。",
+      "sourceQuery": "learn japanese for adult beginners",
+      "type": "guide"
+    },
+    {
+      "slug": "jr-pass-hokkaido-guide",
+      "pillar": "japan-travel",
+      "keyword": "japan rail pass hokkaido",
+      "title": "北海道でジャパンレールパスを使う前に知っておくべきこと",
+      "angle": "北海道エリアでJRパスがどの路線や特急に対応しているか、冬季の運行状況や広大な距離を移動する際の計画の立て方を解説する。",
+      "sourceQuery": "japan rail pass hokkaido",
+      "type": "guide"
+    },
+    {
+      "slug": "mount-fuji-visibility-guide",
+      "pillar": "japan-nature",
+      "keyword": "mount fuji visibility",
+      "title": "富士山はいつ、どこからよく見える？visibility（視認性）を左右する条件",
+      "angle": "富士山がはっきり見える時間帯や季節、天候条件、そして見える可能性が高い展望スポットの選び方を解説し、旅行計画に役立てる。",
+      "sourceQuery": "mount fuji visibility",
+      "type": "guide"
+    },
+    {
+      "slug": "onsen-etiquette-vs-other-countries",
+      "pillar": "japan-nature",
+      "keyword": "hot spring etiquette korea",
+      "title": "日本の温泉マナーは他国の温泉文化とどう違うのか",
+      "angle": "韓国、中国、アイスランドなど他国の温泉・スパ文化と日本の温泉マナーの違いを比較し、海外からの旅行者が戸惑いやすい点を整理する。",
+      "sourceQuery": "hot spring etiquette korea",
+      "type": "comparison"
     }
   ]
 }
