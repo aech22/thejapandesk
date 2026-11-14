@@ -496,6 +496,51 @@
       "angle": "韓国、中国、アイスランドなど他国の温泉・スパ文化と日本の温泉マナーの違いを比較し、海外からの旅行者が戸惑いやすい点を整理する。",
       "sourceQuery": "hot spring etiquette korea",
       "type": "comparison"
+    },
+    {
+      "slug": "jlpt-n5-beginners-guide",
+      "pillar": "learn-japanese",
+      "keyword": "learn japanese jlpt n5",
+      "title": "JLPT N5合格を目指す学習ロードマップ",
+      "angle": "JLPT N5とはどのレベルの試験か、受験前にどの順番で文法・語彙・読解を学べば良いかを説明する。",
+      "sourceQuery": "learn japanese jlpt n5",
+      "type": "guide"
+    },
+    {
+      "slug": "learn-japanese-carpentry-joinery-guide",
+      "pillar": "learn-japanese",
+      "keyword": "learn japanese carpentry",
+      "title": "日本の伝統木工・指物を学ぶ方法",
+      "angle": "釘を使わない日本の伝統的な大工・指物技術に興味を持つ海外の人がどこで学び始められるか、独学・講座・弟子入りの違いを説明する。",
+      "sourceQuery": "learn japanese carpentry",
+      "type": "guide"
+    },
+    {
+      "slug": "learn-japanese-jiu-jitsu-guide",
+      "pillar": "learn-japanese",
+      "keyword": "learn japanese jiu jitsu",
+      "title": "柔術（日本発祥の柔術）を学ぶ前に知っておくこと",
+      "angle": "日本発祥の柔術と現代のブラジリアン柔術の違いを説明し、初心者がどのように練習を始められるかを解説する。",
+      "sourceQuery": "learn japanese jiu jitsu",
+      "type": "guide"
+    },
+    {
+      "slug": "kyushu-bullet-train-travel-guide",
+      "pillar": "japan-travel",
+      "keyword": "japan rail pass kyushu",
+      "title": "九州を新幹線で巡る旅の計画方法",
+      "angle": "九州地方を新幹線や特急で移動する際にどのような順序でルートを組み立てるべきか、見どころの配置と移動の流れを説明する。",
+      "sourceQuery": "japan rail pass kyushu",
+      "type": "guide"
+    },
+    {
+      "slug": "arima-onsen-visiting-guide",
+      "pillar": "japan-nature",
+      "keyword": "arima onsen etiquette",
+      "title": "有馬温泉を訪れる前に知っておきたいマナーと流れ",
+      "angle": "有馬温泉特有の金泉・銀泉の入浴手順やマナー、他の温泉地との違いを訪問前に理解できるよう説明する。",
+      "sourceQuery": "arima onsen etiquette",
+      "type": "guide"
     }
   ]
 }

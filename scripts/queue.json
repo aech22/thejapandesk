@@ -8,12 +8,6 @@
   },
   "pending": [
     {
-      "slug": "jr-pass-hokkaido-guide",
-      "failures": 0,
-      "blocked": false,
-      "lastViolations": []
-    },
-    {
       "slug": "mount-fuji-visibility-guide",
       "failures": 0,
       "blocked": false,
@@ -21,6 +15,36 @@
     },
     {
       "slug": "onsen-etiquette-vs-other-countries",
+      "failures": 0,
+      "blocked": false,
+      "lastViolations": []
+    },
+    {
+      "slug": "jlpt-n5-beginners-guide",
+      "failures": 0,
+      "blocked": false,
+      "lastViolations": []
+    },
+    {
+      "slug": "learn-japanese-carpentry-joinery-guide",
+      "failures": 0,
+      "blocked": false,
+      "lastViolations": []
+    },
+    {
+      "slug": "learn-japanese-jiu-jitsu-guide",
+      "failures": 0,
+      "blocked": false,
+      "lastViolations": []
+    },
+    {
+      "slug": "kyushu-bullet-train-travel-guide",
+      "failures": 0,
+      "blocked": false,
+      "lastViolations": []
+    },
+    {
+      "slug": "arima-onsen-visiting-guide",
       "failures": 0,
       "blocked": false,
       "lastViolations": []
