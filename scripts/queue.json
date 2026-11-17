@@ -8,12 +8,6 @@
   },
   "pending": [
     {
-      "slug": "jlpt-n5-beginners-guide",
-      "failures": 0,
-      "blocked": false,
-      "lastViolations": []
-    },
-    {
       "slug": "learn-japanese-carpentry-joinery-guide",
       "failures": 0,
       "blocked": false,
