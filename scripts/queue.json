@@ -8,12 +8,6 @@
   },
   "pending": [
     {
-      "slug": "learn-japanese-jiu-jitsu-guide",
-      "failures": 0,
-      "blocked": false,
-      "lastViolations": []
-    },
-    {
       "slug": "kyushu-bullet-train-travel-guide",
       "failures": 0,
       "blocked": false,
@@ -21,6 +15,36 @@
     },
     {
       "slug": "arima-onsen-visiting-guide",
+      "failures": 0,
+      "blocked": false,
+      "lastViolations": []
+    },
+    {
+      "slug": "learn-japanese-greetings-guide",
+      "failures": 0,
+      "blocked": false,
+      "lastViolations": []
+    },
+    {
+      "slug": "learn-japanese-keyboard-setup-guide",
+      "failures": 0,
+      "blocked": false,
+      "lastViolations": []
+    },
+    {
+      "slug": "jr-pass-haneda-airport-guide",
+      "failures": 0,
+      "blocked": false,
+      "lastViolations": []
+    },
+    {
+      "slug": "onsen-etiquette-by-region-guide",
+      "failures": 0,
+      "blocked": false,
+      "lastViolations": []
+    },
+    {
+      "slug": "mount-fuji-cherry-blossom-viewing-guide",
       "failures": 0,
       "blocked": false,
       "lastViolations": []

@@ -541,6 +541,51 @@
       "angle": "有馬温泉特有の金泉・銀泉の入浴手順やマナー、他の温泉地との違いを訪問前に理解できるよう説明する。",
       "sourceQuery": "arima onsen etiquette",
       "type": "guide"
+    },
+    {
+      "slug": "learn-japanese-greetings-guide",
+      "pillar": "learn-japanese",
+      "keyword": "learn japanese greetings",
+      "title": "Essential Japanese Greetings for Everyday Situations",
+      "angle": "日本語の基本的な挨拶表現を、朝・夜・初対面・別れ際などの場面ごとにどう使い分ければよいかを解説し、敬語とカジュアルな言い方の違いにも触れる。",
+      "sourceQuery": "learn japanese greetings",
+      "type": "guide"
+    },
+    {
+      "slug": "learn-japanese-keyboard-setup-guide",
+      "pillar": "learn-japanese",
+      "keyword": "learn japanese keyboard",
+      "title": "How to Set Up a Japanese Keyboard on Any Device",
+      "angle": "パソコンやスマートフォンで日本語入力を設定する手順を解説し、ローマ字入力とかな入力の違い、学習者がどちらを選ぶべきかを説明する。",
+      "sourceQuery": "learn japanese keyboard",
+      "type": "guide"
+    },
+    {
+      "slug": "jr-pass-haneda-airport-guide",
+      "pillar": "japan-travel",
+      "keyword": "japan rail pass haneda airport",
+      "title": "Using Your Japan Rail Pass from Haneda Airport",
+      "angle": "羽田空港に到着した後、JRパスをどこで受け取り、どの路線に乗り継いで都心や他地域へ移動すればよいかの手順を説明する。",
+      "sourceQuery": "japan rail pass haneda airport",
+      "type": "guide"
+    },
+    {
+      "slug": "onsen-etiquette-by-region-guide",
+      "pillar": "japan-nature",
+      "keyword": "onsen etiquette kinosaki",
+      "title": "How Onsen Etiquette Differs Across Japan's Famous Hot Spring Towns",
+      "angle": "城崎温泉や黒川温泉など、温泉街ごとに異なる外湯めぐりや浴衣での移動といった慣習やマナーの違いを比較して解説する。",
+      "sourceQuery": "onsen etiquette kinosaki",
+      "type": "comparison"
+    },
+    {
+      "slug": "mount-fuji-cherry-blossom-viewing-guide",
+      "pillar": "japan-nature",
+      "keyword": "mount fuji cherry blossom",
+      "title": "When and Where to See Mount Fuji with Cherry Blossoms",
+      "angle": "富士山と桜を同時に楽しめる時期や場所、天候条件をどのように見極めればよいかを解説する。",
+      "sourceQuery": "mount fuji cherry blossom",
+      "type": "guide"
     }
   ]
 }
