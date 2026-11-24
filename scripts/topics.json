@@ -586,6 +586,51 @@
       "angle": "富士山と桜を同時に楽しめる時期や場所、天候条件をどのように見極めればよいかを解説する。",
       "sourceQuery": "mount fuji cherry blossom",
       "type": "guide"
+    },
+    {
+      "slug": "learn-japanese-like-a-child",
+      "pillar": "learn-japanese",
+      "keyword": "learn japanese like a child",
+      "title": "Can Adults Learn Japanese the Way Children Do? The Immersion Method Explained",
+      "angle": "子供のように自然に日本語を習得する「イマージョン法」が大人の学習者にも有効なのか、具体的にどのような聞き流しや反復のプロセスを踏むべきかを解説する。",
+      "sourceQuery": "learn japanese like a child",
+      "type": "guide"
+    },
+    {
+      "slug": "learn-japanese-official-institutions-guide",
+      "pillar": "learn-japanese",
+      "keyword": "learn japanese japan foundation",
+      "title": "Learning Japanese Through Official Institutions: Japan Foundation, Embassies, and Beyond",
+      "angle": "国際交流基金や大使館文化部などの公的機関が提供する日本語学習プログラムにはどんな種類があり、独学や民間スクールとどう使い分けるべきかを整理する。",
+      "sourceQuery": "learn japanese japan foundation",
+      "type": "guide"
+    },
+    {
+      "slug": "jr-pass-route-planning-guide",
+      "pillar": "japan-travel",
+      "keyword": "japan rail pass fukuoka to osaka",
+      "title": "How to Plan Your JR Pass Route Across Multiple Cities",
+      "angle": "福岡から大阪、広島、金沢など複数都市を移動する際にJRパスをどの順序・区間で使うのが合理的か、ルート設計の考え方を解説する。",
+      "sourceQuery": "japan rail pass fukuoka to osaka",
+      "type": "guide"
+    },
+    {
+      "slug": "jr-pass-duration-decision-guide",
+      "pillar": "japan-travel",
+      "keyword": "japan rail pass days",
+      "title": "How Many Days Should Your JR Pass Cover? A Decision Framework",
+      "angle": "旅程の長さや訪問都市数に応じて、JRパスの有効期間を何日分選ぶべきかを判断するための考え方を提示する。",
+      "sourceQuery": "japan rail pass days",
+      "type": "guide"
+    },
+    {
+      "slug": "mount-fuji-vs-mount-everest-comparison",
+      "pillar": "japan-nature",
+      "keyword": "mount fuji compared to mount everest",
+      "title": "Mount Fuji vs Mount Everest: What Really Sets Them Apart",
+      "angle": "富士山とエベレストが登山対象としてどのように異なるのか、地形・気候・登山文化の観点から比較し、両者を混同しがちな誤解を解消する。",
+      "sourceQuery": "mount fuji compared to mount everest",
+      "type": "comparison"
     }
   ]
 }
